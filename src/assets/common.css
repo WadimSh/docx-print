@@ -79,7 +79,7 @@ input {
   right: 4%;
   top: 50%;
   transform: translateY(-50%) rotate(0deg);
-  font-size: 25px;
+  font-size: 12px;
   color: #313131;
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ input {
 }
 
 .icon.active {
-  transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(-90deg);
 }
 
 .options {
