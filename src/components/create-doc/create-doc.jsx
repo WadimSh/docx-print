@@ -6,9 +6,9 @@ import logo from './logo.png'
 const MyComponent = () => {
   const generate = () => {
 
-    const image = fetch(
-      "https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg"
-    ).then(r => r.blob());
+    //const image = fetch(
+    //  "https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg"
+    //).then(r => r.blob());
 
     const doc = new Document({
       sections: [{
@@ -114,7 +114,7 @@ const MyComponent = () => {
           new Paragraph({
             children: [
               new ImageRun({
-                data: image,
+                data: logo,
                 transformation: {
                   width: 100,
                   height: 100,
