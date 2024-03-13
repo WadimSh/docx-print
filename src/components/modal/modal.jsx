@@ -27,6 +27,7 @@ const Modal = () => {
         </header>
         <div className='select-option'>
           <input 
+            className='input'
             onClick={openOption}
             onBlur={() => setOpenSelect(false)}
             ref={leagueInput}
@@ -44,6 +45,47 @@ const Modal = () => {
             ))}
           </ul>
         </div>
+        <div className='wrapper'>
+          <div className='card'>
+            <input className='input-radio' type='radio' name='card' value='basic' />
+            <span className='check'></span>
+            <label className='label'>
+              <div className='title-card'>BASIC</div>
+              <div className='price'>
+                <span className='span'>$</span>
+                15
+                <span className='span'>/month</span>
+              </div>
+            </label>
+          </div>
+          <div className='card'>
+            <input className='input-radio' type='radio' name='card' value='standart' />
+            <span className='check'></span>
+            <label className='label'>
+              <div className='title-card'>STANDART</div>
+              <div className='price'>
+                <span className='span'>$</span>
+                30
+                <span className='span'>/month</span>
+              </div>
+            </label>
+          </div>
+          <div className='card'>
+            <input className='input-radio' type='radio' name='card' value='premium' />
+            <span className='check'></span>
+            <label className='label'>
+              <div className='title-card'>PREMIUM</div>
+              <div className='price'>
+                <span className='span'>$</span>
+                60
+                <span className='span'>/month</span>
+              </div>
+            </label>
+          </div>   
+        </div>
+        <footer className='footer'>
+          <button className='button' type='button'>Создать документ</button>
+        </footer>
       </div>
     </div>
   )
