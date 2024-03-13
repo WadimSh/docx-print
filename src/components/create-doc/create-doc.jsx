@@ -4,10 +4,14 @@ import { saveAs } from 'file-saver';
 import logo from './logo.png'
 
 const MyComponent = () => {
+  
   const generate = () => {
-
     const image = fetch(
-      "https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg"
+      "https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg", {
+      method: 'GET',
+      headers: {},
+      mode: 'no-cors',
+    }
     ).then(r => r.blob());
 
     const doc = new Document({
@@ -145,7 +149,9 @@ const MyComponent = () => {
     });
   };
   return (
-    <button onClick={generate}>Generate Document</button>
+    <>
+      <button onClick={generate}>Generate Document</button>
+    </>
   );
 };
 

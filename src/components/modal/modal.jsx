@@ -84,6 +84,7 @@ const Modal = () => {
             </label>
           </div>   
         </div>
+        
         <MyComponent />
         <footer className='footer'>
           <button className='button' type='button'>Создать документ</button>
