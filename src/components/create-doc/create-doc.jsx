@@ -5,15 +5,9 @@ import logo from './logo.png'
 
 const MyComponent = () => {
   
-  const generate = () => {
+ const generate = () => {
     const image = fetch(
-      "https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg", {
-        method: 'GET',
-        headers: {"Content-Type": "application/json",
-          "Content-Disposition": "attachment"
-        },
-        mode: 'no-cors',
-      }
+      "https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
     ).then(r => r.blob());
 
     const doc = new Document({
