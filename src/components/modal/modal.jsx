@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import MyComponent from "../create-doc/create-doc";
 
 const Modal = () => {
   const optionsArray = [
@@ -45,6 +46,7 @@ const Modal = () => {
             ))}
           </ul>
         </div>
+        <img src="https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg" alt="" />
         <div className='wrapper'>
           <div className='card'>
             <input className='input-radio' type='radio' name='card' value='basic' />
@@ -83,6 +85,7 @@ const Modal = () => {
             </label>
           </div>   
         </div>
+        <MyComponent />
         <footer className='footer'>
           <button className='button' type='button'>Создать документ</button>
         </footer>
