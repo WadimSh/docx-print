@@ -8,10 +8,12 @@ const MyComponent = () => {
   const generate = () => {
     const image = fetch(
       "https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg", {
-      method: 'GET',
-      headers: {},
-      mode: 'no-cors',
-    }
+        method: 'GET',
+        headers: {"Content-Type": "application/json",
+          "Content-Disposition": "attachment"
+        },
+        mode: 'no-cors',
+      }
     ).then(r => r.blob());
 
     const doc = new Document({
