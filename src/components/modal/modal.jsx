@@ -46,7 +46,6 @@ const Modal = () => {
             ))}
           </ul>
         </div>
-        <img src="https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg" alt="" />
         <div className='wrapper'>
           <div className='card'>
             <input className='input-radio' type='radio' name='card' value='basic' />
