@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import TemplateBlank from "../template-blank/template-blank";
 import { table } from "../create-doc/create-doc";
 import TemplatePrice from "../create-doc/price";
+import NewTab from "../new-tab";
 
 const Modal = () => {
   const optionsArray = [
@@ -86,6 +87,7 @@ const Modal = () => {
             </label>
           </div>   
         </div>
+        <NewTab />
         <TemplateBlank 
           context=""
         />
