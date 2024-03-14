@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import MyComponent from "../create-doc/create-doc";
+import TemplateBlank from "../template-blank/template-blank";
 
 const Modal = () => {
   const optionsArray = [
@@ -84,7 +85,7 @@ const Modal = () => {
             </label>
           </div>   
         </div>
-        
+        <TemplateBlank />
         <MyComponent />
         <footer className='footer'>
           <button className='button' type='button'>Создать документ</button>
