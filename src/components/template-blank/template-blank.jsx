@@ -2,15 +2,141 @@ import React from 'react';
 import { Document, WidthType, BorderStyle, PageNumber, NumberFormat, AlignmentType, Table, TableRow, TableCell, Packer, Paragraph, TextRun, Header, Footer, ImageRun } from 'docx';
 import { saveAs } from 'file-saver';
 
-const TemplateBlank = () => {
+
+import logo from '../../assets/images/logo.png'
+
+const TemplateBlank = ({context}) => {
 
   const generate = () => {
     const docx = new Document({
       sections: [{
+        properties: {
+          page: {
+              margin: {
+                left: 1200,
+              },
+          },
+        },
         headers: {
           default: new Header({
             children: [
-              
+              new Table({
+                width: {
+                  size: 10062,
+                  type: WidthType.DXA,
+                },
+                rows: [
+                  new TableRow({
+                    children: [
+                      new TableCell({
+                        width: {
+                          size: 2409,
+                          type: WidthType.DXA,
+                        },
+                        children: [
+                          new Paragraph({
+                            children: [
+                              new ImageRun({
+                                data: logo,
+                                transformation: {
+                                  width: 100,
+                                  height: 28,
+                                },
+                              }),
+                              new TextRun({
+                                break: 1,
+                              }),
+                            ],
+                          }),
+                        ],
+                        borders: {
+                          left: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                          right: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                          bottom: {
+                            style: BorderStyle.SINGLE,
+                            size: 12,
+                            color: "396EC5",
+                          },
+                          top: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                        },
+                      }),
+                      new TableCell({
+                        width: {
+                          size: 3543,
+                          type: WidthType.DXA,
+                        },
+                        children: [
+                          new Paragraph({
+                            children: [
+                              
+                            ],
+                          }),
+                        ],
+                        borders: {
+                          left: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                          right: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                          bottom: {
+                            style: BorderStyle.SINGLE,
+                            size: 12,
+                            color: "396EC5",
+                          },
+                          top: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                        },
+                      }),
+                      new TableCell({
+                        width: {
+                          size: 4110,
+                          type: WidthType.DXA,
+                        },
+                        children: [
+                          new Paragraph({
+                            children: [
+                              
+                            ],
+                          }),
+                        ],
+                        borders: {
+                          left: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                          right: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                          bottom: {
+                            style: BorderStyle.SINGLE,
+                            size: 12,
+                            color: "396EC5",
+                          },
+                          top: {
+                            size: 1,
+                            color: "FFFFFF",
+                          },
+                        },
+                      }),
+                    ],
+                  }),
+                ]
+              }),
             ],
           }),
         },
@@ -163,13 +289,13 @@ const TemplateBlank = () => {
           }),
         },
         children: [
-          
+          context
         ]
       }],
     });
 
     Packer.toBlob(docx).then(blob => {
-      saveAs(blob, "blank.docx");
+      saveAs(blob, "eut-blank.docx");
       console.log("Document created successfully");
     });
   };
