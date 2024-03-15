@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document, Packer, Paragraph, Table, TableCell, TableRow } from "docx";
+import { Document, Packer, WidthType, Paragraph, Table, TableCell, TableRow } from "docx";
 import { saveAs } from 'file-saver';
 
 const data = [
@@ -39,15 +39,19 @@ const data = [
 
 const NewTab = () => {
 
-const createTable = (data) => {
+const createTableRow = (date) => {
   const rows = [];
-  for (let i = 0; i < data.length; i += 4) {
+  for (let i = 0; i < date.length; i += 4) {
     const row = [];
     for (let j = 0; j < 4; j++) {
-      if (data[i + j]) {
+      if (date[i + j]) {
         row.push(
           new TableCell({
-            children: [new Paragraph(data[i + j].value)]
+            width: {
+              size: 2834,
+              type: WidthType.DXA,
+            },
+            children: [new Paragraph(date[i + j].value)]
           })
         );
       } else {
@@ -59,37 +63,53 @@ const createTable = (data) => {
   return rows;
 };
 
-const generateWordDocument = () => {
-  const pages = Math.ceil(data.length / 28);
+const createTable = (daty) => {
+  const childrens = [];
+  const pages = Math.ceil(daty.length / 28);
   for (let pageIndex = 0; pageIndex < pages; pageIndex++) {
-    const pageData = data.slice(pageIndex * 28, (pageIndex + 1) * 28);
-    const doc = new Document({
-      sections: [{
-        properties: {
-          page: {
-              margin: {
-                top: 300,
-                left: 300,
-              },
-          },
+    const pageData = daty.slice(pageIndex * 28, (pageIndex + 1) * 28);
+    childrens.push(
+      new Table({
+        width: {
+          size: 11336,
+          type: WidthType.DXA,
         },
-        children: [
-          new Table({
-            rows: createTable(pageData)
-          }), 
-          new Paragraph(" ")],
-      }]
-    });
-    
-    Packer.toBlob(doc).then(blob => {
-    saveAs(blob, "eut-blank.docx");
-    console.log("Document created successfully");
-    });
+        rows: createTableRow(pageData)
+      }), 
+      new Paragraph(" "),
+    );
   }
+
+  return childrens;
 };
 
+const generateWordDocument = (dat) => {
+  const doc = new Document({
+    sections: [{
+      properties: {
+        page: {
+          margin: {
+            top: 300,
+            left: 300,
+          },
+        },
+      },
+      children: createTable(dat)
+    }]
+  });
+  
+  Packer.toBlob(doc).then(blob => {
+    saveAs(blob, "eut-blank.docx");
+    console.log("Document created successfully");
+  });
+};
+
+const handleDoc = () => {
+  generateWordDocument(data);
+}
+
 return (
-    <button onClick={generateWordDocument}>Generate Word Document</button>
+    <button onClick={() => handleDoc()}>Generate Word Document</button>
   );
 };
 
