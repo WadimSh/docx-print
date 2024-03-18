@@ -1,10 +1,55 @@
 import React, { useRef, useState } from "react";
-import TemplateBlank from "../template-blank/template-blank";
-import { table } from "../create-doc/create-doc";
-import TemplatePrice from "../create-doc/price";
-import NewTab from "../new-tab";
+//import TemplateBlank from "../template-blank/template-blank";
+import SmallPrices from "../../template/small-prices/small-prices";
+//import NewTab from "../new-tab";
+
+import createEncode from "../../utils/create-encode/create-encode";
+
+const data = [
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+  { value: "A1" },
+  { value: "A2" },
+  { value: "A3" },
+  { value: "A4" },
+];
 
 const Modal = () => {
+
+  const addKeyToObjects = (arr, key, value) => {
+    return arr.map(obj => ({ ...obj, [key]: value }));
+  };
+
+  const code = createEncode('5414391027136');
+
+  const newArray = addKeyToObjects(data, 'code', code);
+
   const optionsArray = [
     'коммерческое предложение',
     'ценники для магазина',
@@ -87,11 +132,10 @@ const Modal = () => {
             </label>
           </div>   
         </div>
-        <NewTab />
-        <TemplateBlank 
-          context=""
+        <SmallPrices 
+          data={newArray}
         />
-        <TemplatePrice />
+        
         <footer className='footer'>
           <button className='button' type='button'>Создать документ</button>
         </footer>

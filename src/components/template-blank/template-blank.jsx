@@ -289,7 +289,24 @@ const TemplateBlank = ({context}) => {
           }),
         },
         children: [
-          context
+          new TableRow({
+            children: [
+              new TableCell({
+                children: [
+                  new Paragraph({
+                    alignment: AlignmentType.CENTER,
+                    children: [
+                      new TextRun({
+                        text: '',
+                        font: 'Libre Barcode EAN13 Text',
+                        size: 82,
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
         ]
       }],
     });

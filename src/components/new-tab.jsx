@@ -91,6 +91,8 @@ const generateWordDocument = (dat) => {
           margin: {
             top: 300,
             left: 300,
+            bottom: 300,
+            right: 300,
           },
         },
       },
