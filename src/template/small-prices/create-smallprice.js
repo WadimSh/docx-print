@@ -2,7 +2,7 @@ import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRo
 
 const createSmallPrice = (data) => {
   const changePrice = (val) => {
-    if (val.value == '2' || val.value == '4') {
+    if (val.multiplicity === 1) {
       return new TableRow({
         children: [
           new TableCell({
@@ -15,7 +15,12 @@ const createSmallPrice = (data) => {
                     size: 31,
                   }),
                   new TextRun({
-                    text: "235 руб",
+                    text: val.price2,
+                    size: 32,
+                    bold: true,
+                  }),
+                  new TextRun({
+                    text: " ₽",
                     size: 32,
                     bold: true,
                   }),
@@ -45,21 +50,42 @@ const createSmallPrice = (data) => {
                     size: 18,
                   }),
                   new TextRun({
-                    text: "23.5 руб",
+                    text: val.price2,
+                    size: 18,
+                  }),
+                  new TextRun({
+                    text: " ₽",
                     size: 18,
                   }),
                   new TextRun({
                     break: 1,
                   }),
                   new TextRun({
-                    text: "Упак. 25шт. - ",
+                    text: val.units1,
                     size: 27,
                     bold: true,
                   }),
                   new TextRun({
-                    text: "235 руб",
+                    text: ". ",
+                    size: 27,
+                  }),
+                  new TextRun({
+                    text: val.units2,
                     size: 27,
                     bold: true,
+                  }),
+                  new TextRun({
+                    text: " - ",
+                    size: 27,
+                  }),
+                  new TextRun({
+                    text: val.price1,
+                    size: 27,
+                    bold: true,
+                  }),
+                  new TextRun({
+                    text: " ₽",
+                    size: 27,
                   }),
                 ],
               }),
@@ -131,7 +157,7 @@ const createSmallPrice = (data) => {
                     alignment: AlignmentType.END,
                     children: [
                       new TextRun({
-                        text: '1101-0035',
+                        text: data.code,
                         size: 20,
                       }),
                     ],
@@ -149,13 +175,17 @@ const createSmallPrice = (data) => {
           new TableRow({
             children: [
               new TableCell({
+                margin: {
+                  left: 50,
+                  right: 50,
+                },
                 children: [
                   new Paragraph(''),
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
-                        text: "И 10\"/011 Пастель Light Green",
+                        text: data.name,
                         size: 26,
                         bold: true,
                       }),
@@ -186,7 +216,10 @@ const createSmallPrice = (data) => {
                         text: 'Производитель:',
                       }),
                       new TextRun({
-                        text: '\tcompany',
+                        text: " ",
+                      }),
+                      new TextRun({
+                        text: data.value,
                         bold: true,
                       }),
                     ],

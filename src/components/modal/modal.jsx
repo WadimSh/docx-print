@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import SmallPrices from "../../template/small-prices/small-prices";
 
 import createEncode from "../../utils/create-encode/create-encode";
+import { dat } from "../../context/data";
 
 const data = [
   { value: "1" },
@@ -39,6 +40,29 @@ const data = [
 ];
 
 const Modal = () => {
+
+  const createNewArray = (date) => {
+    const newArray = [];
+    
+    date.forEach(item => {
+      const newObj = {
+        code: item.code,
+        name: item.name,
+        value: item.origin_properties[1].value,
+        multiplicity: item.multiplicity,
+        units1: item.units_counts[0][0],
+        units2: item.units_counts[0][1],
+        price1: item.measure_prices[1].price.currency_price.toFixed(2),
+        price2: item.measure_prices[0].price.currency_price.toFixed(2)
+      };
+      newArray.push(newObj);
+    });
+    
+    return newArray;
+  };
+
+  const newData = createNewArray(dat);
+  console.log(newData);
 
   const addKeyToObjects = (arr, key, value) => {
     return arr.map(obj => ({ ...obj, [key]: value }));
@@ -131,7 +155,7 @@ const Modal = () => {
           </div>   
         </div>
         <SmallPrices 
-          data={newArray}
+          data={newData}
         />
         
         <footer className='footer'>
