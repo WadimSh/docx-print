@@ -1,8 +1,8 @@
 import React from 'react';
-import { Document, Packer, WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow } from "docx";
+import { Document, Packer, WidthType, Paragraph, Table, TableCell, TableRow } from "docx";
 import { saveAs } from 'file-saver';
 
-import createTableCell from './create-price';
+import createSmallPrice from './create-smallprice';
 
 const SmallPrices = ({ data }) => {
 
@@ -13,7 +13,7 @@ const SmallPrices = ({ data }) => {
       for (let j = 0; j < 4; j++) {
         if (tab[i + j]) {
           row.push(
-          createTableCell(tab[i + j])
+            createSmallPrice(tab[i + j])
           );
         } else {
           row.push(new TableCell());

@@ -1,11 +1,10 @@
 import React from 'react';
-import { Document, WidthType, BorderStyle, PageNumber, NumberFormat, AlignmentType, Table, TableRow, TableCell, Packer, Paragraph, TextRun, Header, Footer, ImageRun } from 'docx';
+import { Document, WidthType, BorderStyle, AlignmentType, Table, TableRow, TableCell, Packer, Paragraph, TextRun, Header, Footer, ImageRun } from 'docx';
 import { saveAs } from 'file-saver';
-
 
 import logo from '../../assets/images/logo.png'
 
-const TemplateBlank = ({context}) => {
+const BlankLetter = ({context}) => {
 
   const generate = () => {
     const docx = new Document({
@@ -324,4 +323,4 @@ const TemplateBlank = ({context}) => {
   );
 };
 
-export default TemplateBlank;
+export default BlankLetter;

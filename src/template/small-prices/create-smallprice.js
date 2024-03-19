@@ -1,7 +1,7 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow } from "docx";
 
-const createTableCell = (tab) => {
-    if (tab.value == '2') {
+const createSmallPrice = (data) => {
+    if (data.value == '2' || data.value == '4') {
       return new TableCell({
       borders: {
         left: {
@@ -330,4 +330,4 @@ const createTableCell = (tab) => {
       })
   } };
 
-export default createTableCell;
+export default createSmallPrice;
