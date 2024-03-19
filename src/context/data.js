@@ -1,5 +1,5 @@
 export const dat = [
-    {
+  {
       "measure_units_properties": [
         [
             "Размер",
@@ -11407,8 +11407,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -11958,8 +11958,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -12508,8 +12508,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -13014,8 +13014,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -13551,8 +13551,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -14073,8 +14073,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -14569,8 +14569,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -15065,8 +15065,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -15591,8 +15591,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -16208,8 +16208,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -16726,8 +16726,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -17285,8 +17285,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -17803,8 +17803,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -18307,8 +18307,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -18857,8 +18857,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -19437,8 +19437,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -20001,8 +20001,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -20565,8 +20565,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -21107,8 +21107,8 @@ export const dat = [
                 }
             }
         ]
-    },
-    {
+  },
+  {
         "measure_units_properties": [
             [
                 "Размер",
@@ -21657,5 +21657,5 @@ export const dat = [
                 }
             }
         ]
-    }
+  }
 ]
