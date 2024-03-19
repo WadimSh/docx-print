@@ -9,22 +9,22 @@ const createEncode = (input) => {
     let numbersets = ['AAAAAA', 'AABABB', 'AABBAB', 'AABBBA', 'ABAABB', 'ABBAAB', 'ABBBAA', 'ABABAB', 'ABABBA', 'ABBABA'];
     let numberset = numbersets[digits[0]];
     return [
-              '' + digits[0]
-            , charSets[numberset[0]][digits[1]]
-            , charSets[numberset[1]][digits[2]]
-            , charSets[numberset[2]][digits[3]]
-            , charSets[numberset[3]][digits[4]]
-            , charSets[numberset[4]][digits[5]]
-            , charSets[numberset[5]][digits[6]]
-            , '*'
-            , charSets.C[digits[7]]
-            , charSets.C[digits[8]]
-            , charSets.C[digits[9]]
-            , charSets.C[digits[10]]
-            , charSets.C[digits[11]]
-            , charSets.C[digits[12]]
-            , '+'
-        ].join('');
+      '' + digits[0], 
+      charSets[numberset[0]][digits[1]], 
+      charSets[numberset[1]][digits[2]], 
+      charSets[numberset[2]][digits[3]], 
+      charSets[numberset[3]][digits[4]], 
+      charSets[numberset[4]][digits[5]], 
+      charSets[numberset[5]][digits[6]], 
+      '*', 
+      charSets.C[digits[7]], 
+      charSets.C[digits[8]], 
+      charSets.C[digits[9]], 
+      charSets.C[digits[10]], 
+      charSets.C[digits[11]], 
+      charSets.C[digits[12]], 
+      '+'
+    ].join('');
   };
 
   const input2didgits = (value) => {

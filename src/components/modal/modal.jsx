@@ -1,7 +1,5 @@
 import React, { useRef, useState } from "react";
-//import TemplateBlank from "../template-blank/template-blank";
 import SmallPrices from "../../template/small-prices/small-prices";
-//import NewTab from "../new-tab";
 
 import createEncode from "../../utils/create-encode/create-encode";
 
