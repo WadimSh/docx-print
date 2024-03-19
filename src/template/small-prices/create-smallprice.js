@@ -12,7 +12,7 @@ const createSmallPrice = (data) => {
                 children: [
                   new TextRun({
                     break: 1,
-                    size: 31,
+                    size: 13,
                   }),
                   new TextRun({
                     text: val.price2,
@@ -20,7 +20,7 @@ const createSmallPrice = (data) => {
                     bold: true,
                   }),
                   new TextRun({
-                    text: " ₽",
+                    text: "₽",
                     size: 32,
                     bold: true,
                   }),
@@ -45,8 +45,7 @@ const createSmallPrice = (data) => {
                 alignment: AlignmentType.CENTER,
                 children: [
                   new TextRun({
-                    break: 1,
-                    text: "1шт. - ",
+                    text: "1шт - ",
                     size: 18,
                   }),
                   new TextRun({
@@ -54,7 +53,7 @@ const createSmallPrice = (data) => {
                     size: 18,
                   }),
                   new TextRun({
-                    text: " ₽",
+                    text: "₽",
                     size: 18,
                   }),
                   new TextRun({
@@ -66,7 +65,7 @@ const createSmallPrice = (data) => {
                     bold: true,
                   }),
                   new TextRun({
-                    text: ". ",
+                    text: "  ",
                     size: 27,
                   }),
                   new TextRun({
@@ -84,7 +83,7 @@ const createSmallPrice = (data) => {
                     bold: true,
                   }),
                   new TextRun({
-                    text: " ₽",
+                    text: "₽",
                     size: 27,
                   }),
                 ],
@@ -155,6 +154,7 @@ const createSmallPrice = (data) => {
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.END,
+                    indent: { right: 50 },
                     children: [
                       new TextRun({
                         text: data.code,
@@ -175,18 +175,16 @@ const createSmallPrice = (data) => {
           new TableRow({
             children: [
               new TableCell({
-                margin: {
-                  left: 50,
-                  right: 50,
-                },
                 children: [
                   new Paragraph(''),
                   new Paragraph({
+                    indent: { left: data.indent, right: data.indent },
+                    spacing: { after: data.spacing },
                     alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
                         text: data.name,
-                        size: 26,
+                        size: data.size,
                         bold: true,
                       }),
                     ],
@@ -211,6 +209,7 @@ const createSmallPrice = (data) => {
               new TableCell({
                 children: [
                   new Paragraph({
+                    indent: { left: 20 },
                     children: [
                       new TextRun({
                         text: 'Производитель:',

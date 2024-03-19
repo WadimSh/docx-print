@@ -48,6 +48,9 @@ const Modal = () => {
       const newObj = {
         code: item.code,
         name: item.name,
+        indent: item.name.length <= 22 ? 150 : 0,
+        spacing: item.name.length > 38 ? 240 : item.name.length < 22 ? 500 : 200,
+        size: item.name.length > 38 ? 24 : 26,
         value: item.origin_properties[1].value,
         multiplicity: item.multiplicity,
         units1: item.units_counts[0][0],
