@@ -6,38 +6,38 @@ import SmallPrices from "../../template/small-prices/small-prices";
 import createEncode from "../../utils/create-encode/create-encode";
 
 const data = [
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
-  { value: "A1" },
-  { value: "A2" },
-  { value: "A3" },
-  { value: "A4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
+  { value: "1" },
+  { value: "2" },
+  { value: "3" },
+  { value: "4" },
 ];
 
 const Modal = () => {
@@ -47,7 +47,7 @@ const Modal = () => {
   };
 
   const code = createEncode('5414391027136');
-
+  
   const newArray = addKeyToObjects(data, 'code', code);
 
   const optionsArray = [

@@ -2,138 +2,9 @@ import React from 'react';
 import { Document, Packer, WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow } from "docx";
 import { saveAs } from 'file-saver';
 
+import createTableCell from './create-price';
+
 const SmallPrices = ({ data }) => {
-  const createTableCell = (tab) => {
-    return new TableCell({
-        children: [
-          new Table({
-            width: {
-              size: 2834,
-              type: WidthType.DXA,
-            },
-            rows: [
-              new TableRow({
-                children: [
-                  new TableCell({
-                    children: [
-                      new Paragraph({
-                        alignment: AlignmentType.CENTER,
-                        children: [
-                          new TextRun({
-                            text: 'АО "Европа уно трейд"',
-                            bold: true,
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-              new TableRow({
-                children: [
-                  new TableCell({
-                    children: [
-                      new Paragraph({
-                        alignment: AlignmentType.END,
-                        children: [
-                          new TextRun({
-                            text: '1101-0035',
-                            size: 14,
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-              new TableRow({
-                children: [
-                  new TableCell({
-                    children: [
-                      new Paragraph({
-                        alignment: AlignmentType.CENTER,
-                        children: [
-                          new TextRun({
-                            text: "И 10\"/011 Пастель Light Green",
-                            size: 28,
-                            bold: true,
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-              new TableRow({
-                children: [
-                  new TableCell({
-                    children: [
-                      new Paragraph({
-                        alignment: AlignmentType.CENTER,
-                        children: [
-                          new TextRun({
-                            break: 1,
-                            text: "1шт. - ",
-                            size: 18,
-                          }),
-                          new TextRun({
-                            break: 1,
-                            text: "23.5 руб",
-                            size: 18,
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-              new TableRow({
-                children: [
-                  new TableCell({
-                    children: [
-                      new Paragraph({
-                        alignment: AlignmentType.CENTER,
-                        children: [
-                          new TextRun({
-                            text: "Упак. 25шт. - ",
-                            size: 26,
-                            bold: true,
-                          }),
-                          new TextRun({
-                            text: "235 руб",
-                            size: 26,
-                            bold: true,
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-              new TableRow({
-                children: [
-                  new TableCell({
-                    children: [
-                      new Paragraph({
-                        children: [
-                          new TextRun({
-                            text: 'Производитель:',
-                          }),
-                          new TextRun({
-                            text: '\tcompany',
-                            bold: true,
-                          }),
-                        ],
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-            ]
-          })
-        ],
-      })
-  }
 
   const createTableRow = (tab) => {
     const rows = [];
@@ -171,7 +42,6 @@ const SmallPrices = ({ data }) => {
         new Paragraph(" "),
       );
     }
-
     return childrens;
   };
 
@@ -193,7 +63,7 @@ const SmallPrices = ({ data }) => {
     });
 
     Packer.toBlob(doc).then(blob => {
-      saveAs(blob, "eut-blank.docx");
+      saveAs(blob, "small-prices.docx");
       console.log("Document created successfully");
     });
   };
@@ -203,8 +73,8 @@ const SmallPrices = ({ data }) => {
   }
 
   return (
-      <button onClick={() => handleDoc()}>Generate Small Price</button>
-    );
+    <button onClick={() => handleDoc()}>Generate Small Price</button>
+  );
 };
 
 export default SmallPrices;

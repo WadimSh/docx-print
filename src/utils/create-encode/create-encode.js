@@ -28,6 +28,9 @@ const createEncode = (input) => {
   };
 
   const input2didgits = (value) => {
+    if (value.length !== 13) {
+      throw new Error(`Invalid value!`);
+    }
     for(let i=0, l=value.length; i<l; i++) {
       let charcode = value[i].charCodeAt(0);
       if(charcode < 48 || charcode > 57) {
