@@ -1,8 +1,9 @@
 import React from 'react';
-import { Document, Packer, WidthType, Paragraph, Table, TableCell, TableRow } from "docx";
+import { Document, Packer, WidthType, Paragraph, Table, TableRow } from "docx";
 import { saveAs } from 'file-saver';
 
 import createSmallPrice from './create-smallprice';
+import NoneCell from './none-cell';
 
 const SmallPrices = ({ data }) => {
 
@@ -16,7 +17,9 @@ const SmallPrices = ({ data }) => {
             createSmallPrice(tab[i + j])
           );
         } else {
-          row.push(new TableCell());
+          row.push(
+            NoneCell()
+          );
         }
       }
       rows.push(new TableRow({ 
@@ -73,7 +76,7 @@ const SmallPrices = ({ data }) => {
   }
 
   return (
-    <button onClick={() => handleDoc()}>Generate Small Price</button>
+    <button onClick={() => handleDoc()}>Создать документ</button>
   );
 };
 

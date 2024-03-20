@@ -2,9 +2,9 @@ import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRo
 import createBlockPrices from "./create-blockprices";
 
 const createSmallPrice = (data) => {
-  const indent = data.name.length === 22 ? 150 : 0;
-  const spacing = data.name.length > 38 ? 240 : data.name.length < 20 ? 500 : 200;
-  const size = data.name.length > 38 ? 23 : 26;
+  const indent = data.name.length === 22 ? 150 : (data.name.length === 40 ? 270 : 0);
+  const spacing = data.name.length < 21 ? 500 : (data.name.length === 40 ? 40 : (data.name.length > 32 ? 300 : 200));
+  const size = data.name.length > 32 ? 22 : 26;
   
   return new TableCell({
     borders: {

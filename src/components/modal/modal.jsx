@@ -11,8 +11,8 @@ const Modal = () => {
     arr.forEach(item => {
       const newObj = {
         code: item.code,
-        name: item.name,
-        value: item.origin_properties.find(prop => prop.name === "Торговая марка")?.value || item.origin_properties[0].value,
+        name: item.name.replace(/\s+/g, ' '),
+        value: item.origin_properties.find(prop => prop.name === "Торговая марка")?.value || item.origin_properties.find(prop => prop.name === "Страна")?.value || '',
         multiplicity: item.multiplicity,
         units1: item.units_counts[0] ? item.units_counts[0][0] : '',
         units2: item.units_counts[0] ? item.units_counts[0][1] : '',
@@ -52,10 +52,7 @@ const Modal = () => {
   return (
     <div className='overlay'>
       <div className='popup'>
-        <header className='header'>
-          <h3 className='title'>Print document-docx</h3>
-          <span className='clouse'>×</span>
-        </header>
+        
         <div className='select-option'>
           <input 
             className='input'
@@ -114,13 +111,12 @@ const Modal = () => {
             </label>
           </div>   
         </div>
+
         <SmallPrices 
           data={newData}
         />
         
-        <footer className='footer'>
-          <button className='button' type='button'>Создать документ</button>
-        </footer>
+        
       </div>
     </div>
   )

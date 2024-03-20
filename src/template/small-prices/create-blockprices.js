@@ -19,7 +19,7 @@ const createBlockPrices = (data) => {
                   bold: true,
                 }),
                 new TextRun({
-                  text: "₽",
+                  text: " ₽",
                   size: 32,
                   bold: true,
                 }),
@@ -52,7 +52,7 @@ const createBlockPrices = (data) => {
                   size: 18,
                 }),
                 new TextRun({
-                  text: "₽",
+                  text: " ₽",
                   size: 18,
                 }),
                 new TextRun({
@@ -82,7 +82,7 @@ const createBlockPrices = (data) => {
                   bold: true,
                 }),
                 new TextRun({
-                  text: "₽",
+                  text: " ₽",
                   size: 27,
                 }),
               ],
