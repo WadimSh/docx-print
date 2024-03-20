@@ -1,43 +1,8 @@
 import React, { useRef, useState } from "react";
 import SmallPrices from "../../template/small-prices/small-prices";
 
-import createEncode from "../../utils/create-encode/create-encode";
+//import createEncode from "../../utils/create-encode/create-encode";
 import { dat } from "../../context/data";
-
-const data = [
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-  { value: "1" },
-  { value: "2" },
-  { value: "3" },
-  { value: "4" },
-];
 
 const Modal = () => {
 
@@ -48,15 +13,12 @@ const Modal = () => {
       const newObj = {
         code: item.code,
         name: item.name,
-        indent: item.name.length <= 22 ? 150 : 0,
-        spacing: item.name.length > 38 ? 240 : item.name.length < 22 ? 500 : 200,
-        size: item.name.length > 38 ? 24 : 26,
-        value: item.origin_properties[1].value,
+        value: item.origin_properties[1] ? item.origin_properties[1].value : item.origin_properties[0].value,
         multiplicity: item.multiplicity,
-        units1: item.units_counts[0][0],
-        units2: item.units_counts[0][1],
-        price1: item.measure_prices[1].price.currency_price.toFixed(2),
-        price2: item.measure_prices[0].price.currency_price.toFixed(2)
+        units1: item.units_counts[0] ? item.units_counts[0][0] : '',
+        units2: item.units_counts[0] ? item.units_counts[0][1] : '',
+        price1: item.measure_prices[1] ? item.measure_prices[1].price.currency_price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") : '',
+        price2: item.measure_prices[0].price.currency_price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "),
       };
       newArray.push(newObj);
     });
@@ -67,14 +29,11 @@ const Modal = () => {
   const newData = createNewArray(dat);
   console.log(newData);
 
-  const addKeyToObjects = (arr, key, value) => {
-    return arr.map(obj => ({ ...obj, [key]: value }));
-  };
-
-  const code = createEncode('5414391027136');
+  //const addKeyToObjects = (arr, key, value) => {
+  //  return arr.map(obj => ({ ...obj, [key]: value }));
+  //};
+  //const code = createEncode('5414391027136');
   
-  const newArray = addKeyToObjects(data, 'code', code);
-
   const optionsArray = [
     'коммерческое предложение',
     'ценники для магазина',

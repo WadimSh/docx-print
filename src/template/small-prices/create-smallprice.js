@@ -1,6 +1,10 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow } from "docx";
 
 const createSmallPrice = (data) => {
+  const indent = data.name.length === 22 ? 150 : 0;
+  const spacing = data.name.length > 38 ? 240 : data.name.length < 20 ? 500 : 200;
+  const size = data.name.length > 38 ? 23 : 26;
+
   const changePrice = (val) => {
     if (val.multiplicity === 1) {
       return new TableRow({
@@ -178,13 +182,13 @@ const createSmallPrice = (data) => {
                 children: [
                   new Paragraph(''),
                   new Paragraph({
-                    indent: { left: data.indent, right: data.indent },
-                    spacing: { after: data.spacing },
+                    indent: { left: indent, right: indent },
+                    spacing: { after: spacing },
                     alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
                         text: data.name,
-                        size: data.size,
+                        size: size,
                         bold: true,
                       }),
                     ],
@@ -212,7 +216,7 @@ const createSmallPrice = (data) => {
                     indent: { left: 20 },
                     children: [
                       new TextRun({
-                        text: 'Производитель:',
+                        text: data.value.length > 10 ? 'Произв.:' : 'Производитель:',
                       }),
                       new TextRun({
                         text: " ",

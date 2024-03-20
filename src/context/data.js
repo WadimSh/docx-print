@@ -21657,5 +21657,16409 @@ export const dat = [
                 }
             }
         ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "1.5 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "10.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "2905920072107"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0006",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:26.752680",
+        "rest": 582,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62845/420d33fb-8ef2-4f5d-b2b2-91703f4a1482.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/76/d4/76d46e91ff6c6b3e8723d0fe612cc997.jpg",
+                    "banner_catalog_small": "/media/cache/a1/5a/a15a038f6aaeb31c8599ce60d7dd5392.jpg",
+                    "medium": "/media/cache/50/87/5087f91ba5d01215dc8b5c4193c98934.jpg",
+                    "cert_preview": "/media/cache/d0/8c/d08c6e8ab54b50f606a1c6895ad75c67.jpg",
+                    "banner_catalog_large": "/media/cache/5c/59/5c59ec160cdc7ee1505ffc6dbfa5f55b.jpg",
+                    "zoom_large": "/media/cache/49/66/496628bfd563a39c399bfe19930615b8.jpg",
+                    "xsmall": "/media/cache/7a/8c/7a8c9195c7b18833d7ed5061f182b53a.jpg",
+                    "small": "/media/cache/15/cb/15cb28aa6878044f1ed5c31665f3136a.jpg",
+                    "zoom_medium": "/media/cache/d9/81/d9818a8be0913776b50d6c1675e806d7.jpg",
+                    "icon": "/media/cache/cb/8a/cb8ac51867b89ce3c9456f9eb26c0414.jpg"
+                },
+                "id": 75717,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 84099,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-ballone-10l-1301-0006",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий газообразный, технический 99,8%(ТУ 51-940-80). Инертный газ не токсичен, не горюч, не взрывоопасен. В баллоне объёмом 10 литров находится 1,4 м³ гелия под высоким давлением. Гелий используется для наполнения воздушных шаров. Шары имеют различные свойства по удерживанию гелия. Гелий отпускается в баллоне, аренда которого составляет 20 руб./сутки. Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 1.5,
+            "height": 0,
+            "volume": 10,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 228407
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20241514
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20239112
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20239113
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20239111
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20239110
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20239114
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 20241515
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20241512
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20241507
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20241513
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20241511
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в баллоне 10л",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 184420,
+                "rest": 30
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103004,
+                "rest": 33
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 224,
+                "id": 114760,
+                "rest": 198
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91248,
+                "rest": 95
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108882,
+                "rest": 20
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 2,
+                "id": 97126,
+                "rest": 206
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 3825,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 3825,
+            "position": 0
+        },
+        "popularity": 645,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 20241510
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 1.5,
+                    "height": 0,
+                    "volume": 10,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 228407
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3825,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3825,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "42000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "0.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4607129631410"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0162",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.455593",
+        "rest": 67,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62776/1018e081-9fce-41bc-9753-de4aa3d46ae8.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/f0/94/f0942e9f5fbf28079ec22b52a64332fd.jpg",
+                    "banner_catalog_small": "/media/cache/26/61/2661834213b28bde6939fd0ef7d675dc.jpg",
+                    "medium": "/media/cache/2f/22/2f227ab53f1af630819cec4c4dee7c82.jpg",
+                    "cert_preview": "/media/cache/79/e5/79e5956ebaca4ffb5ad418991aa8025d.jpg",
+                    "banner_catalog_large": "/media/cache/bd/dc/bddc1ef8309e533df9dd832284d26efd.jpg",
+                    "zoom_large": "/media/cache/78/98/789833fde35202a754a5b1ef52ea2d2d.jpg",
+                    "xsmall": "/media/cache/04/d6/04d690fd46798ffff25587fbfc9ad2b7.jpg",
+                    "small": "/media/cache/aa/e2/aae26dfa5eb5cf1b2e678ed46da09ffb.jpg",
+                    "zoom_medium": "/media/cache/6d/97/6d9734a8a4c1ed97fdb8ab75ef9502af.jpg",
+                    "icon": "/media/cache/d0/2a/d02a87729cb9a6bb6c80fa44bcad66c5.jpg"
+                },
+                "id": 101409,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 84030,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "ballon-gelievyi-20l-200atm-1301-0162",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Газовый баллон, (ГОСТ 949-73) коричневого цвета, высокого давления (рабочее давление 200 атмосфер), имеет техническое освидетельствование (аттестация) максимум на пять лет. Укомплектован мембранным вентилем ВБМ-1 (КВБ-53). Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 42000,
+            "height": 0,
+            "volume": 0,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 228284
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19125226
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19120094
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19120095
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Металл",
+                "unimportant": true,
+                "value_id": 35155,
+                "id": 19120093
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "7311 00 9100",
+                "unimportant": true,
+                "value_id": 35159,
+                "id": 19120092
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19120096
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19125227
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19125223
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19125225
+            }
+        ],
+        "promotions": [],
+        "name": "Баллон гелиевый 20л, 200атм",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117906,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117274,
+                "rest": 53
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 37,
+                "id": 117423,
+                "rest": 6
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 198215,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117584,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117745,
+                "rest": 1
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 9000,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 9000,
+            "position": 0
+        },
+        "popularity": 9,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 19125224
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 42000,
+                    "height": 0,
+                    "volume": 0,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 228284
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 9000,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 9000,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "1.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "20.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "2905930030739"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0163",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.487584",
+        "rest": 37,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62777/c4e3254f-350c-46a0-964c-c232ac4c87ea.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/7e/96/7e96037688afa4cbc80b6135d44536de.jpg",
+                    "banner_catalog_small": "/media/cache/dc/1e/dc1ed7521abd1219178143f950c03303.jpg",
+                    "medium": "/media/cache/06/30/063088a300ff453e99346d55323bec35.jpg",
+                    "cert_preview": "/media/cache/9b/02/9b027c7b0bbac6dd4bc299e60809f9a0.jpg",
+                    "banner_catalog_large": "/media/cache/69/e0/69e05d8dbf9fe660b0cefa6dd6d5494a.jpg",
+                    "zoom_large": "/media/cache/18/d9/18d9af1718161b7df6de948032d0fcd2.jpg",
+                    "xsmall": "/media/cache/7d/c1/7dc15600133e3cb05c4edffda3177509.jpg",
+                    "small": "/media/cache/43/1a/431a901026a50343d09ed9d8a38533a1.jpg",
+                    "zoom_medium": "/media/cache/75/96/7596b8bb0f1126ac9ea386c1e5350b19.jpg",
+                    "icon": "/media/cache/a0/5c/a05c4b379f7ef4788c8f74d3f41bed8d.jpg"
+                },
+                "id": 75715,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 84031,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-ballone-20l-200atm-1301-0163",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий газообразный, технический 99,8%(ТУ 51-940-80). Инертный газ не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара. Шары имеют различные свойства по удерживанию гелия. Отпускается в баллоне под залоговую стоимость баллона, равную стоимости баллона. Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 1,
+            "height": 0,
+            "volume": 20,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 228285
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20241529
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20239124
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20239125
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20239123
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20239122
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20239126
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 20241530
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20241527
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20241524
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20241528
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20241526
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в баллоне 20л, 200атм",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117275,
+                "rest": 14
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117907,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 117424,
+                "rest": 16
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117746,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117585,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 191008,
+                "rest": 2
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 9690,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 9690,
+            "position": 0
+        },
+        "popularity": 35,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 20241525
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 1,
+                    "height": 0,
+                    "volume": 20,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 228285
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 9690,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 9690,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "23.0x23.0x150.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "80000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "40.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "2905920203198"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0003",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:26.722062",
+        "rest": 655,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62842/9e786e5d-d20f-4c9c-8198-a79f4aa44355.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/28/be/28be0bd27736c3fef08b98dbe56c85a0.jpg",
+                    "banner_catalog_small": "/media/cache/47/36/4736fc67fb354751c00b74fabc63c411.jpg",
+                    "medium": "/media/cache/2f/62/2f622ee930e267ae327ae7eb35f8c698.jpg",
+                    "cert_preview": "/media/cache/74/66/7466e408b22210d0c069779366e76cb8.jpg",
+                    "banner_catalog_large": "/media/cache/9d/09/9d0981d85290830429f2e34b845a98fb.jpg",
+                    "zoom_large": "/media/cache/81/04/8104ae7644841c11530dcd9ba278b685.jpg",
+                    "xsmall": "/media/cache/66/8b/668ba94d42953a8d754c736b8b18b483.jpg",
+                    "small": "/media/cache/93/3e/933e88f00811f3b9a3bd63040eea0f25.jpg",
+                    "zoom_medium": "/media/cache/c3/72/c37272bc18663b10a7fa0b689689b0e4.jpg",
+                    "icon": "/media/cache/8a/ef/8aefd420aee551c1ebcdef72de9e5391.jpg"
+                },
+                "id": 50467,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 84096,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "ballon-gelievyi-40l-1301-0003",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Газовый баллон, (ГОСТ 949-73) коричневого цвета, высокого давления (рабочее давление 150 атмосфер), имеет техническое освидетельствование (аттестация) максимум на пять лет. Укомплектован мембранным вентилем ВБМ-1 (КВБ-53). Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 80000,
+            "height": 150,
+            "volume": 40,
+            "width": 23,
+            "length": 23,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 228404
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19729237
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19728098
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19728099
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Металл",
+                "unimportant": true,
+                "value_id": 35155,
+                "id": 19728096
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "7311 00 9100",
+                "unimportant": true,
+                "value_id": 35159,
+                "id": 19728095
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19728100
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "150Х23Х23 СМ",
+                "unimportant": false,
+                "value_id": 35160,
+                "id": 19728097
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19729238
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19729235
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19729230
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19729236
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19729234
+            }
+        ],
+        "promotions": [],
+        "name": "Баллон гелиевый 40л",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108881,
+                "rest": 88
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 147,
+                "id": 97125,
+                "rest": 134
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91247,
+                "rest": 116
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103003,
+                "rest": 36
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 26,
+                "id": 114759,
+                "rest": 234
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 184419,
+                "rest": 47
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 9000,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 9000,
+            "position": 0
+        },
+        "popularity": 143,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 19729233
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 80000,
+                    "height": 150,
+                    "volume": 40,
+                    "width": 23,
+                    "length": 23,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 228404
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 9000,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 9000,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "25.0x25.0x43.0 см",
+                    "25.0x25.0x43.0 см",
+                    "120.0x80.0x176.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "4900.0 Г",
+                    "5000.0 Г(брутто)",
+                    "330.0 кг(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "26.875 дм3",
+                    "26.875 дм3",
+                    "1689.6 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "1 шт",
+                    "60 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "5601962010097",
+                    "",
+                    ""
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0540",
+        "units_counts": [
+            [
+                "кор",
+                "1 шт"
+            ],
+            [
+                "поддон",
+                "60 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:28.032858",
+        "rest": 6,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/94955/8869557a-fac1-4637-aba8-de362bf45c45.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/84/93/849332602bba223e6a03908e9da05401.jpg",
+                    "banner_catalog_small": "/media/cache/48/59/48597b0dbc2af83e38974c3237b13686.jpg",
+                    "medium": "/media/cache/5f/05/5f0579fb067fbf23f239d181a205ce1b.jpg",
+                    "cert_preview": "/media/cache/84/72/8472e9a5b67d99daf0f8b1795a66cdd6.jpg",
+                    "banner_catalog_large": "/media/cache/bf/48/bf4801f705f286a876cae7b1e4629e55.jpg",
+                    "zoom_large": "/media/cache/93/1a/931ae7ff5b7f3e12a2fbee3174e50f43.jpg",
+                    "xsmall": "/media/cache/80/7d/807de4a23ea801ae8142ca769748ec7b.jpg",
+                    "small": "/media/cache/9b/eb/9bebef81de991adfbb43d8fd82717416.jpg",
+                    "zoom_medium": "/media/cache/1c/fd/1cfdd8e3145626d5a0344931cb048f78.jpg",
+                    "icon": "/media/cache/91/d2/91d266114545ecf5df7360d4eef5afc1.jpg"
+                },
+                "id": 75878,
+                "is_base": true
+            },
+            {
+                "image": "/media/products/94955/42b00e76-22c3-48e6-bfad-5df88c2926e8.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/70/44/70449945409da682b065ad4fe2903af5.jpg",
+                    "banner_catalog_small": "/media/cache/69/2d/692d694b11a4dbeb52bf035262d378a6.jpg",
+                    "medium": "/media/cache/26/02/260222325f847813367a33a229c1670a.jpg",
+                    "cert_preview": "/media/cache/57/62/57621ff8fafe6e18abad51fece0a712f.jpg",
+                    "banner_catalog_large": "/media/cache/a2/e9/a2e9e8bd333fbbdfe305e039173db741.jpg",
+                    "zoom_large": "/media/cache/72/b6/72b6858063febdab88034795c3725152.jpg",
+                    "xsmall": "/media/cache/c8/40/c8408f6a06dedfe6963c89b3799a4988.jpg",
+                    "small": "/media/cache/40/90/40902d44f9564ea28dd343f3b33d674e.jpg",
+                    "zoom_medium": "/media/cache/74/97/7497a4ce96a0ba28bafb20c2626b9a6f.jpg",
+                    "icon": "/media/cache/d6/1c/d61cff59421c0a4a208e862e7445f404.jpg"
+                },
+                "id": 75877,
+                "is_base": false
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 117088,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-portativnom-ballone-na-50-sharovw-1301-054",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "ЕАЭС N RU Д-PT.РА07.В.27979/22",
+                "file_download": "/download/media/cert/217/",
+                "date_end": "10.10.2027",
+                "date_start": "11.10.2022",
+                "preview": "/media/cache/04/71/047124e3fd03fc4fe795af0efc1a6320.jpg",
+                "type": "Декларация таможенного союза",
+                "id": 217
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка",
+            "Поддон"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "ОДНОРАЗОВЫЙ ПОРТАТИВНЫЙ БАЛЛОН с удобным носиком для надувания шаров. Шары в комплект не входят! Благодаря закачке гелия под более высоким давлением, производителю удалось сделать баллон компактных размеров, что позволяет оптимизировать логистические затраты. А самое главное преимущество его в том, что с помощью этого баллона можно надувать шары Bubbles. Количество шаров, которые можно надуть из баллона: Латексные шары 9\"(23 см): 45-50 шт; 11\"(28 см): 24-27 шт. Фольгированные шары 18\" (45 см) - 15 шт; Bubbles - 8 шт. Баллон содержит гелий газообразный, технический 99,8% (ТУ 51-940-80). Инертный газ не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара. Емкость баллона в литрах - 14л, давление 45bar (44,41 атмосфер), объем гелия в баллоне 0,42 м3. В комплекте есть инструкция на русском языке. Запрещается повторная заправка баллона!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 4900,
+            "height": 43,
+            "volume": 26.875,
+            "width": 25,
+            "length": 25,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 292266
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 20063396
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20062588
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20062589
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20062586
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20062585
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%94%D0%A0__%D0%A8%D0%B0%D1%80%D1%8B.png",
+                "value": "День рождения Шары",
+                "unimportant": false,
+                "value_id": 27160,
+                "id": 20063390
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20062590
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "25Х25X45СМ ВЕС-4,6КГ",
+                "unimportant": false,
+                "value_id": 62959,
+                "id": 20062587
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 20063386
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D1%88%D0%BE%D1%83%D0%B1%D0%BE%D0%BA%D1%81.png",
+                "value": "Шоубокс",
+                "unimportant": false,
+                "value_id": 64568,
+                "id": 20063397
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20063393
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20063387
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20063394
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20063392
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в портативном баллоне на 50 шаровW",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 166383,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1692,
+                "id": 146364,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 166743,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 10,
+                "id": 146509,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 168722,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 189268,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 4522,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 4522,
+            "position": 0
+        },
+        "popularity": 35,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            },
+            {
+                "value__image": "/media/property_value/portugal_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Португалия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/portugal_glossy_wave_icon_60.png",
+                "value": "Португалия",
+                "unimportant": false,
+                "value_id": 27884,
+                "id": 20063391
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/Worington_Cylinder_02.png",
+                "value": "Worthington Cylinder",
+                "unimportant": false,
+                "value_id": 43163,
+                "id": 20062591
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 4900,
+                    "height": 43,
+                    "volume": 26.875,
+                    "width": 25,
+                    "length": 25,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 292266
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4522,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4522,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 5000,
+                    "height": 43,
+                    "volume": 26.875,
+                    "width": 25,
+                    "length": 25,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 292267
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4522,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4522,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "поддон",
+                    "weight": 330,
+                    "height": 176,
+                    "volume": 1689.6,
+                    "width": 80,
+                    "length": 120,
+                    "common": {
+                        "name": "поддон",
+                        "full_name": "Поддон"
+                    },
+                    "full_name": "Поддон",
+                    "id": 292268
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 271320,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 271320,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "14.5x14.5x92.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "15000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "10.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4607129634220"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0001",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:26.690976",
+        "rest": 1385,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62840/f24bbfbc-236e-4fbd-9fe6-11aa3e142865.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/64/13/641311592827bffd37235b9b9e73f2fc.jpg",
+                    "banner_catalog_small": "/media/cache/03/28/0328b64796dd69184dce278f0f1b37fb.jpg",
+                    "medium": "/media/cache/8b/d9/8bd96c29cb0e7340ec8043f65491e088.jpg",
+                    "cert_preview": "/media/cache/82/2f/822f50d290d681e5ccfedb844a52164a.jpg",
+                    "banner_catalog_large": "/media/cache/9f/28/9f2844583ae1fd7c2590a2ee50bb02fc.jpg",
+                    "zoom_large": "/media/cache/6d/fb/6dfb332729f867ca96515a73db55b985.jpg",
+                    "xsmall": "/media/cache/52/93/5293ad95eb0ce0b0d8358f1413520e4c.jpg",
+                    "small": "/media/cache/69/98/6998f466283728e6b6126c5b5b1f6a14.jpg",
+                    "zoom_medium": "/media/cache/cd/ed/cded70554646a015641b8f5610df01a1.jpg",
+                    "icon": "/media/cache/d5/f2/d5f2c98ff349ff49f91d6e1dc4283e03.jpg"
+                },
+                "id": 147795,
+                "is_base": true
+            },
+            {
+                "image": "/media/products/62840/b4444f34-7340-4efe-8150-0286b9ecb657.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/d3/cc/d3cc459689689ddce2346a1f7c75a35c.jpg",
+                    "banner_catalog_small": "/media/cache/fc/44/fc44ef08f1022c302bfdbaecbc44267c.jpg",
+                    "medium": "/media/cache/4f/d1/4fd1f3cadcd1104f499239483cafeecc.jpg",
+                    "cert_preview": "/media/cache/40/a8/40a8ac52f4ba8c2d1cd719620713dfe0.jpg",
+                    "banner_catalog_large": "/media/cache/e2/2f/e22f8d3722167dd2780ada430612cc48.jpg",
+                    "zoom_large": "/media/cache/87/9f/879f93743569d5bfbe39db62e8a14d83.jpg",
+                    "xsmall": "/media/cache/60/18/6018a9764d962b97ac546cecef27ebaa.jpg",
+                    "small": "/media/cache/ca/49/ca49b225192e8c62e7e1df7404f143e1.jpg",
+                    "zoom_medium": "/media/cache/65/5c/655c98e44fbc0f518c7cff9f566bf822.jpg",
+                    "icon": "/media/cache/2f/93/2f9331e5c45a8b7bd562b9099cd28c1a.jpg"
+                },
+                "id": 147797,
+                "is_base": false
+            },
+            {
+                "image": "/media/products/62840/6185e1b9-df27-44a2-8018-53952f55e943.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/9d/d6/9dd6afb44f60fcf5303a4930e712daba.jpg",
+                    "banner_catalog_small": "/media/cache/0e/15/0e15fb6f0183c551662d034f0224209e.jpg",
+                    "medium": "/media/cache/dd/c8/ddc8f6bd758164a72b23dc114dedfea2.jpg",
+                    "cert_preview": "/media/cache/f9/b8/f9b8fbc8761e236052fda06f1c37d831.jpg",
+                    "banner_catalog_large": "/media/cache/57/df/57df4dfaa92dc19c3ed22a4e3e14da8c.jpg",
+                    "zoom_large": "/media/cache/58/2b/582bd56eab7e8472858c2370c75dd6bf.jpg",
+                    "xsmall": "/media/cache/fe/ff/feff394b36128dca57fead6b1d61950d.jpg",
+                    "small": "/media/cache/1c/1a/1c1a4c084ae3a7a374193bb31dd6091d.jpg",
+                    "zoom_medium": "/media/cache/b0/12/b012d02fdbf252153fba14ddb7ae5cf6.jpg",
+                    "icon": "/media/cache/cb/88/cb888b7d68e33d6125a5f17b40c31d36.jpg"
+                },
+                "id": 147796,
+                "is_base": false
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 84094,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "ballon-gelievyi-10l-1301-0001",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            },
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Газовый баллон, (ГОСТ 949-73) коричневого цвета, высокого давления (рабочее давление 150 атмосфер), имеет техническое освидетельствование (аттестация) максимум на пять лет. Укомплектован мембранным вентилем ВБМ-1 (КВБ-53). Вес баллона указан в граммах Баллон является тарой и гелий приобретается отдельно. Пустой баллон, без гелия, не продаётся Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 15000,
+            "height": 92,
+            "volume": 10,
+            "width": 14.5,
+            "length": 14.5,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 228402
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19915709
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19913204
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19913205
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Металл",
+                "unimportant": true,
+                "value_id": 35155,
+                "id": 19913202
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "7311 00 9100",
+                "unimportant": true,
+                "value_id": 35159,
+                "id": 19913201
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19913206
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "92Х14,5Х14,5СМ",
+                "unimportant": false,
+                "value_id": 35156,
+                "id": 19913203
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19915710
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19915707
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19915702
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19915708
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19915706
+            }
+        ],
+        "promotions": [],
+        "name": "Баллон гелиевый 10л",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108880,
+                "rest": 60
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 184418,
+                "rest": 134
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 10,
+                "id": 97124,
+                "rest": 297
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103002,
+                "rest": 72
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91246,
+                "rest": 82
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 300,
+                "id": 114758,
+                "rest": 740
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 4500,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 4500,
+            "position": 0
+        },
+        "popularity": 36,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 19915705
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 15000,
+                    "height": 92,
+                    "volume": 10,
+                    "width": 14.5,
+                    "length": 14.5,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 228402
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4500,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4500,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "14.5x14.5x92.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "15000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "10.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390159868"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0441",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.651383",
+        "rest": 293,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62428/4fd862da-7283-4478-b8c6-f0edc5b586e6.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/98/10/9810b31eebece1d1cfdbaf0b81f7801a.jpg",
+                    "banner_catalog_small": "/media/cache/b4/75/b475d552de49a2928dbaaf07e93846ec.jpg",
+                    "medium": "/media/cache/2a/66/2a6613c25d994a2e50e91ed8745e54b9.jpg",
+                    "cert_preview": "/media/cache/18/3b/183bbbfb55097ae69e40166c7430c362.jpg",
+                    "banner_catalog_large": "/media/cache/29/52/295273fb5ecda67973d9846f7049bbac.jpg",
+                    "zoom_large": "/media/cache/96/9c/969c4bbf0b0ee3b02aa38f6a67c27082.jpg",
+                    "xsmall": "/media/cache/9a/be/9abe51a6c16fc9d8f127a9cbc9d9211c.jpg",
+                    "small": "/media/cache/52/01/52013dac4abe2abb39139350720f5bc6.jpg",
+                    "zoom_medium": "/media/cache/8f/96/8f96262359b95ce5f4a8afd6139dab6f.jpg",
+                    "icon": "/media/cache/11/e6/11e68b6d82c3e9454527fb7e0d9c0473.jpg"
+                },
+                "id": 75724,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 83682,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "ballon-gelievyi-10l-200atm-1301-0441",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Газовый баллон,  коричневого цвета, высокого давления (рабочее давление 200 атмосфер). Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 15000,
+            "height": 92,
+            "volume": 10,
+            "width": 14.5,
+            "length": 14.5,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 227480
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19125260
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19120125
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19120126
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Металл",
+                "unimportant": true,
+                "value_id": 35155,
+                "id": 19120123
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "7311 00 1300",
+                "unimportant": true,
+                "value_id": 59743,
+                "id": 19120122
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19120127
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "92Х14,5Х14,5СМ",
+                "unimportant": false,
+                "value_id": 35156,
+                "id": 19120124
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19125261
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19125258
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19125253
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19125259
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19125257
+            }
+        ],
+        "promotions": [],
+        "name": "Баллон гелиевый 10л, 200атм",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91291,
+                "rest": 18
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103047,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 97169,
+                "rest": 14
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 184436,
+                "rest": 6
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108925,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 114803,
+                "rest": 247
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 5000,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 5000,
+            "position": 0
+        },
+        "popularity": 30,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 19125256
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 15000,
+                    "height": 92,
+                    "volume": 10,
+                    "width": 14.5,
+                    "length": 14.5,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 227480
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 5000,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 5000,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "1.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "10.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390160352"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0442",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.682896",
+        "rest": 58,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62429/233eaefa-f259-48ac-9cf3-be4cfd32ae65.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/d8/70/d870d74018aa075dd0f779bb14ea4d22.jpg",
+                    "banner_catalog_small": "/media/cache/ff/5e/ff5e6a3180490cd2d3d60a647997c947.jpg",
+                    "medium": "/media/cache/ba/64/ba642cb2fc27de58f5f61d1d0ddabdc4.jpg",
+                    "cert_preview": "/media/cache/21/e0/21e0ac054b4db49ccbc12c224d69a6df.jpg",
+                    "banner_catalog_large": "/media/cache/b6/4f/b64f9af4263c3154b7f38ce12e0f68a2.jpg",
+                    "zoom_large": "/media/cache/b1/87/b187a254d6bd4cf289c10f400653f7f5.jpg",
+                    "xsmall": "/media/cache/37/9e/379e8ba2b8cbab84d3852fe358fb5578.jpg",
+                    "small": "/media/cache/89/03/8903f2d365ccc3d93902df93f36bcdb2.jpg",
+                    "zoom_medium": "/media/cache/74/91/74916ac9e0a77ddfb5d7a83a8aef909d.jpg",
+                    "icon": "/media/cache/81/39/8139c50fb99a6c46399095632310432d.jpg"
+                },
+                "id": 75719,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 83683,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-ballone-10l-200atm-1301-0442",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий газообразный, технический 99,8%(ТУ 51-940-80). Инертный газ не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара. Шары имеют различные свойства по удерживанию гелия. Отпускается в баллоне. Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 1,
+            "height": 0,
+            "volume": 10,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 227481
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20241552
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20239142
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20239143
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20239141
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20239140
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20239144
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 20241553
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20241550
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20241545
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20241551
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20241549
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в баллоне 10л, 200атм",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103048,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91292,
+                "rest": 21
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 13,
+                "id": 97170,
+                "rest": 17
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 184437,
+                "rest": 9
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 114804,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108926,
+                "rest": 7
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 5100,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 5100,
+            "position": 0
+        },
+        "popularity": 77,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 20241548
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 1,
+                    "height": 0,
+                    "volume": 10,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 227481
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 5100,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 5100,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "23.0x23.0x150.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "80000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "40.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390165920"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0445",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.745628",
+        "rest": 447,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62432/54f18e88-3e84-487d-a45d-e84dc6a98b7c.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/37/5e/375e37bbc936d033a5a0abc922daf4a2.jpg",
+                    "banner_catalog_small": "/media/cache/17/4c/174cc09f1048a8aa1f000b22f1e5b622.jpg",
+                    "medium": "/media/cache/c3/ae/c3ae8e5861faece65fde915a65cfe691.jpg",
+                    "cert_preview": "/media/cache/82/cc/82cc7990f7bfd6b2b6e1dc25bc20e2b1.jpg",
+                    "banner_catalog_large": "/media/cache/a3/52/a35259b760c77578cd938ae84b9160d9.jpg",
+                    "zoom_large": "/media/cache/98/81/9881aa3d3de8952bf824fe3a090a798f.jpg",
+                    "xsmall": "/media/cache/df/11/df114eeb64da8932f23932b45443054e.jpg",
+                    "small": "/media/cache/30/9d/309d3c1f8a7bc7b35abe8337ccd81752.jpg",
+                    "zoom_medium": "/media/cache/5f/38/5f38d64284435b1d4ee78dc0444e0df7.jpg",
+                    "icon": "/media/cache/75/c4/75c40e4dd8d07db30136b41243d76527.jpg"
+                },
+                "id": 104241,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 83686,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "ballon-gelievyi-40l-new-1301-0445",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Газовый баллон, (ГОСТ 949-73) коричневого цвета, высокого давления (рабочее давление 150 атмосфер), имеет техническое освидетельствование (аттестация) максимум на пять лет. Укомплектован мембранным вентилем ВБМ-1 (КВБ-53). Баллон является тарой и гелий приобретается отдельно. Пустой баллон, без гелия, не продаётся. Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 80000,
+            "height": 150,
+            "volume": 40,
+            "width": 23,
+            "length": 23,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 227486
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19125278
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19120138
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19120139
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Металл",
+                "unimportant": true,
+                "value_id": 35155,
+                "id": 19120136
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "7311 00 9100",
+                "unimportant": true,
+                "value_id": 35159,
+                "id": 19120135
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19120140
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "150Х23Х23 СМ",
+                "unimportant": false,
+                "value_id": 35160,
+                "id": 19120137
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19125279
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19125276
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19125271
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19125277
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19125275
+            }
+        ],
+        "promotions": [],
+        "name": "Баллон гелиевый 40л NEW",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 15,
+                "id": 114806,
+                "rest": 439
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103050,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 97172,
+                "rest": 5
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 190991,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108928,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91294,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 13000,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 13000,
+            "position": 0
+        },
+        "popularity": 145,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 19125274
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 80000,
+                    "height": 150,
+                    "volume": 40,
+                    "width": 23,
+                    "length": 23,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 227486
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 13000,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 13000,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "45.5x20.0x20.0 см",
+                    "45.5x20.0x20.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "3000.0 Г",
+                    "3.0 кг(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "18.2 дм3",
+                    "18.2 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390161526",
+                    ""
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0443",
+        "units_counts": [
+            [
+                "кор",
+                "1 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.713972",
+        "rest": 196,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62430/27815377-8850-4f18-a0d1-af7a04955efb.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/4b/f7/4bf71b748dd4617e20f0e63e238dfc97.jpg",
+                    "banner_catalog_small": "/media/cache/9c/a7/9ca7bb5329dab13c01a081445fb5720b.jpg",
+                    "medium": "/media/cache/da/3f/da3fad87ba7c795c0ba7f0f819163859.jpg",
+                    "cert_preview": "/media/cache/12/3f/123f9d32b67dd9edd6d998db105c2ccf.jpg",
+                    "banner_catalog_large": "/media/cache/b1/46/b146a4e2fd63dd54b592ecf7d9cb43a9.jpg",
+                    "zoom_large": "/media/cache/36/ca/36caa4e345910da7f0f022bc70d440a4.jpg",
+                    "xsmall": "/media/cache/af/c9/afc98dc2465b8082ee2d8248ee3c31ac.jpg",
+                    "small": "/media/cache/5f/03/5f03eaa62c606587d44eb7a23266e36f.jpg",
+                    "zoom_medium": "/media/cache/fb/04/fb045b88584de0f16adf13c54866f723.jpg",
+                    "icon": "/media/cache/7b/41/7b41c8183e0a38ad6c181359390d3552.jpg"
+                },
+                "id": 51588,
+                "is_base": true
+            },
+            {
+                "image": "/media/products/62430/1644be94-ded0-48ef-af87-bd63be8ccc32.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/ca/38/ca3890f63805708eb2a03772531518fe.jpg",
+                    "banner_catalog_small": "/media/cache/ec/69/ec694b1923cfa7e1e8c5c0391a71739f.jpg",
+                    "medium": "/media/cache/3c/a1/3ca155f34b45bb952b4626ae5950bd64.jpg",
+                    "cert_preview": "/media/cache/bf/d5/bfd5bdc1c5936ef6cb534ee637e60ea2.jpg",
+                    "banner_catalog_large": "/media/cache/07/31/07319838ee559441dbcece8068b6007c.jpg",
+                    "zoom_large": "/media/cache/86/c2/86c2dbbeb175374839b5672b3bdda471.jpg",
+                    "xsmall": "/media/cache/fb/40/fb4070f88b72e1a008db84c5b9d71e6b.jpg",
+                    "small": "/media/cache/4b/2c/4b2c513650d93a95a4aa6618571ed38c.jpg",
+                    "zoom_medium": "/media/cache/8c/25/8c251561fbc5fb053973fe318279a676.jpg",
+                    "icon": "/media/cache/be/d6/bed6cc01afe6094247f69e060faa75cc.jpg"
+                },
+                "id": 65706,
+                "is_base": false
+            },
+            {
+                "image": "/media/products/62430/7a89a51d-eebb-4470-abca-5294cbf3dd02.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/18/37/183733e20a155a6edcce81d25b18085c.jpg",
+                    "banner_catalog_small": "/media/cache/d5/8a/d58a468e860601f0066c41a732fb2ea3.jpg",
+                    "medium": "/media/cache/da/a9/daa90de2e86b63f32013476880aa25d4.jpg",
+                    "cert_preview": "/media/cache/88/ea/88ea004f72ab9b81c863d7541522b191.jpg",
+                    "banner_catalog_large": "/media/cache/e9/6d/e96db026140095735240ebdd68ddbb1a.jpg",
+                    "zoom_large": "/media/cache/da/05/da05916cc2b3b9306b32b6643a45696d.jpg",
+                    "xsmall": "/media/cache/d8/2c/d82c3471329be7b9c04857bf038a556e.jpg",
+                    "small": "/media/cache/6f/b5/6fb5fa4ef9d30e825f213a0bb1d828e1.jpg",
+                    "zoom_medium": "/media/cache/3a/79/3a79f9e10c9fda05836d948b0eea7fcb.jpg",
+                    "icon": "/media/cache/dc/fa/dcfae5bb6d1a246e2e869b6960f66f28.jpg"
+                },
+                "id": 36403,
+                "is_base": false
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 83684,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-portativnom-ballone-rossiia-1301-0443",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "ЕАЭС N RU Д-RU.РА01.В.57630/21",
+                "file_download": "/download/media/cert/1232/",
+                "date_end": "08.05.2026",
+                "date_start": "08.05.2021",
+                "preview": "/media/cache/79/91/79916c0721409c95bd01c8a782576ea3.jpg",
+                "type": "Декларация таможенного союза",
+                "id": 1232
+            },
+            {
+                "name": "ИНСТРУКЦИЯ 1301-0443",
+                "file_download": "/download/media/cert/1233/",
+                "date_end": "31.12.9999",
+                "date_start": "01.01.2023",
+                "preview": "/media/cache/04/7a/047a31d4c6b4bdc5f69357caa5d688f2.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 1233
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий в портативном баллоне. Подходит для надувания латексных и фольгированных шаров! Портативный баллон с гелием низкого давления б езопасен и очень прост в использовании. Индикатор давления показывает только наличие газа в баллоне, он не показывает точный уровень давления внутри баллона. Если стрелка манометра находится в жёлтой или зелёной зоне - баллон полон. Такой баллон очень удобен для о формления детского сада, дня рождения дома, выкупа невесты и так далее. Баллон легко переносить, его вес всего 3 кг. Количество шаров, которые можно надуть из баллона (один из вариантов) : Фольгированные шары: 18\"(45 см) - 10 шт.; Фигуры большие- от 1 до 3 шт. (зависит от размера); Латексные шары: 10\"(25 см) - 20 шт.; 12\"(30 см) - 15 шт.; 14\" (35 см) - 10 шт.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 3000,
+            "height": 20,
+            "volume": 18.2,
+            "width": 20,
+            "length": 45.5,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 227482
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19606350
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19604939
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19604940
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 19604937
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 19604936
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%94%D0%A0__%D0%A8%D0%B0%D1%80%D1%8B.png",
+                "value": "День рождения Шары",
+                "unimportant": false,
+                "value_id": 27160,
+                "id": 19606345
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19604941
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "45Х19,5Х19,5СМ",
+                "unimportant": false,
+                "value_id": 52235,
+                "id": 19604938
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D1%88%D0%BE%D1%83%D0%B1%D0%BE%D0%BA%D1%81.png",
+                "value": "Шоубокс",
+                "unimportant": false,
+                "value_id": 64568,
+                "id": 19606351
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19606348
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19606342
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19606349
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19606347
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в портативном баллоне/Россия",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91293,
+                "rest": 7
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103049,
+                "rest": 6
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 16,
+                "id": 97171,
+                "rest": 24
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186607,
+                "rest": 9
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108927,
+                "rest": 7
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 102,
+                "id": 114805,
+                "rest": 143
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PR00//ALL//1000",
+            "currency_price": 2399,
+            "is_default": false,
+            "currency": "RUB",
+            "original_currency_price": 2399,
+            "position": 1
+        },
+        "popularity": 574,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19604942
+            },
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 19606346
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 3000,
+                    "height": 20,
+                    "volume": 18.2,
+                    "width": 20,
+                    "length": 45.5,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 227482
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 2399,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 2399,
+                    "position": 1
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 3,
+                    "height": 20,
+                    "volume": 18.2,
+                    "width": 20,
+                    "length": 45.5,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 227483
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 2399,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 2399,
+                    "position": 1
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "30000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "15.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390090352"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0340",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:17:52.522017",
+        "rest": 4,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62450/9e56e784-a242-443d-b6e9-1689c4dbe718.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/5f/c4/5fc48d6a834948f4c173f73ac26e43bd.jpg",
+                    "banner_catalog_small": "/media/cache/e6/5b/e65b7befd211616c5153bb4e4f3f75ce.jpg",
+                    "medium": "/media/cache/b5/6e/b56e590cce0253673cd760ec86cc2780.jpg",
+                    "cert_preview": "/media/cache/c1/3a/c13a264be75f1217862c6cdcb06d1fb9.jpg",
+                    "banner_catalog_large": "/media/cache/2a/36/2a36cfba347aa026bfacbe2a3a43d55a.jpg",
+                    "zoom_large": "/media/cache/e4/f1/e4f17b82b254b2dbb369168cc3197e10.jpg",
+                    "xsmall": "/media/cache/6e/a1/6ea1854822cd4b2d17eb5cddcd4382ac.jpg",
+                    "small": "/media/cache/0b/68/0b68d67d402ba0cc037e04e4151b3003.jpg",
+                    "zoom_medium": "/media/cache/38/45/3845170951f74d59f0d4199eac82d68a.jpg",
+                    "icon": "/media/cache/30/80/3080b9e08d9745bb191d76c4955a22d9.jpg"
+                },
+                "id": 75720,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 83704,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-ballone-15l-1301-0340",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий газообразный, технический 99,8%(ТУ 51-940-80). Инертный газ не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара. Шары имеют различные свойства по удерживанию гелия. Отпускается в баллоне. Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 30000,
+            "height": 0,
+            "volume": 15,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 227522
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20241536
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20239130
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20239131
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20239129
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20239128
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20239132
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 20241537
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20241534
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20241531
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20241535
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20241533
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в баллоне 15л",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 135053,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 134604,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 138083,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 136980,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 139543,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 187245,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 5100,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 5100,
+            "position": 0
+        },
+        "popularity": 11,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 20241532
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 30000,
+                    "height": 0,
+                    "volume": 15,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 227522
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 5100,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 5100,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "80000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "50.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390105742"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0362",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.586615",
+        "rest": 12,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62455/3d77779f-69a5-4912-b4b3-4d5ab95b4b39.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/df/6d/df6dd742f472941e8865338afae28bfc.jpg",
+                    "banner_catalog_small": "/media/cache/bd/a3/bda3fe921e239f2c60328a5f3ac5436c.jpg",
+                    "medium": "/media/cache/a2/da/a2da3eca14b5a12d8169bf45b1dbc3cb.jpg",
+                    "cert_preview": "/media/cache/1f/fd/1ffdbbc300e04c58e763e2bafb9e731f.jpg",
+                    "banner_catalog_large": "/media/cache/e8/a3/e8a3cad9d1eeb324f4ef22ca2a8c199c.jpg",
+                    "zoom_large": "/media/cache/8e/39/8e3935c8b1250a8fc11b8d0abba47577.jpg",
+                    "xsmall": "/media/cache/08/ac/08acb5d7c5ec8fae9a7fa767d3ca9e50.jpg",
+                    "small": "/media/cache/48/03/4803e2c28fa7158765a24e6e06048eab.jpg",
+                    "zoom_medium": "/media/cache/dc/3a/dc3a0d87c1d8d20ef7e69e4b535f20f7.jpg",
+                    "icon": "/media/cache/7d/87/7d873455693f2d8bf7f28b7a83ac04c1.jpg"
+                },
+                "id": 75716,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 83709,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-ballone-50l-200atm-1301-0362",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий газообразный, технический 99,8%(ТУ 51-940-80). Инертный газ не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара. Шары имеют различные свойства по удерживанию гелия. Отпускается в баллоне под залоговую стоимость баллона, равную стоимости баллона. Аренда баллона в течение 30 дней - бесплатна. Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 80000,
+            "height": 0,
+            "volume": 50,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 227529
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20241543
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20239136
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20239137
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20239135
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20239134
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20239138
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 20241544
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20241541
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20241538
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20241542
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20241540
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в баллоне 50л, 200атм",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 134606,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 7,
+                "id": 135055,
+                "rest": 11
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 187330,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 135353,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 138084,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 136981,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 24990,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 24990,
+            "position": 0
+        },
+        "popularity": 49,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 20241539
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 80000,
+                    "height": 0,
+                    "volume": 50,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 227529
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 24990,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 24990,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "23.0x23.0x150.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "65000.0 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "50.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "2905930059181"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0364",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:26:48.613851",
+        "rest": 6,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62456/dc98d7e9-4ecb-4f99-931c-ed92a45f642d.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/9b/20/9b204eb949f8dd74ba705f616c34523f.jpg",
+                    "banner_catalog_small": "/media/cache/64/67/6467234bd4acc8f0e602a7fb1f8ca488.jpg",
+                    "medium": "/media/cache/47/fa/47faf05ab2c2879398fb223195881f38.jpg",
+                    "cert_preview": "/media/cache/a9/51/a9519bef9d3aea49078cba289fb40825.jpg",
+                    "banner_catalog_large": "/media/cache/74/8f/748fee64c4c4cef3a681c258b9514f76.jpg",
+                    "zoom_large": "/media/cache/03/7f/037fa81ed32e14497b1b2d6937a5f634.jpg",
+                    "xsmall": "/media/cache/f3/b0/f3b02ccf2205beb9b224c9403a88819c.jpg",
+                    "small": "/media/cache/0a/ec/0aeca2871d2c1d8684f331a5fe1ce40c.jpg",
+                    "zoom_medium": "/media/cache/33/db/33dbba1b54b363ac15ad364e900ddf8a.jpg",
+                    "icon": "/media/cache/22/6e/226ecfbf9d7fb0bd5edc18bcc1ffdad7.jpg"
+                },
+                "id": 128338,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 83710,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "ballon-gelievyi-50l-200atm-1301-0364",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Газовый баллон,  коричневого цвета, высокого давления (рабочее давление 200 атмосфер). Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 65000,
+            "height": 150,
+            "volume": 50,
+            "width": 23,
+            "length": 23,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 227530
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19125252
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19120118
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19120119
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Металл",
+                "unimportant": true,
+                "value_id": 35155,
+                "id": 19120117
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "7311 00 9100",
+                "unimportant": true,
+                "value_id": 35159,
+                "id": 19120116
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19120120
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Не определен",
+                "unimportant": false,
+                "value_id": 28427,
+                "id": 19125249
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19125251
+            }
+        ],
+        "promotions": [],
+        "name": "Баллон гелиевый 50л, 200атм",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 2,
+                "id": 135056,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 137370,
+                "rest": 5
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 134607,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 228692,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 229012,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 229140,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 9000,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 9000,
+            "position": 0
+        },
+        "popularity": 4,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 19125250
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 65000,
+                    "height": 150,
+                    "volume": 50,
+                    "width": 23,
+                    "length": 23,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 227530
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 9000,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 9000,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "25.0x25.0x44.0 см",
+                    "25.0x25.0x44.0 см",
+                    "120.0x80.0x176.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "2450.0 Г",
+                    "2900.0 Г(брутто)",
+                    "174.0 кг(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "27.5 дм3",
+                    "27.5 дм3",
+                    "1689.6 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "1 шт",
+                    "60 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "8712364643541",
+                    "",
+                    ""
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0100",
+        "units_counts": [
+            [
+                "кор",
+                "1 шт"
+            ],
+            [
+                "поддон",
+                "60 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:27.392068",
+        "rest": 11,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62786/ce7e83fa-f275-4d80-9061-4cc87d18f4bf.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/86/c2/86c2c18fa3c8ab07a85f99b8d32506b7.jpg",
+                    "banner_catalog_small": "/media/cache/d7/3d/d73de4d1b0c82e2416701f27cfad8704.jpg",
+                    "medium": "/media/cache/21/00/2100283cb7a6f84eaef92cb28ef2d96a.jpg",
+                    "cert_preview": "/media/cache/36/09/36093895640515fc7ad699dcd724f6e6.jpg",
+                    "banner_catalog_large": "/media/cache/73/42/7342a86b4a8f547e3c4e30e3adfeb909.jpg",
+                    "zoom_large": "/media/cache/f5/b2/f5b289f8cc79e13595abfada71258d91.jpg",
+                    "xsmall": "/media/cache/27/ca/27ca29ce37ff0648d73ddf914cb11971.jpg",
+                    "small": "/media/cache/8e/8e/8e8e3000330ca597bc55466c93a84e17.jpg",
+                    "zoom_medium": "/media/cache/fb/a0/fba0ab4f16c4c52871688ab565163172.jpg",
+                    "icon": "/media/cache/b8/a9/b8a9926ab4a6d1edf03455152860d8f0.jpg"
+                },
+                "id": 138862,
+                "is_base": true
+            }
+        ],
+        "document_images": [
+            {
+                "image": "/media/documents/62786/35080bbd-75c7-4434-8f64-bcdb502d7673.jpg",
+                "filename": "35080bbd-75c7-4434-8f64-bcdb502d7673.jpg",
+                "id": 1,
+                "name": "Инструкция"
+            }
+        ],
+        "stickers": [],
+        "id": 84040,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-portativnom-ballone-1301-0100",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "ЕАЭС N RU Д-PT.РА07.В.27979/22",
+                "file_download": "/download/media/cert/217/",
+                "date_end": "10.10.2027",
+                "date_start": "11.10.2022",
+                "preview": "/media/cache/04/71/047124e3fd03fc4fe795af0efc1a6320.jpg",
+                "type": "Декларация таможенного союза",
+                "id": 217
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка",
+            "Поддон"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "ОДНОРАЗОВЫЙ ПОРТАТИВНЫЙ БАЛЛОН с удобным носиком для надувания шаров (шары в комплект не входят). Легкая, компактная упаковка - готовый Праздник в коробке. Гелий газообразный, технический 99,8%(ТУ 51-940-80). Емкость баллона в литрах - 8,4л, давление 45bar (44,41 атмосфер), объем гелия в баллоне 0,25 м3. Инертный, не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара, шары имеют различные свойства по удерживанию гелия. НАДУЙ ШАРЫ САМ !!!ДЛЯ ДОМАШНЕГО ПРИМЕНЕНИЯ ОДНОРАЗОВЫЙ БАЛЛОН НИЗКОГО ДАВЛЕНИЯ с удобным носиком для надувания шаров!Баллон содержит гелий инертный, нетоксичный и негорючий газ без запаха и цвета.В комплекте есть инструкция на русском языке. Количество шаров, которые можно надуть из баллона- Фольгированные шары: 18\"\" (45 см) - 8 шт, либо Фигуры большие- от 1 до 3 шт (зависит от размера), либо Латексные шары: 9\"\"(23 см) - 30 шт или 12\"\"(30 см) - 15 шт  или 14\"\" (35 см) - 9 шт Шары в комплект не входят.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 2450,
+            "height": 44,
+            "volume": 27.5,
+            "width": 25,
+            "length": 25,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 228299
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19512936
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 19501494
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 19501495
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 19501492
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 19501491
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%9A%D0%BB%D0%BE%D1%83%D0%BD.png",
+                "value": "Клоун",
+                "unimportant": false,
+                "value_id": 27183,
+                "id": 19512931
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 19501496
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "20Х20Х41СМ ВЕС-3,1КГ",
+                "unimportant": false,
+                "value_id": 62960,
+                "id": 19501493
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D1%88%D0%BE%D1%83%D0%B1%D0%BE%D0%BA%D1%81.png",
+                "value": "Шоубокс",
+                "unimportant": false,
+                "value_id": 64568,
+                "id": 19512937
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19512934
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19512928
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19512935
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 19512933
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в портативном баллоне",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 10,
+                "id": 97158,
+                "rest": 7
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91280,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103036,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108914,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1122,
+                "id": 114792,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186555,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 3049,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 3049,
+            "position": 0
+        },
+        "popularity": 58,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/portugal_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Португалия",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/Worington_Cylinder_02.png",
+                "value": "Worthington Cylinder",
+                "unimportant": false,
+                "value_id": 43163,
+                "id": 19501497
+            },
+            {
+                "name": "Страна",
+                "image": "/media/property_value/portugal_glossy_wave_icon_60.png",
+                "value": "Португалия",
+                "unimportant": false,
+                "value_id": 27884,
+                "id": 19512932
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 2450,
+                    "height": 44,
+                    "volume": 27.5,
+                    "width": 25,
+                    "length": 25,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 228299
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3049,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3049,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2900,
+                    "height": 44,
+                    "volume": 27.5,
+                    "width": 25,
+                    "length": 25,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 228300
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3049,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3049,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "поддон",
+                    "weight": 174,
+                    "height": 176,
+                    "volume": 1689.6,
+                    "width": 80,
+                    "length": 120,
+                    "common": {
+                        "name": "поддон",
+                        "full_name": "Поддон"
+                    },
+                    "full_name": "Поддон",
+                    "id": 228301
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 182940,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 182940,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "5.5 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "40.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "2905930081861"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0550",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:28.064314",
+        "rest": 36,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/95707/e7ba9c0e-eaaa-461e-bfae-fea0af1dc7a6.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/8d/1c/8d1c96738d8167fa62c1d4c7248a2ec6.jpg",
+                    "banner_catalog_small": "/media/cache/fc/d5/fcd5b59562428e1ed8b5559c8af14cae.jpg",
+                    "medium": "/media/cache/51/06/510615886e90a4b06a84690d993202a8.jpg",
+                    "cert_preview": "/media/cache/8d/13/8d13081616d8bfc2d251a5ed92d518c8.jpg",
+                    "banner_catalog_large": "/media/cache/9b/74/9b74516ee199c4a3ceca6d3acfe25666.jpg",
+                    "zoom_large": "/media/cache/d6/db/d6dbdd03526beb84a4212ba4b54cd6ad.jpg",
+                    "xsmall": "/media/cache/e6/05/e605520150565a8370bbb641a9b08d5f.jpg",
+                    "small": "/media/cache/db/0a/db0a22a4e5fb3b7869faa96c0512eb45.jpg",
+                    "zoom_medium": "/media/cache/63/46/6346ae85037991ee908f0a11b43991ef.jpg",
+                    "icon": "/media/cache/c7/c2/c7c23478e19df53d77c9217ec4a2b016.jpg"
+                },
+                "id": 101204,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 117840,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-ballone-40l-aktsiia-1301-0550",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий газообразный, технический. Инертный газ не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара. Шары имеют различные свойства по удерживанию гелия. Отпускается при покупке 1301-0445 Баллон гелиевый 40л NEW. В баллоне 40 литров, находится 5,7м3 гелия, под высоким давлением. Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 5.5,
+            "height": 0,
+            "volume": 40,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 294210
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20241560
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20239148
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20239149
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20239147
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20239146
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20239150
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20241558
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20241554
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20241559
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20241557
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в баллоне 40л NEW",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 176359,
+                "rest": 32
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 176450,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 176452,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 176445,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 176451,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 191109,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 14535,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 14535,
+            "position": 0
+        },
+        "popularity": 970,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 20241556
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 5.5,
+                    "height": 0,
+                    "volume": 40,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 294210
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 14535,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 14535,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 "
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "5.5 Г"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "40.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "2905920072114"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1301-0008",
+        "units_counts": [],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:57:26.785393",
+        "rest": 450,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Продажа баллонов с гелием для шариков в Москве. Покупайте баллоны с гелием для шариков с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_3_1//01",
+                "name": "Гелий, баллоны",
+                "image": "/media/cache/0e/12/0e12a65f60e3ce78ad094e33f707ab0d.jpg",
+                "seo_header": "",
+                "slug": "gelii-ballony",
+                "meta_keywords": "вентиль, тележка.",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8695,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/62847/8b2764f1-e2d8-4cdd-99cb-70de7ac5499d.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/3e/4b/3e4b928f368f24f1faa8fb30c5a9d3eb.jpg",
+                    "banner_catalog_small": "/media/cache/d4/e2/d4e257c6924f3e4f691c4b9bdf907861.jpg",
+                    "medium": "/media/cache/ee/47/ee4708cd45eb8a7f0295307248d62fe1.jpg",
+                    "cert_preview": "/media/cache/27/03/2703e9e90a2641e6e628b8e0bbc53ef8.jpg",
+                    "banner_catalog_large": "/media/cache/47/15/4715c726c7041e67c5e429a7ec4c02eb.jpg",
+                    "zoom_large": "/media/cache/b1/c5/b1c5b1074a47077d71d97a7cf455006d.jpg",
+                    "xsmall": "/media/cache/1a/85/1a85c1b6f541a4b2f30719ae359fb25a.jpg",
+                    "small": "/media/cache/88/3b/883baaa48f85da4d29e1a90e5187b82e.jpg",
+                    "zoom_medium": "/media/cache/e6/31/e631a76e6337ea3dcc380f93b2b1f94c.jpg",
+                    "icon": "/media/cache/2f/a7/2fa76ee5fd26e7968e5c35d3ce6b8dcf.jpg"
+                },
+                "id": 75718,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [],
+        "id": 84101,
+        "extra_info": "",
+        "category": 8695,
+        "slug": "gelii-v-ballone-40l-1301-0008",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "RU C-RU.АЯ54.В.00026/19",
+                "file_download": "/download/media/cert/84/",
+                "date_end": "18.12.2024",
+                "date_start": "19.12.2019",
+                "preview": "/media/cache/1d/a1/1da11eb935eaf8737aa322355a2c48f0.jpg",
+                "type": "Сертификат таможенного союза",
+                "id": 84
+            },
+            {
+                "name": "201711-403",
+                "file_download": "/download/media/cert/93/",
+                "date_end": "02.11.2027",
+                "date_start": "03.11.2017",
+                "preview": "/media/cache/cc/4b/cc4bc81649431f36dc4040b670c48153.jpg",
+                "type": "Отказное письмо",
+                "id": 93
+            },
+            {
+                "name": "INSTR_HELIUM_OPISANIE_08.2022",
+                "file_download": "/download/media/cert/186/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/1a/99/1a997a1aefdbf7854aed3590f4af846c.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 186
+            },
+            {
+                "name": "INSTR_HELIUM_AVARIYNAYA_KARTA",
+                "file_download": "/download/media/cert/187/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/8c/8a/8c8a22725feeb5d0f9e97b11b86eed48.jpg",
+                "type": "Инструкция по эксплуатации",
+                "id": 187
+            },
+            {
+                "name": "РОСС RU.SQS.АБ04.H00134/02160",
+                "file_download": "/download/media/cert/188/",
+                "date_end": "26.07.2024",
+                "date_start": "27.07.2021",
+                "preview": "/media/cache/50/8f/508f8c995c20a1f0bf00c329156ac027.jpg",
+                "type": "Сертификат соответствия",
+                "id": 188
+            },
+            {
+                "name": "ЭЗ 88.01/175 NII KM",
+                "file_download": "/download/media/cert/189/",
+                "date_end": "31.12.9999",
+                "date_start": "12.08.2022",
+                "preview": "/media/cache/cc/30/cc3095986dd0a4af0da5be0be91d8627.jpg",
+                "type": "Экспертное заключение",
+                "id": 189
+            }
+        ],
+        "measure_units_names": [
+            "Штука"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Гелий газообразный, технический. Инертный газ не токсичен, не горюч, не взрывоопасен, испаряется через оболочку шара. Шары имеют различные свойства по удерживанию гелия. Отпускается в баллоне под залоговую стоимость баллона, равную стоимости баллона. Отпускается в баллоне. В баллоне 40 литров, находится 5,7м3 гелия, под высоким давлением Внимание! Закупка гелия учитывается при расчёте накопительной оптовой скидки. Приобретая гелий в нашей компании вы увеличиваете свою постоянную скидку на все товары!",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 5.5,
+            "height": 0,
+            "volume": 40,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 228409
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20241522
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий и оборудование",
+                "unimportant": true,
+                "value_id": 28370,
+                "id": 20239118
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий, баллоны",
+                "unimportant": true,
+                "value_id": 28060,
+                "id": 20239119
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Гелий",
+                "unimportant": true,
+                "value_id": 35157,
+                "id": 20239117
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "2804 29 1000",
+                "unimportant": true,
+                "value_id": 35158,
+                "id": 20239116
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "3Гелий оборудование аксессуары",
+                "unimportant": true,
+                "value_id": 28415,
+                "id": 20239120
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 20241523
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20241520
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 20241516
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20241521
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9_%D0%91%D0%B0%D0%BB%D0%BB%D0%BE%D0%BD%D1%8B.png",
+                "value": "Гелий, баллоны",
+                "unimportant": false,
+                "value_id": 27804,
+                "id": 20241519
+            }
+        ],
+        "promotions": [],
+        "name": "Гелий в баллоне 40л",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 2,
+                "id": 114761,
+                "rest": 68
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 184421,
+                "rest": 38
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 103005,
+                "rest": 17
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": "2024-03-20T00:00:00",
+                "new_arrival": 3,
+                "id": 97127,
+                "rest": 284
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 108883,
+                "rest": 28
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 91249,
+                "rest": 15
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 14535,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 14535,
+            "position": 0
+        },
+        "popularity": 3209,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Россия",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/russia_glossy_wave_icon_60.png",
+                "value": "Россия",
+                "unimportant": false,
+                "value_id": 27887,
+                "id": 20241518
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 5.5,
+                    "height": 0,
+                    "volume": 40,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 228409
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 14535,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 14535,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "54.3x48.3x46.7 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "200.0 Г",
+                    "2000.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "30.6 дм3",
+                    "122.48 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390106831",
+                    "4690390106824"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0940",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:40.056673",
+        "rest": 228,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_3_7//01",
+                "name": "Смешарики",
+                "image": "/media/cache/96/4f/964fb5efee0cc19912061f131ef0bf3e.jpg",
+                "seo_header": "",
+                "slug": "smeshariki",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8558,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69535/933bdc42-18ee-4e87-94de-b58df69fce8b.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/a9/b2/a9b2955a11e6393a8e7a1396b1d57e55.jpg",
+                    "banner_catalog_small": "/media/cache/a9/c9/a9c9500cd5cec090e31564fb3a421f95.jpg",
+                    "medium": "/media/cache/64/12/641203dd5004d0599c3c26da4d9e25b6.jpg",
+                    "cert_preview": "/media/cache/c4/cb/c4cb3affb7b6391f05946f5944a7fea0.jpg",
+                    "banner_catalog_large": "/media/cache/36/57/3657a494c9a92873fdf085d528c7c03a.jpg",
+                    "zoom_large": "/media/cache/38/d7/38d7866227d286401f216c0190564173.jpg",
+                    "xsmall": "/media/cache/0b/2b/0b2b089ce532ab91a79f70b5fb5a5e89.jpg",
+                    "small": "/media/cache/8e/ef/8eefa79fc9049d2ce3f7aa54ca654f5d.jpg",
+                    "zoom_medium": "/media/cache/72/a8/72a8ea8946b4e3e7fffe2687128dcd25.jpg",
+                    "icon": "/media/cache/ca/71/ca71a7d4db137c7aa1b292eae40b2df2.jpg"
+                },
+                "id": 50405,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            12,
+            19
+        ],
+        "id": 90789,
+        "extra_info": "",
+        "category": 8558,
+        "slug": "piniata-smeshariki-krosh-s-lentami-1507-0940",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "3D Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 200,
+            "height": 0,
+            "volume": 30.6,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242811
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19552452
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19551036
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19551037
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19551034
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19551033
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A1%D0%BC%D0%B5%D1%88%D0%B0%D1%80%D0%B8%D0%BA%D0%B8.png",
+                "value": "Смешарики",
+                "unimportant": false,
+                "value_id": 27242,
+                "id": 19552442
+            },
+            {
+                "name": "Лицензия",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Лицензия",
+                "unimportant": true,
+                "value_id": 27751,
+                "id": 19552448
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19551038
+            },
+            {
+                "name": "Персонаж",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Смешарики",
+                "unimportant": false,
+                "value_id": 27108,
+                "id": 19552445
+            },
+            {
+                "name": "Правообладатель",
+                "image": "/media/property_value/%D0%9C%D0%B0%D1%80%D0%BC%D0%B5%D0%BB%D0%B0%D0%B4.png",
+                "value": "Мармелад медиа",
+                "unimportant": false,
+                "value_id": 27123,
+                "id": 19552443
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 50 СМ Х Ш 32 СМ Х Г 20СМ",
+                "unimportant": false,
+                "value_id": 41083,
+                "id": 19551035
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19552438
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19552453
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19552449
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19552439
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19552450
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19552437
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19552447
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Ассорти",
+                "unimportant": true,
+                "value_id": 29207,
+                "id": 19552436
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Смешарики Крош с лентами",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 99450,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188145,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105328,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93572,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111206,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117084,
+                "rest": 222
+            }
+        ],
+        "multiplicity": 4,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 967,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 967,
+            "position": 0
+        },
+        "popularity": 30,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19551039
+            },
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19552446
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 200,
+                    "height": 0,
+                    "volume": 30.6,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242811
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 967,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 967,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2000,
+                    "height": 46.7,
+                    "volume": 122.48,
+                    "width": 48.3,
+                    "length": 54.3,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242812
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3868,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3868,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "34.6x51.2x8.4 см",
+                    "36.4x53.4x51.2 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "163.0 Г",
+                    "1854.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "16.587 дм3",
+                    "99.521 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "6 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390190021",
+                    "4690390190014"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1241",
+        "units_counts": [
+            [
+                "кор",
+                "6 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.206490",
+        "rest": 149,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа оформления на 1 годик девочке в Москве. Покупайте оформление на 1 годик девочке с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_2_2//01",
+                "name": "1-й День Рождения Девочка",
+                "image": "/media/cache/cc/a5/cca59b6ebf754965811159bf08a3349a.jpg",
+                "seo_header": "",
+                "slug": "1-i-den-rozhdeniia-devochka",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8564,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/76318/2884d530-0ba6-4c9e-8fdf-0a30cc6225f5.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/e4/0a/e40ab749f64225653836a5f8615b3f9b.jpg",
+                    "banner_catalog_small": "/media/cache/f6/9a/f69ae4f6e689fb66c502c4f1710c360b.jpg",
+                    "medium": "/media/cache/7e/22/7e22c17f55d9a401b8dd487beabcbf89.jpg",
+                    "cert_preview": "/media/cache/c8/8f/c88f923fb9bb8372b2837e86e9b57ac6.jpg",
+                    "banner_catalog_large": "/media/cache/0b/dc/0bdc846ce716e187b4a8aa176e830c8e.jpg",
+                    "zoom_large": "/media/cache/c0/f1/c0f100fa686071879df7c2697179cf1d.jpg",
+                    "xsmall": "/media/cache/8b/3e/8b3e97b4147bebed8b7b557040625d04.jpg",
+                    "small": "/media/cache/b6/55/b655a32552931f28da44f3ee89ef27d0.jpg",
+                    "zoom_medium": "/media/cache/87/c3/87c3bd1ea70575250729a652ad2fe873.jpg",
+                    "icon": "/media/cache/81/e1/81e1378a0bf607faf39f427de217b3ca.jpg"
+                },
+                "id": 49682,
+                "is_base": true
+            },
+            {
+                "image": "/media/products/76318/69ed2cc4-fc01-47fb-b865-ceb822b06100.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/f2/ba/f2ba5f1ce745eaf6adc24586b814dcc4.jpg",
+                    "banner_catalog_small": "/media/cache/bc/6b/bc6b3d7a237e8dde439cb9ada9037572.jpg",
+                    "medium": "/media/cache/e7/bb/e7bb04f409c78153586b4f0bc8a78efc.jpg",
+                    "cert_preview": "/media/cache/e3/c3/e3c3a32658caba6d02e45aa8437a3662.jpg",
+                    "banner_catalog_large": "/media/cache/47/8f/478f0b97198e4e3d233222311a052fc5.jpg",
+                    "zoom_large": "/media/cache/12/26/1226576aa176838a9bba87211a5a9e17.jpg",
+                    "xsmall": "/media/cache/08/71/08715fa7b4091eb032168d164d929a1a.jpg",
+                    "small": "/media/cache/d8/bc/d8bc049c920863f310a422befb8bce05.jpg",
+                    "zoom_medium": "/media/cache/4a/fc/4afcfe6c38e5d444700bdca0982b3a17.jpg",
+                    "icon": "/media/cache/d8/33/d83393abc83798a3b7787698e3e42c82.jpg"
+                },
+                "id": 49748,
+                "is_base": false
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19,
+            41
+        ],
+        "id": 97572,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "pink-1st-birthday-pull-string-pinata-1507-1241",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: 50 х 34 х 8 СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 163,
+            "height": 8.4,
+            "volume": 16.587,
+            "width": 51.2,
+            "length": 34.6,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 253255
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19514653
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19502730
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19502731
+            },
+            {
+                "name": "Дизайн товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Цифры",
+                "unimportant": true,
+                "value_id": 28764,
+                "id": 19514642
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19502727
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19502726
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/1rs.png",
+                "value": "1-й День Рождения",
+                "unimportant": false,
+                "value_id": 27127,
+                "id": 19514647
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19502732
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "50 Х 24 Х 8 СМ",
+                "unimportant": false,
+                "value_id": 46089,
+                "id": 19502728
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821__%D0%94%D0%B5%D0%BD%D1%8C_%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.png",
+                "value": "День рождения",
+                "unimportant": false,
+                "value_id": 28435,
+                "id": 19514643
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19514654
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19514650
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19514644
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19514651
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19514641
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19514649
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Розовый/Pink",
+                "unimportant": true,
+                "value_id": 29224,
+                "id": 19514640
+            }
+        ],
+        "promotions": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "meta_keywords": "",
+                "distribution_markets": [
+                    26,
+                    27
+                ],
+                "title": "Мега (Опт) - 70%",
+                "notification": "",
+                "date_from": "2021-12-14T00:00:00",
+                "rendered_body": "<p>МЕГА распродажа товаров для праздника. Скидка до 70%!!! Индивидуальные скидки сохраняются!</p>\n<p><img alt=\"https://new.sharik.ru/media/medialibrary/2021/12/14122021.jpg\" src=\"https://new.sharik.ru/media/medialibrary/2021/12/14122021.jpg\" title=\"https://new.sharik.ru/media/medialibrary/2021/12/14122021.jpg\" /></p>",
+                "modified": "2021-12-14T05:09:34",
+                "slug": "266",
+                "seo_text": "",
+                "extra_info": "",
+                "seo_caption": "",
+                "image": "/media/cache/b8/ca/b8ca334cddc691623dab1855254e5bdd.jpg",
+                "date_to": "9999-12-31T00:00:00",
+                "show_on_main": true,
+                "summary": "МЕГА распродажа товаров для праздника. Скидка до 70%!!! Индивидуальные скидки сохраняются!",
+                "seo_header": "",
+                "id": 157,
+                "published": true
+            }
+        ],
+        "name": "Пиньята 1-й ДР Девочка с лентами",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 118473,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186828,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120704,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 300,
+                "id": 119025,
+                "rest": 140
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 119600,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120152,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 569,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 569,
+            "position": 0
+        },
+        "popularity": 23,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "JHL821210",
+                "unimportant": false,
+                "value_id": 46091,
+                "id": 19502729
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19502733
+            },
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19514648
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 163,
+                    "height": 8.4,
+                    "volume": 16.587,
+                    "width": 51.2,
+                    "length": 34.6,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 253255
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 569,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 569,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1854,
+                    "height": 51.2,
+                    "volume": 99.521,
+                    "width": 53.4,
+                    "length": 36.4,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 253256
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3414,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3414,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "34.4x52.1x8.9 см",
+                    "52.0x36.0x52.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "182.0 Г",
+                    "2500.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "16.224 дм3",
+                    "97.344 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "6 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390190007",
+                    "4690390189995"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1240",
+        "units_counts": [
+            [
+                "кор",
+                "6 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.174448",
+        "rest": 69,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа оформления на 1 годик мальчику в Москве. Покупайте оформление на 1 годик мальчику с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_2_3//01",
+                "name": "1-й День Рождения Мальчик",
+                "image": "/media/cache/9a/f3/9af3c8803b7fcb9bc8e4f1ed07d543ec.jpg",
+                "seo_header": "",
+                "slug": "1-i-den-rozhdeniia-malchik",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8563,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/76317/8db742cc-7c66-4a52-bd64-250ecc0ed6c8.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/fd/2f/fd2f12717768ad4d5c1aa4e74fbc720f.jpg",
+                    "banner_catalog_small": "/media/cache/1b/16/1b161fc23b72dab3e39e9bd2ffd97f3f.jpg",
+                    "medium": "/media/cache/1f/0b/1f0b89cd4359bd9cd6f05a9d9cf36c73.jpg",
+                    "cert_preview": "/media/cache/99/be/99be748c4a4da5886b23c08e5c8fde61.jpg",
+                    "banner_catalog_large": "/media/cache/c6/92/c6928d49532448073dbda1b030b05717.jpg",
+                    "zoom_large": "/media/cache/a7/44/a7446c6e9a0d5663a2c5a5f9ece6e059.jpg",
+                    "xsmall": "/media/cache/5f/bb/5fbbb554b75b147fe54b782b060bb4ba.jpg",
+                    "small": "/media/cache/b2/24/b2242206b959c552a8a5ba3075a7ed97.jpg",
+                    "zoom_medium": "/media/cache/50/ed/50edcb6cb7481128396cf1af76ca824e.jpg",
+                    "icon": "/media/cache/60/6c/606cde6e5168fb4e40a8822e70cc12eb.jpg"
+                },
+                "id": 50879,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19,
+            41
+        ],
+        "id": 97571,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "blue-1st-birthday-pull-string-pinata-1507-1240",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: 50 х 34 х 8 СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 182,
+            "height": 8.9,
+            "volume": 16.224,
+            "width": 52.1,
+            "length": 34.4,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 253253
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19514638
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19502721
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19502722
+            },
+            {
+                "name": "Дизайн товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Цифры",
+                "unimportant": true,
+                "value_id": 28764,
+                "id": 19514627
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19502718
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19502717
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/1rs.png",
+                "value": "1-й День Рождения",
+                "unimportant": false,
+                "value_id": 27127,
+                "id": 19514632
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19502723
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "50 Х 24 Х 8 СМ",
+                "unimportant": false,
+                "value_id": 46089,
+                "id": 19502719
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821__%D0%94%D0%B5%D0%BD%D1%8C_%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.png",
+                "value": "День рождения",
+                "unimportant": false,
+                "value_id": 28435,
+                "id": 19514628
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19514639
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19514635
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19514629
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19514636
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19514626
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19514634
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Голубой/Blue",
+                "unimportant": true,
+                "value_id": 29211,
+                "id": 19514625
+            }
+        ],
+        "promotions": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "meta_keywords": "",
+                "distribution_markets": [
+                    26,
+                    27
+                ],
+                "title": "Мега (Опт) - 70%",
+                "notification": "",
+                "date_from": "2021-12-14T00:00:00",
+                "rendered_body": "<p>МЕГА распродажа товаров для праздника. Скидка до 70%!!! Индивидуальные скидки сохраняются!</p>\n<p><img alt=\"https://new.sharik.ru/media/medialibrary/2021/12/14122021.jpg\" src=\"https://new.sharik.ru/media/medialibrary/2021/12/14122021.jpg\" title=\"https://new.sharik.ru/media/medialibrary/2021/12/14122021.jpg\" /></p>",
+                "modified": "2021-12-14T05:09:34",
+                "slug": "266",
+                "seo_text": "",
+                "extra_info": "",
+                "seo_caption": "",
+                "image": "/media/cache/b8/ca/b8ca334cddc691623dab1855254e5bdd.jpg",
+                "date_to": "9999-12-31T00:00:00",
+                "show_on_main": true,
+                "summary": "МЕГА распродажа товаров для праздника. Скидка до 70%!!! Индивидуальные скидки сохраняются!",
+                "seo_header": "",
+                "id": 157,
+                "published": true
+            }
+        ],
+        "name": "Пиньята 1-й ДР Мальчик с лентами",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 118472,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188058,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 300,
+                "id": 119024,
+                "rest": 63
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120703,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 119599,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120151,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 569,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 569,
+            "position": 0
+        },
+        "popularity": 29,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "JHL821204",
+                "unimportant": false,
+                "value_id": 46090,
+                "id": 19502720
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19502724
+            },
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19514633
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 182,
+                    "height": 8.9,
+                    "volume": 16.224,
+                    "width": 52.1,
+                    "length": 34.4,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 253253
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 569,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 569,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2500,
+                    "height": 52,
+                    "volume": 97.344,
+                    "width": 36,
+                    "length": 52,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 253254
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3414,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3414,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "58.0x31.0x60.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "400.0 Г",
+                    "1600.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "26.97 дм3",
+                    "107.88 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390190069",
+                    "4690390190052"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1242",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.238818",
+        "rest": 228,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/76319/b571828e-f4b5-40af-bb6f-30cc759943ec.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/b6/54/b6547d40472c22571fa37ed35e86dab5.jpg",
+                    "banner_catalog_small": "/media/cache/7e/f2/7ef2a8e8d95f03c792d4fd5b8a86b9e7.jpg",
+                    "medium": "/media/cache/9b/17/9b179c5c0c2ac33cc13e4ca2d0a5af85.jpg",
+                    "cert_preview": "/media/cache/d3/0d/d30d54a3f6c2198eeed2b5d55c3425fa.jpg",
+                    "banner_catalog_large": "/media/cache/fa/c6/fac634afa8e7e206dd295f6a5a641d02.jpg",
+                    "zoom_large": "/media/cache/7b/73/7b7342d8f72adefe50899d964982fc8f.jpg",
+                    "xsmall": "/media/cache/4a/cc/4acc065ed99c56471df4de7112a095fe.jpg",
+                    "small": "/media/cache/4f/50/4f505ee821c8e070ca12418f07096857.jpg",
+                    "zoom_medium": "/media/cache/4d/87/4d870bf4f6dd57559c46053ca9c0fb71.jpg",
+                    "icon": "/media/cache/4e/ab/4eab2c86a1022e786019675f5a76a7c3.jpg"
+                },
+                "id": 52629,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 97573,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "unicorn-pull-pinata-1507-1242",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: 48 х 19 х 55 СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 400,
+            "height": 0,
+            "volume": 26.97,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 253257
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19489308
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326446
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326447
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326443
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326442
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%95%D0%B4%D0%B8%D0%BD%D0%BE%D1%80%D0%BE%D0%B3.png",
+                "value": "Единорог",
+                "unimportant": false,
+                "value_id": 49028,
+                "id": 19489302
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326448
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "48 Х 19 Х 55 СМ",
+                "unimportant": false,
+                "value_id": 46092,
+                "id": 19326444
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19489298
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19489309
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19489305
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489299
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19489306
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19489297
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19489304
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Единорог с лентами",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": "2024-03-19T00:00:00",
+                "new_arrival": 2,
+                "id": 118474,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186833,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 400,
+                "id": 119026,
+                "rest": 216
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 119601,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120705,
+                "rest": 5
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120153,
+                "rest": 2
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 842,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 842,
+            "position": 0
+        },
+        "popularity": 182,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489303
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "JHL821074",
+                "unimportant": false,
+                "value_id": 46093,
+                "id": 19326445
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326449
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 400,
+                    "height": 0,
+                    "volume": 26.97,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 253257
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 842,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 842,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1600,
+                    "height": 60,
+                    "volume": 107.88,
+                    "width": 31,
+                    "length": 58,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 253258
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3368,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3368,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "62.0x32.0x57.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "128.0 Г",
+                    "1060.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "28.272 дм3",
+                    "113.088 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390079043",
+                    "4690390079036"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0797",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:39.492643",
+        "rest": 125,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69604/8a70a78e-3582-4437-97ab-b06c180ad4ed.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/55/56/55569c61db6c16dd012f666c26734914.jpg",
+                    "banner_catalog_small": "/media/cache/03/e9/03e94afb19fabe2f241926a1f4ec2471.jpg",
+                    "medium": "/media/cache/4d/27/4d27fcc224aae179906af928e8026468.jpg",
+                    "cert_preview": "/media/cache/3f/ac/3fac99fed92c00fadee24b28c2551f72.jpg",
+                    "banner_catalog_large": "/media/cache/e3/1d/e31d68afee956d0f19d9b7dcf1c22caa.jpg",
+                    "zoom_large": "/media/cache/d9/49/d9491784d34ce47d74b8382ed09bef2d.jpg",
+                    "xsmall": "/media/cache/2a/9e/2a9ef7c425d84d068652cec0575b6d95.jpg",
+                    "small": "/media/cache/6d/69/6d69ad13960e26756bfeb08658937653.jpg",
+                    "zoom_medium": "/media/cache/54/53/5453c08b67282756dd8bdc5ce0234925.jpg",
+                    "icon": "/media/cache/c5/0f/c50ffda2469d8460f7fee582f5a25c94.jpg"
+                },
+                "id": 52366,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 90858,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "burro-pull-pinata-1507-0797",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "3D Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. Пиньяту можно разбить палкой или потянуть за пучок ленточек. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: В 56СМ х Ш 36СМ х Г 15СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 128,
+            "height": 0,
+            "volume": 28.272,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242994
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19724021
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19721479
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19721480
+            },
+            {
+                "name": "Дизайн товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Ананасовый рай",
+                "unimportant": true,
+                "value_id": 28627,
+                "id": 19724010
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19721476
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19721475
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A4%D0%B8%D0%B5%D1%81%D1%82%D0%B0.png",
+                "value": "Фиеста",
+                "unimportant": false,
+                "value_id": 27262,
+                "id": 19724015
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19721481
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 56СМ Х Ш 36СМ Х Г 15СМ",
+                "unimportant": false,
+                "value_id": 41150,
+                "id": 19721477
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19724011
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19724022
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19724018
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19724012
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19724019
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19724009
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19724017
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Осел с лентами",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 3,
+                "id": 99379,
+                "rest": 7
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188152,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105257,
+                "rest": 6
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93501,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 680,
+                "id": 117013,
+                "rest": 104
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111135,
+                "rest": 3
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 778,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 778,
+            "position": 0
+        },
+        "popularity": 314,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            },
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19724016
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19721482
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "6522",
+                "unimportant": false,
+                "value_id": 41151,
+                "id": 19721478
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 128,
+                    "height": 0,
+                    "volume": 28.272,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242994
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 778,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 778,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1060,
+                    "height": 57,
+                    "volume": 113.088,
+                    "width": 32,
+                    "length": 62,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242995
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3112,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3112,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "58.0x43.0x54.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "128.0 Г",
+                    "3000.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "33.67 дм3",
+                    "134.68 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390209372",
+                    "4690390209389"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1274",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.427432",
+        "rest": 429,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа украшений Сладкий Праздник в Москве. Покупайте украшения Сладкий Праздник с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_6_1//01",
+                "name": "Сладкий Праздник",
+                "image": "/media/cache/ff/1e/ff1e1221705edc2039c54696fe9a7d65.jpg",
+                "seo_header": "",
+                "slug": "sladkii-prazdnik",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8619,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/76321/6cddaf32-1613-4b42-bac3-bfd53bc679ee.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/60/74/607490a93ac68615cdc715d60b090de0.jpg",
+                    "banner_catalog_small": "/media/cache/5c/d0/5cd091791ffd2961d8355ec11e32bcf2.jpg",
+                    "medium": "/media/cache/41/d7/41d7783e2ce273d77933ae065ff4613b.jpg",
+                    "cert_preview": "/media/cache/bc/db/bcdbe657a262772f475c6e09f94089f4.jpg",
+                    "banner_catalog_large": "/media/cache/df/b4/dfb40fffd6acec9c1431b42a35cf769f.jpg",
+                    "zoom_large": "/media/cache/b6/82/b6828b8f1ad7a66481e0351dc665977a.jpg",
+                    "xsmall": "/media/cache/00/0a/000a4084912ae09d3e1da33226559623.jpg",
+                    "small": "/media/cache/6b/b8/6bb8fa21a26a43319639a345a3549462.jpg",
+                    "zoom_medium": "/media/cache/5e/ba/5eba2080908e124e1b69140748e4c0a0.jpg",
+                    "icon": "/media/cache/f7/c7/f7c7ab2ba38ba5e2ca701194a5558381.jpg"
+                },
+                "id": 51906,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19,
+            41
+        ],
+        "id": 97575,
+        "extra_info": "",
+        "category": 8619,
+        "slug": "pinata-happy-b-day-sweet-cake-1507-1274",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. Далее наполненную пиньяту нужно разбить битой или палкой. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: 48 х 19 х 55 СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 128,
+            "height": 0,
+            "volume": 33.67,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 253261
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19489359
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326480
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326481
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326478
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326477
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A1%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Сладкий Праздник",
+                "unimportant": false,
+                "value_id": 27241,
+                "id": 19489353
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326482
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "48 Х 19 Х 55 СМ",
+                "unimportant": false,
+                "value_id": 46092,
+                "id": 19326479
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821__%D0%94%D0%B5%D0%BD%D1%8C_%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.png",
+                "value": "День рождения",
+                "unimportant": false,
+                "value_id": 28435,
+                "id": 19489349
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19489360
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19489356
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489350
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19489357
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19489348
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19489355
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята С ДР Сладкий Праздник",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120155,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 119603,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 190102,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 400,
+                "id": 119028,
+                "rest": 419
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 2,
+                "id": 118476,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120707,
+                "rest": 1
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 875,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 875,
+            "position": 0
+        },
+        "popularity": 212,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489354
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326483
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 128,
+                    "height": 0,
+                    "volume": 33.67,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 253261
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 875,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 875,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 3000,
+                    "height": 54,
+                    "volume": 134.68,
+                    "width": 43,
+                    "length": 58,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 253262
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3500,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3500,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "48.9x49.9x5.5 см",
+                    "48.5x48.9x17.1 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "305.0 Г",
+                    "1964.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "8.111 дм3",
+                    "40.555 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "5 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390104349",
+                    "4690390104332"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0922",
+        "units_counts": [
+            [
+                "кор",
+                "5 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:39.992148",
+        "rest": 80,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа оформления на праздник Черепашки-Ниндзя в Москве. Покупайте оформление на праздник Черепашки-Ниндзя с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_5_1//01",
+                "name": "Черепашки-Ниндзя",
+                "image": "/media/cache/65/e1/65e193ee38e95ecac080e6164ec7ba2c.jpg",
+                "seo_header": "",
+                "slug": "cherepashki-nindzia",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8594,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69524/9635861e-5925-428a-8762-ddf9d8416ba5.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/cc/a7/cca72da12671db673f8fea96f71fe6b2.jpg",
+                    "banner_catalog_small": "/media/cache/75/10/7510da95bc21f7ea1f67b5327b6efb8e.jpg",
+                    "medium": "/media/cache/47/3b/473bc3795d972907e54d150161c6e10b.jpg",
+                    "cert_preview": "/media/cache/89/74/897484ef67b9de7c3f8687864189c6ea.jpg",
+                    "banner_catalog_large": "/media/cache/c9/92/c99292a0ab83a2356e8158a9b9f0e622.jpg",
+                    "zoom_large": "/media/cache/be/d9/bed997855db6de9c0dfb72df435c4c60.jpg",
+                    "xsmall": "/media/cache/7e/47/7e478b8176c98d63d06b6f4b9b6c67b0.jpg",
+                    "small": "/media/cache/ab/2e/ab2e42b68d42d859cdf2b5e4d35fc52f.jpg",
+                    "zoom_medium": "/media/cache/4f/66/4f66a6f7f018bd2433242a1c11be4b70.jpg",
+                    "icon": "/media/cache/bc/b6/bcb65252a2e67a26f015c9bbb91527f4.jpg"
+                },
+                "id": 51118,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            12,
+            19
+        ],
+        "id": 90778,
+        "extra_info": "",
+        "category": 8594,
+        "slug": "piniata-cherepashki-nindzia-s-lentami-1507-0922",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты в разложенном виде: В 46СМ х Ш 46СМ х Г 10СМ.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 305,
+            "height": 5.5,
+            "volume": 8.111,
+            "width": 49.9,
+            "length": 48.9,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242783
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20222896
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 20222540
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 20222541
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 20222538
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 20222537
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A7%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%88%D0%BA%D0%B8_%D0%9D%D0%B8%D0%BD%D0%B4%D0%B7%D1%8F01.png",
+                "value": "Черепашки-Ниндзя",
+                "unimportant": false,
+                "value_id": 27277,
+                "id": 20222886
+            },
+            {
+                "name": "Лицензия",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Лицензия",
+                "unimportant": true,
+                "value_id": 27751,
+                "id": 20222892
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 20222542
+            },
+            {
+                "name": "Персонаж",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Черепашки-Ниндзя",
+                "unimportant": false,
+                "value_id": 27115,
+                "id": 20222889
+            },
+            {
+                "name": "Правообладатель",
+                "image": "/media/property_value/viacom.png",
+                "value": "Viacom",
+                "unimportant": false,
+                "value_id": 49886,
+                "id": 20222887
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 46СМ Х Ш 46СМ Х Г 10СМ",
+                "unimportant": false,
+                "value_id": 40956,
+                "id": 20222539
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 20222882
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 20222897
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 20222893
+            },
+            {
+                "name": "Статус товара",
+                "image": "/media/property_value/%D0%A1%D0%A2%D0%9E%D0%9A.PNG",
+                "value": "Сток",
+                "unimportant": false,
+                "value_id": 63547,
+                "id": 20222883
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 20222894
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 20222881
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 20222891
+            }
+        ],
+        "promotions": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "meta_keywords": "",
+                "distribution_markets": [
+                    26
+                ],
+                "title": "Лицензионная продукция в опте со скидкой до 70%",
+                "notification": "",
+                "date_from": "2024-01-24T00:00:00",
+                "rendered_body": "<p>69 шаров и товаров для праздника с любимыми персонажами мультфильмов - Микки, Мини, Губка Боб, Черепашки Ниндзя, Даша Путешественница со скидкой до 70%! </p>",
+                "modified": "2024-01-24T02:03:40",
+                "slug": "disnej-cherepashki-nindzja-gubka-bob-dasha-puteshestvennica-v-opte-so-skidkoj",
+                "seo_text": "69 шаров и товаров для праздника с любимыми персонажами мультфильмов - Микки, Мини, Губка Боб, Черепашки Ниндзя, Даша Путешественница со скидкой до 70%! \r\n",
+                "extra_info": "69 шаров и товаров для праздника с любимыми персонажами мультфильмов со скидкой до 70%!",
+                "seo_caption": "Лицензионная продукция в опте со скидкой до 70%",
+                "image": "/media/cache/4c/57/4c579aae5c1798b84b7d1233916d6bb1.jpg",
+                "date_to": "9999-12-31T23:59:59",
+                "show_on_main": true,
+                "summary": "Лицензионная продукция в опте со скидкой до 70%!",
+                "seo_header": "Лицензионная продукция в опте со скидкой до 70%",
+                "id": 195,
+                "published": true
+            }
+        ],
+        "name": "Пиньята Черепашки-Ниндзя с лентами склад",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 99442,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 300,
+                "id": 117076,
+                "rest": 73
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93564,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105320,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188149,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111198,
+                "rest": 1
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PR00//ALL//1000",
+            "currency_price": 692.3,
+            "coupon": {
+                "fixed": 0,
+                "percent": 30
+            },
+            "is_default": false,
+            "currency": "RUB",
+            "original_currency_price": 989,
+            "position": 1
+        },
+        "popularity": 80,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D0%A1%D0%A2%D0%9E%D0%9A.PNG",
+                "value__property__name": "Статус товара",
+                "value__name": "Сток",
+                "value__property__value_icon_position": 5
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 20222890
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 20222543
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 305,
+                    "height": 5.5,
+                    "volume": 8.111,
+                    "width": 49.9,
+                    "length": 48.9,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242783
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 692.3,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 989,
+                    "position": 1
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1964,
+                    "height": 17.1,
+                    "volume": 40.555,
+                    "width": 48.9,
+                    "length": 48.5,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242784
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 4945,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 4945,
+                    "position": 1
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "47.0x47.0x2.0 см",
+                    "50.0x48.3x17.14 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "360.0 Г",
+                    "2590.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "8.27 дм3",
+                    "0.041 м3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "5 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390154061",
+                    "4690390154054"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1151",
+        "units_counts": [
+            [
+                "кор",
+                "5 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:12:52.794851",
+        "rest": 499,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа оформления на детский праздник Маша и медведь в Москве. Покупайте оформление на детский праздник Маша и медведь с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_3_1//01",
+                "name": "Маша и Медведь",
+                "image": "/media/cache/18/24/18245898e13adf8da237ea94f722d2b4.jpg",
+                "seo_header": "",
+                "slug": "masha-i-medved",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8560,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/70142/7bf6f46f-cdcd-4316-b585-0500d48aba62.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/68/bc/68bceb069e5f60b52c2388285d03cba7.jpg",
+                    "banner_catalog_small": "/media/cache/d7/73/d77354915097370a55e303626e5afca6.jpg",
+                    "medium": "/media/cache/90/ae/90ae84f01e8186505efc35d5ee5330f9.jpg",
+                    "cert_preview": "/media/cache/e2/f9/e2f90a80e03ba6fc7f984f0d629c9a30.jpg",
+                    "banner_catalog_large": "/media/cache/0d/0a/0d0af2c28c449cc56cb266052d01a48d.jpg",
+                    "zoom_large": "/media/cache/9f/e2/9fe2a237c0b75e8d6abeae8552f1dba2.jpg",
+                    "xsmall": "/media/cache/f8/5c/f85cd4cbb8a0e2f4ca9664de5f43517d.jpg",
+                    "small": "/media/cache/86/6e/866e48e30d54b37766e3108a4097e692.jpg",
+                    "zoom_medium": "/media/cache/6a/43/6a43306f8ca9755f3ddc41954749347e.jpg",
+                    "icon": "/media/cache/c1/58/c158d4907a3f443c65c0575fe102b99a.jpg"
+                },
+                "id": 51922,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            12,
+            19
+        ],
+        "id": 91396,
+        "extra_info": "",
+        "category": 8560,
+        "slug": "piniata-masha-i-medved-s-lentami-skladn-1507-1151",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты в разложенном виде: В 46СМ х Ш 46СМ х Г 10СМ.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 360,
+            "height": 2,
+            "volume": 8.27,
+            "width": 47,
+            "length": 47,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 243796
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19489078
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326296
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326297
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326294
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326293
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%9C%D0%B0%D1%88%D0%B0_%D0%B8_%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C.png",
+                "value": "Маша и Медведь",
+                "unimportant": false,
+                "value_id": 27199,
+                "id": 19489068
+            },
+            {
+                "name": "Лицензия",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Лицензия",
+                "unimportant": true,
+                "value_id": 27751,
+                "id": 19489074
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326298
+            },
+            {
+                "name": "Персонаж",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Маша и Медведь",
+                "unimportant": false,
+                "value_id": 27105,
+                "id": 19489071
+            },
+            {
+                "name": "Правообладатель",
+                "image": "/media/property_value/%D0%9C%D0%B8%D0%9C.png",
+                "value": "Маша и Медведь",
+                "unimportant": false,
+                "value_id": 49888,
+                "id": 19489069
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 46СМ Х Ш 46СМ Х Г 10СМ",
+                "unimportant": false,
+                "value_id": 40956,
+                "id": 19326295
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19489064
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19489079
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19489075
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489065
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19489076
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19489063
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19489073
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Ассорти",
+                "unimportant": true,
+                "value_id": 29207,
+                "id": 19489062
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Маша и Медведь с лентами складн",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93598,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188162,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111232,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105354,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 400,
+                "id": 117110,
+                "rest": 488
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 5,
+                "id": 99476,
+                "rest": 2
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 953,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 953,
+            "position": 0
+        },
+        "popularity": 29,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489072
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326299
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 360,
+                    "height": 2,
+                    "volume": 8.27,
+                    "width": 47,
+                    "length": 47,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 243796
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 953,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 953,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2590,
+                    "height": 17.14,
+                    "volume": 0.041,
+                    "width": 48.3,
+                    "length": 50,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 243797
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4765,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4765,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "58.0x10.0x36.0 см",
+                    "61.5x37.0x59.5 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "380.0 Г",
+                    "2.4 кг(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "27.078 дм3",
+                    "135.392 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "5 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390192575",
+                    "4690390192568"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1250",
+        "units_counts": [
+            [
+                "кор",
+                "5 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.270179",
+        "rest": 464,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_14_4//01",
+                "name": "9 мая",
+                "image": null,
+                "seo_header": "",
+                "slug": "9-maia",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "",
+                "id": 9562,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа камуфляжных украшений в Москве. Покупайте камуфляжные украшения с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_7_1//01",
+                "name": "Камуфляж",
+                "image": "/media/cache/5d/c5/5dc5007d9b67f3ed8d2326b6b064edc1.jpg",
+                "seo_header": "",
+                "slug": "kamufliazh",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8608,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_14_2//01",
+                "name": "23 февраля",
+                "image": null,
+                "seo_header": "",
+                "slug": "23-fevralia",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "",
+                "id": 9571,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/76320/3fb4d527-1cab-4705-8a67-8eaaf01cda4b.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/82/12/8212922cea0265243b3e5fe04ac548a1.jpg",
+                    "banner_catalog_small": "/media/cache/4a/12/4a12ec430285829214e8b6512eb7594b.jpg",
+                    "medium": "/media/cache/f5/74/f5742a11ac75d09d8f18a9cd78f7604d.jpg",
+                    "cert_preview": "/media/cache/23/26/2326458b39ee9533b17983ce57b25d69.jpg",
+                    "banner_catalog_large": "/media/cache/cb/fe/cbfe9729e83e20a1ec7f7b4cea3ceb95.jpg",
+                    "zoom_large": "/media/cache/b0/11/b011069ef1cb601ee03ff7b87f50f3e7.jpg",
+                    "xsmall": "/media/cache/2b/5e/2b5e24ad1be077e79eb8281a07f5fc2b.jpg",
+                    "small": "/media/cache/c1/2c/c12c3bbaa67234345c08af8af3aa82c2.jpg",
+                    "zoom_medium": "/media/cache/9d/50/9d50054a0a72751d04d78e224893b069.jpg",
+                    "icon": "/media/cache/7f/1d/7f1dd808342122dff640abe6bc2d0aa2.jpg"
+                },
+                "id": 52476,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 97574,
+        "extra_info": "",
+        "category": 9562,
+        "slug": "tank-pinata-1507-1250",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: 58 х 36 х 10 СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 380,
+            "height": 36,
+            "volume": 27.078,
+            "width": 10,
+            "length": 58,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 253259
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19514666
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19502738
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19502739
+            },
+            {
+                "name": "Дизайн товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Техника",
+                "unimportant": true,
+                "value_id": 28753,
+                "id": 19514656
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19502736
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19502735
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%9A%D0%BE%D0%BC%D1%83%D1%84%D0%BB%D1%8F%D0%B6.png",
+                "value": "Камуфляж",
+                "unimportant": false,
+                "value_id": 27182,
+                "id": 19514661
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19502740
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "58 Х 36 Х 10 СМ",
+                "unimportant": false,
+                "value_id": 46094,
+                "id": 19502737
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19514657
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19514667
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19514664
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19514658
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19514665
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19514655
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19514663
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Камуфляж Танк",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 118475,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186829,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 119602,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 500,
+                "id": 119027,
+                "rest": 453
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120706,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120154,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 892,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 892,
+            "position": 0
+        },
+        "popularity": 51,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19502741
+            },
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19514662
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 380,
+                    "height": 36,
+                    "volume": 27.078,
+                    "width": 10,
+                    "length": 58,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 253259
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 892,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 892,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2.4,
+                    "height": 59.5,
+                    "volume": 135.392,
+                    "width": 37,
+                    "length": 61.5,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 253260
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4460,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4460,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "15.0x41.0x45.0 см",
+                    "62.0x41.0x45.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "422.0 Г",
+                    "2.4 кг(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "27.675 дм3",
+                    "114.39 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390063240",
+                    "4690390063233"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0735",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:39.057937",
+        "rest": 180,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69426/d5d88080-e87c-4939-9c93-f67cb26f7029.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/d7/e9/d7e935af9760a2d7793532a861954a37.jpg",
+                    "banner_catalog_small": "/media/cache/fa/cd/facd4c41bb4bf7b965531380318780ea.jpg",
+                    "medium": "/media/cache/15/ac/15acc3bf6ff2cb5ace932a32e0fc7706.jpg",
+                    "cert_preview": "/media/cache/f9/07/f907b67a3aace866f8300eb1e0af3c98.jpg",
+                    "banner_catalog_large": "/media/cache/50/4d/504dc0f2c4a5e2c589685ef8cbdd064d.jpg",
+                    "zoom_large": "/media/cache/8a/5c/8a5ce27755c7a4e36cc26242fb9097bb.jpg",
+                    "xsmall": "/media/cache/41/2d/412d56ca23f74faf2216e2807ce2b876.jpg",
+                    "small": "/media/cache/d4/57/d45794a51d1f0321bc2d892f25acb251.jpg",
+                    "zoom_medium": "/media/cache/da/30/da30db66f29b309709102ad1bbd9d1fc.jpg",
+                    "icon": "/media/cache/1b/3a/1b3ab81450bce5ff617291f1c6dbc47d.jpg"
+                },
+                "id": 49777,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            12,
+            19,
+            41
+        ],
+        "id": 90680,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "3d-castle-pinata-1507-0735",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "3D Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. При игре в традиционную пиньяту участнику завязывают глаза, раскручивают, и затем он пытается за несколько попыток найти и разбить пиньяту. Остальные участники, чтоб запутать, выкрикивают неверные подсказки, раскачивают, опускают и приподнимают пиньяту. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: В 37СМ х Ш 42СМ х Г 25СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 422,
+            "height": 45,
+            "volume": 27.675,
+            "width": 41,
+            "length": 15,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242571
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19488532
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19325959
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19325960
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19325956
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19325955
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B5%D1%81%D1%81%D0%B0_%D0%9A%D0%B0%D0%BC%D0%B5%D1%8F.png",
+                "value": "Принцесса Камея",
+                "unimportant": false,
+                "value_id": 59817,
+                "id": 19488525
+            },
+            {
+                "name": "Лицензия",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Лицензия",
+                "unimportant": true,
+                "value_id": 27751,
+                "id": 19488528
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19325961
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 37СМ Х Ш 42СМ Х Г 25СМ",
+                "unimportant": false,
+                "value_id": 40989,
+                "id": 19325957
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821__%D0%94%D0%B5%D0%BD%D1%8C_%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.png",
+                "value": "День рождения",
+                "unimportant": false,
+                "value_id": 28435,
+                "id": 19488521
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19488533
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19488529
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19488522
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19488530
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19488520
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19488527
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Розовый/Pink",
+                "unimportant": true,
+                "value_id": 29224,
+                "id": 19488519
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Замок принцессы",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 99351,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 480,
+                "id": 116985,
+                "rest": 169
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186830,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105229,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93473,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111107,
+                "rest": 3
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 998,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 998,
+            "position": 0
+        },
+        "popularity": 124,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19488526
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "66266",
+                "unimportant": false,
+                "value_id": 40990,
+                "id": 19325958
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19325962
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 422,
+                    "height": 45,
+                    "volume": 27.675,
+                    "width": 41,
+                    "length": 15,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242571
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 998,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 998,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2.4,
+                    "height": 45,
+                    "volume": 114.39,
+                    "width": 41,
+                    "length": 62,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242572
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3992,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3992,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "73.0x39.0x32.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "360.0 Г",
+                    "1500.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "22.776 дм3",
+                    "91.104 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390256222",
+                    "4690390256239"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1442",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.975121",
+        "rest": 5,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/84580/03941788-e34c-4e6c-9411-4b80de02806b.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/27/56/2756a693e67b05b04a585919638355df.jpg",
+                    "banner_catalog_small": "/media/cache/c0/4e/c04e4debc961eff69214a1f2b14ffd4a.jpg",
+                    "medium": "/media/cache/89/a6/89a64b377f8e99b3e0b5729defd451d9.jpg",
+                    "cert_preview": "/media/cache/3b/d9/3bd9c635f20b1d2d9164948495ed94cb.jpg",
+                    "banner_catalog_large": "/media/cache/72/af/72afd4a9f6d205d6fc164edc0d2233c6.jpg",
+                    "zoom_large": "/media/cache/78/89/7889335c624f49b9a31d563a08fd5fb0.jpg",
+                    "xsmall": "/media/cache/69/5c/695c9cdf31530940b6a845c700679d93.jpg",
+                    "small": "/media/cache/5c/6c/5c6c647ea8ad691f1c7034a48ae9ed0e.jpg",
+                    "zoom_medium": "/media/cache/62/f7/62f750053e40e766d3fdb7d9f8df6318.jpg",
+                    "icon": "/media/cache/82/48/8248093def58821409d2e5bfe2d5ca62.jpg"
+                },
+                "id": 85061,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 105834,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "piniata-edinorog-volshebnyi-s-lentami-1507-1442",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют ра зличными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 360,
+            "height": 0,
+            "volume": 22.776,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 265099
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19489571
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326612
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326613
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326609
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326608
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%95%D0%B4%D0%B8%D0%BD%D0%BE%D1%80%D0%BE%D0%B3.png",
+                "value": "Единорог",
+                "unimportant": false,
+                "value_id": 49028,
+                "id": 19489565
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326614
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "48 Х 19 Х 55 СМ",
+                "unimportant": false,
+                "value_id": 46092,
+                "id": 19326610
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19489561
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19489572
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19489568
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489562
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19489569
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19489560
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19489567
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Единорог Волшебный с лентами",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 126945,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186832,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126953,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 400,
+                "id": 126941,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126949,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126957,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 1531,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 1531,
+            "position": 0
+        },
+        "popularity": 92,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489566
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "JHL821074",
+                "unimportant": false,
+                "value_id": 46093,
+                "id": 19326611
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326615
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 360,
+                    "height": 0,
+                    "volume": 22.776,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 265099
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 1531,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 1531,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1500,
+                    "height": 32,
+                    "volume": 91.104,
+                    "width": 39,
+                    "length": 73,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 265100
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 6124,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 6124,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "52.0x52.0x42.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "475.0 Г",
+                    "1900.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "28.392 дм3",
+                    "113.568 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390063288",
+                    "4690390063271"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0737",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:39.122857",
+        "rest": 95,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_7_5//01",
+                "name": "Гавайи Тотем",
+                "image": "/media/cache/06/f0/06f0338d447a5b24c2befe4fe3a6aaa3.jpg",
+                "seo_header": "",
+                "slug": "gavaii-totem",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8604,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69396/1d6fcd8b-5dc7-4110-9563-4f9e7d6be859.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/1d/6c/1d6c099b9b584ebb3b75166f237b589c.jpg",
+                    "banner_catalog_small": "/media/cache/57/64/5764510e95052cc6a840a297f82f6a13.jpg",
+                    "medium": "/media/cache/c2/04/c204dae50da69fa54a53cd290bb0d9b2.jpg",
+                    "cert_preview": "/media/cache/7b/87/7b87131893fc644f99464c076ab14384.jpg",
+                    "banner_catalog_large": "/media/cache/af/a7/afa7fdec90328d6e9edf2ff6b485bb79.jpg",
+                    "zoom_large": "/media/cache/c5/d9/c5d9f51fe5f6c82e034ddeb050e33245.jpg",
+                    "xsmall": "/media/cache/48/c1/48c183aa2926171b15130047082084b3.jpg",
+                    "small": "/media/cache/c5/62/c5624d3d4c2ed9af4a34da56c3a18b67.jpg",
+                    "zoom_medium": "/media/cache/d2/b6/d2b6b3797d84217f0344abbcd258d438.jpg",
+                    "icon": "/media/cache/f5/f1/f5f1aedec2653c6775e1b532eff81079.jpg"
+                },
+                "id": 51284,
+                "is_base": true
+            },
+            {
+                "image": "/media/products/69396/6a4de065-8000-4d02-8776-947b7da8d355.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/53/fa/53fa65ee6454bbda5724fb00cd791c96.jpg",
+                    "banner_catalog_small": "/media/cache/af/14/af141c96f84a6fdab524ff97898af9d9.jpg",
+                    "medium": "/media/cache/7c/d9/7cd9d3df18519f569d2f1e7dc01480cf.jpg",
+                    "cert_preview": "/media/cache/9b/1f/9b1f9afe9903b77c228abe9a799138d9.jpg",
+                    "banner_catalog_large": "/media/cache/90/cd/90cde14f3d40aafb4bd7063a6f7e65b7.jpg",
+                    "zoom_large": "/media/cache/c2/d1/c2d1845f54865bb60581a850f2297706.jpg",
+                    "xsmall": "/media/cache/d1/58/d1582e33bb9e57a081fc787046c7d4de.jpg",
+                    "small": "/media/cache/f4/9e/f49e6ad9ae092e2fddc903545c4e301b.jpg",
+                    "zoom_medium": "/media/cache/99/13/991356bd3a97af9a63920b048e52ad79.jpg",
+                    "icon": "/media/cache/35/37/3537e233fe345d1bf7e0333fcc8bd35d.jpg"
+                },
+                "id": 31280,
+                "is_base": false
+            },
+            {
+                "image": "/media/products/69396/931347b2-9832-474c-867e-7b6be5cc9caf.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/c6/6c/c66cb8ec82b4ff91f0774fb8d333b3fe.jpg",
+                    "banner_catalog_small": "/media/cache/55/91/5591c88f13efd90006ecdd0a4071cd47.jpg",
+                    "medium": "/media/cache/3c/40/3c400d3f0f98dd6aa48f7a7a7e743010.jpg",
+                    "cert_preview": "/media/cache/9a/65/9a65a2973b39cbe6944dd2c1f157d30d.jpg",
+                    "banner_catalog_large": "/media/cache/97/25/97254e659b5da1143176bf9e0fdb0bf9.jpg",
+                    "zoom_large": "/media/cache/d2/54/d25453fb1a9dd15822374ad9dad64ef9.jpg",
+                    "xsmall": "/media/cache/9b/e3/9be34ddbb274f584e2f40618a0ed3ae5.jpg",
+                    "small": "/media/cache/a8/f8/a8f8aa4ec5ffce95942bff0ccae2c2d7.jpg",
+                    "zoom_medium": "/media/cache/93/14/931445b5e221e85026f9ef7cd485fdcf.jpg",
+                    "icon": "/media/cache/83/fa/83fab5be57deaa6f2d72b04611504159.jpg"
+                },
+                "id": 24987,
+                "is_base": false
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19,
+            41
+        ],
+        "id": 90650,
+        "extra_info": "",
+        "category": 8604,
+        "slug": "sun-pinata-1507-0737",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. При игре в традиционную пиньяту участнику завязывают глаза, раскручивают, и затем он пытается за несколько попыток найти и разбить пиньяту. Остальные участники, чтоб запутать, выкрикивают неверные подсказки, раскачивают, опускают и приподнимают пиньяту. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: В 53СМ х Ш 53СМ х Г 7СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 475,
+            "height": 0,
+            "volume": 28.392,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242500
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19488560
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19325977
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19325978
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19325974
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19325973
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0.png",
+                "value": "Гавайская вечеринка",
+                "unimportant": false,
+                "value_id": 27154,
+                "id": 19488554
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19325979
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 53СМ Х Ш 53СМ Х Г 7СМ",
+                "unimportant": false,
+                "value_id": 40954,
+                "id": 19325975
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821__%D0%94%D0%B5%D0%BD%D1%8C_%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.png",
+                "value": "День рождения",
+                "unimportant": false,
+                "value_id": 28435,
+                "id": 19488550
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19488561
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19488557
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19488551
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19488558
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19488549
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19488556
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Желтый/Yellow",
+                "unimportant": true,
+                "value_id": 29212,
+                "id": 19488548
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Солнце",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 2,
+                "id": 99353,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93475,
+                "rest": 5
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186835,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111109,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105231,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 500,
+                "id": 116987,
+                "rest": 80
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 907,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 907,
+            "position": 0
+        },
+        "popularity": 180,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19488555
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "6723",
+                "unimportant": false,
+                "value_id": 40955,
+                "id": 19325976
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19325980
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 475,
+                    "height": 0,
+                    "volume": 28.392,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242500
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 907,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 907,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1900,
+                    "height": 42,
+                    "volume": 113.568,
+                    "width": 52,
+                    "length": 52,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242501
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3628,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3628,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "34.0x30.0x68.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "345.0 Г",
+                    "1400.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "17.34 дм3",
+                    "69.36 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390256260",
+                    "4690390256277"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1443",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:42.007730",
+        "rest": 208,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/84581/13698af3-2054-4807-9f09-25cc2c7a5346.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/3d/89/3d895c69494df2ff67a716fe38f90fcf.jpg",
+                    "banner_catalog_small": "/media/cache/56/12/56120f43ef7c42db0761bf2c8c859555.jpg",
+                    "medium": "/media/cache/a7/9e/a79e0f0f242851806a6467ce2dd6cdf4.jpg",
+                    "cert_preview": "/media/cache/9f/ef/9fef3e6a6f8f8671baf6284cffe1bd1d.jpg",
+                    "banner_catalog_large": "/media/cache/a0/80/a0804e8e7a1d447496aca8a286d21ffd.jpg",
+                    "zoom_large": "/media/cache/00/5c/005c4455bfda4beec02e9381a9261a58.jpg",
+                    "xsmall": "/media/cache/42/d9/42d91bfe13726250bb82893b2f976c9d.jpg",
+                    "small": "/media/cache/1b/7a/1b7a5697b4adbc8d817efb08e50c9d32.jpg",
+                    "zoom_medium": "/media/cache/ac/05/ac05f40f941f536398f20442b7da7513.jpg",
+                    "icon": "/media/cache/3b/42/3b4215b27c07978025c59a91cd8a47b6.jpg"
+                },
+                "id": 85055,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 105835,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "piniata-loshadka-s-lentami-1507-1443",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют ра зличными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 345,
+            "height": 0,
+            "volume": 17.34,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 265101
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19489584
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326621
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326622
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326618
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326617
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A4%D0%B8%D0%B5%D1%81%D1%82%D0%B0.png",
+                "value": "Фиеста",
+                "unimportant": false,
+                "value_id": 27262,
+                "id": 19489578
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326623
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "48 Х 19 Х 55 СМ",
+                "unimportant": false,
+                "value_id": 46092,
+                "id": 19326619
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19489574
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19489585
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19489581
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489575
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19489582
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19489573
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19489580
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Лошадка с лентами",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 126946,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126950,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126958,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 193137,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126954,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126942,
+                "rest": 194
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 1301,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 1301,
+            "position": 0
+        },
+        "popularity": 8,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489579
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "JHL821074",
+                "unimportant": false,
+                "value_id": 46093,
+                "id": 19326620
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326624
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 345,
+                    "height": 0,
+                    "volume": 17.34,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 265101
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 1301,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 1301,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1400,
+                    "height": 68,
+                    "volume": 69.36,
+                    "width": 30,
+                    "length": 34,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 265102
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 5204,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 5204,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "44.0x42.0x8.0 см",
+                    "53.0x54.0x42.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "400.0 Г",
+                    "1600.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "30.051 дм3",
+                    "120.204 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390079005",
+                    "4690390078992"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0795",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:39.460551",
+        "rest": 291,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69602/88e4b28f-6b9a-46e0-a8b6-41fa2f4f7d17.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/bb/b7/bbb7b9fcfd7d2acee7e2c8cd0b3c8d07.jpg",
+                    "banner_catalog_small": "/media/cache/3e/02/3e02585ee66d100ed920f62e68d8db3e.jpg",
+                    "medium": "/media/cache/26/f0/26f01c91135b921bdc2cfe114be79e70.jpg",
+                    "cert_preview": "/media/cache/57/ff/57ffacb5280109f24259e5439877f604.jpg",
+                    "banner_catalog_large": "/media/cache/26/b5/26b55f9c724d35b6de44d9b46247d804.jpg",
+                    "zoom_large": "/media/cache/3e/cd/3ecd5630cd0ad6c01fe9fc86f804834c.jpg",
+                    "xsmall": "/media/cache/67/4f/674fd6246d3b215f9309688a78358b83.jpg",
+                    "small": "/media/cache/18/38/1838f1a97e044c13785397eacdfdc561.jpg",
+                    "zoom_medium": "/media/cache/c7/6b/c76b68e65ba75aca3c08a1a6cb687915.jpg",
+                    "icon": "/media/cache/41/8d/418deb9e5f8593f0144ed399a0135d59.jpg"
+                },
+                "id": 52092,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 90856,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "mexican-star-pinata-1507-0795",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. При игре в традиционную пиньяту участнику завязывают глаза, раскручивают, и затем он пытается за несколько попыток найти и разбить пиньяту. Остальные участники, чтоб запутать, выкрикивают неверные подсказки, раскачивают, опускают и приподнимают пиньяту. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: В 48СМ Х Ш 48СМ Х Г 7СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 400,
+            "height": 8,
+            "volume": 30.051,
+            "width": 42,
+            "length": 44,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242990
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19488790
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326122
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326123
+            },
+            {
+                "name": "Дизайн товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Звезды",
+                "unimportant": true,
+                "value_id": 28670,
+                "id": 19488779
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326119
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326118
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A4%D0%B8%D0%B5%D1%81%D1%82%D0%B0.png",
+                "value": "Фиеста",
+                "unimportant": false,
+                "value_id": 27262,
+                "id": 19488784
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326124
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 48СМ Х Ш 48СМ Х Г 7СМ",
+                "unimportant": false,
+                "value_id": 41146,
+                "id": 19326120
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19488780
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19488791
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19488787
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19488781
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19488788
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19488778
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19488786
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Ассорти",
+                "unimportant": true,
+                "value_id": 29207,
+                "id": 19488777
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Звезда мексиканская",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 99378,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93500,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105256,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 400,
+                "id": 117012,
+                "rest": 283
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111134,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 192287,
+                "rest": 2
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 907,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 907,
+            "position": 0
+        },
+        "popularity": 109,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19488785
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "6730",
+                "unimportant": false,
+                "value_id": 41147,
+                "id": 19326121
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326125
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 400,
+                    "height": 8,
+                    "volume": 30.051,
+                    "width": 42,
+                    "length": 44,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242990
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 907,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 907,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1600,
+                    "height": 42,
+                    "volume": 120.204,
+                    "width": 54,
+                    "length": 53,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242991
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 3628,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 3628,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "43.0x12.5x47.0 см",
+                    "64.0x45.0x42.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "420.0 Г",
+                    "1.68 кг(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "30.24 дм3",
+                    "120.96 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390063264",
+                    "4690390063257"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0736",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:39.090452",
+        "rest": 330,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа оформления на праздник Маленький Пират в Москве. Покупайте оформление на праздник Маленький Пират с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_5_10//01",
+                "name": "Маленький Пират",
+                "image": "/media/cache/58/dd/58dde7b2ff033e18111108c4a4b2de00.jpg",
+                "seo_header": "",
+                "slug": "malenkii-pirat",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8593,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69411/3b4547ff-ec5c-428e-95e3-2d4f8cf95006.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/6d/4d/6d4d1a3f38993df6a505b94915d26e8a.jpg",
+                    "banner_catalog_small": "/media/cache/9f/01/9f0107d531d4ef92eab2e2521972946c.jpg",
+                    "medium": "/media/cache/08/4a/084a99687fb9b930fe5918f5c007f3de.jpg",
+                    "cert_preview": "/media/cache/2a/65/2a65c0e8502e61eed4b670950e0cb246.jpg",
+                    "banner_catalog_large": "/media/cache/ba/12/ba12307dde3eff9f96f13576567beb75.jpg",
+                    "zoom_large": "/media/cache/b7/0a/b70a795fb338987a21c9c22640d2db78.jpg",
+                    "xsmall": "/media/cache/25/f7/25f7c1e2edefd60a80566a284b69d8a3.jpg",
+                    "small": "/media/cache/97/7d/977debb32af1e00d3bf5f95514ec46d9.jpg",
+                    "zoom_medium": "/media/cache/63/b7/63b7b505462cd5106dc786d123e8208a.jpg",
+                    "icon": "/media/cache/00/23/00232e8f0c1a0221920c566d58903303.jpg"
+                },
+                "id": 50626,
+                "is_base": true
+            },
+            {
+                "image": "/media/products/69411/2e72292f-9835-4077-983a-6345e9dc1f5d.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/9d/2d/9d2d572eb8f1f3640f89652c5abc718f.jpg",
+                    "banner_catalog_small": "/media/cache/8d/92/8d92b51efad5f82a93000ce6276109b5.jpg",
+                    "medium": "/media/cache/3e/fe/3efedf531ee1c3bd34d1a5c9135a3374.jpg",
+                    "cert_preview": "/media/cache/8f/77/8f7794e3bda72bd161a5715714803a9e.jpg",
+                    "banner_catalog_large": "/media/cache/06/e0/06e0895e8bec090a7c232313591ba8ae.jpg",
+                    "zoom_large": "/media/cache/44/5f/445f73fe9e38a6f10dce8de2975b30b1.jpg",
+                    "xsmall": "/media/cache/df/bd/dfbd3cc503da56d076f931c9a0078664.jpg",
+                    "small": "/media/cache/7e/3d/7e3d68c60392d8541f5ec66f7f763833.jpg",
+                    "zoom_medium": "/media/cache/1c/9e/1c9eca4f0e04e4a93e304cc8f98eb8cd.jpg",
+                    "icon": "/media/cache/2f/3b/2f3bae6cc82db990b7ff6926178140be.jpg"
+                },
+                "id": 38865,
+                "is_base": false
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19,
+            41
+        ],
+        "id": 90665,
+        "extra_info": "",
+        "category": 8593,
+        "slug": "pirate-ship-pinata-1507-0736",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "3D Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. При игре в традиционную пиньяту участнику завязывают глаза, раскручивают, и затем он пытается за несколько попыток найти и разбить п иньяту. Остальные участники, чтоб запутать, выкрикивают неверные подсказки, раскачивают, опускают и приподнимают пиньяту. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты: В 47СМ х Ш 43СМ х Г 12,5СМ",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 420,
+            "height": 47,
+            "volume": 30.24,
+            "width": 12.5,
+            "length": 43,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242531
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19488546
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19325968
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19325969
+            },
+            {
+                "name": "Дизайн товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Пираты",
+                "unimportant": true,
+                "value_id": 28711,
+                "id": 19488536
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19325965
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19325964
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%9F%D0%B8%D1%80%D0%B0%D1%82%D1%8B.png",
+                "value": "Пираты",
+                "unimportant": false,
+                "value_id": 27222,
+                "id": 19488541
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19325970
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 27СМ Х Ш 30СМ Х Г 15СМ",
+                "unimportant": false,
+                "value_id": 40971,
+                "id": 19325966
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821__%D0%94%D0%B5%D0%BD%D1%8C_%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.png",
+                "value": "День рождения",
+                "unimportant": false,
+                "value_id": 28435,
+                "id": 19488537
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19488547
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19488544
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19488538
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19488545
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19488535
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19488543
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Коричневый/Brown",
+                "unimportant": true,
+                "value_id": 29215,
+                "id": 19488534
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Пиратский корабль",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 99352,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111108,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105230,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 186734,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93474,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 400,
+                "id": 116986,
+                "rest": 319
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 1040,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 1040,
+            "position": 0
+        },
+        "popularity": 173,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19488542
+            },
+            {
+                "name": "Артикул производителя",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "66269",
+                "unimportant": false,
+                "value_id": 40972,
+                "id": 19325967
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19325971
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 420,
+                    "height": 47,
+                    "volume": 30.24,
+                    "width": 12.5,
+                    "length": 43,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242531
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 1040,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 1040,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1.68,
+                    "height": 42,
+                    "volume": 120.96,
+                    "width": 45,
+                    "length": 64,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242532
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4160,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4160,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "50.0x48.3x17.14 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "360.0 Г",
+                    "2590.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "8.27 дм3",
+                    "0.041 м3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "5 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390085686",
+                    "4690390085679"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0821",
+        "units_counts": [
+            [
+                "кор",
+                "5 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:39.590477",
+        "rest": 73,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_3_7//01",
+                "name": "Смешарики",
+                "image": "/media/cache/96/4f/964fb5efee0cc19912061f131ef0bf3e.jpg",
+                "seo_header": "",
+                "slug": "smeshariki",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8558,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69588/bc895e38-63a8-49d0-a6ef-1d774c777392.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/ba/8f/ba8ff847630baf8269f52702f81a23c9.jpg",
+                    "banner_catalog_small": "/media/cache/35/93/3593eb84da387f24190b304d8e78efa2.jpg",
+                    "medium": "/media/cache/c1/99/c199dfa3acd6a9e30c36639bfa8d8d94.jpg",
+                    "cert_preview": "/media/cache/04/f0/04f0b71210acb8e9b4661e2271e168ac.jpg",
+                    "banner_catalog_large": "/media/cache/6a/04/6a0400d2c08952ec36383a6737b221bc.jpg",
+                    "zoom_large": "/media/cache/b4/6d/b46dd0230eaa7158887a29d772b0d780.jpg",
+                    "xsmall": "/media/cache/89/41/8941c1363da3d544b649181de54d8559.jpg",
+                    "small": "/media/cache/97/b5/97b5efc2a15726b6fd509ee54d3c2394.jpg",
+                    "zoom_medium": "/media/cache/3b/e3/3be3cc717c07243985d959a42aa08534.jpg",
+                    "icon": "/media/cache/d5/07/d5079ed0f072e2ffe6c1820c6e6c379f.jpg"
+                },
+                "id": 52239,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            12,
+            19
+        ],
+        "id": 90842,
+        "extra_info": "",
+        "category": 8558,
+        "slug": "piniata-smeshariki-s-lentami-skladnaia-1507-0821",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты в разложенном виде: В 46СМ х Ш 46СМ х Г 10СМ.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 360,
+            "height": 0,
+            "volume": 8.27,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242958
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19488823
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326139
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326140
+            },
+            {
+                "name": "Дизайн товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Happy Birthday",
+                "unimportant": true,
+                "value_id": 28618,
+                "id": 19488808
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326137
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326136
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A1%D0%BC%D0%B5%D1%88%D0%B0%D1%80%D0%B8%D0%BA%D0%B8.png",
+                "value": "Смешарики",
+                "unimportant": false,
+                "value_id": 27242,
+                "id": 19488813
+            },
+            {
+                "name": "Лицензия",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Лицензия",
+                "unimportant": true,
+                "value_id": 27751,
+                "id": 19488819
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326141
+            },
+            {
+                "name": "Персонаж",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Смешарики",
+                "unimportant": false,
+                "value_id": 27108,
+                "id": 19488816
+            },
+            {
+                "name": "Правообладатель",
+                "image": "/media/property_value/%D0%9C%D0%B0%D1%80%D0%BC%D0%B5%D0%BB%D0%B0%D0%B4.png",
+                "value": "Мармелад медиа",
+                "unimportant": false,
+                "value_id": 27123,
+                "id": 19488814
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 46СМ Х Ш 46СМ Х Г 10СМ",
+                "unimportant": false,
+                "value_id": 40956,
+                "id": 19326138
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19488809
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19488824
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19488820
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19488810
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19488821
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19488807
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19488818
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Ассорти",
+                "unimportant": true,
+                "value_id": 29207,
+                "id": 19488806
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Смешарики с лентами складная",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1,
+                "id": 99390,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111146,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93512,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105268,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117024,
+                "rest": 62
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188154,
+                "rest": 3
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 989,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 989,
+            "position": 0
+        },
+        "popularity": 18,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19488817
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326142
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 360,
+                    "height": 0,
+                    "volume": 8.27,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242958
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 989,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 989,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2590,
+                    "height": 17.14,
+                    "volume": 0.041,
+                    "width": 48.3,
+                    "length": 50,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242959
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4945,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4945,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "47.6x47.8x5.4 см",
+                    "48.7x50.4x17.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "320.0 Г",
+                    "2212.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "8.345 дм3",
+                    "41.726 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "5 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390187878",
+                    "4690390187861"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1234",
+        "units_counts": [
+            [
+                "кор",
+                "5 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.110841",
+        "rest": 142,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            },
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "code": "SHARIK_RU_C1_3_2//01",
+                "name": "Барбоскины",
+                "image": "/media/cache/4b/db/4bdbfdaf40c3c8bb69eb7f33be56ccbb.jpg",
+                "seo_header": "",
+                "slug": "barboskiny",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Если нашли дешевле, мы дадим цену лучше!",
+                "id": 8544,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/74650/269fb583-e7ba-4d56-b448-5f4ce7171c1d.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/14/17/1417d59fa4e87342ede4406794f87627.jpg",
+                    "banner_catalog_small": "/media/cache/85/4d/854d553f4d5f868709d0e64f3d078452.jpg",
+                    "medium": "/media/cache/60/3b/603bcbe2e5aa9552677f987acde5d6f5.jpg",
+                    "cert_preview": "/media/cache/bd/97/bd972fd8552a027059da10756abcc699.jpg",
+                    "banner_catalog_large": "/media/cache/54/3c/543c5a7e9d3e4dc4abc6e6f7d58b9968.jpg",
+                    "zoom_large": "/media/cache/f9/f3/f9f389a4139474c73f37b92e14d0581f.jpg",
+                    "xsmall": "/media/cache/a1/f3/a1f389ecc4b72904580ec77dfde26b66.jpg",
+                    "small": "/media/cache/c8/17/c8179907d2f49357ca9974297b29e777.jpg",
+                    "zoom_medium": "/media/cache/16/4e/164e99b47eb2e275975950dcb095c805.jpg",
+                    "icon": "/media/cache/41/e7/41e785fccbc13951a43f3af6a53d7e84.jpg"
+                },
+                "id": 49356,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 95904,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "piniata-barboskiny-s-lentami-skladnaia-1507-1234",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты в разложенном виде: В 46СМ х Ш 46СМ х Г 10СМ.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 320,
+            "height": 5.4,
+            "volume": 8.345,
+            "width": 47.8,
+            "length": 47.6,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 250749
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19489254
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326412
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326413
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326410
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326409
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%B1%D0%B0%D1%80%D0%B1%D0%BE%D1%81%D0%BA%D0%B8%D0%BD%D1%8B.png",
+                "value": "Барбоскины",
+                "unimportant": false,
+                "value_id": 27141,
+                "id": 19489245
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326414
+            },
+            {
+                "name": "Персонаж",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Барбоскины",
+                "unimportant": false,
+                "value_id": 27098,
+                "id": 19489248
+            },
+            {
+                "name": "Правообладатель",
+                "image": "/media/property_value/%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0.png",
+                "value": "Мельница",
+                "unimportant": false,
+                "value_id": 27124,
+                "id": 19489246
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 46СМ Х Ш 46СМ Х Г 10СМ",
+                "unimportant": false,
+                "value_id": 40956,
+                "id": 19326411
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 19489241
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19489255
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19489251
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489242
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19489252
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 19489240
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19489250
+            },
+            {
+                "name": "Цвет карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Ассорти",
+                "unimportant": true,
+                "value_id": 29207,
+                "id": 19489239
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Барбоскины с лентами складная",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 3,
+                "id": 118471,
+                "rest": 3
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 119598,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120150,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 120702,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 400,
+                "id": 119023,
+                "rest": 130
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188158,
+                "rest": 3
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 841,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 841,
+            "position": 0
+        },
+        "popularity": 25,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489249
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326415
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 320,
+                    "height": 5.4,
+                    "volume": 8.345,
+                    "width": 47.8,
+                    "length": 47.6,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 250749
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 841,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 841,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2212,
+                    "height": 17,
+                    "volume": 41.726,
+                    "width": 50.4,
+                    "length": 48.7,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 250750
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4205,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4205,
+                    "position": 0
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "55.0x8.0x6.0 см",
+                    "55.0x20.0x30.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "95.0 Г",
+                    "0.57 кг(брутто)",
+                    "4.8 кг(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "0.687 дм3",
+                    "4.125 дм3",
+                    "33.0 дм3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "6 шт",
+                    "48 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390318913",
+                    "4690390321760",
+                    "4690390321777"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1660",
+        "units_counts": [
+            [
+                "блк",
+                "6 шт"
+            ],
+            [
+                "кор",
+                "48 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:42.998223",
+        "rest": 1131,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/88383/77b13ec1-1a51-485f-aa8b-044d898eba3a.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/4f/0c/4f0cff98555d4356ee55cfb8519df533.jpg",
+                    "banner_catalog_small": "/media/cache/91/4a/914a28ec229dc588d282e10b12f5c171.jpg",
+                    "medium": "/media/cache/42/e1/42e160c8d52d41e4ef55e7684d3b18e7.jpg",
+                    "cert_preview": "/media/cache/f4/39/f439cdc3c6dc612fec27d235c7a38e3d.jpg",
+                    "banner_catalog_large": "/media/cache/59/4b/594b25941e163eca8265a9c0b88a2884.jpg",
+                    "zoom_large": "/media/cache/25/ee/25eed90fa0dc75787b8f70a1e8a78e62.jpg",
+                    "xsmall": "/media/cache/84/e0/84e013a77de4e769611e5ea427221172.jpg",
+                    "small": "/media/cache/77/ff/77ff6b4ba9c5f1c32877d05dd72f2095.jpg",
+                    "zoom_medium": "/media/cache/a9/04/a904e77cd69fda71b5f1fbd83a7c0d27.jpg",
+                    "icon": "/media/cache/3f/35/3f35ea1d9d6273f75aaf03971c92c58f.jpg"
+                },
+                "id": 69910,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            19
+        ],
+        "id": 109637,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "palka-dlia-igry-v-piniatu-50sm-1507-1660",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Блок",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Разноцветная бита создана специально для игры в пиньяту. Длина 50см.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 95,
+            "height": 0,
+            "volume": 0.687,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 274555
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value": "Есть",
+                "unimportant": false,
+                "value_id": 50186,
+                "id": 19489984
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326888
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326889
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326886
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%A4%D0%B8%D0%B5%D1%81%D1%82%D0%B0.png",
+                "value": "Фиеста",
+                "unimportant": false,
+                "value_id": 27262,
+                "id": 19489979
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326890
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "50СМ",
+                "unimportant": false,
+                "value_id": 36296,
+                "id": 19326887
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BA%D1%80%D1%8E%D1%87%D0%BE%D0%BA.png",
+                "value": "Крючок",
+                "unimportant": false,
+                "value_id": 64566,
+                "id": 19489985
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489976
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "/media/property_value/new02.png",
+                "value": "Новинка",
+                "unimportant": true,
+                "value_id": 27722,
+                "id": 19489982
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B5_%D0%B0%D0%BA%D1%81%D0%B5%D1%81%D1%81..png",
+                "value": "Праздничные аксессуары",
+                "unimportant": false,
+                "value_id": 27816,
+                "id": 19489981
+            }
+        ],
+        "promotions": [],
+        "name": "Палка для игры в пиньяту 50см",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 6,
+                "id": 138869,
+                "rest": 8
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 139196,
+                "rest": 10
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188955,
+                "rest": 8
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 138891,
+                "rest": 9
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 138910,
+                "rest": 4
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 1440,
+                "id": 138307,
+                "rest": 1092
+            }
+        ],
+        "multiplicity": 6,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PR00//ALL//1000",
+            "currency_price": 176,
+            "is_default": false,
+            "currency": "RUB",
+            "original_currency_price": 176,
+            "position": 1
+        },
+        "popularity": 317,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/new02.png",
+                "value__property__name": "Статус Франшиза",
+                "value__name": "Новинка",
+                "value__property__value_icon_position": 5
+            },
+            {
+                "value__image": "/media/property_value/%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B050%D1%8550.png",
+                "value__property__name": "Индивидуальная упаковка",
+                "value__name": "Есть",
+                "value__property__value_icon_position": 3
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489980
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326891
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 95,
+                    "height": 0,
+                    "volume": 0.687,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 274555
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 176,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 176,
+                    "position": 1
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "блк",
+                    "weight": 0.57,
+                    "height": 6,
+                    "volume": 4.125,
+                    "width": 8,
+                    "length": 55,
+                    "common": {
+                        "name": "блк",
+                        "full_name": "Блок"
+                    },
+                    "full_name": "Блок",
+                    "id": 274927
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 1056,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 1056,
+                    "position": 1
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 4.8,
+                    "height": 30,
+                    "volume": 33,
+                    "width": 20,
+                    "length": 55,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 274928
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 8448,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 8448,
+                    "position": 1
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "50.0x48.3x17.14 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "360.0 Г",
+                    "2590.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "8.27 дм3",
+                    "0.041 м3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "5 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390088885",
+                    "4690390090857"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-0836",
+        "units_counts": [
+            [
+                "кор",
+                "5 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T03:45:40.354740",
+        "rest": 2,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/69598/c45bc4f2-582b-4e5b-bc88-41231dd4c072.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/56/7b/567bd8e10ce5cda9c75a6d0b712a1679.jpg",
+                    "banner_catalog_small": "/media/cache/e5/93/e5936e43b41a84d1bdb5e080e26e5172.jpg",
+                    "medium": "/media/cache/8f/aa/8faa0ee4299f73553b24c748bdd5c469.jpg",
+                    "cert_preview": "/media/cache/cc/3d/cc3df312dc38862cfbe7fa69f8d178e9.jpg",
+                    "banner_catalog_large": "/media/cache/2e/dc/2edc038f588e81027be10f5310580910.jpg",
+                    "zoom_large": "/media/cache/ad/8e/ad8e1c7f5ca5c6ee99e479514334942f.jpg",
+                    "xsmall": "/media/cache/1b/cf/1bcf2327f89eddd00929e71174cc30d7.jpg",
+                    "small": "/media/cache/b3/0e/b30e3d3f510de67cb9ef737a1ef2ea01.jpg",
+                    "zoom_medium": "/media/cache/a8/63/a863103928774cf5d81e2e74e62f6add.jpg",
+                    "icon": "/media/cache/2e/ce/2ece8b80a0adf44ef724019545bf6c57.jpg"
+                },
+                "id": 51621,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            12,
+            15,
+            19
+        ],
+        "id": 90852,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "piniata-disney-fei-vishnevyi-sad-s-lent-1507-0836",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята - мексиканская по происхождению игра для взрослых и детей. Изготавливается из папье-маше с украшениями. Пиньяту наполняют различными угощениями и игрушками (до 900гр наполнителя) и подвешивают к потолку или на дерево. В отличие от традиционной пиньяты, пиньяту с лентами разбивать не надо. Нужно по очереди тянуть за специальные веревочки, только одна из которых раскроет пиньяту. Этот вид подходит для игры в маленьких помещениях. Также пиньята может служить оригинальным украшением интерьера. Размер пиньяты в разложенном виде: В 46СМ х Ш 46СМ х Г 10СМ.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 360,
+            "height": 0,
+            "volume": 8.27,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 242981
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 20136792
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 20134823
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 20134824
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 20134821
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 20134820
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D0%94_%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B0%D1%8F_%D1%84%D0%B5%D1%8F.png",
+                "value": "Дисней Маленькая Фея",
+                "unimportant": false,
+                "value_id": 27195,
+                "id": 20136784
+            },
+            {
+                "name": "Лицензия",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Лицензия",
+                "unimportant": true,
+                "value_id": 27751,
+                "id": 20136790
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 20134825
+            },
+            {
+                "name": "Персонаж",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Fairies",
+                "unimportant": false,
+                "value_id": 27079,
+                "id": 20136787
+            },
+            {
+                "name": "Правообладатель",
+                "image": "/media/property_value/Disney.png",
+                "value": "Дисней",
+                "unimportant": false,
+                "value_id": 27120,
+                "id": 20136785
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 46СМ Х Ш 46СМ Х Г 10СМ",
+                "unimportant": false,
+                "value_id": 40956,
+                "id": 20134822
+            },
+            {
+                "name": "Событие",
+                "image": "/media/property_value/%D0%9D%D0%9821_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA.png",
+                "value": "Праздник",
+                "unimportant": false,
+                "value_id": 28444,
+                "id": 20136780
+            },
+            {
+                "name": "Статус товара",
+                "image": "/media/property_value/%D0%A1%D0%A2%D0%9E%D0%9A.PNG",
+                "value": "Сток",
+                "unimportant": false,
+                "value_id": 63547,
+                "id": 20136781
+            },
+            {
+                "name": "Тип карнавал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумажный",
+                "unimportant": true,
+                "value_id": 29084,
+                "id": 20136779
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 20136789
+            }
+        ],
+        "promotions": [
+            {
+                "meta_description": "",
+                "meta_title": "",
+                "meta_keywords": "",
+                "distribution_markets": [
+                    26
+                ],
+                "title": "Лицензионная продукция в опте со скидкой до 70%",
+                "notification": "",
+                "date_from": "2024-01-24T00:00:00",
+                "rendered_body": "<p>69 шаров и товаров для праздника с любимыми персонажами мультфильмов - Микки, Мини, Губка Боб, Черепашки Ниндзя, Даша Путешественница со скидкой до 70%! </p>",
+                "modified": "2024-01-24T02:03:40",
+                "slug": "disnej-cherepashki-nindzja-gubka-bob-dasha-puteshestvennica-v-opte-so-skidkoj",
+                "seo_text": "69 шаров и товаров для праздника с любимыми персонажами мультфильмов - Микки, Мини, Губка Боб, Черепашки Ниндзя, Даша Путешественница со скидкой до 70%! \r\n",
+                "extra_info": "69 шаров и товаров для праздника с любимыми персонажами мультфильмов со скидкой до 70%!",
+                "seo_caption": "Лицензионная продукция в опте со скидкой до 70%",
+                "image": "/media/cache/4c/57/4c579aae5c1798b84b7d1233916d6bb1.jpg",
+                "date_to": "9999-12-31T23:59:59",
+                "show_on_main": true,
+                "summary": "Лицензионная продукция в опте со скидкой до 70%!",
+                "seo_header": "Лицензионная продукция в опте со скидкой до 70%",
+                "id": 195,
+                "published": true
+            }
+        ],
+        "name": "Пиньята Disney Феи Вишневый сад с лент",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 99398,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 117032,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 105276,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 93520,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 188164,
+                "rest": 0
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 111154,
+                "rest": 0
+            }
+        ],
+        "multiplicity": 5,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PR00//ALL//1000",
+            "currency_price": 272.3,
+            "coupon": {
+                "fixed": 0,
+                "percent": 30
+            },
+            "is_default": false,
+            "currency": "RUB",
+            "original_currency_price": 389,
+            "position": 1
+        },
+        "popularity": 4,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D0%A1%D0%A2%D0%9E%D0%9A.PNG",
+                "value__property__name": "Статус товара",
+                "value__name": "Сток",
+                "value__property__value_icon_position": 5
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 20136788
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 20134826
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 360,
+                    "height": 0,
+                    "volume": 8.27,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 242981
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 272.3,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 389,
+                    "position": 1
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 2590,
+                    "height": 17.14,
+                    "volume": 0.041,
+                    "width": 48.3,
+                    "length": 50,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 242982
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PR00//ALL//1000",
+                    "currency_price": 1945,
+                    "is_default": false,
+                    "currency": "RUB",
+                    "original_currency_price": 1945,
+                    "position": 1
+                }
+            }
+        ]
+  },
+  {
+        "measure_units_properties": [
+            [
+                "Размер",
+                [
+                    "0.0x0.0x0.0 ",
+                    "50.0x49.0x42.0 см"
+                ]
+            ],
+            [
+                "Вес брутто",
+                [
+                    "360.0 Г",
+                    "1500.0 Г(брутто)"
+                ]
+            ],
+            [
+                "Объем",
+                [
+                    "8.27 дм3",
+                    "0.041 м3"
+                ]
+            ],
+            [
+                "Баз. ед.",
+                [
+                    "1 шт",
+                    "4 шт"
+                ]
+            ],
+            [
+                "Штрих код. ед.",
+                [
+                    "4690390253320",
+                    "4690390262315"
+                ]
+            ]
+        ],
+        "rating": 0,
+        "code": "1507-1428",
+        "units_counts": [
+            [
+                "кор",
+                "4 шт"
+            ]
+        ],
+        "seo_header": "",
+        "updated_at": "2024-03-20T04:00:41.910652",
+        "rest": 22,
+        "in_favorite": false,
+        "product_files": [],
+        "category_detail": [
+            {
+                "meta_description": "Оптовая продажа пиньят в Москве. Покупайте пиньяты оптом с доставкой у проверенного поставщика!",
+                "meta_title": "",
+                "code": "SHARIK_RU_4_11//01",
+                "name": "Пиньяты",
+                "image": "/media/cache/34/13/34130c3d09a0d578292f906c4fa7762e.jpg",
+                "seo_header": "",
+                "slug": "piniaty",
+                "meta_keywords": "",
+                "seo_caption": "",
+                "seo_text": "Мексиканская по происхождению  полая игрушка из папье-маше – Пиньята  стала очень популярной современной забавой и стильным декором  детских праздников и вечеринок. Изготовленные в форме сказочных замков, пиратских кораблей, в форме цифр, животных и  популярных лицензионных героев, пиньяты наполняются различными угощениями или сюрпризами в виде мини игрушек, сувенирами и конфетти, подвешиваются в воздух. Классические пиньяты разбиваются специальной палкой, после чего из нее высыпаются спрятанные в ней подарки, вызывая восторг и веселье как от участия, так и от результата. Также у нас представлен большой выбор пиньят, которые не надо разбивать, к ним привязаны много красочных лент, но только дернув за одну единственную можно получить содержимое пиньяты.",
+                "id": 8674,
+                "extra_info": ""
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/products/84457/52c7396f-610e-49df-a0e3-0f97024195ae.jpg",
+                "thumb": {
+                    "product_small": "/media/cache/9d/cd/9dcd46bb197738d4b18286ab829759eb.jpg",
+                    "banner_catalog_small": "/media/cache/10/17/10175093b8d7e50889402a59a411984a.jpg",
+                    "medium": "/media/cache/a6/45/a645874897efd45dd412b7c1f989d776.jpg",
+                    "cert_preview": "/media/cache/c4/81/c481ef147741c67a8ece8bef91a53d31.jpg",
+                    "banner_catalog_large": "/media/cache/21/f3/21f3a31e56339b03c215c162cf91476b.jpg",
+                    "zoom_large": "/media/cache/fe/22/fe2242e189e9969080805e8a5b4a9353.jpg",
+                    "xsmall": "/media/cache/f9/60/f9600275c66f5084bd685330c627cbf4.jpg",
+                    "small": "/media/cache/50/90/50903f845bfa33478df2e8a2154cad9a.jpg",
+                    "zoom_medium": "/media/cache/0e/95/0e95bec9d0c030965a6237a4c352ec0f.jpg",
+                    "icon": "/media/cache/e8/d7/e8d760340366751f2fef6d9648b77747.jpg"
+                },
+                "id": 81904,
+                "is_base": true
+            }
+        ],
+        "document_images": [],
+        "stickers": [
+            12,
+            13,
+            19
+        ],
+        "id": 105711,
+        "extra_info": "",
+        "category": 8674,
+        "slug": "piniata-fiksiki-bolshoi-sekret-1507-1428",
+        "seo_text": "",
+        "meta_keywords": "",
+        "seo_caption": "",
+        "certificates": [
+            {
+                "name": "04046",
+                "file_download": "/download/media/cert/1234/",
+                "date_end": "02.08.2033",
+                "date_start": "03.08.2023",
+                "preview": "/media/cache/48/7e/487e3a5ac663f04dee8dc13e81615163.jpg",
+                "type": "Отказное письмо",
+                "id": 1234
+            }
+        ],
+        "measure_units_names": [
+            "Штука",
+            "Коробка"
+        ],
+        "meta_description": "",
+        "meta_title": "",
+        "description": "Пиньята Фиксики со знаменитой фразой из песенки \"Тыдыщ\" изготовлена из папье-маше. Пиньяту наполняют различными угощениями, цветным конфетти и игрушками (до 900 грамм). Подвешивают к потолку или на дерево. При игре в традиционную пиньяту участнику завязывают глаза, раскручивают, и  затем он пытается найти и разбить пиньяту специальной палкой. Остальные участники, чтобы запутать, выкрикивают неверные подсказки, раскачивают, опускают и приподнимают пиньяту.",
+        "measure_unit": {
+            "name": "шт",
+            "weight": 360,
+            "height": 0,
+            "volume": 8.27,
+            "width": 0,
+            "length": 0,
+            "common": {
+                "name": "шт",
+                "full_name": "Штука"
+            },
+            "full_name": "Штука",
+            "id": 264770
+        },
+        "properties": [
+            {
+                "name": "Индивидуальная упаковка",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Нет",
+                "unimportant": false,
+                "value_id": 50187,
+                "id": 19489558
+            },
+            {
+                "name": "Вид материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры, игрушки",
+                "unimportant": true,
+                "value_id": 28398,
+                "id": 19326603
+            },
+            {
+                "name": "Группа материала",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Игры",
+                "unimportant": true,
+                "value_id": 28134,
+                "id": 19326604
+            },
+            {
+                "name": "Исходный материал",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Бумага",
+                "unimportant": true,
+                "value_id": 35089,
+                "id": 19326601
+            },
+            {
+                "name": "Код ТНВЭД",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "9505 90 0000",
+                "unimportant": true,
+                "value_id": 33730,
+                "id": 19326600
+            },
+            {
+                "name": "Коллекция",
+                "image": "/media/property_value/%D1%84%D0%B8%D0%BA%D1%81%D0%B8%D0%BA%D0%B8_02.png",
+                "value": "Фиксики",
+                "unimportant": false,
+                "value_id": 27263,
+                "id": 19489547
+            },
+            {
+                "name": "Лицензия",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Лицензия",
+                "unimportant": true,
+                "value_id": 27751,
+                "id": 19489553
+            },
+            {
+                "name": "Наш дизайн",
+                "image": "/media/property_value/%D0%BD%D0%B0%D1%88.png",
+                "value": "Наш дизайн",
+                "unimportant": false,
+                "value_id": 27750,
+                "id": 19489554
+            },
+            {
+                "name": "Отрасль",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "5Карнавально праздничная прод.",
+                "unimportant": true,
+                "value_id": 28417,
+                "id": 19326605
+            },
+            {
+                "name": "Персонаж",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Фиксики",
+                "unimportant": false,
+                "value_id": 27112,
+                "id": 19489550
+            },
+            {
+                "name": "Правообладатель",
+                "image": "/media/property_value/%D0%9C%D0%B0%D1%80%D0%BC%D0%B5%D0%BB%D0%B0%D0%B4.png",
+                "value": "Мармелад медиа",
+                "unimportant": false,
+                "value_id": 27123,
+                "id": 19489548
+            },
+            {
+                "name": "Размеры\\Габариты",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "В 46СМ Х Ш 46СМ Х Г 10СМ",
+                "unimportant": false,
+                "value_id": 40956,
+                "id": 19326602
+            },
+            {
+                "name": "Способ выкладки",
+                "image": "/media/property_value/%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0.png",
+                "value": "Полка",
+                "unimportant": false,
+                "value_id": 64567,
+                "id": 19489559
+            },
+            {
+                "name": "Статус мелкий опт",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 27733,
+                "id": 19489555
+            },
+            {
+                "name": "Статус товара",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": false,
+                "value_id": 28422,
+                "id": 19489544
+            },
+            {
+                "name": "Статус Франшиза",
+                "image": "https://new.sharik.ru/static/images/nophoto_white_square.png",
+                "value": "Базовый ассортимент",
+                "unimportant": true,
+                "value_id": 27724,
+                "id": 19489556
+            },
+            {
+                "name": "Товарная номенклатура",
+                "image": "/media/property_value/%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B0.png",
+                "value": "Пиньята",
+                "unimportant": false,
+                "value_id": 49862,
+                "id": 19489552
+            }
+        ],
+        "promotions": [],
+        "name": "Пиньята Фиксики Большой Секрет",
+        "rests": [
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Сокол, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул.Дубосековская, д 4 (МАИ ГУП)",
+                    "id": 22
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 2,
+                "id": 126944,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Нагорный, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Нагорный проезд, дом 7, Институт вакуумной техники имени С. А. Векшинского, м.Нагатинская",
+                    "id": 21
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126948,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Садовод-Салют, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "ул. Верхние Поля, 56, стр. 11, Садовод, ТЦ “Салют” Вход №1, 3 этаж, павильон № 20",
+                    "id": 24
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126952,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Фуд Сити, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Москва, п. Сосненское, 22-й км Калужского шоссе, здание №10",
+                    "id": 27
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 190103,
+                "rest": 2
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "Комсомольская, склад-магазин",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "55.77647194769816,37.65784693652341",
+                    "address": "Комсомольская площадь, д. 1 А, строение 2, 17 склад",
+                    "id": 23
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": null,
+                "id": 126956,
+                "rest": 1
+            },
+            {
+                "warehouse": {
+                    "city": 1,
+                    "name": "РЦ, Зеленоград",
+                    "is_visible": true,
+                    "country": 1,
+                    "coordinates": "",
+                    "address": "Зеленоград, ул.Заводская, д.18, стр.9",
+                    "id": 25
+                },
+                "date_of_new_arrival": null,
+                "new_arrival": 300,
+                "id": 126940,
+                "rest": 15
+            }
+        ],
+        "multiplicity": 1,
+        "default_price": {
+            "is_rrc": false,
+            "is_visible": false,
+            "price_type": "PB00//ALL//1000",
+            "currency_price": 1035,
+            "is_default": true,
+            "currency": "RUB",
+            "original_currency_price": 1035,
+            "position": 0
+        },
+        "popularity": 46,
+        "multiplicity_measure_unit": "шт",
+        "icons_property_value": [
+            {
+                "value__image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value__property__name": "Страна",
+                "value__name": "Китай",
+                "value__property__value_icon_position": 1
+            },
+            {
+                "value__image": "/media/property_value/%D0%BD%D0%B0%D1%88.png",
+                "value__property__name": "Наш дизайн",
+                "value__name": "Наш дизайн",
+                "value__property__value_icon_position": 0
+            }
+        ],
+        "dist_markets": "",
+        "origin_properties": [
+            {
+                "name": "Страна",
+                "image": "/media/property_value/china_glossy_wave_icon_60.png",
+                "value": "Китай",
+                "unimportant": false,
+                "value_id": 27865,
+                "id": 19489551
+            },
+            {
+                "name": "Торговая марка",
+                "image": "/media/property_value/%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B0%D1%82%D0%B5%D1%8F.png",
+                "value": "Весёлая Затея",
+                "unimportant": false,
+                "value_id": 27914,
+                "id": 19326606
+            }
+        ],
+        "measure_prices": [
+            {
+                "measure_unit": {
+                    "name": "шт",
+                    "weight": 360,
+                    "height": 0,
+                    "volume": 8.27,
+                    "width": 0,
+                    "length": 0,
+                    "common": {
+                        "name": "шт",
+                        "full_name": "Штука"
+                    },
+                    "full_name": "Штука",
+                    "id": 264770
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 1035,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 1035,
+                    "position": 0
+                }
+            },
+            {
+                "measure_unit": {
+                    "name": "кор",
+                    "weight": 1500,
+                    "height": 42,
+                    "volume": 0.041,
+                    "width": 49,
+                    "length": 50,
+                    "common": {
+                        "name": "кор",
+                        "full_name": "Коробка"
+                    },
+                    "full_name": "Коробка",
+                    "id": 264771
+                },
+                "price": {
+                    "is_rrc": false,
+                    "is_visible": false,
+                    "price_type": "PB00//ALL//1000",
+                    "currency_price": 4140,
+                    "is_default": true,
+                    "currency": "RUB",
+                    "original_currency_price": 4140,
+                    "position": 0
+                }
+            }
+        ]
   }
 ]
