@@ -7,14 +7,14 @@ import NoneCell from './none-cell';
 
 const SmallPrices = ({ data }) => {
 
-  const createTableRow = (tab) => {
+  const createTableRow = (trows) => {
     const rows = [];
-    for (let i = 0; i < tab.length; i += 4) {
+    for (let i = 0; i < trows.length; i += 4) {
       const row = [];
       for (let j = 0; j < 4; j++) {
-        if (tab[i + j]) {
+        if (trows[i + j]) {
           row.push(
-            createSmallPrice(tab[i + j])
+            createSmallPrice(trows[i + j])
           );
         } else {
           row.push(
@@ -29,11 +29,11 @@ const SmallPrices = ({ data }) => {
     return rows;
   };
 
-  const createTable = (tab) => {
+  const createTable = (table) => {
     const childrens = [];
-    const pages = Math.ceil(tab.length / 28);
+    const pages = Math.ceil(table.length / 28);
     for (let pageIndex = 0; pageIndex < pages; pageIndex++) {
-      const pageData = tab.slice(pageIndex * 28, (pageIndex + 1) * 28);
+      const pageData = table.slice(pageIndex * 28, (pageIndex + 1) * 28);
       childrens.push(
         new Table({
           width: {
@@ -48,7 +48,7 @@ const SmallPrices = ({ data }) => {
     return childrens;
   };
 
-  const generateWordDocument = (tab) => {
+  const generateWordDocument = (object) => {
     const doc = new Document({
       sections: [{
         properties: {
@@ -61,7 +61,7 @@ const SmallPrices = ({ data }) => {
             },
           },
         },
-        children: createTable(tab)
+        children: createTable(object)
       }]
     });
 
