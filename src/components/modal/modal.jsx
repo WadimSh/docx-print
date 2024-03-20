@@ -8,12 +8,11 @@ const Modal = () => {
 
   const createNewArray = (date) => {
     const newArray = [];
-    
     date.forEach(item => {
       const newObj = {
         code: item.code,
         name: item.name,
-        value: item.origin_properties[1] ? item.origin_properties[1].value : item.origin_properties[0].value,
+        value: item.origin_properties.find(prop => prop.name === "Торговая марка")?.value || item.origin_properties[0].value,
         multiplicity: item.multiplicity,
         units1: item.units_counts[0] ? item.units_counts[0][0] : '',
         units2: item.units_counts[0] ? item.units_counts[0][1] : '',
@@ -22,7 +21,6 @@ const Modal = () => {
       };
       newArray.push(newObj);
     });
-    
     return newArray;
   };
 
