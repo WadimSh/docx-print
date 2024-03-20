@@ -1,113 +1,10 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow } from "docx";
+import createBlockPrices from "./create-blockprices";
 
 const createSmallPrice = (data) => {
   const indent = data.name.length === 22 ? 150 : 0;
   const spacing = data.name.length > 38 ? 240 : data.name.length < 20 ? 500 : 200;
   const size = data.name.length > 38 ? 23 : 26;
-
-  const changePrice = (val) => {
-    if (val.multiplicity === 1) {
-      return new TableRow({
-        children: [
-          new TableCell({
-            children: [
-              new Paragraph({
-                alignment: AlignmentType.CENTER,
-                children: [
-                  new TextRun({
-                    break: 1,
-                    size: 13,
-                  }),
-                  new TextRun({
-                    text: val.price2,
-                    size: 32,
-                    bold: true,
-                  }),
-                  new TextRun({
-                    text: "₽",
-                    size: 32,
-                    bold: true,
-                  }),
-                ],
-              }),
-            ],
-            borders: {
-              top: {
-                size: 1,
-                color: "FFFFFF",
-              },
-            },
-          }),
-        ],
-      })
-    } else {
-      return new TableRow({
-        children: [
-          new TableCell({
-            children: [
-              new Paragraph({
-                alignment: AlignmentType.CENTER,
-                children: [
-                  new TextRun({
-                    text: "1шт - ",
-                    size: 18,
-                  }),
-                  new TextRun({
-                    text: val.price2,
-                    size: 18,
-                  }),
-                  new TextRun({
-                    text: "₽",
-                    size: 18,
-                  }),
-                  new TextRun({
-                    break: 1,
-                  }),
-                  new TextRun({
-                    text: val.units1,
-                    size: 27,
-                    bold: true,
-                  }),
-                  new TextRun({
-                    text: "  ",
-                    size: 27,
-                  }),
-                  new TextRun({
-                    text: val.units2,
-                    size: 27,
-                    bold: true,
-                  }),
-                  new TextRun({
-                    text: " - ",
-                    size: 27,
-                  }),
-                  new TextRun({
-                    text: val.price1,
-                    size: 27,
-                    bold: true,
-                  }),
-                  new TextRun({
-                    text: "₽",
-                    size: 27,
-                  }),
-                ],
-              }),
-            ],
-            borders: {
-              top: {
-                size: 1,
-                color: "FFFFFF",
-              },
-              bottom: {
-                size: 1,
-                color: "FFFFFF",
-              },
-            },
-          }),
-        ],
-      })
-    }
-  };
   
   return new TableCell({
     borders: {
@@ -207,7 +104,7 @@ const createSmallPrice = (data) => {
               }),
             ],
           }),
-          changePrice(data),  
+          createBlockPrices(data),  
           new TableRow({
             children: [
               new TableCell({
