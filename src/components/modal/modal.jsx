@@ -17,6 +17,10 @@ const Modal = () => {
   const optionsArray = [
     'коммерческое предложение',
     'ценники для магазина',
+    'какието документ',
+    'ещё документы',
+    'немного еще документов',
+    'и еще документики'
   ]
 
   const [openSelect, setOpenSelect] = useState(false);
@@ -28,7 +32,7 @@ const Modal = () => {
   };
 
   const openOption = () => {
-    setOpenSelect(true);
+    setOpenSelect(!openSelect);
   };
 
   return (

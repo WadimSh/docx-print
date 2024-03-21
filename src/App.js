@@ -1,12 +1,17 @@
 import React from "react";
 
-import Modal from "./components/modal/modal";
+import Header from "./components/header/header";
+import SideBar from "./components/sidebar/sidebar";
+import Preview from "./components/preview/preview";
 
 const App = () => {
+
   return (
-    <>
-      <Modal />
-    </>
+    <div>
+      <Header />
+      <SideBar />
+      <Preview />
+    </div>
   );
 }
 
