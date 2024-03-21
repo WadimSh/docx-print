@@ -93,7 +93,7 @@ const Modal = () => {
             </label>
           </div>   
         </div>
-
+        <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'}>ссылка</a>
         {/* <SmallPrices data={newData} />  */}   
         
       </div>
