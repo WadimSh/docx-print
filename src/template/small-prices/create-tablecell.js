@@ -1,7 +1,8 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow } from "docx";
-import createBlockPrices from "./create-blockprices";
 
-const createSmallPrice = (data) => {
+import createBlockPrice from "./create-blockprice";
+
+const createTableCell = (data) => {
   const indent = data.name.length === 22 ? 150 : (data.name.length === 40 ? 270 : 0);
   const spacing = data.name.length < 21 ? 500 : (data.name.length === 40 ? 40 : (data.name.length > 32 ? 300 : 200));
   const size = data.name.length > 32 ? 22 : 26;
@@ -104,7 +105,7 @@ const createSmallPrice = (data) => {
               }),
             ],
           }),
-          createBlockPrices(data),  
+          createBlockPrice(data),  
           new TableRow({
             children: [
               new TableCell({
@@ -134,4 +135,4 @@ const createSmallPrice = (data) => {
   })
 };
 
-export default createSmallPrice;
+export default createTableCell;

@@ -1,6 +1,6 @@
 import { WidthType, Paragraph, Table, TableCell, TableRow } from "docx";
 
-const NoneCell = () => {
+const createEmptyCell = () => {
     
   return new TableCell({
     borders: {
@@ -61,4 +61,4 @@ const NoneCell = () => {
   });
 };
 
-export default NoneCell;
+export default createEmptyCell;

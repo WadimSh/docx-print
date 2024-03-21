@@ -1,6 +1,6 @@
 import { AlignmentType, Paragraph, TextRun, TableCell, TableRow } from "docx";
 
-const createBlockPrices = (data) => {
+const createBlockPrice = (data) => {
   if (data.multiplicity === 1) {
     return new TableRow({
       children: [
@@ -104,4 +104,4 @@ const createBlockPrices = (data) => {
   }
 };
 
-export default createBlockPrices;
+export default createBlockPrice;
