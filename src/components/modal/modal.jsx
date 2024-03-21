@@ -1,32 +1,14 @@
 import React, { useRef, useState } from "react";
-import SmallPrices from "../../template/small-prices/small-prices";
 
+//import SmallPrices from "../../template/small-prices/small-prices";
 //import createEncode from "../../utils/create-encode/create-encode";
-import { data } from "../../context/data";
+//import transformArray from "../../utils/transform-array/transform-array";
+//import { data } from "../../context/data";
 
 const Modal = () => {
 
-  const createNewArray = (arr) => {
-    const newArray = [];
-    arr.forEach(item => {
-      const newObj = {
-        code: item.code,
-        name: item.name.replace(/\s+/g, ' '),
-        value: item.origin_properties.find(prop => prop.name === "Торговая марка")?.value || item.origin_properties.find(prop => prop.name === "Страна")?.value || '',
-        multiplicity: item.multiplicity,
-        units1: item.units_counts[0] ? item.units_counts[0][0] : '',
-        units2: item.units_counts[0] ? item.units_counts[0][1] : '',
-        price1: item.measure_prices[0].price.currency_price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
-        price2: (item.measure_prices[0].price.currency_price * item.multiplicity).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
-      };
-      newArray.push(newObj);
-    });
-    return newArray;
-  };
-
-  const newData = createNewArray(data);
-  console.log(newData);
-
+  //const newData = transformArray(data);
+  
   //const addKeyToObjects = (arr, key, value) => {
   //  return arr.map(obj => ({ ...obj, [key]: value }));
   //};
@@ -112,10 +94,7 @@ const Modal = () => {
           </div>   
         </div>
 
-        <SmallPrices 
-          data={newData}
-        />
-        
+        {/* <SmallPrices data={newData} />  */}   
         
       </div>
     </div>
