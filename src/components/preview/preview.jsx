@@ -4,7 +4,7 @@ const Preview = () => {
 
   return (
     <main>
-    
+      
     </main>
   )
 };
