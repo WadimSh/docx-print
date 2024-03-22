@@ -1,13 +1,14 @@
 import React, { useRef, useState } from "react";
 
-//import SmallPrices from "../../template/small-prices/small-prices";
+import SmallPrices from "../../template/small-prices/small-prices";
+import TemplateBlank from "../template-blank/template-blank";
 //import createEncode from "../../utils/create-encode/create-encode";
-//import transformArray from "../../utils/transform-array/transform-array";
-//import { data } from "../../context/data";
+import transformArray from "../../utils/transform-array/transform-array";
+import { data } from "../../context/data";
 
 const Modal = () => {
 
-  //const newData = transformArray(data);
+  const newData = transformArray(data);
   
   //const addKeyToObjects = (arr, key, value) => {
   //  return arr.map(obj => ({ ...obj, [key]: value }));
@@ -98,8 +99,10 @@ const Modal = () => {
           </div>   
         </div>
         <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'}>ссылка</a>
-        {/* <SmallPrices data={newData} />  */}   
-        
+         <SmallPrices data={newData} />   
+        <TemplateBlank 
+          context=" "
+        />
       </div>
     </div>
   )

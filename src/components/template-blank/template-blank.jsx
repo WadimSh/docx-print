@@ -2,12 +2,18 @@ import React from 'react';
 import { Document, WidthType, BorderStyle, AlignmentType, Table, TableRow, TableCell, Packer, Paragraph, TextRun, Header, Footer, ImageRun } from 'docx';
 import { saveAs } from 'file-saver';
 
+
 import logo from '../../assets/images/logo.png'
 
-const BlankLetter = ({context}) => {
+const TemplateBlank = ({context}) => {
+  
 
-  const generate = () => {
-    const docx = new Document({
+  async function generate() {
+    const blob = await fetch(
+      "https://cors-anywhere.herokuapp.com/https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg"
+    ).then(r => r.blob());
+
+    const doc = new Document({
       sections: [{
         properties: {
           page: {
@@ -288,21 +294,18 @@ const BlankLetter = ({context}) => {
           }),
         },
         children: [
-          new TableRow({
+          new Paragraph({
+            alignment: AlignmentType.CENTER,
             children: [
-              new TableCell({
-                children: [
-                  new Paragraph({
-                    alignment: AlignmentType.CENTER,
-                    children: [
-                      new TextRun({
-                        text: '',
-                        font: 'Libre Barcode EAN13 Text',
-                        size: 82,
-                      }),
-                    ],
-                  }),
-                ],
+              new ImageRun({
+                data: blob,
+                transformation: {
+                  width: 100,
+                  height: 100,
+                },
+              }),
+              new TextRun({
+                text: context,
               }),
             ],
           }),
@@ -310,17 +313,19 @@ const BlankLetter = ({context}) => {
       }],
     });
 
-    Packer.toBlob(docx).then(blob => {
+    Packer.toBlob(doc).then(blob => {
       saveAs(blob, "eut-blank.docx");
       console.log("Document created successfully");
     });
   };
 
+  const handleDoc = () => {
+    generate();
+  }
+
   return (
-    <>
-      <button onClick={generate}>Создать документ Word</button>
-    </>
+    <button className="button" type="button" onClick={() => handleDoc()}>Создать документ</button>
   );
 };
 
-export default BlankLetter;
+export default TemplateBlank;
