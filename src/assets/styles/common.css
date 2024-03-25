@@ -1,4 +1,49 @@
-.overlay {
+:root {
+  --color-main: #f8f8f8;
+  --color-support: #98a2b3;
+  --color-accent: #035bcb;
+  --color-text: #1a2629;
+  --color-success: #16b364;
+  --color-warning: #ffa000;
+  --color-error: #ff392b;
+
+  --font-family: "Inter", sans-serif;
+}
+
+.page {
+  width: 100%;
+  margin: 0 100px;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar preview preview";
+  grid-template-rows: 1fr 4fr;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: var(--font-family);
+}
+
+.header {
+  grid-area: header;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  border: 1px solid #000;
+  margin-right: 16px;
+}
+
+.preview {
+  grid-area: preview;
+  border: 1px solid #000;
+ 
+}
+
+/*.overlay {
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   transition: visibility 0.2s;
@@ -275,4 +320,4 @@ li:hover {
   background-color: #476dcf;
   padding: 8px 0;
   border-radius: 10px;
-}
+}*/

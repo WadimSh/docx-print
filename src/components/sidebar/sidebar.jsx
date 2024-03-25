@@ -3,7 +3,7 @@ import React from "react";
 const SideBar = () => {
 
   return (
-    <aside>
+    <aside className="sidebar">
     
     </aside>
   )

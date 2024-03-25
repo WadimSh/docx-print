@@ -1,6 +1,12 @@
+@import url(./assets/fonts/fonts.css);
 @import url(./assets/styles/common.css);
 
 body {
   margin: 0;
   padding: 0;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
 }

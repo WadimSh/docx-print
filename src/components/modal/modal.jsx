@@ -4,7 +4,7 @@ import SmallPrices from "../../template/small-prices/small-prices";
 import TemplateBlank from "../template-blank/template-blank";
 //import createEncode from "../../utils/create-encode/create-encode";
 import transformArray from "../../utils/transform-array/transform-array";
-import { data } from "../../context/data";
+import { data } from "../../contexts/data";
 
 const Modal = () => {
 

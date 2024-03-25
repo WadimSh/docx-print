@@ -3,7 +3,7 @@ import React from "react";
 const Preview = () => {
 
   return (
-    <main>
+    <main className="preview">
       
     </main>
   )
