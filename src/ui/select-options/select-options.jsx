@@ -30,7 +30,7 @@ const SelectOptions = ({ optionsArray, handleSelect }) => {
       <ul className={openSelect ? 'options active' : 'options'}>
         {optionsArray.map((item, index) => (
           <li onClick={selectValue} key={index}>
-            {item}
+            {item.name}
           </li>
         ))}
       </ul>

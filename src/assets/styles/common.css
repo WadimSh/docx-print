@@ -24,23 +24,26 @@
 
 .header {
   grid-area: header;
-  border: 1px solid #000;
+  border: none;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  padding: 16px;
 }
 
 .sidebar {
   grid-area: sidebar;
-  border: 1px solid #000;
-  margin-right: 16px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  padding: 16px;
 }
 
 .preview {
   grid-area: preview;
-  border: 1px solid #000;
- 
+  border: none;
+  box-sizing: border-box;
+  padding: 16px;
 }
 
 /*.overlay {
