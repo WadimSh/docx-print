@@ -3,8 +3,8 @@ import React from "react";
 const RadioGroup = ({ optionsArray, group, handleChange }) => {
   const handleRadioChange = (e) => {
     const val = e.target.value;
-    //const arr = optionsArray.filter(item => item.value === val).map(item => item.properties);
-    handleChange && handleChange(optionsArray.find(item => item.value === val)?.properties);
+    const obj = optionsArray.find(item => item.value === val)?.properties;
+    handleChange && handleChange({...obj, value: val});
   };
 
   return (

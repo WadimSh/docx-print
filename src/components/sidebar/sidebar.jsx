@@ -28,6 +28,7 @@ const SideBar = () => {
        {chack.extra_charge && <div>2</div>}
        {chack.fair_rounding && <div>3</div>}
       </div>
+      {chack.value}
     </aside>
   )
 };
