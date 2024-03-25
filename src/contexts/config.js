@@ -2,9 +2,9 @@ export const config = [
   {
     id: 1,
     name: 'Ценники для магазина',
+    value: 'prices',
     options: [
       {
-        id: 1,
         name: 'Маленькие ценники 4х5см',
         value: 'small-prices',
         description: '',
