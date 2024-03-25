@@ -15,7 +15,7 @@ const SideBar = () => {
         optionsArray={config}
         handleSelect={setSelect}
       />
-      { config.map((item, index) => (
+      {config.map((item, index) => (
         (select === item.name) && <RadioGroup 
           key={index}
           optionsArray={item.options}
@@ -23,7 +23,11 @@ const SideBar = () => {
           handleChange={setChack}
         />
       ))}
-      {chack}
+      <div>
+       {chack.company_name && <div>1</div>}
+       {chack.extra_charge && <div>2</div>}
+       {chack.fair_rounding && <div>3</div>}
+      </div>
     </aside>
   )
 };
