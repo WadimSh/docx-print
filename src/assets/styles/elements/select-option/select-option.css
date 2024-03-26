@@ -20,6 +20,10 @@
   cursor: pointer;
 }
 
+.select-option .input::placeholder {
+  color: var(--color-text);
+}
+
 .select-option .icon {
   position: absolute;
   right: 4%;
@@ -43,9 +47,11 @@
   position: absolute;
   width: 100%;
   max-height: 220px;
-  background: #f6f6f6;
-  border-radius: 8px;
+  background: var(--color-main);
+  border: 1px solid var(--color-support);
+  border-radius: 4px;
   top: 100%;
+  left: -1px;
   transform: translateY(0);
   overflow: hidden;
   overflow-y: auto;
@@ -71,7 +77,7 @@
   list-style: none;
   font-size: 17px;
   text-transform: capitalize;
-  padding: 17px 20px;
+  padding: 7px 10px;
   cursor: pointer;
 }
 
@@ -80,19 +86,19 @@
   background: var(--color-support);
 }
 
-::-webkit-scrollbar {
+.custom-scroll::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track {
-  background: #3b3b3b;
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f8f8f8;
 }
 
-::-webkit-scrollbar-thumb {
+.custom-scroll::-webkit-scrollbar-thumb {
   background: #d9d9d9;
   border-radius: 20px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+.custom-scroll::-webkit-scrollbar-thumb:hover {
   background: #8e8e8e;
 }

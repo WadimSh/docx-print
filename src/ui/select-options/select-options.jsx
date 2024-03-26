@@ -27,7 +27,7 @@ const SelectOptions = ({ optionsArray, handleSelect }) => {
         readOnly
       />
       <span className={openSelect ? 'icon active' : 'icon'}>▼</span>
-      <ul className={openSelect ? 'options active' : 'options'}>
+      <ul className={openSelect ? 'options custom-scroll active' : 'options'}>
         {optionsArray.map((item, index) => (
           <li onClick={() => selectValue(item)} key={index}>
             {item.name}
