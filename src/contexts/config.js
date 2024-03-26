@@ -22,7 +22,6 @@ export const config = [
         imege_preview: '',
         properties: {
           company_name: true,
-          extra_charge: false,
           fair_rounding: true,
         }
       },

@@ -12,7 +12,7 @@ const SideBar = () => {
 
   useEffect(() => {
     setSharedValue(chack.value)
-  }, [chack]);
+  }, [chack, setSharedValue]);
   
   return (
     <aside className="sidebar">
