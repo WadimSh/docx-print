@@ -1,13 +1,18 @@
-import { useState } from "react";
+import { useState, useContext, useEffect } from "react";
+import { StateContext, ConfigContext } from "../../contexts/contexts";
 
 import SelectOptions from "../../ui/select-options/select-options";
 import RadioGroup from "../../ui/radio-group/radio-group";
 
-import { config } from "../../contexts/config";
-
 const SideBar = () => {
+  const config = useContext(ConfigContext);
   const [select, setSelect] = useState('');
-  const [chack, setChack] = useState('');
+  const [chack, setChack] = useState({});
+  const { setSharedValue } = useContext(StateContext);
+
+  useEffect(() => {
+    setSharedValue(chack.value)
+  }, [chack]);
   
   return (
     <aside className="sidebar">
