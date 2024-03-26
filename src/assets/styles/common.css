@@ -37,6 +37,8 @@
   border-right: 1px solid #000;
   box-sizing: border-box;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .preview {
@@ -312,15 +314,29 @@ li:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+}*/
 
 .button {
   color: #fff;
-  font-weight: 600;
   font-size: 16px;
   width: 100%;
   border: none;
-  background-color: #476dcf;
-  padding: 8px 0;
-  border-radius: 10px;
-}*/
+  background-color: var(--color-accent);
+  padding: 16px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.defolt {
+  margin-top: auto;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  background-color: var(--color-support);
+  padding: 16px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

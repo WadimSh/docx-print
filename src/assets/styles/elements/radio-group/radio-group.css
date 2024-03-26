@@ -18,6 +18,7 @@
   width: 99%;
   height: 48px;
   min-height: 48px;
+  color: var(--color-text);
   background: var(--color-main);
   border: 1px solid var(--color-support);
   border-radius: 4px;

@@ -3,12 +3,18 @@ import { StateContext, ConfigContext } from "../../contexts/contexts";
 
 import SelectOptions from "../../ui/select-options/select-options";
 import RadioGroup from "../../ui/radio-group/radio-group";
+import SmallPrices from "../../template/small-prices/small-prices";
+
+import transformArray from "../../utils/transform-array/transform-array";
+import { data } from "../../contexts/data";
 
 const SideBar = () => {
   const config = useContext(ConfigContext);
   const [select, setSelect] = useState('');
   const [chack, setChack] = useState({});
   const { setSharedValue } = useContext(StateContext);
+
+  const newData = transformArray(data);
 
   useEffect(() => {
     setSharedValue(chack.value)
@@ -33,7 +39,8 @@ const SideBar = () => {
        {chack.extra_charge && <div>2</div>}
        {chack.fair_rounding && <div>3</div>}
       </div>
-      {chack.value}
+      {(!chack.value || chack.value !== 'small-prices') && <div className='defolt'>Создать документ</div>}
+      {chack.value === 'small-prices' && <SmallPrices data={newData} />}
     </aside>
   )
 };
