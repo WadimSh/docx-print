@@ -1,0 +1,98 @@
+.select-option {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  border: 1px solid var(--color-support);
+  border-radius: 4px;
+}
+
+.select-option .input {
+  position: relative;
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  background: var(--color-main);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.select-option .icon {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  font-size: 12px;
+  opacity: .6;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  transition: all .3s ease;
+  pointer-events: none;
+}
+
+.select-option .icon.active {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.select-option .options {
+  position: absolute;
+  width: 100%;
+  max-height: 220px;
+  background: #f6f6f6;
+  border-radius: 8px;
+  top: 100%;
+  transform: translateY(0);
+  overflow: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease;
+  color: #313131;
+  z-index: 100;
+}
+
+.select-option .options.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(5%);
+}
+
+.select-option ul {
+  margin: 0;
+  padding: 0;
+}
+
+.select-option li {
+  list-style: none;
+  font-size: 17px;
+  text-transform: capitalize;
+  padding: 17px 20px;
+  cursor: pointer;
+}
+
+.select-option li:hover {
+  color: var(--color-main);
+  background: var(--color-support);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3b3b3b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8e8e8e;
+}

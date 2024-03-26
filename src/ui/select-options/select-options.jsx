@@ -4,9 +4,9 @@ const SelectOptions = ({ optionsArray, handleSelect }) => {
   const [openSelect, setOpenSelect] = useState(false);
   const leagueInput = useRef();
 
-  const selectValue = (e) => {
-    leagueInput.current.value = e.target.outerText;
-    handleSelect && handleSelect(leagueInput.current.value);
+  const selectValue = (item) => {
+    leagueInput.current.value = item.name;
+    handleSelect && handleSelect(item.value);
     setOpenSelect(false);
   };
 
@@ -29,7 +29,7 @@ const SelectOptions = ({ optionsArray, handleSelect }) => {
       <span className={openSelect ? 'icon active' : 'icon'}>▼</span>
       <ul className={openSelect ? 'options active' : 'options'}>
         {optionsArray.map((item, index) => (
-          <li onClick={selectValue} key={index}>
+          <li onClick={() => selectValue(item)} key={index}>
             {item.name}
           </li>
         ))}

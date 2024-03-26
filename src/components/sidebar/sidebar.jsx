@@ -21,7 +21,7 @@ const SideBar = () => {
         handleSelect={setSelect}
       />
       {config.map((item, index) => (
-        (select === item.name) && <RadioGroup 
+        (select === item.value) && <RadioGroup 
           key={index}
           optionsArray={item.options}
           group={item.value}
