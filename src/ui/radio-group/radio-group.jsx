@@ -10,7 +10,7 @@ const RadioGroup = ({ optionsArray, group, handleChange }) => {
   return (
       <ul className='radio-group custom-scroll'>
           {optionsArray.map((item, index) => (
-              <li key={index} className='button'>
+              <li key={index} className='buttons'>
                   <input className='input-radio' type='radio' name={group} value={item.value} onChange={handleRadioChange} />
                   <label className='label'>
                       <span className='title'>{item.name}</span>

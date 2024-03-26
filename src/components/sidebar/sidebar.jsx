@@ -34,13 +34,15 @@ const SideBar = () => {
           handleChange={setChack}
         />
       ))}
-      <div>
+      <div className='block'>
        {chack.company_name && <div>1</div>}
        {chack.extra_charge && <div>2</div>}
        {chack.fair_rounding && <div>3</div>}
       </div>
-      {(!chack.value || chack.value !== 'small-prices') && <div className='defolt'>Создать документ</div>}
-      {chack.value === 'small-prices' && <SmallPrices data={newData} />}
+      {select && <div className='block-button'>
+        {(!chack.value || chack.value !== 'small-prices') && <div className='defolt'>Создать документ</div>}
+        {chack.value === 'small-prices' && <SmallPrices data={newData} />}
+      </div>}
     </aside>
   )
 };
