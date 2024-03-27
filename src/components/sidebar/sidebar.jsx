@@ -22,15 +22,7 @@ const SideBar = () => {
   const [select, setSelect] = useState('');
   const [chack, setChack] = useState({});
 
-  const checkForNaN = (value) => {
-    if (isNaN(value)) {
-      return 0;
-    } else {
-      return value;
-    }
-  };
-  
-  const newData = transformArray(data, checkForNaN(profit), companyName);
+  const newData = transformArray(data, profit, companyName);
 
   useEffect(() => {
     setSharedValue(chack.value)

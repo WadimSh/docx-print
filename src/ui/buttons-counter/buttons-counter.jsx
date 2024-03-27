@@ -23,8 +23,16 @@ const ButtonsCounter = ({ handleProfit }) => {
     }
   };
 
+  const checkForNaN = (value) => {
+    if (isNaN(value)) {
+      return 0;
+    } else {
+      return value;
+    }
+  };
+
   useEffect(() => {
-    handleProfit && handleProfit(count);
+    handleProfit && handleProfit(checkForNaN(count));
   }, [count])
 
   return (
