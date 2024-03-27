@@ -12,7 +12,6 @@ export const config = [
         properties: {
           company_name: true,
           extra_charge: true,
-          fair_rounding: true,
         }
       },
       {
@@ -20,10 +19,7 @@ export const config = [
         value: 'encode-prices',
         description: '',
         imege_preview: '',
-        properties: {
-          company_name: true,
-          fair_rounding: true,
-        }
+        properties: {}
       },
     ]
   },

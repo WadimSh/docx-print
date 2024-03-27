@@ -4,6 +4,7 @@ import { StateContext, ConfigContext } from "../../contexts/contexts";
 import SelectOptions from "../../ui/select-options/select-options";
 import RadioGroup from "../../ui/radio-group/radio-group";
 import ButtonsCounter from "../../ui/buttons-counter/buttons-counter";
+import TextInput from "../../ui/text-input/text-input";
 
 import SmallPrices from "../../template/small-prices/small-prices";
 
@@ -12,13 +13,14 @@ import { data } from "../../contexts/data";
 
 const SideBar = () => {
   const [profit, setProfit] = useState(0);
+  const [companyName, setCompanyName] = useState('АО "Европа уно трейд"');
 
   const config = useContext(ConfigContext);
   const [select, setSelect] = useState('');
   const [chack, setChack] = useState({});
   const { setSharedValue } = useContext(StateContext);
 
-  const newData = transformArray(data);
+  const newData = transformArray(data, profit, companyName);
 
   useEffect(() => {
     setSharedValue(chack.value)
@@ -39,7 +41,7 @@ const SideBar = () => {
         />
       ))}
       {chack && <div className='block'>
-       {chack.company_name && <div>1</div>}
+       {chack.company_name && <TextInput handleCompanyName={setCompanyName} />}
        {chack.extra_charge && <ButtonsCounter handleProfit={setProfit} />}
        {chack.fair_rounding && <div>3</div>}
       </div>}

@@ -41,7 +41,7 @@ const createTableCell = (data) => {
                     alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
-                        text: 'АО "Европа уно трейд"',
+                        text: data.company,
                         bold: true,
                       }),
                     ],
