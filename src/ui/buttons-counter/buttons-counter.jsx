@@ -16,19 +16,22 @@ const ButtonsCounter = ({ handleProfit }) => {
   };
 
   const handleChange = (e) => {
-    setCount(parseInt(e.target.value));
-    
+    if (parseInt(e.target.value) < 0) {
+      setCount(0);
+    } else {
+      setCount(parseInt(e.target.value));
+    }
   };
 
   useEffect(() => {
     handleProfit && handleProfit(count);
-  }, [handleIncrement, handleDecrement, handleChange])
+  }, [count])
 
   return (
     <div className={style.buttonsCounter}>
       <span>Ваша наценка, % </span>
       <div className={style.counter}>
-        <button className={style.button} onClick={handleDecrement}>-</button>
+        <button className={style.button} onClick={handleDecrement} disabled={count <= 0}>-</button>
         <input className={style.input} type="number" value={count} onChange={handleChange} />
         <button className={style.button} onClick={handleIncrement}>+</button>
       </div>

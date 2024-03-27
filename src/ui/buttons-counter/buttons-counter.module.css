@@ -30,6 +30,10 @@
   background: transparent;
 }
 
+.button:disabled:hover {
+  background: transparent;
+}
+
 .button:hover {
   background: var(--color-support);
 }
