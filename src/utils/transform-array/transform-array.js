@@ -1,5 +1,8 @@
 const transformArray = (data, profit, company) => {
   const newArray = [];
+  const price1 = (value1, value2) => (value1 * (1 + value2 / 100)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+  const price2 = (value1, value2, value3) => (((value1 * (1 + value2 / 100)).toFixed(2)) * value3).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
+  
   data.forEach(item => {
     const newObj = {
       company: company,
@@ -9,8 +12,8 @@ const transformArray = (data, profit, company) => {
       multiplicity: item.multiplicity,
       units1: item.units_counts[0] ? item.units_counts[0][0] : '',
       units2: item.units_counts[0] ? item.units_counts[0][1] : '',
-      price1: (item.measure_prices[0].price.currency_price * (1 + profit / 100)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
-      price2: (((item.measure_prices[0].price.currency_price * (1 + profit / 100)).toFixed(2)) * item.multiplicity).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
+      price1: price1(item.measure_prices[0].price.currency_price, profit),
+      price2: price2(item.measure_prices[0].price.currency_price, profit, item.multiplicity),
     };
     newArray.push(newObj);
   });

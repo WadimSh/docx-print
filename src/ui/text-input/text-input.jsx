@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-const TextInput = ({ handleCompanyName }) => {
-  const [inputText, setInputText] = useState('АО "Европа уно трейд"');
+const TextInput = ({ defaultValue, handleCompanyName }) => {
+  const [inputText, setInputText] = useState(defaultValue);
 
   const handleChange = (event) => {
     setInputText(event.target.value.slice(0, 25));

@@ -41,7 +41,7 @@ const SideBar = () => {
         />
       ))}
       {chack && <div className='block'>
-       {chack.company_name && <TextInput handleCompanyName={setCompanyName} />}
+       {chack.company_name && <TextInput defaultValue='АО "Европа уно трейд"' handleCompanyName={setCompanyName} />}
        {chack.extra_charge && <ButtonsCounter handleProfit={setProfit} />}
        {chack.fair_rounding && <div>3</div>}
       </div>}
