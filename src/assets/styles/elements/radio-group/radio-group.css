@@ -16,7 +16,7 @@
   box-sizing: border-box;
   position: relative;
   width: 99%;
-  height: 48px;
+  height: auto;
   min-height: 48px;
   color: var(--color-text);
   background: var(--color-main);

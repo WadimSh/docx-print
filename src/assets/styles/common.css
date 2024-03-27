@@ -35,7 +35,7 @@
 
 .sidebar {
   grid-area: sidebar;
-  height: 75vh;
+  height: 78vh;
   border-right: 1px solid #000;
   box-sizing: border-box;
   padding: 16px;
@@ -46,7 +46,7 @@
 
 .preview {
   grid-area: preview;
-  height: 75vh;
+  height: 78vh;
   border: none;
   box-sizing: border-box;
   padding: 16px;
@@ -60,6 +60,8 @@
   color: #fff;
   font-size: 16px;
   width: 100%;
+  height: auto;
+  min-height: 48px;
   border: none;
   background-color: var(--color-accent);
   padding: 16px 0;
@@ -71,6 +73,8 @@
   color: #fff;
   font-size: 16px;
   width: 100%;
+  height: auto;
+  min-height: 48px;
   border: none;
   background-color: var(--color-support);
   box-sizing: border-box;
@@ -89,6 +93,9 @@
 
 .block-button {
   width: 100%;
+  height: auto;
+  min-height: 48px;
+  box-sizing: border-box;
   margin-top: auto;
 }
 

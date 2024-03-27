@@ -17,7 +17,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div style={{ display: 'none' }}>
         <button></button>
         <button></button>
       </div>
