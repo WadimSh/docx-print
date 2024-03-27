@@ -12,8 +12,8 @@ const App = () => {
   
   return (
     <div className="page">
-      <Header />
       <ConfigContext.Provider value={config}>
+        <Header />
         <StateProvider>
           <SideBar />
           <Preview />

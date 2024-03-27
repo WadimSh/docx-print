@@ -1,7 +1,9 @@
 import React from "react";
 
-const Header = ({ itemsCount, catalogType }) => {
-  
+import { data } from "../../contexts/data";
+
+const Header = () => {
+    
   return (
     <header className="header">
       <div>
@@ -9,9 +11,9 @@ const Header = ({ itemsCount, catalogType }) => {
         <div>
           <p>
             выбрано&nbsp;
-            <span>{itemsCount || 0}</span>
-            &nbsp;товаров
-            <span>{catalogType && `из ${catalogType}`}</span>
+            <span>{data.length || 0}</span>
+            &nbsp;товаров&nbsp;
+            <span>{`из оптового каталога`}</span>
           </p>
         </div>
       </div>

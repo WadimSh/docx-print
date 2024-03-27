@@ -1,3 +1,5 @@
+import small_prices_img from '../assets/images/small-prices.png';
+
 export const config = [
   {
     id: 1,
@@ -8,7 +10,7 @@ export const config = [
         name: 'Маленькие ценники 4х5см',
         value: 'small-prices',
         description: '',
-        imege_preview: '',
+        imege_preview: small_prices_img,
         properties: {
           company_name: true,
           extra_charge: true,
