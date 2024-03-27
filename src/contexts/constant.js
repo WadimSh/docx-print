@@ -1,0 +1,1 @@
+export const DEFAULT_NAME_COMPANY = 'АО "Европа уно трейд"';

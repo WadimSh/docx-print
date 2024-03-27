@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 
+import style from './buttons-counter.module.css';
+
 const ButtonsCounter = ({ handleProfit }) => {
   const [count, setCount] = useState(0);
 
@@ -14,7 +16,7 @@ const ButtonsCounter = ({ handleProfit }) => {
   };
 
   const handleChange = (e) => {
-    setCount(parseInt(e.target.value) || 0);
+    setCount(parseInt(e.target.value));
     
   };
 
@@ -23,12 +25,12 @@ const ButtonsCounter = ({ handleProfit }) => {
   }, [handleIncrement, handleDecrement, handleChange])
 
   return (
-    <div>
-      <span>Ваша наценка,% </span>
-      <div>
-        <button onClick={handleDecrement}>-</button>
-        <input type="number" value={count} onChange={handleChange} />
-        <button onClick={handleIncrement}>+</button>
+    <div className={style.buttonsCounter}>
+      <span>Ваша наценка, % </span>
+      <div className={style.counter}>
+        <button className={style.button} onClick={handleDecrement}>-</button>
+        <input className={style.input} type="number" value={count} onChange={handleChange} />
+        <button className={style.button} onClick={handleIncrement}>+</button>
       </div>
     </div>
   );

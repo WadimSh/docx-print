@@ -10,22 +10,24 @@ import SmallPrices from "../../template/small-prices/small-prices";
 
 import transformArray from "../../utils/transform-array/transform-array";
 import { data } from "../../contexts/data";
+import { DEFAULT_NAME_COMPANY } from "../../contexts/constant";
 
 const SideBar = () => {
-  const [profit, setProfit] = useState(0);
-  const [companyName, setCompanyName] = useState('АО "Европа уно трейд"');
-
   const config = useContext(ConfigContext);
-  const [select, setSelect] = useState('');
-  const [chack, setChack] = useState({});
   const { setSharedValue } = useContext(StateContext);
 
+  const [profit, setProfit] = useState(0);
+  const [companyName, setCompanyName] = useState('');
+
+  const [select, setSelect] = useState('');
+  const [chack, setChack] = useState({});
+  
   const newData = transformArray(data, profit, companyName);
 
   useEffect(() => {
     setSharedValue(chack.value)
   }, [chack, setSharedValue]);
-  console.log(profit);
+  
   return (
     <aside className="sidebar">
       <SelectOptions 
@@ -41,9 +43,16 @@ const SideBar = () => {
         />
       ))}
       {chack && <div className='block'>
-       {chack.company_name && <TextInput defaultValue='АО "Европа уно трейд"' handleCompanyName={setCompanyName} />}
-       {chack.extra_charge && <ButtonsCounter handleProfit={setProfit} />}
-       {chack.fair_rounding && <div>3</div>}
+        {chack.company_name && <TextInput 
+                                  defaultValue={DEFAULT_NAME_COMPANY} 
+                                  handleCompanyName={setCompanyName} 
+                                />
+        }
+        {chack.extra_charge && <ButtonsCounter 
+                                  handleProfit={setProfit} 
+                                />
+        }
+        {chack.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'}>ссылка</a>}
       </div>}
       {select && <div className='block-button'>
         {(!chack.value || chack.value !== 'small-prices') && <div className='defolt'>Создать документ</div>}

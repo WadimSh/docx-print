@@ -19,7 +19,9 @@ export const config = [
         value: 'encode-prices',
         description: '',
         imege_preview: '',
-        properties: {}
+        properties: {
+          fair_rounding: true,
+        }
       },
     ]
   },

@@ -1,17 +1,23 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+import style from './text-input.module.css';
 
 const TextInput = ({ defaultValue, handleCompanyName }) => {
   const [inputText, setInputText] = useState(defaultValue);
 
-  const handleChange = (event) => {
-    setInputText(event.target.value.slice(0, 25));
-    handleCompanyName && handleCompanyName(event.target.value.slice(0, 25))
+  const handleChange = (e) => {
+    setInputText(e.target.value.slice(0, 25));
   };
 
+  useEffect(() => {
+    handleCompanyName && handleCompanyName(inputText);
+  }, [inputText, handleChange])
+
   return (
-    <div>
-      <label htmlFor="textInput">Введите текст (от 2 до 25 символов):</label>
+    <div className={style.textInput}>
+      <label htmlFor="textInput">Введите текст <br/> <span style={{ fontSize: '10px' }}>(от 2 до 25 символов)</span></label>
       <input
+        className={style.input}
         type="text"
         id="textInput"
         value={inputText}

@@ -5,7 +5,7 @@ import { saveAs } from 'file-saver';
 
 import logo from '../../assets/images/logo.png'
 
-const TemplateBlank = ({context}) => {
+const BlankLetter = ({context}) => {
   
 
   async function generate() {
@@ -328,4 +328,4 @@ const TemplateBlank = ({context}) => {
   );
 };
 
-export default TemplateBlank;
+export default BlankLetter;
