@@ -10,7 +10,7 @@ const transformArray = (data, profit, company) => {
       units1: item.units_counts[0] ? item.units_counts[0][0] : '',
       units2: item.units_counts[0] ? item.units_counts[0][1] : '',
       price1: (item.measure_prices[0].price.currency_price * (1 + profit / 100)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
-      price2: ((item.measure_prices[0].price.currency_price * (1 + profit / 100)) * item.multiplicity).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
+      price2: (((item.measure_prices[0].price.currency_price * (1 + profit / 100)).toFixed(2)) * item.multiplicity).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
     };
     newArray.push(newObj);
   });

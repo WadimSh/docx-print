@@ -8,11 +8,8 @@ const createBlockPrice = (data) => {
           children: [
             new Paragraph({
               alignment: AlignmentType.CENTER,
+              spacing: { after: 150 },
               children: [
-                new TextRun({
-                  break: 1,
-                  size: 13,
-                }),
                 new TextRun({
                   text: data.price1,
                   size: 32,
