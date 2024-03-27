@@ -15,14 +15,13 @@ const TextInput = ({ defaultValue, handleCompanyName }) => {
 
   return (
     <div className={style.textInput}>
-      <label htmlFor="textInput">Введите текст <br/> <span style={{ fontSize: '10px' }}>(от 2 до 25 символов)</span></label>
+      <label htmlFor="textInput">Введите текст <br/> <span style={{ fontSize: '10px' }}>(до 25 символов)</span></label>
       <input
         className={style.input}
         type="text"
         id="textInput"
         value={inputText}
         onChange={handleChange}
-        minLength={2}
         maxLength={25}
       />
     </div>

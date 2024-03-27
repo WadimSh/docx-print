@@ -26,14 +26,23 @@
 .button {
   height: 100%;
   width: 20%;
+  font-size: 18px;
+  color: var(--color-text);
   border: none;
   background: transparent;
 }
 
+.button:disabled {
+  background: transparent;
+  color: var(--color-support);
+}
+
 .button:disabled:hover {
   background: transparent;
+  color: var(--color-support);
 }
 
 .button:hover {
   background: var(--color-support);
+  color: var(--color-main);
 }
