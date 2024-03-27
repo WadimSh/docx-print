@@ -52,7 +52,7 @@ const SideBar = () => {
                                   handleProfit={setProfit} 
                                 />
         }
-        {chack.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download>ссылка</a>}
+        {chack.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
       </div>}
       {select && <div className='block-button'>
         {(!chack.value || chack.value !== 'small-prices') && <div className='defolt'>Создать документ</div>}
