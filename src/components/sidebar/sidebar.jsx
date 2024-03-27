@@ -3,12 +3,16 @@ import { StateContext, ConfigContext } from "../../contexts/contexts";
 
 import SelectOptions from "../../ui/select-options/select-options";
 import RadioGroup from "../../ui/radio-group/radio-group";
+import ButtonsCounter from "../../ui/buttons-counter/buttons-counter";
+
 import SmallPrices from "../../template/small-prices/small-prices";
 
 import transformArray from "../../utils/transform-array/transform-array";
 import { data } from "../../contexts/data";
 
 const SideBar = () => {
+  const [profit, setProfit] = useState(0);
+
   const config = useContext(ConfigContext);
   const [select, setSelect] = useState('');
   const [chack, setChack] = useState({});
@@ -19,7 +23,7 @@ const SideBar = () => {
   useEffect(() => {
     setSharedValue(chack.value)
   }, [chack, setSharedValue]);
-  
+  console.log(profit);
   return (
     <aside className="sidebar">
       <SelectOptions 
@@ -36,7 +40,7 @@ const SideBar = () => {
       ))}
       {chack && <div className='block'>
        {chack.company_name && <div>1</div>}
-       {chack.extra_charge && <div>2</div>}
+       {chack.extra_charge && <ButtonsCounter handleProfit={setProfit} />}
        {chack.fair_rounding && <div>3</div>}
       </div>}
       {select && <div className='block-button'>
