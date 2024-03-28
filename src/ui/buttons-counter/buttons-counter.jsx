@@ -10,17 +10,11 @@ const ButtonsCounter = ({ handleProfit }) => {
   };
 
   const handleDecrement = () => {
-    if (count > 0) {
-      setCount(count - 1);
-    }
+    setCount(count - 1);
   };
 
   const handleChange = (e) => {
-    if (parseInt(e.target.value) < 0) {
-      setCount(0);
-    } else {
-      setCount(parseInt(e.target.value));
-    }
+    setCount(parseInt(e.target.value));
   };
 
   const checkForNaN = (value) => {
@@ -39,7 +33,7 @@ const ButtonsCounter = ({ handleProfit }) => {
     <div className={style.buttonsCounter}>
       <span>Ваша наценка, % </span>
       <div className={style.counter}>
-        <button className={style.button} onClick={handleDecrement} disabled={count <= 0}>-</button>
+        <button className={style.button} onClick={handleDecrement}>-</button>
         <input className={style.input} type="number" value={count} onChange={handleChange} />
         <button className={style.button} onClick={handleIncrement}>+</button>
       </div>

@@ -1,5 +1,5 @@
 import { useState, useContext, useEffect } from "react";
-import { StateContext, ConfigContext } from "../../contexts/contexts";
+import { StateContext, ConfigContext, MainContext } from "../../contexts/contexts";
 
 import SelectOptions from "../../ui/select-options/select-options";
 import RadioGroup from "../../ui/radio-group/radio-group";
@@ -7,13 +7,14 @@ import ButtonsCounter from "../../ui/buttons-counter/buttons-counter";
 import TextInput from "../../ui/text-input/text-input";
 
 import SmallPrices from "../../template/small-prices/small-prices";
+import BlankLetter from "../../template/blank-lеtter/blank-letter";
 
 import transformArray from "../../utils/transform-array/transform-array";
-import { data } from "../../contexts/data";
 import { DEFAULT_NAME_COMPANY } from "../../contexts/constant";
 
 const SideBar = () => {
   const config = useContext(ConfigContext);
+  const data = useContext(MainContext);
   const { setSharedValue } = useContext(StateContext);
 
   const [profit, setProfit] = useState(0);
@@ -54,9 +55,10 @@ const SideBar = () => {
         }
         {chack.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
       </div>}
-      {select && <div className='block-button'>
-        {(!chack.value || chack.value !== 'small-prices') && <div className='defolt'>Создать документ</div>}
+      {chack.value && <div className='block-button'>
+        {(!chack.value || chack.value === '') && <div className='defolt'>Создать документ</div>}
         {chack.value === 'small-prices' && <SmallPrices data={newData} />}
+        {chack.value === 'encode-prices' && <BlankLetter context=' ' />}
       </div>}
     </aside>
   )

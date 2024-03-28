@@ -1,9 +1,10 @@
-import React from "react";
+import { useContext } from "react";
 
-import { data } from "../../contexts/data";
+import { MainContext } from "../../contexts/contexts";
 
 const Header = () => {
-    
+  const data = useContext(MainContext);
+  
   return (
     <header className="header">
       <div>
@@ -11,7 +12,7 @@ const Header = () => {
         <div>
           <p>
             выбрано&nbsp;
-            <span>{data.length || 0}</span>
+            <span>{data.length}</span>
             &nbsp;товаров&nbsp;
             <span>{`из оптового каталога`}</span>
           </p>

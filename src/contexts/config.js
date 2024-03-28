@@ -1,4 +1,5 @@
 import small_prices_img from '../assets/images/small-prices.png';
+import encode_prices_img from '../assets/images/encode-prices.png';
 
 export const config = [
   {
@@ -20,7 +21,7 @@ export const config = [
         name: 'Ценники со штрих-кодом',
         value: 'encode-prices',
         description: '',
-        imege_preview: '',
+        imege_preview: encode_prices_img,
         properties: {
           fair_rounding: true,
         }

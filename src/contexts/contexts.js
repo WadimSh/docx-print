@@ -1,5 +1,7 @@
 import { createContext, useState } from 'react';
 
+export const MainContext = createContext();
+
 export const ConfigContext = createContext();
 
 export const StateContext = createContext();
