@@ -13,13 +13,13 @@ const App = () => {
 
   const [dat, setDat] = useState([]);
   useEffect(() => {
-  //  api.get()
-  //    .then((data) => {
-  //      setDat(data);
-  //    })
-  //    .catch(err => {
-  //      console.log(err)
-  //    })
+    api.get()
+      .then((data) => {
+        setDat(data);
+      })
+      .catch(err => {
+        console.log(err)
+      })
   }, []);
   console.log(dat)
 
