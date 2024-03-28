@@ -6,7 +6,7 @@ import ImgPreview from "../../ui/img-preview/img-preview";
 const Preview = () => {
   const config = useContext(ConfigContext);
   const { sharedValue } = useContext(StateContext);
- console.log(sharedValue === 'small-prices')
+ 
   return (
     <main className="preview">
       {config.map((item, index) => (
