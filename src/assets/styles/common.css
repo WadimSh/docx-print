@@ -10,7 +10,16 @@
   --font-family: "Inter", sans-serif;
 }
 
-.page {
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--color-main);
+}
+
+#root {
   width: 100%;
   height: 100vh;
   margin: 0 100px;
@@ -23,7 +32,7 @@
   font-family: var(--font-family);
 }
 
-.header {
+header {
   grid-area: header;
   border: none;
   box-sizing: border-box;
@@ -33,7 +42,7 @@
   padding: 16px;
 }
 
-.sidebar {
+aside {
   grid-area: sidebar;
   height: 78vh;
   border-right: 1px solid var(--color-support);
@@ -44,7 +53,7 @@
   position: relative;
 }
 
-.preview {
+main {
   grid-area: preview;
   height: 78vh;
   border: none;
@@ -56,6 +65,41 @@
   align-items: center;
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #8e8e8e;
+}
+
+/* TODO: перенести эти классы стилей в модули соответсвующих ui-элементов */
 .button {
   color: #fff;
   font-size: 16px;
@@ -97,21 +141,4 @@
   min-height: 48px;
   box-sizing: border-box;
   margin-top: auto;
-}
-
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
-
-input[type='number'],
-input[type="number"]:hover,
-input[type="number"]:focus {
-  appearance: none;
-  -moz-appearance: textfield;
-  text-align: center;
-}
-
-input:focus {
-  outline: none;
 }

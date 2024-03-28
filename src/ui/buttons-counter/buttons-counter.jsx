@@ -30,9 +30,9 @@ const ButtonsCounter = ({ handleProfit }) => {
   }, [count])
 
   return (
-    <div className={style.buttonsCounter}>
+    <div className={style.wrapper}>
       <span>Ваша наценка, % </span>
-      <div className={style.counter}>
+      <div className={style.container}>
         <button className={style.button} onClick={handleDecrement}>-</button>
         <input className={style.input} type="number" value={count} onChange={handleChange} />
         <button className={style.button} onClick={handleIncrement}>+</button>

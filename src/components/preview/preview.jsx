@@ -8,7 +8,7 @@ const Preview = () => {
   const { sharedValue } = useContext(StateContext);
  
   return (
-    <main className="preview">
+    <main>
       {config.map((item, index) => (
         <ImgPreview key={index} optionsArray={item.options} value={sharedValue} />
       ))}

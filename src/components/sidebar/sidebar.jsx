@@ -30,7 +30,7 @@ const SideBar = () => {
   }, [chack, setSharedValue]);
   
   return (
-    <aside className="sidebar">
+    <aside>
       <SelectOptions 
         optionsArray={config}
         handleSelect={setSelect}

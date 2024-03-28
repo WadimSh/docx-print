@@ -24,7 +24,7 @@ const App = () => {
   console.log(dat)
 
   return (
-    <div className="page">
+    <>
       <MainContext.Provider value={data}>
         <Header />
         <ConfigContext.Provider value={config}>
@@ -34,7 +34,7 @@ const App = () => {
           </StateProvider>
         </ConfigContext.Provider>
       </MainContext.Provider>
-    </div>
+    </>
   );
 }
 

@@ -1,14 +1,2 @@
 @import url(./assets/fonts/fonts.css);
 @import url(./assets/styles/common.css);
-@import url(./assets/styles/elements/index.css);
-
-body {
-  margin: 0;
-  padding: 0;
-  background: var(--color-main);
-}
-
-#root {
-  display: flex;
-  min-height: 100vh;
-}

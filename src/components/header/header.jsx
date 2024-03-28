@@ -6,7 +6,7 @@ const Header = () => {
   const data = useContext(MainContext);
   
   return (
-    <header className="header">
+    <header>
       <div>
         <h1>Преобразование данных в формат документа Word</h1>
         <div>

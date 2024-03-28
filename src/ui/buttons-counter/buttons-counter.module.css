@@ -1,4 +1,4 @@
-.buttonsCounter {
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.counter {
+.container {
   display: flex;
   justify-content: space-between;
   width: 30%;
@@ -30,16 +30,6 @@
   color: var(--color-text);
   border: none;
   background: transparent;
-}
-
-.button:disabled {
-  background: transparent;
-  color: var(--color-support);
-}
-
-.button:disabled:hover {
-  background: transparent;
-  color: var(--color-support);
 }
 
 .button:hover {

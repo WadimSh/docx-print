@@ -1,5 +1,7 @@
 import { useState, useRef } from "react";
 
+import style from "./select-options.module.css";
+
 const SelectOptions = ({ optionsArray, handleSelect }) => {
   const [openSelect, setOpenSelect] = useState(false);
   const leagueInput = useRef();
@@ -14,22 +16,24 @@ const SelectOptions = ({ optionsArray, handleSelect }) => {
     setOpenSelect(!openSelect);
   };
 
+  const listClass = `${style.list} ${openSelect ? 'custom-scroll ' + style.visibility : ''}`;
+  const iconClass = `${style.icon} ${openSelect ? style.active : ''}`;
+  
   return (
-    <div className='select-option'>
+    <div className={style.wrapper}>
       <input 
-        className='input'
+        className={style.input}
         onClick={openOption}
         onBlur={() => setOpenSelect(false)}
         ref={leagueInput}
-        id='league'
         type='text'
         placeholder='Выберите вид документа'
         readOnly
       />
-      <span className={openSelect ? 'icon active' : 'icon'}>▼</span>
-      <ul className={openSelect ? 'options custom-scroll active' : 'options'}>
+      <span className={iconClass}>▼</span>
+      <ul className={listClass}>
         {optionsArray.map((item, index) => (
-          <li onClick={() => selectValue(item)} key={index}>
+          <li key={index} className={style.option} onClick={() => selectValue(item)}>
             {item.name}
           </li>
         ))}
