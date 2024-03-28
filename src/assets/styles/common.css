@@ -99,8 +99,7 @@ input:focus {
   background: #8e8e8e;
 }
 
-/* TODO: перенести эти классы стилей в модули соответсвующих ui-элементов */
-.button {
+.btn {
   color: #fff;
   font-size: 16px;
   width: 100%;
@@ -112,6 +111,9 @@ input:focus {
   border-radius: 4px;
   cursor: pointer;
 }
+
+
+/* TODO: перенести эти классы стилей в модули соответсвующих ui-элементов */
 
 .defolt {
   color: #fff;

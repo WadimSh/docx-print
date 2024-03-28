@@ -323,7 +323,7 @@ const BlankLetter = ({context}) => {
   }
 
   return (
-    <button className="button" type="button" onClick={() => handleDoc()}>Создать документ</button>
+    <button className="btn" type="button" onClick={() => handleDoc()}>Создать документ</button>
   );
 };
 
