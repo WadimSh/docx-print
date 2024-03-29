@@ -2,14 +2,13 @@ import React from 'react';
 import { Document, WidthType, BorderStyle, AlignmentType, Table, TableRow, TableCell, Packer, Paragraph, TextRun, Header, Footer, ImageRun } from 'docx';
 import { saveAs } from 'file-saver';
 
-
 import logo from '../../assets/images/logo.png'
 
 const BlankLetter = ({context}) => {
   //https://cors-anywhere.herokuapp.com/
   async function generate() {
     const blob = await fetch(
-      "https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg"
+      "https://cors-anywhere.herokuapp.com/https://new.sharik.ru/media/cache/bc/e1/bce16e37b3bfc3a3c27bb965997b52d6.jpg"
     ).then(r => r.blob());
 
     const doc = new Document({

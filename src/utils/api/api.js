@@ -9,10 +9,11 @@ class Api {
     return Promise.reject(`Ошибка ${res.status}`);
   }
   get() {
-    
     return fetch(`${this.url}`, {
       headers: {
         'Content-Type': 'application/json',
+        "host": "https://balloonsit.ru/",
+        "referer": "https://balloonsit.ru/",
       },
     })
     .then(res => this._checkResponse(res));
