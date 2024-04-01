@@ -1,6 +1,7 @@
 import { useContext } from "react";
 
 import { MainContext } from "../../contexts/contexts";
+import { ImageIcon, ListIcon } from "../../ui/icons";
 
 const Header = () => {
   const data = useContext(MainContext);
@@ -25,9 +26,19 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div style={{ display: 'none' }}>
-        <button></button>
-        <button></button>
+      <div style={{ display: 'block' }}>
+        <button>
+          <ListIcon 
+            size={28}
+            color="var(--color-text)"
+          />
+        </button>
+        <button>
+          <ImageIcon 
+            size={28}
+            color="var(--color-text)"
+          />
+        </button>
       </div>
     </header>
   )
