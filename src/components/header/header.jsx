@@ -1,9 +1,30 @@
 import { useContext } from "react";
+//import { saveAs } from 'file-saver';
 
 import { MainContext } from "../../contexts/contexts";
 import { ImageIcon, ListIcon } from "../../ui/icons";
 
 const Header = () => {
+  //const doc =`<html>
+  //  <head>
+  //    <title>My HTML</title>
+  //  </head>
+  //  <body>
+  //    <div>Привет!</div>
+  //   </body>
+  //  </html>`;
+//
+  //const saveHtml = (html, filename) => {
+  //  const blob = new Blob([html], { type: "text/html" });
+  //  saveAs(blob, filename);
+  //};
+//
+  //const handleSaveHtml = () => {
+  //  saveHtml(doc, "index.html");
+  //};
+
+
+
   const data = useContext(MainContext);
   let text = 'товаров';
 

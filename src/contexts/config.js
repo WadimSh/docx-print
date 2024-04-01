@@ -15,6 +15,7 @@ export const config = [
         properties: {
           company_name: true,
           extra_charge: true,
+          round_price: true,
         }
       },
       {

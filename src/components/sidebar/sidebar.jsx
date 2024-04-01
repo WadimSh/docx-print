@@ -19,16 +19,17 @@ const SideBar = () => {
 
   const [profit, setProfit] = useState(0);
   const [companyName, setCompanyName] = useState('');
+  const [round, setRound] = useState(true);
 
   const [select, setSelect] = useState('');
   const [chack, setChack] = useState({});
 
-  const newData = transformArray(data, profit, companyName);
+  const newData = transformArray(data, profit, companyName, round);
 
   useEffect(() => {
     setSharedValue(chack.value)
   }, [chack, setSharedValue]);
-  
+  console.log(chack)
   return (
     <aside>
       <SelectOptions 
@@ -53,6 +54,10 @@ const SideBar = () => {
                                   handleProfit={setProfit} 
                                 />
         }
+        {chack.round_price && <div>
+          <input type="checkbox" />
+          <label>сделать красивое округление</label>
+          </div>}
         {chack.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
       </div>}
       {chack.value && <div className='block-button'>

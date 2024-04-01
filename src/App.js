@@ -10,7 +10,6 @@ import { data } from "./contexts/data";
 import { config } from "./contexts/config";
 
 const App = () => {
-
   const [dat, setDat] = useState([]);
   useEffect(() => {
     //api.get()
