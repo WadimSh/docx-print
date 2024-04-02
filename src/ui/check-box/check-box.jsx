@@ -1,0 +1,42 @@
+import { useState } from "react";
+
+import style from "./check-box.module.css";
+
+const CheckBox = ({ 
+  label,       
+  checked,     
+  onChange,    
+}) => {
+  const [isChecked, setIsChecked] = useState(checked || false);
+
+  const handleCheckboxChange = () => {
+    const newCheckedValue = !isChecked;
+    setIsChecked(newCheckedValue);
+
+    if (onChange) {
+      onChange(newCheckedValue);
+    }
+  };
+
+  const containerClass = `${style.container} ${isChecked && style.active}`;
+  const checkClass = `${style.check} ${isChecked && style.checkin}`
+
+  return (
+    <label className={style.wrapper}>
+      <span className={containerClass}>
+        <input
+          type="checkbox"
+          checked={isChecked}
+          onChange={handleCheckboxChange}
+          className={style.input}
+        />
+        <div className={checkClass}><strong>&#10003;</strong></div>
+      </span>
+      <span className={style.label}>
+        {label ? label : ''}
+      </span>
+    </label>
+  );
+};
+
+export default CheckBox;

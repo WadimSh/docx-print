@@ -10,7 +10,7 @@ import { data } from "./contexts/data";
 import { config } from "./contexts/config";
 
 const App = () => {
-  const [dat, setDat] = useState([]);
+  //const [dat, setDat] = useState([]);
   useEffect(() => {
     //api.get()
     //  .then((data) => {
@@ -20,8 +20,7 @@ const App = () => {
     //    console.log(err)
     //  })
   }, []);
-  console.log(dat)
-
+  
   return (
     <>
       <MainContext.Provider value={data}>
