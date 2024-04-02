@@ -14,7 +14,10 @@ const ButtonsCounter = ({ handleProfit }) => {
   };
 
   const handleChange = (e) => {
-    setCount(parseInt(e.target.value));
+    const value = e.target.value;
+    if (!isNaN(value) || value === "-" || value === "") {
+      setCount(parseInt(value));
+    }
   };
 
   const checkForNaN = (value) => {

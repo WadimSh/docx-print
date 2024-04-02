@@ -56,7 +56,7 @@ const SideBar = () => {
                                 />
         }
         {chack.round_price && <CheckBox 
-                                label="сделать 'красивое' округление"
+                                label='сделать "красивое" округление'
                                 checked={round}
                                 onChange={setRound}
                               />
