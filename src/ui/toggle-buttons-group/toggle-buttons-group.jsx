@@ -1,19 +1,26 @@
 import React from 'react';
 
-const ToggleButtonsGroup = ({ selectedOption, onOptionChange }) => {
+import style from './toggle-buttons-group.module.css';
+
+const ToggleButtonsGroup = ({ selectedOption, onOptionChange, firstIcon, secondIcon }) => {
+  const firstClass = `${style.button} ${selectedOption ===  1 && style.active}`;
+  const secondClass = `${style.button} ${selectedOption ===  2 && style.active}`;
+
   return (
-    <div className="toggle-buttons-group">
+    <div className={style.wrapper}>
       <button
-        className={1 === selectedOption ? 'active' : ''}
+        type='button'
+        className={firstClass}
         onClick={() => onOptionChange(1)}
       >
-        1
+        {firstIcon}
       </button>
       <button
-        className={2 === selectedOption ? 'active' : ''}
+        type='button'
+        className={secondClass}
         onClick={() => onOptionChange(2)}
       >
-        2
+        {secondIcon}
       </button>
       <div></div>
     </div>

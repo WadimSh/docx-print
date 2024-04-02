@@ -1,7 +1,8 @@
 import { useContext, useState } from "react";
-import { saveAs } from 'file-saver';
+//import { saveAs } from 'file-saver';
 
 import { MainContext } from "../../contexts/contexts";
+import ToggleButtonsGroup from "../../ui/toggle-buttons-group/toggle-buttons-group";
 import { ImageIcon, ListIcon } from "../../ui/icons";
 
 const Header = () => {
@@ -37,14 +38,15 @@ const Header = () => {
   //</div>
 
   const data = useContext(MainContext);
-  let text = 'товаров';
+  const [buttonToggle, setButtonToggle] = useState(1);
 
+  let text = 'товаров';
   if (data.length % 10 === 1 && data.length !== 11) {
     text = 'товар';
   } else if (data.length % 10 === 2 || data.length % 10 === 3 || data.length % 10 === 4) {
     text = 'товара';
   }
-  
+  console.log(buttonToggle)
   return (
     <header>
       <div>
@@ -58,20 +60,18 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div style={{ display: 'block' }}>
-        <button>
-          <ListIcon 
-            size={28}
-            color="var(--color-text)"
-          />
-        </button>
-        <button>
-          <ImageIcon 
-            size={28}
-            color="var(--color-text)"
-          />
-        </button>
-      </div>
+      <ToggleButtonsGroup 
+        firstIcon={<ListIcon 
+          size={28}
+          color="currentColor"
+        />}
+        secondIcon={<ImageIcon 
+          size={28}
+          color="currentColor"
+        />}
+        selectedOption={buttonToggle}
+        onOptionChange={setButtonToggle}
+      />
     </header>
   )
 };

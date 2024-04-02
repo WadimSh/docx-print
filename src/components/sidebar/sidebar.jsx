@@ -30,7 +30,7 @@ const SideBar = () => {
   useEffect(() => {
     setSharedValue(chack.value)
   }, [chack, setSharedValue]);
-  console.log(round)
+  
   return (
     <aside>
       <SelectOptions 
