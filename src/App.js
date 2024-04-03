@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { StateProvider, ConfigContext, MainContext } from "./contexts/contexts";
 
 import Header from "./components/header/header";
@@ -10,8 +10,7 @@ import { data } from "./contexts/data";
 import { config } from "./contexts/config";
 
 const App = () => {
-  const [buttonToggle, setButtonToggle] = useState(1);
-
+  
   //const [dat, setDat] = useState([]);
   useEffect(() => {
     //api.get()
@@ -26,13 +25,10 @@ const App = () => {
   return (
     <StateProvider>
       <MainContext.Provider value={data}>
-        <Header 
-          buttonToggle={buttonToggle} 
-          setButtonToggle={setButtonToggle}
-        />
+        <Header />
         <ConfigContext.Provider value={config}>
-          {buttonToggle === 1 && <SideBar />}
-          {buttonToggle === 2 && <Preview />}
+          <SideBar />
+          <Preview />
         </ConfigContext.Provider>
       </MainContext.Provider>
     </StateProvider>  

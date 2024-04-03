@@ -1,11 +1,9 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 //import { saveAs } from 'file-saver';
 
 import { MainContext } from "../../contexts/contexts";
-import ToggleButtons from "../../ui/toggle-buttons/toggle-buttons";
-import { ImageIcon, ListIcon } from "../../ui/icons";
 
-const Header = ({ buttonToggle, setButtonToggle }) => {
+const Header = () => {
 
 //
   //const doc =`<html>
@@ -60,18 +58,6 @@ const Header = ({ buttonToggle, setButtonToggle }) => {
           </p>
         </div>
       </div>
-      <ToggleButtons 
-        firstIcon={<ListIcon 
-          size={28}
-          color="currentColor"
-        />}
-        secondIcon={<ImageIcon 
-          size={28}
-          color="currentColor"
-        />}
-        selectedOption={buttonToggle}
-        onOptionChange={setButtonToggle}
-      />
     </header>
   )
 };

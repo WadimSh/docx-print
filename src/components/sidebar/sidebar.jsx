@@ -18,8 +18,8 @@ const SideBar = () => {
   const data = useContext(MainContext);
   const { sharedValue, setSharedValue } = useContext(StateContext);
   
-  const [select, setSelect] = useState(sharedValue["select"] || {});
-  const [chack, setChack] = useState(sharedValue["chack"] || {});
+  const [select, setSelect] = useState({});
+  const [chack, setChack] = useState({});
 
   const [companyName, setCompanyName] = useState(sharedValue["companyName"] || DEFAULT_NAME_COMPANY);
   const [profit, setProfit] = useState(sharedValue["profit"] || 0);
@@ -30,8 +30,7 @@ const SideBar = () => {
   useEffect(() => {
     setSharedValue(prevState => ({
       ...prevState,
-      select: select,
-      chack: chack,
+      chack: chack.value,
       companyName: companyName,
       profit: profit,
       round: round,
@@ -42,13 +41,11 @@ const SideBar = () => {
     <aside>
       <SelectOptions 
         optionsArray={config}
-        optionSelected={select.name}
         handleSelect={setSelect}
       />
       {config.map((item, index) => (
         (select.value === item.value) && <RadioGroup 
           key={index}
-          check={chack.value}
           optionsArray={item.options}
           group={item.value}
           handleChange={setChack}
