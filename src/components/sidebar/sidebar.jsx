@@ -11,7 +11,15 @@ import SmallPrices from "../../template/small-prices/small-prices";
 import BlankLetter from "../../template/blank-lеtter/blank-letter";
 
 import transformArray from "../../utils/transform-array/transform-array";
-import { DEFAULT_NAME_COMPANY } from "../../contexts/constant";
+import { 
+  DEFAULT_NAME_COMPANY, 
+  LABEL_CHECKBOX_ROUND,
+  LABEL_BUTTONS_COUNTER,
+  LABEL_TEXT_INPUT,
+  PLACEHOLDER_SELECT_OPTIONS,
+  TYPE_SMALL_PRICES,
+  TYPE_ENCODE_PRICES 
+} from "../../contexts/constant";
 
 const SideBar = () => {
   const config = useContext(ConfigContext);
@@ -19,7 +27,7 @@ const SideBar = () => {
   const { sharedValue, setSharedValue } = useContext(StateContext);
   
   const [select, setSelect] = useState({});
-  const [chack, setChack] = useState({});
+  const [check, setCheck] = useState({});
 
   const [companyName, setCompanyName] = useState(sharedValue["companyName"] || DEFAULT_NAME_COMPANY);
   const [profit, setProfit] = useState(sharedValue["profit"] || 0);
@@ -30,16 +38,17 @@ const SideBar = () => {
   useEffect(() => {
     setSharedValue(prevState => ({
       ...prevState,
-      chack: chack.value,
+      check: check.value,
       companyName: companyName,
       profit: profit,
       round: round,
     }));
-  }, [chack, companyName, profit, round, select, setSharedValue]);
+  }, [check, companyName, profit, round, select, setSharedValue]);
   
   return (
     <aside>
       <SelectOptions 
+        placeholder={PLACEHOLDER_SELECT_OPTIONS}
         optionsArray={config}
         handleSelect={setSelect}
       />
@@ -48,32 +57,33 @@ const SideBar = () => {
           key={index}
           optionsArray={item.options}
           group={item.value}
-          handleChange={setChack}
+          handleChange={setCheck}
         />
       ))}
-      {chack && <div className='block'>
-        {chack.company_name && <TextInput 
+      {check && <div className='block'>
+        {check.company_name && <TextInput 
+                                  label={LABEL_TEXT_INPUT}
                                   defaultValue={companyName} 
                                   handleCompanyName={setCompanyName} 
                                 />
         }
-        {chack.extra_charge && <ButtonsCounter 
+        {check.extra_charge && <ButtonsCounter 
+                                  label={LABEL_BUTTONS_COUNTER}
                                   defaultValue={profit} 
                                   handleProfit={setProfit} 
                                 />
         }
-        {chack.round_price && <CheckBox 
-                                label='сделать "красивое" округление'
+        {check.round_price && <CheckBox 
+                                label={LABEL_CHECKBOX_ROUND}
                                 checked={round}
                                 onChange={setRound}
                               />
         }
-        {chack.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
+        {check.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
       </div>}
-      {chack.value && <div className='block-button'>
-        {(!chack.value || chack.value === '') && <div className='defolt'>Создать документ</div>}
-        {chack.value === 'small-prices' && <SmallPrices data={newData} />}
-        {chack.value === 'encode-prices' && <BlankLetter context=' ' />}
+      {check.value && <div className='block-button'>
+        {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
+        {check.value === TYPE_ENCODE_PRICES && <BlankLetter context=' ' />}
       </div>}
     </aside>
   )

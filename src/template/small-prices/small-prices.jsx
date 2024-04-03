@@ -3,6 +3,7 @@ import { Document, Packer } from "docx";
 import { saveAs } from 'file-saver';
 
 import CreateButton from '../../ui/create-button/create-button';
+import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
 import createTable from './create-table';
 
 const SmallPrices = ({ data }) => {
@@ -34,7 +35,10 @@ const SmallPrices = ({ data }) => {
   }
 
   return (
-    <CreateButton handleDoc={handleDoc} />
+    <CreateButton 
+      handleDoc={handleDoc} 
+      label={LABEL_CREATE_BUTTON}
+    />
   );
 };
 

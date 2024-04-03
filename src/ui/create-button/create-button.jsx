@@ -2,7 +2,7 @@ import React from "react";
 
 import style from "./create-button.module.css"
 
-const CreateButton = ({ handleDoc }) => {
+const CreateButton = ({ handleDoc, label }) => {
 
   return (
     <button 
@@ -10,7 +10,7 @@ const CreateButton = ({ handleDoc }) => {
       type="button" 
       onClick={handleDoc}
     >
-      Создать документ
+      {label ? label : ''}
     </button>
   )
 };

@@ -1,4 +1,4 @@
-.textInput {
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,11 +7,18 @@
   box-sizing: border-box;
 }
 
+.label {
+  display: block;
+  min-width: 50%;
+  margin-left: 4px;
+}
+
 .input {
-  height: 90%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
   border: 1px solid var(--color-support);
   border-radius: 4px;
+  background: transparent;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 8px;
 }

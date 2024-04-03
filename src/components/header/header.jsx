@@ -1,42 +1,8 @@
 import { useContext } from "react";
-//import { saveAs } from 'file-saver';
-
 import { MainContext } from "../../contexts/contexts";
 
 const Header = () => {
-
-//
-  //const doc =`<html>
-  //  <head>
-  //    <title>My HTML</title>
-  //  </head>
-  //  <body>
-  //    <div>Привет!</div>
-  //   </body>
-  //  </html>`;
-  //const saveHtml = (html, filename) => {
-  //  const blob = new Blob([html], { type: "text/html" });
-  //  saveAs(blob, filename);
-  //};
-//
-  //const handleSaveHtml = () => {
-  //  saveHtml(doc, "index.html");
-  //};
-  //const [file, setFile] = useState(null);
-  //const handleFileChange = (event) => {
-  //  setFile(event.target.files[0]);
-  //};
-  //const handleSaveFile = () => {
-  //  saveAs(file, 'newFileName.jpg');
-  //};
-//
-  //<div>
-  //  <input type="file" onChange={handleFileChange} />
-  //  <button onClick={handleSaveFile}>Save File As</button>
-  //</div>
-
   const data = useContext(MainContext);
-  
 
   let text = 'товаров';
   if (data.length % 10 === 1 && data.length !== 11) {

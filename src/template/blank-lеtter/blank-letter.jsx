@@ -3,6 +3,7 @@ import { Document, WidthType, BorderStyle, AlignmentType, Table, TableRow, Table
 import { saveAs } from 'file-saver';
 
 import CreateButton from '../../ui/create-button/create-button';
+import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
 import logo from '../../assets/images/logo.png'
 
 const BlankLetter = ({context}) => {
@@ -323,7 +324,10 @@ const BlankLetter = ({context}) => {
   }
 
   return (
-    <CreateButton handleDoc={handleDoc} />
+    <CreateButton 
+      handleDoc={handleDoc} 
+      label={LABEL_CREATE_BUTTON}
+    />
   );
 };
 

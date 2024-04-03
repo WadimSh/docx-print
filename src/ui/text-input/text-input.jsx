@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import style from './text-input.module.css';
 
-const TextInput = ({ defaultValue, handleCompanyName }) => {
+const TextInput = ({ defaultValue, handleCompanyName, label }) => {
   const [inputText, setInputText] = useState(defaultValue);
 
   const handleChange = (e) => {
@@ -14,8 +14,13 @@ const TextInput = ({ defaultValue, handleCompanyName }) => {
   }, [inputText, handleChange])
 
   return (
-    <div className={style.textInput}>
-      <label htmlFor="textInput">Введите текст <br/> <span style={{ fontSize: '10px' }}>(до 25 символов)</span></label>
+    <div className={style.wrapper}>
+      <label 
+        htmlFor="textInput"
+        className={style.label}
+      >
+        {label ? label : ''}
+      </label>
       <input
         className={style.input}
         type="text"

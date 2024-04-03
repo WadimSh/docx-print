@@ -27,7 +27,7 @@ body {
   grid-template-areas:
     "header header header"
     "sidebar preview preview";
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 20vh 80vh;
   grid-template-columns: repeat(3, 1fr);
   font-family: var(--font-family);
 }
@@ -44,10 +44,10 @@ header {
 
 aside {
   grid-area: sidebar;
-  height: 78vh;
   border-right: 1px solid var(--color-support);
   box-sizing: border-box;
   padding: 16px;
+  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -55,10 +55,10 @@ aside {
 
 main {
   grid-area: preview;
-  height: 78vh;
   border: none;
   box-sizing: border-box;
   padding: 16px;
+  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,43 +99,7 @@ input:focus {
   background: #8e8e8e;
 }
 
-.btn {
-  color: #fff;
-  font-size: 16px;
-  width: 100%;
-  height: auto;
-  min-height: 48px;
-  border: none;
-  background-color: var(--color-accent);
-  padding: 16px 0;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all .3s;
-}
-
-.btn:hover {
-  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.3);
-  transition: all .3s;
-}
-
-
 /* TODO: перенести эти классы стилей в модули соответсвующих ui-элементов */
-
-.defolt {
-  color: #fff;
-  font-size: 16px;
-  width: 100%;
-  height: auto;
-  min-height: 48px;
-  border: none;
-  background-color: var(--color-support);
-  box-sizing: border-box;
-  padding: 16px 0;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .block {
   margin-top: auto;

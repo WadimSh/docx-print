@@ -10,7 +10,7 @@ const Preview = () => {
   return (
     <main>
       {config.map((item, index) => (
-        <ImgPreview key={index} optionsArray={item.options} value={sharedValue["chack"]} />
+        <ImgPreview key={index} optionsArray={item.options} value={sharedValue["check"]} />
       ))}
     </main>
   )

@@ -1,6 +1,6 @@
 import React from "react";
 
-import word from '../../assets/images/MOWord.png';
+import wordIcon from '../../assets/images/MOWord.png';
 import style from "./radio-group.module.css";
 
 const RadioGroup = ({ optionsArray, group, handleChange }) => {
@@ -18,7 +18,7 @@ const RadioGroup = ({ optionsArray, group, handleChange }) => {
         <li key={index} className={style.point}>
           <input className={style.input} type='radio' name={group} value={item.value} onChange={handleRadioChange} />
           <label className={style.label}>
-            <img src={word} alt="icon" width={24}/>   
+            <img src={wordIcon} alt="icon" width={24}/>   
             <span className={style.title}>{item.name}</span>
           </label>
         </li>

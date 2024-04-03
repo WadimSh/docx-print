@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import style from './buttons-counter.module.css';
 
-const ButtonsCounter = ({ handleProfit, defaultValue }) => {
+const ButtonsCounter = ({ handleProfit, defaultValue, label }) => {
   const [count, setCount] = useState(defaultValue);
 
   const handleIncrement = () => {
@@ -34,7 +34,7 @@ const ButtonsCounter = ({ handleProfit, defaultValue }) => {
 
   return (
     <div className={style.wrapper}>
-      <span>Ваша наценка, % </span>
+      <span>{label ? label : ''}</span>
       <div className={style.container}>
         <button className={style.button} onClick={handleDecrement}>-</button>
         <input className={style.input} type="number" value={count} onChange={handleChange} />

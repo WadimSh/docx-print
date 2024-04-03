@@ -30,7 +30,9 @@ const CheckBox = ({
           onChange={handleCheckboxChange}
           className={style.input}
         />
-        <div className={checkClass}><strong>&#10003;</strong></div>
+        <div className={checkClass}>
+          <strong>&#10003;</strong>
+        </div>
       </span>
       <span className={style.label}>
         {label ? label : ''}
