@@ -2,6 +2,7 @@ import React from 'react';
 import { Document, Packer } from "docx";
 import { saveAs } from 'file-saver';
 
+import CreateButton from '../../ui/create-button/create-button';
 import createTable from './create-table';
 
 const SmallPrices = ({ data }) => {
@@ -33,7 +34,7 @@ const SmallPrices = ({ data }) => {
   }
 
   return (
-    <button className="btn" type="button" onClick={() => handleDoc()}>Создать документ</button>
+    <CreateButton handleDoc={handleDoc} />
   );
 };
 

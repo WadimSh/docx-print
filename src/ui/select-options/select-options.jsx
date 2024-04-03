@@ -1,14 +1,20 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 import style from "./select-options.module.css";
 
-const SelectOptions = ({ optionsArray, handleSelect }) => {
+const SelectOptions = ({ optionsArray, handleSelect, optionSelected }) => {
   const [openSelect, setOpenSelect] = useState(false);
   const leagueInput = useRef();
 
+  useEffect(() => {
+    if(optionSelected !== undefined) {
+      leagueInput.current.value = optionSelected;
+    }
+  }, [optionSelected]);
+
   const selectValue = (item) => {
     leagueInput.current.value = item.name;
-    handleSelect && handleSelect(item.value);
+    handleSelect && handleSelect(item);
     setOpenSelect(false);
   };
 

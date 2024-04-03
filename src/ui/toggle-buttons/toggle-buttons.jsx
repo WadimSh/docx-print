@@ -1,8 +1,8 @@
 import React from 'react';
 
-import style from './toggle-buttons-group.module.css';
+import style from './toggle-buttons.module.css';
 
-const ToggleButtonsGroup = ({ selectedOption, onOptionChange, firstIcon, secondIcon }) => {
+const ToggleButtons = ({ selectedOption, onOptionChange, firstIcon, secondIcon }) => {
   const firstClass = `${style.button} ${selectedOption ===  1 && style.active}`;
   const secondClass = `${style.button} ${selectedOption ===  2 && style.active}`;
 
@@ -27,4 +27,4 @@ const ToggleButtonsGroup = ({ selectedOption, onOptionChange, firstIcon, secondI
   );
 };
 
-export default ToggleButtonsGroup;
+export default ToggleButtons;

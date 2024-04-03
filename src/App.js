@@ -24,20 +24,18 @@ const App = () => {
   }, []);
   
   return (
-    <>
+    <StateProvider>
       <MainContext.Provider value={data}>
         <Header 
           buttonToggle={buttonToggle} 
           setButtonToggle={setButtonToggle}
         />
         <ConfigContext.Provider value={config}>
-          <StateProvider>
-            {buttonToggle === 1 && <SideBar />}
-            {buttonToggle === 2 && <Preview />}
-          </StateProvider>
+          {buttonToggle === 1 && <SideBar />}
+          {buttonToggle === 2 && <Preview />}
         </ConfigContext.Provider>
       </MainContext.Provider>
-    </>
+    </StateProvider>  
   );
 }
 

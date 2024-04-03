@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 //import { saveAs } from 'file-saver';
 
 import { MainContext } from "../../contexts/contexts";
-import ToggleButtonsGroup from "../../ui/toggle-buttons-group/toggle-buttons-group";
+import ToggleButtons from "../../ui/toggle-buttons/toggle-buttons";
 import { ImageIcon, ListIcon } from "../../ui/icons";
 
 const Header = ({ buttonToggle, setButtonToggle }) => {
@@ -60,7 +60,7 @@ const Header = ({ buttonToggle, setButtonToggle }) => {
           </p>
         </div>
       </div>
-      <ToggleButtonsGroup 
+      <ToggleButtons 
         firstIcon={<ListIcon 
           size={28}
           color="currentColor"

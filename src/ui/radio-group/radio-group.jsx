@@ -11,7 +11,7 @@ const RadioGroup = ({ optionsArray, group, handleChange, check }) => {
   };
 
   const classWrapper = style.wrapper + ' custom-scroll';
-  console.log(check)
+  
   return (
     <ul className={classWrapper}>
       {optionsArray.map((item, index) => (

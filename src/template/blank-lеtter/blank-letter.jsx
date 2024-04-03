@@ -2,6 +2,7 @@ import React from 'react';
 import { Document, WidthType, BorderStyle, AlignmentType, Table, TableRow, TableCell, Packer, Paragraph, TextRun, Header, Footer, ImageRun } from 'docx';
 import { saveAs } from 'file-saver';
 
+import CreateButton from '../../ui/create-button/create-button';
 import logo from '../../assets/images/logo.png'
 
 const BlankLetter = ({context}) => {
@@ -322,7 +323,7 @@ const BlankLetter = ({context}) => {
   }
 
   return (
-    <button className="btn" type="button" onClick={() => handleDoc()}>Создать документ</button>
+    <CreateButton handleDoc={handleDoc} />
   );
 };
 
