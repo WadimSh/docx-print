@@ -5,7 +5,7 @@ import { MainContext } from "../../contexts/contexts";
 import ToggleButtonsGroup from "../../ui/toggle-buttons-group/toggle-buttons-group";
 import { ImageIcon, ListIcon } from "../../ui/icons";
 
-const Header = () => {
+const Header = ({ buttonToggle, setButtonToggle }) => {
 
 //
   //const doc =`<html>
@@ -38,7 +38,7 @@ const Header = () => {
   //</div>
 
   const data = useContext(MainContext);
-  const [buttonToggle, setButtonToggle] = useState(1);
+  
 
   let text = 'товаров';
   if (data.length % 10 === 1 && data.length !== 11) {
@@ -46,7 +46,7 @@ const Header = () => {
   } else if (data.length % 10 === 2 || data.length % 10 === 3 || data.length % 10 === 4) {
     text = 'товара';
   }
-  console.log(buttonToggle)
+  
   return (
     <header>
       <div>

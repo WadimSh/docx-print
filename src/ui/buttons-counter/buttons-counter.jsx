@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 
 import style from './buttons-counter.module.css';
 
-const ButtonsCounter = ({ handleProfit }) => {
-  const [count, setCount] = useState(0);
+const ButtonsCounter = ({ handleProfit, defaultValue }) => {
+  const [count, setCount] = useState(defaultValue);
 
   const handleIncrement = () => {
     setCount(count + 1);

@@ -16,20 +16,27 @@ import { DEFAULT_NAME_COMPANY } from "../../contexts/constant";
 const SideBar = () => {
   const config = useContext(ConfigContext);
   const data = useContext(MainContext);
-  const { setSharedValue } = useContext(StateContext);
+  const { sharedValue, setSharedValue } = useContext(StateContext);
+  
+  const [companyName, setCompanyName] = useState(sharedValue["companyName"] || DEFAULT_NAME_COMPANY);
+  const [profit, setProfit] = useState(sharedValue["profit"] || 0);
+  const [round, setRound] = useState(sharedValue["round"] || false);
 
-  const [profit, setProfit] = useState(0);
-  const [companyName, setCompanyName] = useState('');
-  const [round, setRound] = useState(false);
-
-  const [select, setSelect] = useState('');
-  const [chack, setChack] = useState({});
+  const [select, setSelect] = useState(sharedValue["select"] || '');
+  const [chack, setChack] = useState(sharedValue["chack"] || {});
 
   const newData = transformArray(data, profit, companyName, round);
 
   useEffect(() => {
-    setSharedValue(chack.value)
-  }, [chack, setSharedValue]);
+    setSharedValue(prevState => ({
+      ...prevState,
+      chack: chack,
+      companyName: companyName,
+      profit: profit,
+      round: round,
+      select: select
+    }));
+  }, [chack, companyName, profit, round, select, setSharedValue]);
   
   return (
     <aside>
@@ -40,6 +47,7 @@ const SideBar = () => {
       {config.map((item, index) => (
         (select === item.value) && <RadioGroup 
           key={index}
+          check={sharedValue["chack"].value}
           optionsArray={item.options}
           group={item.value}
           handleChange={setChack}
@@ -47,11 +55,12 @@ const SideBar = () => {
       ))}
       {chack && <div className='block'>
         {chack.company_name && <TextInput 
-                                  defaultValue={DEFAULT_NAME_COMPANY} 
+                                  defaultValue={companyName} 
                                   handleCompanyName={setCompanyName} 
                                 />
         }
         {chack.extra_charge && <ButtonsCounter 
+                                  defaultValue={profit} 
                                   handleProfit={setProfit} 
                                 />
         }
