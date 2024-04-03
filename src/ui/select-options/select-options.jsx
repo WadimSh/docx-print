@@ -22,8 +22,8 @@ const SelectOptions = ({ optionsArray, handleSelect, optionSelected, placeholder
     setOpenSelect(!openSelect);
   };
 
-  const listClass = `${style.list} ${openSelect && 'custom-scroll ' + style.visibility}`;
-  const iconClass = `${style.icon} ${openSelect && style.active}`;
+  const listClass = `${style.list} ${openSelect ? 'custom-scroll ' + style.visibility : ''}`;
+  const iconClass = `${style.icon} ${openSelect ? style.active : ''}`.trim();
   
   return (
     <div className={style.wrapper}>

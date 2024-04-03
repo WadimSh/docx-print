@@ -20,6 +20,7 @@
   background: var(--color-main);
   color: var(--color-text);
   cursor: pointer;
+  outline: none;
 }
 
 .input::placeholder {

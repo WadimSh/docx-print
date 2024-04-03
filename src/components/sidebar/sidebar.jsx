@@ -60,7 +60,7 @@ const SideBar = () => {
           handleChange={setCheck}
         />
       ))}
-      {check && <div className='block'>
+      <div className='block'>
         {check.company_name && <TextInput 
                                   label={LABEL_TEXT_INPUT}
                                   defaultValue={companyName} 
@@ -80,11 +80,9 @@ const SideBar = () => {
                               />
         }
         {check.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
-      </div>}
-      {check.value && <div className='block-button'>
-        {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
-        {check.value === TYPE_ENCODE_PRICES && <BlankLetter context=' ' />}
-      </div>}
+      </div>
+      {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
+      {check.value === TYPE_ENCODE_PRICES && <BlankLetter context='' />}
     </aside>
   )
 };

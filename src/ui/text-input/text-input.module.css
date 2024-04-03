@@ -21,4 +21,5 @@
   background: transparent;
   box-sizing: border-box;
   padding: 8px;
+  outline: none;
 }

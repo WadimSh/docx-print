@@ -78,10 +78,6 @@ input[type="number"]:focus {
   text-align: center;
 }
 
-input:focus {
-  outline: none;
-}
-
 .custom-scroll::-webkit-scrollbar {
   width: 10px;
 }
@@ -99,19 +95,12 @@ input:focus {
   background: #8e8e8e;
 }
 
-/* TODO: перенести эти классы стилей в модули соответсвующих ui-элементов */
-
 .block {
   margin-top: auto;
-  width: 100%;
-  height: 200px;
   margin-bottom: 16px;
-}
-
-.block-button {
   width: 100%;
-  height: auto;
-  min-height: 48px;
-  box-sizing: border-box;
-  margin-top: auto;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
