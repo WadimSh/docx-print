@@ -1,8 +1,6 @@
 const transformArray = (data, profit, company, round) => {
   const newArray = [];
-  const price1 = (value1, value2) => (value1 * (1 + value2 / 100)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-  const price2 = (value1, value2, value3) => (((value1 * (1 + value2 / 100)).toFixed(2)) * value3).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
-  
+    
   const roundNumber = (number) => {
     if (number > 10 && number < 20) {
       return Math.floor(number * 10) / 10;
@@ -15,13 +13,15 @@ const transformArray = (data, profit, company, round) => {
     } else if (number > 200) {
       return Math.floor(number / 10) * 10;
     }
-  
     return number;
   };
 
-  const price2i = (value1, value2, value3) => roundNumber((((value1 * (1 + value2 / 100)).toFixed(2)) * value3)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
-  const price1i = (value1, value2, value3) => (roundNumber((((value1 * (1 + value2 / 100)).toFixed(2)) * value3)) / value3).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
+  const price1 = (value1, value2) => (value1 * (1 + value2 / 100)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+  const price2 = (value1, value2, value3) => (((value1 * (1 + value2 / 100)).toFixed(2)) * value3).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 
+  const price1round = (value1, value2, value3) => (roundNumber((((value1 * (1 + value2 / 100)).toFixed(2)) * value3)) / value3).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+  const price2round = (value1, value2, value3) => roundNumber((((value1 * (1 + value2 / 100)).toFixed(2)) * value3)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+  
   data.forEach(item => {
     const newObj = {
       company: company,
@@ -31,8 +31,8 @@ const transformArray = (data, profit, company, round) => {
       multiplicity: item.multiplicity,
       units1: item.units_counts[0] ? item.units_counts[0][0] : '',
       units2: item.units_counts[0] ? item.units_counts[0][1] : '',
-      price1: round ? price1i(item.measure_prices[0].price.currency_price, profit, item.multiplicity) : price1(item.measure_prices[0].price.currency_price, profit),
-      price2: round ? price2i(item.measure_prices[0].price.currency_price, profit, item.multiplicity) : price2(item.measure_prices[0].price.currency_price, profit, item.multiplicity),
+      price1: round ? price1round(item.measure_prices[0].price.currency_price, profit, item.multiplicity) : price1(item.measure_prices[0].price.currency_price, profit),
+      price2: round ? price2round(item.measure_prices[0].price.currency_price, profit, item.multiplicity) : price2(item.measure_prices[0].price.currency_price, profit, item.multiplicity),
     };
     newArray.push(newObj);
   });

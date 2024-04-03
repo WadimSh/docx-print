@@ -18,12 +18,11 @@ const CheckBox = ({
     }
   };
 
-  const containerClass = `${style.container} ${isChecked ? style.active : ''}`.trim();
-  const checkClass = `${style.check} ${isChecked ? style.checkin : ''}`.trim();
+  const checkClass = `${style.check} ${isChecked ? style.active : ''}`.trim();
 
   return (
     <label className={style.wrapper}>
-      <span className={containerClass}>
+      <span className={style.container}>
         <input
           type="checkbox"
           checked={isChecked}
