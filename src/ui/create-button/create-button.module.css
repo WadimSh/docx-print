@@ -1,12 +1,16 @@
 .button {
   color: #fff;
+  font-family: var(--font-family);
+  font-weight: 400;
   font-size: 16px;
+  text-align: center;
   width: 100%;
-  height: auto;
-  min-height: 48px;
+  max-width: 500px;
+  height: 54px;
   border: none;
+  box-sizing: border-box;
   background-color: var(--color-accent);
-  padding: 16px 0;
+  padding: 18px 24px;
   border-radius: 4px;
   cursor: pointer;
   transition: all .3s;

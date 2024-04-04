@@ -30,7 +30,7 @@ const CheckBox = ({
           className={style.input}
         />
         <div className={checkClass}>
-          <strong>&#10003;</strong>
+          &#10003;
         </div>
       </span>
       <span className={style.label} onClick={handleCheckboxChange}>

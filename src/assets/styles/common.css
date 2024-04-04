@@ -29,9 +29,6 @@ body {
     "sidebar preview preview";
   grid-template-rows: 20vh 80vh;
   grid-template-columns: repeat(3, 1fr);
-  font-family: var(--font-family);
-  font-size: 16px;
-  font-weight: 400;
 }
 
 header {
@@ -94,3 +91,19 @@ section {
   background: #8e8e8e;
 }
 
+@media screen and (max-width: 900px) {
+  #root {
+    grid-template-areas:
+      "header header"
+      "sidebar sidebar";
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  main {
+    display: none;
+  }
+
+  aside {
+    border-right: none;
+  }
+}

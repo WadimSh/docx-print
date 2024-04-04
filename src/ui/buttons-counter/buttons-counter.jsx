@@ -17,7 +17,7 @@ const ButtonsCounter = ({ handleProfit, defaultValue, label }) => {
     const value = e.target.value;
     if (value === "-") {
       setCount(-1);
-    } else if (value === "" || isNaN(value)) {
+    } else if (value === "" || value === " " || isNaN(value)) {
       setCount(0);
     } else {
       setCount(parseInt(value));
