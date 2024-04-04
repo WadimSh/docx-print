@@ -24,6 +24,19 @@
   outline: none;
 }
 
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input,
+.input:hover,
+.input:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+  text-align: center;
+}
+
 .button {
   height: 100%;
   width: 20%;

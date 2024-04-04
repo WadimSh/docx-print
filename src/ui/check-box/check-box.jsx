@@ -21,7 +21,7 @@ const CheckBox = ({
   const checkClass = `${style.check} ${isChecked ? style.active : ''}`.trim();
 
   return (
-    <label className={style.wrapper}>
+    <div className={style.wrapper}>
       <span className={style.container}>
         <input
           type="checkbox"
@@ -33,10 +33,10 @@ const CheckBox = ({
           <strong>&#10003;</strong>
         </div>
       </span>
-      <span className={style.label}>
+      <span className={style.label} onClick={handleCheckboxChange}>
         {label ? label : ''}
       </span>
-    </label>
+    </div>
   );
 };
 

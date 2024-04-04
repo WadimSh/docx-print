@@ -30,6 +30,8 @@ body {
   grid-template-rows: 20vh 80vh;
   grid-template-columns: repeat(3, 1fr);
   font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 header {
@@ -65,37 +67,7 @@ main {
   align-items: center;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
-input[type='number'],
-input[type="number"]:hover,
-input[type="number"]:focus {
-  appearance: none;
-  -moz-appearance: textfield;
-  text-align: center;
-}
-
-.custom-scroll::-webkit-scrollbar {
-  width: 10px;
-}
-
-.custom-scroll::-webkit-scrollbar-track {
-  background: #f8f8f8;
-}
-
-.custom-scroll::-webkit-scrollbar-thumb {
-  background: #d9d9d9;
-  border-radius: 20px;
-}
-
-.custom-scroll::-webkit-scrollbar-thumb:hover {
-  background: #8e8e8e;
-}
-
-.block {
+section {
   margin-top: auto;
   margin-bottom: 16px;
   width: 100%;
@@ -104,3 +76,21 @@ input[type="number"]:focus {
   flex-direction: column;
   gap: 8px;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8e8e8e;
+}
+

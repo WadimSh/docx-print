@@ -22,7 +22,7 @@ const SelectOptions = ({ optionsArray, handleSelect, optionSelected, placeholder
     setOpenSelect(!openSelect);
   };
 
-  const listClass = `${style.list} ${openSelect ? 'custom-scroll ' + style.visibility : ''}`;
+  const listClass = `${style.list} ${openSelect ? style.visibility : ''}`.trim();
   const iconClass = `${style.icon} ${openSelect ? style.active : ''}`.trim();
   
   return (

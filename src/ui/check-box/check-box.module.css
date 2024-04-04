@@ -1,16 +1,11 @@
 .wrapper {
-  cursor: pointer;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
 }
 
 .container {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
   background-color: transparent;
   outline: 0;
   border: 0;
@@ -56,6 +51,7 @@
 }
 
 .label {
+  cursor: pointer;
   margin: 0;
   padding-left: 4px;
   color: var(--colot-text);

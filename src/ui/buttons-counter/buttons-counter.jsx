@@ -15,21 +15,17 @@ const ButtonsCounter = ({ handleProfit, defaultValue, label }) => {
 
   const handleChange = (e) => {
     const value = e.target.value;
-    if (!isNaN(value) || value === "-" || value === "") {
+    if (value === "-") {
+      setCount(-1);
+    } else if (value === "" || isNaN(value)) {
+      setCount(0);
+    } else {
       setCount(parseInt(value));
     }
   };
 
-  const checkForNaN = (value) => {
-    if (isNaN(value)) {
-      return 0;
-    } else {
-      return value;
-    }
-  };
-
   useEffect(() => {
-    handleProfit && handleProfit(checkForNaN(count));
+    handleProfit && handleProfit(count);
   }, [count])
 
   return (
@@ -37,7 +33,7 @@ const ButtonsCounter = ({ handleProfit, defaultValue, label }) => {
       <span>{label ? label : ''}</span>
       <div className={style.container}>
         <button className={style.button} onClick={handleDecrement}>-</button>
-        <input className={style.input} type="number" value={count} onChange={handleChange} />
+        <input className={style.input} type="text" value={count} onChange={handleChange} />
         <button className={style.button} onClick={handleIncrement}>+</button>
       </div>
     </div>

@@ -10,10 +10,8 @@ const RadioGroup = ({ optionsArray, group, handleChange }) => {
     handleChange && handleChange({...obj, value: val});
   };
 
-  const classWrapper = style.wrapper + ' custom-scroll';
-  
   return (
-    <ul className={classWrapper}>
+    <ul className={style.wrapper}>
       {optionsArray.map((item, index) => (
         <li key={index} className={style.point}>
           <input className={style.input} type='radio' name={group} value={item.value} onChange={handleRadioChange} />
