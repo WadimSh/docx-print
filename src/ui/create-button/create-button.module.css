@@ -1,4 +1,5 @@
 .button {
+  align-self: center;
   color: #fff;
   font-family: var(--font-family);
   font-weight: 400;

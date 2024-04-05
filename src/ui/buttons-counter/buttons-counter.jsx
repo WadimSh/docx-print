@@ -32,9 +32,13 @@ const ButtonsCounter = ({ handleProfit, defaultValue, label }) => {
     <div className={style.wrapper}>
       <span>{label ? label : ''}</span>
       <div className={style.container}>
-        <button className={style.button} onClick={handleDecrement}>-</button>
+        <button className={style.button} onClick={handleDecrement}>
+          <span>-</span>
+        </button>
         <input className={style.input} type="text" value={count} onChange={handleChange} />
-        <button className={style.button} onClick={handleIncrement}>+</button>
+        <button className={style.button} onClick={handleIncrement}>
+          <span>+</span>
+        </button>
       </div>
     </div>
   );
