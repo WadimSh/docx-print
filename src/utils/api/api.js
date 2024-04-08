@@ -12,8 +12,14 @@ class Api {
     return fetch(`${this.url}`, {
       headers: {
         'Content-Type': 'application/json',
-        "host": "https://balloonsit.ru/",
-        "referer": "https://balloonsit.ru/",
+        'Allow': 'GET, HEAD, OPTIONS',
+        'Content-Encoding': 'gzip',
+        'Content-Language': 'ru',
+        'Server': 'nginx',
+        'Vary': 'Accept-Encoding',
+        'Vary': 'Accept-Language, Cookie',
+        'X-Content-Type-Options': 'nosniff',
+        'X-Frame-Options': 'SAMEORIGIN'
       },
     })
     .then(res => this._checkResponse(res));
