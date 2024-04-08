@@ -12,21 +12,12 @@ class Api {
     return fetch(`${this.url}`, {
       headers: {
         'Content-Type': 'application/json',
-        'Allow': 'GET, HEAD, OPTIONS',
-        'Content-Encoding': 'gzip',
-        'Content-Language': 'ru',
-        'Server': 'nginx',
-        'Vary': 'Accept-Encoding',
-        'Vary': 'Accept-Language, Cookie',
-        'X-Content-Type-Options': 'nosniff',
-        'X-Frame-Options': 'SAMEORIGIN'
       },
     })
     .then(res => this._checkResponse(res));
   }
 }
 
-//  https://new.sharik.ru/api/rest/v1/products_detailed/get_many/?ids=77753,77754,77755,77757,77758,77776,77791,77792,77793,77794,77795,77796,78125,78126,78129,78130,78146,78148,78149,78172  
 const api = new Api({
     baseUrl: 'https://new.sharik.ru/api/rest/v1/products_detailed/get_many/?ids=77753,77754,77755,77757,77758,77776,77791,77792,77793,77794,77795,77796,78125,78126,78129,78130,78146,78148,78149,78172',
 });
