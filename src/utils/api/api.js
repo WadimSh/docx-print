@@ -11,8 +11,8 @@ class Api {
   get() {
     return fetch(`${this.url}`, {
       headers: {
-        'Content-Type': 'application/json',
-      },
+        
+      }
     })
     .then(res => this._checkResponse(res));
   }
