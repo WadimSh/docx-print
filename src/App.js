@@ -6,11 +6,11 @@ import SideBar from "./components/sidebar/sidebar";
 import Preview from "./components/preview/preview";
 
 import api from "./utils/api/api";
-//import { data } from "./contexts/data";
+import { data } from "./contexts/data";
 import { config } from "./contexts/config";
 
 const App = () => {
-  const [data, setData] = useState([]);
+  const [dat, setData] = useState(data);
   useEffect(() => {
     api.get()
       .then((res) => {
@@ -20,7 +20,7 @@ const App = () => {
         console.log(error);
       })
   }, [])
-  
+  console.log(dat)
   return (
     <StateProvider>
       <MainContext.Provider value={data}>
