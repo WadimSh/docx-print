@@ -23,7 +23,7 @@ const App = () => {
   
   return (
     <StateProvider>
-      <MainContext.Provider value={data}>
+      <MainContext.Provider value={dat}>
         <Header />
         <ConfigContext.Provider value={config}>
           <SideBar />
