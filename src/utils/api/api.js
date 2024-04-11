@@ -19,7 +19,7 @@ class Api {
 }
 
 const api = new Api({
-    baseUrl: 'https://new.sharik.ru/api/rest/v1/products_detailed/get_many/?ids=77753,77754,77755,77757,77758,77776,77791,77792,77793,77794,77795,77796,78125,78126,78129,78130,78146,78148,78149,78172',
+    baseUrl: 'https://new.sharik.ru/api/rest/v1/products_detailed/get_many/?ids=77375,77380,77381,77382,77383,77385,77386,77416,77434,77435,77436,77438,77439,77443,77444,77445,77447,77448,77449,77450',
 });
 
 // Это для получения параметров запроса из url -  http://localhost:3000/?param1=value1&param2=value2
