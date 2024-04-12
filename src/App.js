@@ -6,21 +6,25 @@ import SideBar from "./components/sidebar/sidebar";
 import Preview from "./components/preview/preview";
 
 import api from "./utils/api/api";
-//import { data } from "./contexts/data";
+import { data } from "./contexts/data";
 import { config } from "./contexts/config";
 
 const App = () => {
-  const [data, setData] = useState([]);
+  const urlParams = new URLSearchParams(window.location.search);
+  const param1 = urlParams.get('ids');
+  const param2 = urlParams.get('type');
+  console.log(param2, param1)
+  const [dat, setData] = useState([]);
   useEffect(() => {
-    api.get()
-      .then((res) => {
-        setData(res);
-      })
-      .catch((error) => {
-        console.log(error);
-      })
+    //api.get()
+    //  .then((res) => {
+    //    setData(res);
+    //  })
+    //  .catch((error) => {
+    //    console.log(error);
+    //  })
   }, [])
-  console.log(data)
+  
   return (
     <StateProvider>
       <MainContext.Provider value={data}>

@@ -61,7 +61,7 @@ const createBlockPrice = (data) => {
                   bold: true,
                 }),
                 new TextRun({
-                  text: "  ",
+                  text: " ",
                   size: 27,
                 }),
                 new TextRun({
