@@ -7,7 +7,7 @@ import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
 import logo from '../../assets/images/logo.png'
 
 const BlankLetter = ({context}) => {
-  //https://cors-anywhere.herokuapp.com/
+  
   async function generate() {
     const blob = await fetch(
       "https://new.sharik.ru/media/products/56189/3062478e-bfe1-4a21-9d06-8444fcaf7ee7.jpg"

@@ -14,6 +14,23 @@ const App = () => {
   const param1 = urlParams.get('ids');
   const param2 = urlParams.get('type');
   console.log(param2, param1)
+
+  // Это для получения параметров запроса из url -  http://localhost:3000/?param1=value1&param2=value2
+  //const URLParams = () => {
+  //  const urlParams = new URLSearchParams(window.location.search);
+  //  const param1 = urlParams.get('param1');
+  //  const param2 = urlParams.get('param2');
+  //}
+  // или так если перечислены через + -  http://localhost:3000/?param1=value1+value2+value3
+  //useEffect(() => {
+  //  const searchParams = new URLSearchParams(window.location.search);
+  //  const params = {};
+  //  for (let [key, value] of searchParams) {
+  //      params[key] = value.split('+');
+  //  }
+  //  console.log(params);
+  //}, []);
+
   const [data, setData] = useState([]);
   useEffect(() => {
     api.get()
