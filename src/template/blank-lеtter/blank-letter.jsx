@@ -10,7 +10,7 @@ const BlankLetter = ({context}) => {
   //https://cors-anywhere.herokuapp.com/
   async function generate() {
     const blob = await fetch(
-      "https://new.sharik.ru/media/products/56189/3062478e-bfe1-4a21-9d06-8444fcaf7ee7.jpg"
+      "https://fr.sharik.ru/media/products/56189/3062478e-bfe1-4a21-9d06-8444fcaf7ee7.jpg"
     ).then(r => r.blob());
 
     const doc = new Document({

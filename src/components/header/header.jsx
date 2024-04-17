@@ -20,7 +20,7 @@ const Header = () => {
             выбрано&nbsp;
             <span>{data.length}</span>
             &nbsp;{text}&nbsp;
-            <span>{`из оптового каталога`}</span>
+            <span>{`из мелкооптового каталога`}</span>
           </p>
         </div>
       </div>
