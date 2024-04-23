@@ -10,7 +10,8 @@ const BlankLetter = ({context}) => {
   
   async function generate() {
     const blob = await fetch(
-      "https://fr.sharik.ru/media/products/56189/3062478e-bfe1-4a21-9d06-8444fcaf7ee7.jpg"
+      "https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
+      //"https://fr.sharik.ru/media/products/56189/3062478e-bfe1-4a21-9d06-8444fcaf7ee7.jpg"
     ).then(r => r.blob());
 
     const doc = new Document({

@@ -2,12 +2,12 @@ import React from 'react';
 import { Document, Packer, PageOrientation } from "docx";
 import { saveAs } from 'file-saver';
 
+import createTable from './create-table';
 import CreateButton from '../../ui/create-button/create-button';
 import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
-import createTable from './create-table';
 
-const SmallPrices = ({ data }) => {
-  const generateWordDocument = (dataObject) => {
+const ImagePrices = ({ data }) => {
+  const generateWordDocument = (dataContent) => {
     const doc = new Document({
       sections: [{
         properties: {
@@ -15,22 +15,22 @@ const SmallPrices = ({ data }) => {
             size: {
               width: 11906,
               height: 16838,
-              orientation: PageOrientation.PORTRAIT,
+              orientation: PageOrientation.LANDSCAPE,
             },
             margin: {
               top: 300,
-              left: 250,
+              left: 500,
               bottom: 300,
-              right: 250,
+              right: 500,
             },
-          },
+          }
         },
-        children: createTable(dataObject)
+        children: createTable(dataContent),
       }]
     });
 
     Packer.toBlob(doc).then(blob => {
-      saveAs(blob, "small-prices.docx");
+      saveAs(blob, "image-prices.docx");
       console.log("Document created successfully");
     });
   };
@@ -47,4 +47,4 @@ const SmallPrices = ({ data }) => {
   );
 };
 
-export default SmallPrices;
+export default ImagePrices;
