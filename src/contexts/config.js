@@ -19,12 +19,14 @@ export const config = [
         }
       },
       {
-        name: 'Ценники со штрих-кодом',
-        value: 'encode-prices',
+        name: 'Ценники с картинкой',
+        value: 'image-prices',
         description: '',
         imege_preview: encode_prices_img,
         properties: {
           fair_rounding: true,
+          extra_charge: true,
+          round_price: true,
         }
       },
     ]

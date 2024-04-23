@@ -18,7 +18,7 @@ import {
   LABEL_TEXT_INPUT,
   PLACEHOLDER_SELECT_OPTIONS,
   TYPE_SMALL_PRICES,
-  TYPE_ENCODE_PRICES 
+  TYPE_IMAGE_PRICES 
 } from "../../contexts/constant";
 
 const SideBar = () => {
@@ -61,6 +61,7 @@ const SideBar = () => {
         />
       ))}
       <section>
+        {check.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
         {check.company_name && <TextInput 
                                   label={LABEL_TEXT_INPUT}
                                   defaultValue={companyName} 
@@ -79,10 +80,9 @@ const SideBar = () => {
                                 onChange={setRound}
                               />
         }
-        {check.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
       </section>
       {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
-      {check.value === TYPE_ENCODE_PRICES && <BlankLetter context='' />}
+      {check.value === TYPE_IMAGE_PRICES && <BlankLetter context='' />}
     </aside>
   )
 };

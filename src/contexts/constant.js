@@ -6,4 +6,4 @@ export const PLACEHOLDER_SELECT_OPTIONS = 'Выберите вид докуме�
 export const LABEL_TEXT_INPUT = 'Введите наименование юридического лица';
 
 export const TYPE_SMALL_PRICES = 'small-prices';
-export const TYPE_ENCODE_PRICES = 'encode-prices';
+export const TYPE_IMAGE_PRICES = 'image-prices';
