@@ -35,6 +35,7 @@ const SideBar = () => {
   const [round, setRound] = useState(sharedValue["round"] || false);
 
   const newData = transformArray(data, profit, companyName, round);
+  console.log(newData)
 
   useEffect(() => {
     setSharedValue(prevState => ({

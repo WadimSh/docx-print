@@ -24,6 +24,7 @@ const transformArray = (data, profit, company, round) => {
   
   data.forEach(item => {
     const newObj = {
+      image: item.images[0].image,
       company: company,
       code: item.code,
       name: item.name.replace(/\s+/g, ' '),

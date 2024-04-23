@@ -1,6 +1,10 @@
-import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, AlignmentType } from "docx";
+import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun, AlignmentType } from "docx";
 
 const createTableCell = (data) => {
+  const blob = fetch(
+    //"https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
+    `https://fr.sharik.ru${data.image}`
+  ).then(r => r.blob());
     
   return new TableCell({
     borders: {
@@ -33,12 +37,15 @@ const createTableCell = (data) => {
               new TableCell({
                 children: [
                   new Paragraph({
-                    alignment: AlignmentType.CENTER,
                     children: [
-                      new TextRun({
-                        text: data.company,
-                        bold: true,
+                      new ImageRun({
+                        data: blob,
+                        transformation: {
+                          width: 100,
+                          height: 100,
+                        },
                       }),
+                      
                     ],
                   }),
                 ],

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Document, WidthType, BorderStyle, AlignmentType, Table, TableRow, TableCell, Packer, Paragraph, TextRun, Header, Footer, ImageRun } from 'docx';
 import { saveAs } from 'file-saver';
+import QRCode from "qrcode";
 
 import CreateButton from '../../ui/create-button/create-button';
 import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
@@ -13,6 +14,9 @@ const BlankLetter = ({context}) => {
       "https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
       //"https://fr.sharik.ru/media/products/56189/3062478e-bfe1-4a21-9d06-8444fcaf7ee7.jpg"
     ).then(r => r.blob());
+
+    const code = context;
+    const qrCodeImage = await QRCode.toDataURL(code);
 
     const doc = new Document({
       sections: [{
@@ -299,7 +303,7 @@ const BlankLetter = ({context}) => {
             alignment: AlignmentType.CENTER,
             children: [
               new ImageRun({
-                data: blob,
+                data: qrCodeImage,
                 transformation: {
                   width: 100,
                   height: 100,
