@@ -17,7 +17,7 @@ const RadioGroup = ({ optionsArray, group, handleChange, logic }) => {
         <li key={index} className={style.point}>
           <input className={style.input} type='radio' name={group} value={item.value} onChange={handleRadioChange} />
           <label className={style.label}>
-            <img src={wordIcon} alt="icon" width={24}/>   
+            <img src={item.icon || wordIcon} alt="icon" width={32}/>   
             <span className={style.title}>{item.name}</span>
           </label>
         </li>

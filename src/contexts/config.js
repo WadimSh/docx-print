@@ -1,6 +1,8 @@
 import small_prices_img from '../assets/images/small-prices.png';
 import encode_prices_img from '../assets/images/encode-prices.png';
 
+import small_prices_icon from '../assets/images/small-prices-icon.png';
+
 export const config = [
   {
     id: 1,
@@ -12,6 +14,7 @@ export const config = [
         value: 'small-prices',
         description: '',
         imege_preview: small_prices_img,
+        icon: small_prices_icon,
         properties: {
           company_name: true,
           extra_charge: true,
