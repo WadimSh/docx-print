@@ -99,3 +99,17 @@ section {
     border-right: none;
   }
 }
+
+.title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.subtitle {
+  margin: 16px 0 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+}

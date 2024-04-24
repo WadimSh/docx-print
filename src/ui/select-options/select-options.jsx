@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 
 import style from "./select-options.module.css";
 
-const SelectOptions = ({ optionsArray, handleSelect, optionSelected, placeholder }) => {
+const SelectOptions = ({ optionsArray, handleSelect, optionSelected, placeholder, logic }) => {
   const [openSelect, setOpenSelect] = useState(false);
   const leagueInput = useRef();
 
@@ -20,6 +20,7 @@ const SelectOptions = ({ optionsArray, handleSelect, optionSelected, placeholder
 
   const openOption = () => {
     setOpenSelect(!openSelect);
+    logic(false);
   };
 
   const listClass = `${style.list} ${openSelect ? style.visibility : ''}`.trim();

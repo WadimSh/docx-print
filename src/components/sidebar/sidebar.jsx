@@ -29,6 +29,7 @@ const SideBar = () => {
   const data = useContext(MainContext);
   const { sharedValue, setSharedValue } = useContext(StateContext);
   
+  const [logic, setLogic] = useState(false);
   const [select, setSelect] = useState({});
   const [check, setCheck] = useState({});
 
@@ -48,14 +49,13 @@ const SideBar = () => {
     }));
   }, [check, companyName, profit, round, select, setSharedValue]);
 
-  //<a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>
-  
   return (
     <aside>
       <SelectOptions 
         placeholder={PLACEHOLDER_SELECT_OPTIONS}
         optionsArray={config}
         handleSelect={setSelect}
+        logic={setLogic}
       />
       {config.map((item, index) => (
         (select.value === item.value) && <RadioGroup 
@@ -63,9 +63,10 @@ const SideBar = () => {
           optionsArray={item.options}
           group={item.value}
           handleChange={setCheck}
+          logic={setLogic}
         />
       ))}
-      <section>
+      {logic && <section>
         {check.fair_rounding && <NotifyMessage />}
         {check.company_name && <TextInput 
                                   label={LABEL_TEXT_INPUT}
@@ -85,10 +86,12 @@ const SideBar = () => {
                                 onChange={setRound}
                               />
         }
-      </section>
-      {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
-      {check.value === TYPE_IMAGE_PRICES && <ImagePrices data={newData} />}
-      {check.value === TYPE_BLANK_LETTER && <BlankLetter context=" " />}
+      </section>}
+      {logic && <>
+        {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
+        {check.value === TYPE_IMAGE_PRICES && <ImagePrices data={newData} />}
+        {check.value === TYPE_BLANK_LETTER && <BlankLetter context={sharedValue["companyName"]} />}
+      </>}
     </aside>
   )
 };

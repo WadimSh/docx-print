@@ -15,8 +15,7 @@ const BlankLetter = ({context}) => {
       //"https://fr.sharik.ru/media/products/56189/3062478e-bfe1-4a21-9d06-8444fcaf7ee7.jpg"
     ).then(r => r.blob());
 
-    const code = context;
-    const qrCodeImage = await QRCode.toDataURL(code);
+    const qrCodeImage = await QRCode.toDataURL(context);
 
     const doc = new Document({
       sections: [{
