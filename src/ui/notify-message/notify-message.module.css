@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  border: 1px solid var(--color-warning);
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: rgba(255, 160, 0, .2);
+}
+
+.text {
+  margin: 0;
+  color: var(--colot-text);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-accent);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+}

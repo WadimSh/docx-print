@@ -1,9 +1,9 @@
-import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun, AlignmentType } from "docx";
+import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
 
 const createTableCell = (data) => {
   const blob = fetch(
-    //"https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
-    `https://fr.sharik.ru${data.image}`
+    "https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
+    //`https://fr.sharik.ru${data.image}`
   ).then(r => r.blob());
     
   return new TableCell({
@@ -45,7 +45,11 @@ const createTableCell = (data) => {
                           height: 100,
                         },
                       }),
-                      
+                      new TextRun({
+                        text: data.price2,
+                        size: 26,
+                        bold: true,
+                      }),
                     ],
                   }),
                 ],

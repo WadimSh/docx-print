@@ -6,6 +6,7 @@ import RadioGroup from "../../ui/radio-group/radio-group";
 import ButtonsCounter from "../../ui/buttons-counter/buttons-counter";
 import TextInput from "../../ui/text-input/text-input";
 import CheckBox from "../../ui/check-box/check-box";
+import NotifyMessage from "../../ui/notify-message/notify-message";
 
 import SmallPrices from "../../template/small-prices/small-prices";
 import ImagePrices from "../../template/image-prices/image-prices";
@@ -46,6 +47,8 @@ const SideBar = () => {
       round: round,
     }));
   }, [check, companyName, profit, round, select, setSharedValue]);
+
+  //<a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>
   
   return (
     <aside>
@@ -63,7 +66,7 @@ const SideBar = () => {
         />
       ))}
       <section>
-        {check.fair_rounding && <a href={window.location.origin + '/locals/LibreBarcodeEAN13Text-Regular.ttf'} download='LibreBarcodeEAN13Text-Regular.ttf'>ссылка</a>}
+        {check.fair_rounding && <NotifyMessage />}
         {check.company_name && <TextInput 
                                   label={LABEL_TEXT_INPUT}
                                   defaultValue={companyName} 
