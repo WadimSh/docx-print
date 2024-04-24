@@ -57,30 +57,30 @@ const createBlockPrice = (data) => {
                 }),
                 new TextRun({
                   text: data.units1,
-                  size: 27,
+                  size: 26,
                   bold: true,
                 }),
                 new TextRun({
                   text: " ",
-                  size: 27,
+                  size: 26,
                 }),
                 new TextRun({
                   text: data.units2,
-                  size: 27,
+                  size: 26,
                   bold: true,
                 }),
                 new TextRun({
                   text: " - ",
-                  size: 27,
+                  size: 26,
                 }),
                 new TextRun({
                   text: data.price2,
-                  size: 27,
+                  size: 26,
                   bold: true,
                 }),
                 new TextRun({
                   text: " ₽",
-                  size: 27,
+                  size: 26,
                 }),
               ],
             }),

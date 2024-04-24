@@ -6,13 +6,13 @@ import SideBar from "./components/sidebar/sidebar";
 import Preview from "./components/preview/preview";
 
 import api from "./utils/api/api";
-//import { data } from "./contexts/data";
+import { data } from "./contexts/data";
 import { config } from "./contexts/config";
 
 const App = () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const id = urlParams.get('ids');
-  //const param2 = urlParams.get('type');
+  const type = urlParams.get('type');
+  const ids = urlParams.get('ids');
   
   // Это для получения параметров запроса из url -  http://localhost:3000/?param1=value1&param2=value2
   //const URLParams = () => {
@@ -29,17 +29,17 @@ const App = () => {
   //  }
   //  console.log(params);
   //}, []);
-  const ids = '77375,77380,77381,77382,77383,77385,77386,77416,77434,77435,77436,77438,77439,77443,77444,77445,77447,77448,77449,77450'
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    api.get(ids)
-      .then((res) => {
-        setData(res);
-      })
-      .catch((error) => {
-        console.log(error);
-      })
-  }, [])
+  //const ids = '77375,77380,77381,77382,77383,77385,77386,77416,77434,77435,77436,77438,77439,77443,77444,77445,77447,77448,77449,77450'
+  //const [data, setData] = useState([]);
+  //useEffect(() => {
+  //  api.get(ids)
+  //    .then((res) => {
+  //      setData(res);
+  //    })
+  //    .catch((error) => {
+  //      console.log(error);
+  //    })
+  //}, [])
   
   return (
     <StateProvider>

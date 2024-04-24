@@ -19,7 +19,8 @@ import {
   LABEL_TEXT_INPUT,
   PLACEHOLDER_SELECT_OPTIONS,
   TYPE_SMALL_PRICES,
-  TYPE_IMAGE_PRICES 
+  TYPE_IMAGE_PRICES,
+  TYPE_BLANK_LETTER
 } from "../../contexts/constant";
 
 const SideBar = () => {
@@ -84,6 +85,7 @@ const SideBar = () => {
       </section>
       {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
       {check.value === TYPE_IMAGE_PRICES && <ImagePrices data={newData} />}
+      {check.value === TYPE_BLANK_LETTER && <BlankLetter context=" " />}
     </aside>
   )
 };

@@ -31,4 +31,20 @@ export const config = [
       },
     ]
   },
+  {
+    id: 2,
+    name: 'Прочие документы',
+    value: 'document',
+    options: [
+      {
+        name: 'Бланк письма',
+        value: 'blank-letter',
+        description: '',
+        imege_preview: encode_prices_img,
+        properties: {
+          company_name: true,
+        }
+      },
+    ]
+  },
 ];
