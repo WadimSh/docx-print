@@ -1,11 +1,17 @@
 import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
 
+
 const createTableCell = (data) => {
   const blob = fetch(
     "https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
     //`https://fr.sharik.ru${data.image}`
   ).then(r => r.blob());
-    
+
+  const QRCode = fetch(
+    `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${data.name}`
+  ).then(r => r.blob());
+  
+
   return new TableCell({
     borders: {
       left: {
@@ -39,17 +45,24 @@ const createTableCell = (data) => {
                   new Paragraph({
                     children: [
                       new ImageRun({
-                        data: blob,
+                        data: QRCode,
                         transformation: {
                           width: 100,
                           height: 100,
                         },
                       }),
-                      new TextRun({
-                        text: data.price2,
-                        size: 26,
-                        bold: true,
-                      }),
+                    new ImageRun({
+                      data: blob,
+                      transformation: {
+                        width: 100,
+                        height: 100,
+                      },
+                    }),
+                    //  new TextRun({
+                    //    text: data.price2,
+                    //    size: 26,
+                    //    bold: true,
+                    //  }),
                     ],
                   }),
                 ],
