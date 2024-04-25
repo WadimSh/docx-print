@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { StateProvider, ConfigContext, MainContext } from "./contexts/contexts";
 
+import NoFound from "./pages/no-found/no-found";
+
 import Header from "./components/header/header";
 import SideBar from "./components/sidebar/sidebar";
 import Preview from "./components/preview/preview";
@@ -42,15 +44,16 @@ const App = () => {
   //}, [])
   
   return (
-    <StateProvider>
-      <MainContext.Provider value={data}>
-        <Header />
-        <ConfigContext.Provider value={config}>
-          <SideBar />
-          <Preview />
-        </ConfigContext.Provider>
-      </MainContext.Provider>
-    </StateProvider>  
+    <NoFound />
+    //<StateProvider>
+    //  <MainContext.Provider value={data}>
+    //    <Header />
+    //    <ConfigContext.Provider value={config}>
+    //      <SideBar />
+    //      <Preview />
+    //    </ConfigContext.Provider>
+    //  </MainContext.Provider>
+    //</StateProvider>  
   );
 }
 
