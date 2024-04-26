@@ -44,15 +44,16 @@ const App = () => {
   //}, [])
   
   return (
-    //<NoFound />
+    
     <StateProvider>
+      {!ids ? <NoFound /> :
       <MainContext.Provider value={data}>
         <Header />
         <ConfigContext.Provider value={config}>
           <SideBar />
           <Preview />
         </ConfigContext.Provider>
-      </MainContext.Provider>
+      </MainContext.Provider>}
     </StateProvider>  
   );
 }
