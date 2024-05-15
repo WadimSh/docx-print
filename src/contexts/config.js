@@ -36,7 +36,7 @@ export const config = [
   },
   {
     id: 2,
-    name: 'Прочие документы',
+    name: 'Рекламная листовка',
     value: 'document',
     options: [
       {
@@ -46,6 +46,9 @@ export const config = [
         imege_preview: encode_prices_img,
         properties: {
           company_name: true,
+          fair_rounding: true,
+          extra_charge: true,
+          round_price: true,
         }
       },
     ]

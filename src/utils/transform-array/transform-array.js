@@ -23,6 +23,9 @@ const transformArray = (data, profit, company, round) => {
   const price2round = (value1, value2, value3) => roundNumber((((value1 * (1 + value2 / 100)).toFixed(2)) * value3)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
   
   data.forEach(item => {
+    console.log(item.measure_units_properties[3][1])
+    console.log(item.measure_units_properties[4][1])
+    console.log(item.multiplicity)
     const newObj = {
       image: item.images[0].image,
       company: company,
@@ -37,6 +40,7 @@ const transformArray = (data, profit, company, round) => {
     };
     newArray.push(newObj);
   });
+
   return newArray;
 };
 

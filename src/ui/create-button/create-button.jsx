@@ -9,6 +9,7 @@ const CreateButton = ({ handleDoc, label }) => {
       className={style.button} 
       type="button" 
       onClick={handleDoc}
+      disabled={false}
     >
       {label ? label : ''}
     </button>
