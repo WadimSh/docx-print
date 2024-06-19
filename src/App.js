@@ -6,25 +6,25 @@ import NoFound from "./pages/no-found/no-found";
 import Main from "./pages/main/main";
 
 import api from "./utils/api/api";
-import { data } from "./contexts/data";
+//import { data } from "./contexts/data";
 
 const App = () => {
   const urlParams = new URLSearchParams(window.location.search);
   const type = urlParams.get('type');
   const ids = urlParams.get('ids');
-  //const [data, setData] = useState([]);
-//
-  //useEffect(() => {
-  //  if (ids && type) {
-  //    api.get(type, ids)
-  //    .then((res) => {
-  //      setData(res);
-  //    })
-  //    .catch((error) => {
-  //      console.log(error);
-  //    })
-  //  }
-  //}, [type, ids])
+  
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    if (ids && type) {
+      api.get(type, ids)
+      .then((res) => {
+        setData(res);
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+    }
+  }, [type, ids])
   
   return (
     <StateProvider>
