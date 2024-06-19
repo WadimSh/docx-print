@@ -2,18 +2,14 @@ const transformArray = (data, profit, company, round) => {
   const newArray = [];
     
   const roundNumber = (number) => {
-    if (number > 10 && number < 20) {
-      return Math.floor(number * 10) / 10;
-    } else if (number > 20 && number < 50) {
-      return Math.floor(number * 2) / 2;
-    } else if (number > 50 && number < 100) {
-      return Math.floor(number);
-    } else if (number > 100 && number < 200) {
-      return Math.floor(number / 5) * 5;
-    } else if (number > 200) {
-      return Math.floor(number / 10) * 10;
+    const thresholds = [20, 50, 100, 200];
+    const factors = [10, 2, 1, 5, 10];
+    for (let i = 0; i < thresholds.length; i++) {
+      if (number <= thresholds[i]) {
+        return Math.floor(number * factors[i]) / factors[i];
+      }
     }
-    return number;
+    return Math.floor(number / factors[factors.length - 1]) * factors[factors.length - 1];
   };
 
   const price1 = (value1, value2) => (value1 * (1 + value2 / 100)).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');

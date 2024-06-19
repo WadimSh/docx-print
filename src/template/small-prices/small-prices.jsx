@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Document, Packer, PageOrientation } from "docx";
 import { saveAs } from 'file-saver';
 
@@ -7,6 +7,7 @@ import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
 import createTable from './create-table';
 
 const SmallPrices = ({ data }) => {
+  const [disabled, setDisabled] = useState(false);
   const generateWordDocument = (dataObject) => {
     const doc = new Document({
       sections: [{
@@ -36,11 +37,16 @@ const SmallPrices = ({ data }) => {
   };
 
   const handleDoc = () => {
+    setDisabled(true);
     generateWordDocument(data);
+    setTimeout(() =>{
+      setDisabled(false);
+    }, 1000)
   }
 
   return (
     <CreateButton 
+      disabled={disabled}
       handleDoc={handleDoc} 
       label={LABEL_CREATE_BUTTON}
     />
