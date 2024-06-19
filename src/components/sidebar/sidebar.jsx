@@ -46,9 +46,10 @@ const SideBar = () => {
       companyName: companyName,
       profit: profit,
       round: round,
+      logic: logic,
     }));
-  }, [check, companyName, profit, round, select, setSharedValue]);
-
+  }, [logic, check, companyName, profit, round, select, setSharedValue]);
+  
   return (
     <aside>
       <SelectOptions 
@@ -58,7 +59,7 @@ const SideBar = () => {
         logic={setLogic}
       />
       {config.map((item, index) => (
-        (select.value === item.value) && <RadioGroup 
+        (item.value && select.value === item.value) && <RadioGroup 
           key={index}
           optionsArray={item.options}
           group={item.value}
@@ -66,7 +67,7 @@ const SideBar = () => {
           logic={setLogic}
         />
       ))}
-      {logic && <section>
+      {sharedValue["logic"] && <section>
         {check.fair_rounding && <NotifyMessage />}
         {check.company_name && <TextInput 
                                   label={LABEL_TEXT_INPUT}
@@ -87,7 +88,7 @@ const SideBar = () => {
                               />
         }
       </section>}
-      {logic && <>
+      {sharedValue["logic"] && <>
         {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
         {check.value === TYPE_IMAGE_PRICES && <ImagePrices data={newData} />}
         {check.value === TYPE_BLANK_LETTER && <BlankLetter context={sharedValue["companyName"]} />}

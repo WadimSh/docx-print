@@ -1,9 +1,5 @@
 class Api {
 
-  constructor({ baseUrl }) {
-    this.url = baseUrl;
-  }
-
   _checkResponse = (res) => {
     if(res.ok) {
       return res.json();
@@ -11,14 +7,12 @@ class Api {
     return Promise.reject(`Ошибка ${res.status}`);
   }
 
-  get(ids) {
-    return fetch(`${this.url}${ids}`)
+  get(type, ids) {
+    return fetch(`https://${type}.sharik.ru/api/rest/v1/products_detailed/get_many/?ids=${ids}`)
     .then(res => this._checkResponse(res));
   }
 };
 
-const api = new Api({
-    baseUrl: 'https://cash.sharik.ru/api/rest/v1/products_detailed/get_many/?ids=',
-});
+const api = new Api();
 
 export default api;

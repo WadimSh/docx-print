@@ -21,36 +21,33 @@ export const config = [
           round_price: true,
         }
       },
-      {
-        name: 'Ценники с картинкой',
-        value: 'image-prices',
-        description: '',
-        imege_preview: encode_prices_img,
-        properties: {
-          fair_rounding: true,
-          extra_charge: true,
-          round_price: true,
-        }
-      },
+      //{
+      //  name: 'Ценники с картинкой',
+      //  value: 'image-prices',
+      //  description: '',
+      //  imege_preview: encode_prices_img,
+      //  properties: {
+      //    fair_rounding: true,
+      //    extra_charge: true,
+      //    round_price: true,
+      //  }
+      //},
     ]
   },
   {
     id: 2,
     name: 'Рекламная листовка',
-    value: 'document',
+    value: 'promo-flyers',
     options: [
-      {
-        name: 'Бланк письма',
-        value: 'blank-letter',
-        description: '',
-        imege_preview: encode_prices_img,
-        properties: {
-          company_name: true,
-          fair_rounding: true,
-          extra_charge: true,
-          round_price: true,
-        }
-      },
+      
+    ]
+  },
+  {
+    id: 3,
+    name: 'Коммерческое предложение',
+    value: 'business-offer',
+    options: [
+      
     ]
   },
 ];

@@ -96,6 +96,7 @@ section {
   }
 
   aside {
+    width: 100%;
     border-right: none;
   }
 }
@@ -112,4 +113,30 @@ section {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
+}
+
+.nofound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+  width: 100%;
+}
+
+.nofound div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.nofound img {
+  width: 60%;
+}
+
+.nofound button {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
 }
