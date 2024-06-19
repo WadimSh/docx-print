@@ -24,7 +24,7 @@ const Header = ({ type }) => {
   return (
     <header>
       <div>
-        <h1 className="title">Преобразование данных в формат документа Word</h1>
+        <h1 className="title">Преобразование данных в формат документа Word&nbsp;&nbsp;<span style={{fontSize: '14px', verticalAlign: 'top', color: 'var(--color-error)'}}>&beta;-версия</span></h1>
         <div>
           <p className="subtitle">
             выбрано&nbsp;<span>{data.length}</span>&nbsp;{text()}&nbsp;

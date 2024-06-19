@@ -33,8 +33,7 @@ header {
   border: none;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding: 16px;
 }
 
@@ -102,6 +101,7 @@ section {
 }
 
 .title {
+  display: block;
   margin: 0;
   font-family: var(--font-family);
   font-weight: 700;
