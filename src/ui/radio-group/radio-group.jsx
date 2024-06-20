@@ -10,8 +10,9 @@ const RadioGroup = ({ optionsArray, group, handleChange, logic }) => {
     handleChange && handleChange({...obj, value: val});
     logic(true);
   };
-
+  console.log(optionsArray)
   return (
+    (optionsArray.length !== 0) ? 
     <ul className={style.wrapper}>
       {optionsArray.map((item, index) => (
         <li key={index} className={style.point}>
@@ -23,6 +24,9 @@ const RadioGroup = ({ optionsArray, group, handleChange, logic }) => {
         </li>
       ))}
     </ul>
+    : <p className="subtitle" style={{marginTop: '40px', padding: '0 8px 0 8px', textAlign: 'center'}}>
+        В настоящее время в этом разделе нет готовых шаблонов документов. Но мы работаем над тем чтоб они появились.
+      </p>
   );
 };
 

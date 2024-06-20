@@ -10,7 +10,6 @@ import NotifyMessage from "../../ui/notify-message/notify-message";
 
 import SmallPrices from "../../template/small-prices/small-prices";
 import ImagePrices from "../../template/image-prices/image-prices";
-import BlankLetter from "../../template/blank-lеtter/blank-letter";
 
 import transformArray from "../../utils/transform-array/transform-array";
 import { 
@@ -20,8 +19,7 @@ import {
   LABEL_TEXT_INPUT,
   PLACEHOLDER_SELECT_OPTIONS,
   TYPE_SMALL_PRICES,
-  TYPE_IMAGE_PRICES,
-  TYPE_BLANK_LETTER
+  TYPE_IMAGE_PRICES
 } from "../../contexts/constant";
 
 const SideBar = () => {
@@ -91,7 +89,6 @@ const SideBar = () => {
       {sharedValue["logic"] && <>
         {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
         {check.value === TYPE_IMAGE_PRICES && <ImagePrices data={newData} />}
-        {check.value === TYPE_BLANK_LETTER && <BlankLetter context={sharedValue["companyName"]} />}
       </>}
     </aside>
   )

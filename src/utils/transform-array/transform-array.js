@@ -43,16 +43,16 @@ const transformArray = (data, profit, company, round) => {
   
   data.forEach(item => {
     const newObj = {
-      company: company,
-      code: item.code,
-      image: imageLink(item.images),
-      name: item.name.replace(/\s+/g, ' '),
-      origin: getValue(item.origin_properties, "Торговая марка", "Страна"),
-      multiplicity: item.multiplicity,
-      units: item.units_counts[0] ? item.units_counts[0][0] : '',
-      counts: item.units_counts[0] ? item.units_counts[0][1] : '',
-      price: formatPrice(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),
-      cost: formatСost(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),
+      company: company,                                                                                  //наименование юр.лица
+      code: item.code,                                                                                   //артикул товара
+      image: imageLink(item.images),                                                                     //ссылка на изображение товара
+      name: item.name.replace(/\s+/g, ' '),                                                              //наименование товара
+      origin: getValue(item.origin_properties, "Торговая марка", "Страна"),                              //наименования торговой марки или страны происхождения
+      multiplicity: item.multiplicity,                                                                   //иминимальное колличество продажи
+      units: item.units_counts[0] ? item.units_counts[0][0] : '',                                        //наименование минимальной единицы продажи
+      counts: item.units_counts[0] ? item.units_counts[0][1] : '',                                       //колличество в шт в минимальной партии
+      price: formatPrice(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round), //цена за штуку
+      cost: formatСost(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),   //цена за минимальную партию продажи
     };
     newArray.push(newObj);
   });
