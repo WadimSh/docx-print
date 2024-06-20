@@ -36,11 +36,16 @@ const transformArray = (data, profit, company, round) => {
     return '';
   };
 
+  const imageLink = (items) => {
+    let images = items.find(item => item.is_base);
+    return images.image
+  };
+  
   data.forEach(item => {
     const newObj = {
-      image: item.images[0].image,
       company: company,
       code: item.code,
+      image: imageLink(item.images),
       name: item.name.replace(/\s+/g, ' '),
       origin: getValue(item.origin_properties, "Торговая марка", "Страна"),
       multiplicity: item.multiplicity,
