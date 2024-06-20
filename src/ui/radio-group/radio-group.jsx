@@ -10,7 +10,7 @@ const RadioGroup = ({ optionsArray, group, handleChange, logic }) => {
     handleChange && handleChange({...obj, value: val});
     logic(true);
   };
-  console.log(optionsArray)
+  
   return (
     (optionsArray.length !== 0) ? 
     <ul className={style.wrapper}>
