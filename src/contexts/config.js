@@ -1,5 +1,5 @@
 import small_prices_img from '../assets/images/small-prices.png';
-import encode_prices_img from '../assets/images/encode-prices.png';
+//import encode_prices_img from '../assets/images/encode-prices.png';
 
 import small_prices_icon from '../assets/images/small-prices-icon.png';
 
@@ -12,7 +12,7 @@ export const config = [
       {
         name: 'Маленькие ценники 4х5см',
         value: 'small-prices',
-        description: '',
+        description: 'Стандартные ценники имеют размер 4x5 см. В них указано название компании (не более 25 символов), артикул товара, его наименование и, в нижней части, торговая марка производителя или страна происхождения. Если товар продаётся поштучно, то указывается цена за одну штуку. Если же товар продаётся в большом количестве, то, помимо цены за штуку, также отображаются цена за единицу и количество в этой единице.',
         imege_preview: small_prices_img,
         icon: small_prices_icon,
         properties: {

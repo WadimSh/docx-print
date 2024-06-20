@@ -5,7 +5,9 @@ const ImgPreview = ({ optionsArray, value }) => {
   return (
     <>
       {optionsArray.map((item, index) => (
-        value === item.value && <img key={index} src={item.imege_preview} alt={item.value} width='50%' />        
+        value === item.value && <>
+        <p key={index} style={{fontFamily: 'var(--font-family)', fontWeight: '400', fontSize: '14px', marginBottom: '20px'}}>{item.description}</p>
+        <img key={index} src={item.imege_preview} alt={item.value} width='45%' /></>        
       ))}
     </>
   );
