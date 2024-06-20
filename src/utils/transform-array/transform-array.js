@@ -42,12 +42,12 @@ const transformArray = (data, profit, company, round) => {
       company: company,
       code: item.code,
       name: item.name.replace(/\s+/g, ' '),
-      value: getValue(item.origin_properties, "Торговая марка", "Страна"),
+      origin: getValue(item.origin_properties, "Торговая марка", "Страна"),
       multiplicity: item.multiplicity,
-      units1: item.units_counts[0] ? item.units_counts[0][0] : '',
-      units2: item.units_counts[0] ? item.units_counts[0][1] : '',
-      price1: formatPrice(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),
-      price2: formatСost(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),
+      units: item.units_counts[0] ? item.units_counts[0][0] : '',
+      counts: item.units_counts[0] ? item.units_counts[0][1] : '',
+      price: formatPrice(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),
+      cost: formatСost(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),
     };
     newArray.push(newObj);
   });

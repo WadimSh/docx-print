@@ -11,7 +11,7 @@ const createBlockPrice = (data) => {
               spacing: { after: 150 },
               children: [
                 new TextRun({
-                  text: data.price1,
+                  text: data.price,
                   size: 32,
                   bold: true,
                 }),
@@ -45,7 +45,7 @@ const createBlockPrice = (data) => {
                   size: 18,
                 }),
                 new TextRun({
-                  text: data.price1,
+                  text: data.price,
                   size: 18,
                 }),
                 new TextRun({
@@ -56,7 +56,7 @@ const createBlockPrice = (data) => {
                   break: 1,
                 }),
                 new TextRun({
-                  text: data.units1,
+                  text: data.units,
                   size: 26,
                   bold: true,
                 }),
@@ -65,7 +65,7 @@ const createBlockPrice = (data) => {
                   size: 26,
                 }),
                 new TextRun({
-                  text: data.units2,
+                  text: data.counts,
                   size: 26,
                   bold: true,
                 }),
@@ -74,7 +74,7 @@ const createBlockPrice = (data) => {
                   size: 26,
                 }),
                 new TextRun({
-                  text: data.price2,
+                  text: data.cost,
                   size: 26,
                   bold: true,
                 }),

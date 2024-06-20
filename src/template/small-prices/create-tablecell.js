@@ -114,13 +114,13 @@ const createTableCell = (data) => {
                     indent: { left: 20 },
                     children: [
                       new TextRun({
-                        text: data.value.length > 10 ? 'Произв.:' : 'Производитель:',
+                        text: data.origin.length > 10 ? 'Произв.:' : 'Производитель:',
                       }),
                       new TextRun({
                         text: " ",
                       }),
                       new TextRun({
-                        text: data.value,
+                        text: data.origin,
                         bold: true,
                       }),
                     ],
