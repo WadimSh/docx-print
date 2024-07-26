@@ -113,7 +113,9 @@ section {
   font-weight: 400;
   font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1440 - 320)));
 }
-
+.error {
+  color: var(--color-error);
+}
 .nofound {
   display: flex;
   flex-direction: column;

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { MainContext } from "../../contexts/contexts";
 
-const Header = ({ type }) => {
+const Header = ({ type, log }) => {
   const data = useContext(MainContext);
 
   const text = () => {
@@ -24,12 +24,13 @@ const Header = ({ type }) => {
   return (
     <header>
       <div>
-        <h1 className="title">Преобразование данных в формат документа Word <span style={{fontSize: '12px', verticalAlign: 'top', color: 'var(--color-error)'}}>Beta</span></h1>
+        <h1 className="title">Преобразование данных в формат документа Word <span style={{fontSize: '12px', verticalAlign: 'top', color: 'var(--color-accent)'}}>Beta</span></h1>
         <div>
+          {!log.event ? log.error !== '' ? <p className="subtitle error">{log.error}</p> : <p className="subtitle">Пожалуйста, подождите, идёт загрузка данных…</p> :
           <p className="subtitle">
             выбрано&nbsp;<span>{data.length}</span>&nbsp;{text()}&nbsp;
             {data.length !== 0 && <span>{subtext()}</span>}
-          </p>
+          </p>}
         </div>
       </div>
     </header>

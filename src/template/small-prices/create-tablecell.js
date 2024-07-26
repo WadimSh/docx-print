@@ -1,10 +1,8 @@
-import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow } from "docx";
+import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow, HeightRule } from "docx";
 
 import createBlockPrice from "./create-blockprice";
 
 const createTableCell = (data) => {
-  const indent = data.name.length === 21 ? 150 : (data.name.length === 40 ? 270 : 0);
-  const spacing = data.name.length < 21 && data.name.length !== 19 ? 500 : (data.name.length === 40 ? 40 : (data.name.length > 32 ? 300 : 200));
   const size = data.name.length > 32 ? 22 : 26;
   
   return new TableCell({
@@ -21,10 +19,6 @@ const createTableCell = (data) => {
         size: 1,
         color: "FFFFFF",
       },
-      bottom: {
-        size: 1,
-        color: "FFFFFF",
-      },
     },
     children: [
       new Table({
@@ -34,6 +28,7 @@ const createTableCell = (data) => {
         },
         rows: [
           new TableRow({
+            height: { value: 284, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 children: [
@@ -53,6 +48,7 @@ const createTableCell = (data) => {
           new TableRow({
             children: [
               new TableCell({
+                height: { value: 226, rule: HeightRule.EXACT },
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.END,
@@ -75,13 +71,12 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
+            height: { value: 1010, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 children: [
                   new Paragraph(''),
                   new Paragraph({
-                    indent: { left: indent, right: indent },
-                    spacing: { after: spacing },
                     alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
@@ -104,11 +99,13 @@ const createTableCell = (data) => {
                 },
               }),
             ],
+            
           }),
           createBlockPrice(data),  
           new TableRow({
             children: [
               new TableCell({
+                height: { value: 284, rule: HeightRule.EXACT },
                 children: [
                   new Paragraph({
                     indent: { left: 20 },

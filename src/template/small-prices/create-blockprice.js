@@ -1,14 +1,14 @@
-import { AlignmentType, Paragraph, TextRun, TableCell, TableRow } from "docx";
+import { AlignmentType, Paragraph, TextRun, TableCell, TableRow, HeightRule } from "docx";
 
 const createBlockPrice = (data) => {
   if (data.multiplicity === 1) {
     return new TableRow({
+      height: { value: 480, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
             new Paragraph({
               alignment: AlignmentType.CENTER,
-              spacing: { after: 150 },
               children: [
                 new TextRun({
                   text: data.price,
@@ -34,6 +34,7 @@ const createBlockPrice = (data) => {
     })
   } else {
     return new TableRow({
+      height: { value: 480, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [

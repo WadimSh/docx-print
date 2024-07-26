@@ -37,12 +37,8 @@ const transformArray = (data, profit, company, round) => {
   };
 
   const imageLink = (items) => {
-    if (items.image) {
-      let images = items.find(item => item.is_base);
-      return images.image
-    } else {
-      console.error(`Отсутствует ссылка на картинку`);
-    }
+    let images = items.find(item => item.is_base);
+    return images.image
   };
   
   data.forEach(item => {
