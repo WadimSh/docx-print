@@ -25,7 +25,7 @@ const transformArray = (data, profit, company, round) => {
     if (round) {
       return result = roundNumber(result).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
     }
-    return result = '';
+    return result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
   };
 
   const getValue = (properties, ...names) => {
