@@ -33,12 +33,34 @@ const transformArray = (data, profit, company, round) => {
       const property = properties.find(prop => prop.name === name);
       if (property?.value) return property.value;
     }
-    return '';
+    return ''; 
   };
 
   const imageLink = (items) => {
-    let images = items.find(item => item.is_base);
-    return images.image
+    if (items.length !== 0) {
+      let images = items.find(item => item.is_base);
+      return images.image
+    } else {
+      return ''; //временное решение, надо дорабоать
+    }
+  };
+
+  const getUnits = (items, multi) => {
+    if (items.length === 0) return 'по';
+    const foundItem = items.find(([_, str]) => {
+      const numFromStr = parseInt(str.split(" ")[0]);
+      return numFromStr === multi;
+    });
+    return foundItem ? foundItem[0] : 'по';
+  };
+
+  const getCounts = (items, multi) => {
+    if (items.length === 0) return `${multi} шт`;
+    const foundItem = items.find(([_, str]) => {
+      const numFromStr = parseInt(str.split(" ")[0]);
+      return numFromStr === multi;
+    });
+    return foundItem ? foundItem[1] : `${multi} шт`;
   };
   
   data.forEach(item => {
@@ -50,8 +72,8 @@ const transformArray = (data, profit, company, round) => {
         name: item.name.replace(/\s+/g, ' '),                                                              //наименование товара
         origin: getValue(item.origin_properties, "Торговая марка", "Страна"),                              //наименования торговой марки или страны происхождения
         multiplicity: item.multiplicity,                                                                   //иминимальное колличество продажи
-        units: item.units_counts[0] ? item.units_counts[0][0] : '',                                        //наименование минимальной единицы продажи
-        counts: item.units_counts[0] ? item.units_counts[0][1] : '',                                       //колличество в шт в минимальной партии
+        units: getUnits(item.units_counts, item.multiplicity),                                             //наименование минимальной единицы продажи
+        counts: getCounts(item.units_counts, item.multiplicity),                                           //колличество в шт в минимальной партии
         price: formatPrice(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round), //цена за штуку
         cost: formatСost(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),   //цена за минимальную партию продажи
       };
