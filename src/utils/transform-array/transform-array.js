@@ -1,67 +1,12 @@
+import formatPrice from "./mapping-func/format-price";
+import formatСost from "./mapping-func/format-cost";
+import getValue from "./mapping-func/get-value";
+import imageLink from "./mapping-func/image-link";
+import getUnits from "./mapping-func/get-units";
+import getCounts from "./mapping-func/get-counts";
+
 const transformArray = (data, profit, company, round) => {
   const newArray = [];
-    
-  const roundNumber = (number) => {
-    const thresholds = [20, 50, 100, 200];
-    const factors = [10, 2, 1, 5, 10];
-    for (let i = 0; i < thresholds.length; i++) {
-      if (number <= thresholds[i]) {
-        return Math.floor(number * factors[i]) / factors[i];
-      }
-    }
-    return Math.floor(number / factors[factors.length - 1]) * factors[factors.length - 1];
-  };
-
-  const formatPrice = (price, profit, multiplicity, round) => {
-    let result = (price * (1 + profit / 100)).toFixed(2);
-    if (round) {
-      return result = (roundNumber(result * multiplicity) / multiplicity).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-    }
-    return result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-  };
-
-  const formatСost = (price, profit, multiplicity, round) => {
-    let result = (((price * (1 + profit / 100)).toFixed(2)) * multiplicity).toFixed(2);
-    if (round) {
-      return result = roundNumber(result).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-    }
-    return result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-  };
-
-  const getValue = (properties, ...names) => {
-    for (const name of names) {
-      const property = properties.find(prop => prop.name === name);
-      if (property?.value) return property.value;
-    }
-    return ''; 
-  };
-
-  const imageLink = (items) => {
-    if (items.length !== 0) {
-      let images = items.find(item => item.is_base);
-      return images.image
-    } else {
-      return ''; //временное решение, надо дорабоать
-    }
-  };
-
-  const getUnits = (items, multi) => {
-    if (items.length === 0) return 'по';
-    const foundItem = items.find(([_, str]) => {
-      const numFromStr = parseInt(str.split(" ")[0]);
-      return numFromStr === multi;
-    });
-    return foundItem ? foundItem[0] : 'по';
-  };
-
-  const getCounts = (items, multi) => {
-    if (items.length === 0) return `${multi} шт`;
-    const foundItem = items.find(([_, str]) => {
-      const numFromStr = parseInt(str.split(" ")[0]);
-      return numFromStr === multi;
-    });
-    return foundItem ? foundItem[1] : `${multi} шт`;
-  };
   
   data.forEach(item => {
     if (item.measure_prices[0] && item.measure_prices[0].price) {
