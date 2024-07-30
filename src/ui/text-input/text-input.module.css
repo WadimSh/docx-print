@@ -8,13 +8,22 @@
   user-select: none;
 }
 
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 18px;
+  }
+}
+
 .label {
   display: block;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
   min-width: 50%;
-  margin-left: 4px;
 }
 
 .input {
