@@ -1,5 +1,5 @@
 import small_prices_img from '../assets/images/small-prices.png';
-//import encode_prices_img from '../assets/images/encode-prices.png';
+import encode_prices_img from '../assets/images/encode-prices.png';
 
 import small_prices_icon from '../assets/images/small-prices-icon.png';
 

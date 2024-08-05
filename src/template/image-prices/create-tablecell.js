@@ -3,13 +3,14 @@ import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } f
 
 const createTableCell = (data) => {
   const blob = fetch(
-    "https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
-    //`https://fr.sharik.ru${data.image}`
+    //"https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
+    //`https://new.sharik.ru${data.image}`
+    'https://new.sharik.ru/assets/images/no-image.svg'
   ).then(r => r.blob());
 
-  const QRCode = fetch(
-    `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${data.name}`
-  ).then(r => r.blob());
+  //const QRCode = fetch(
+  //  `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${data.name}`
+  //).then(r => r.blob());
   
 
   return new TableCell({
@@ -44,13 +45,13 @@ const createTableCell = (data) => {
                 children: [
                   new Paragraph({
                     children: [
-                      new ImageRun({
-                        data: QRCode,
-                        transformation: {
-                          width: 100,
-                          height: 100,
-                        },
-                      }),
+                    //  new ImageRun({
+                    //    data: QRCode,
+                    //    transformation: {
+                    //      width: 100,
+                    //      height: 100,
+                    //    },
+                    //  }),
                     new ImageRun({
                       data: blob,
                       transformation: {
