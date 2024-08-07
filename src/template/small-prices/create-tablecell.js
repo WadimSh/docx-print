@@ -3,7 +3,7 @@ import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRo
 import createBlockPrice from "./create-blockprice";
 
 const createTableCell = (data) => {
-  const size = data.name.length > 32 ? 22 : 26;
+  const size = data.name.length > 32 ? 22 : 24;
   
   return new TableCell({
     borders: {
