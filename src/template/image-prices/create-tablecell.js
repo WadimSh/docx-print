@@ -3,9 +3,8 @@ import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } f
 
 const createTableCell = (data) => {
   const blob = fetch(
-    //"https://raw.githubusercontent.com/dolanmiu/docx/master/demo/images/cat.jpg"
-    //`https://new.sharik.ru${data.image}`
-    'https://new.sharik.ru/assets/images/no-image.svg'
+    data === '' ? 'https://new.sharik.ru/assets/images/no-image.svg' :
+    `https://new.sharik.ru${data.image}`
   ).then(r => r.blob());
 
   //const QRCode = fetch(
@@ -35,7 +34,7 @@ const createTableCell = (data) => {
     children: [
       new Table({
         width: {
-          size: 7919,
+          size: 5668,
           type: WidthType.DXA,
         },
         rows: [

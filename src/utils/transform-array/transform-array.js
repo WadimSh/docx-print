@@ -7,9 +7,9 @@ import getCounts from "./mapping-func/get-counts";
 
 const transformArray = (data, profit, company, round) => {
   const newArray = [];
-  
+
   data.forEach(item => {
-    if (item.measure_prices[0] && item.measure_prices[0].price) {
+    if (item.measure_prices) {
       const newObj = {
         company: company,                                                                                  //наименование юр.лица
         code: item.code,                                                                                   //артикул товара
@@ -19,8 +19,8 @@ const transformArray = (data, profit, company, round) => {
         multiplicity: item.multiplicity,                                                                   //иминимальное колличество продажи
         units: getUnits(item.units_counts, item.multiplicity),                                             //наименование минимальной единицы продажи
         counts: getCounts(item.units_counts, item.multiplicity),                                           //колличество в шт в минимальной партии
-        price: formatPrice(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round), //цена за штуку
-        cost: formatСost(item.measure_prices[0].price.currency_price, profit, item.multiplicity, round),   //цена за минимальную партию продажи
+        price: formatPrice(item, profit, round),                                                           //цена за штуку
+        cost: formatСost(item, profit, round),                                                             //цена за минимальную партию продажи
       };
       newArray.push(newObj);
     } else {

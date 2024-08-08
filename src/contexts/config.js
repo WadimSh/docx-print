@@ -16,22 +16,24 @@ export const config = [
         imege_preview: small_prices_img,
         icon: small_prices_icon,
         properties: {
+          fair_rounding: false,
           company_name: true,
           extra_charge: true,
           round_price: true,
         }
       },
-      //{
-      //  name: 'Ценники с картинкой',
-      //  value: 'image-prices',
-      //  description: '',
-      //  imege_preview: encode_prices_img,
-      //  properties: {
-      //    fair_rounding: true,
-      //    extra_charge: true,
-      //    round_price: true,
-      //  }
-      //},
+      {
+        name: 'Ценники с картинкой',
+        value: 'image-prices',
+        description: '',
+        imege_preview: encode_prices_img,
+        properties: {
+          fair_rounding: false,
+          company_name: false,
+          extra_charge: true,
+          round_price: true,
+        }
+      },
     ]
   },
   {

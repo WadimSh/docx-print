@@ -35,8 +35,13 @@ const SideBar = () => {
   const [profit, setProfit] = useState(sharedValue["profit"] || 0);
   const [round, setRound] = useState(sharedValue["round"] || false);
   
-  const newData = transformArray(data, profit, companyName, round);
-  
+  const [newData, setNewData] = useState([]);
+
+  useEffect(() => {
+    const transformedData = transformArray(data, profit, companyName, round);
+    setNewData(transformedData);
+  }, [data, profit, companyName, round]);
+    
   useEffect(() => {
     setSharedValue(prevState => ({
       ...prevState,
@@ -47,7 +52,7 @@ const SideBar = () => {
       logic: logic,
     }));
   }, [logic, check, companyName, profit, round, select, setSharedValue]);
-  
+ 
   return (
     <aside>
       <SelectOptions 
