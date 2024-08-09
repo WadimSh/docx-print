@@ -5,8 +5,8 @@ import toEAN13 from "../../utils/create-encode/ean-13";
 
 const createTableCell = (data) => {
   const size = data.name.length > 32 ? 22 : 24;
-  const blob = fetch(img
-  //  data && data.image ? `https://new.sharik.ru${data.image}` : 
+  const blob = fetch(
+  data && data.image ? `https://new.sharik.ru${data.image}` : img
   //  'https://new.sharik.ru/assets/images/no-image.svg'
   ).then(r => r.blob());
   
