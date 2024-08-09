@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 
 import createTable from './create-table';
 import CreateButton from '../../ui/create-button/create-button';
-import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
+import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
 
 const ImagePrices = ({ data }) => {
   const [disabled, setDisabled] = useState(false);
@@ -45,7 +45,8 @@ const ImagePrices = ({ data }) => {
     <CreateButton 
       disabled={disabled}
       handleDoc={handleDoc} 
-      label={LABEL_CREATE_BUTTON}
+      labelCreate={LABEL_CREATE_BUTTON}
+      labelDisabled={LABEL_DISABLED_BUTTON}
     />
   );
 };

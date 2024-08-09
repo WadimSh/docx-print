@@ -2,7 +2,7 @@ import React from "react";
 
 import style from "./create-button.module.css"
 
-const CreateButton = ({ handleDoc, label, disabled = false }) => {
+const CreateButton = ({ handleDoc, labelCreate, labelDisabled, disabled = false }) => {
 
   return (
     <button 
@@ -11,7 +11,7 @@ const CreateButton = ({ handleDoc, label, disabled = false }) => {
       onClick={handleDoc}
       disabled={disabled}
     >
-      {label ? label : ''}
+      {disabled ? labelDisabled : labelCreate}
     </button>
   )
 };

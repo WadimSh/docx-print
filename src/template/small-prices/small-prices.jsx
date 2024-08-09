@@ -3,7 +3,7 @@ import { Document, Packer, PageOrientation } from "docx";
 import { saveAs } from 'file-saver';
 
 import CreateButton from '../../ui/create-button/create-button';
-import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
+import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
 import createTable from './create-table';
 
 const SmallPrices = ({ data }) => {
@@ -45,7 +45,8 @@ const SmallPrices = ({ data }) => {
     <CreateButton 
       disabled={disabled}
       handleDoc={handleDoc} 
-      label={LABEL_CREATE_BUTTON}
+      labelCreate={LABEL_CREATE_BUTTON}
+      labelDisabled={LABEL_DISABLED_BUTTON}
     />
   );
 };
