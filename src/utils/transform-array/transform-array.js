@@ -4,6 +4,7 @@ import getValue from "./mapping-func/get-value";
 import imageLink from "./mapping-func/image-link";
 import getUnits from "./mapping-func/get-units";
 import getCounts from "./mapping-func/get-counts";
+import getBarcode from "./mapping-func/get-barcode";
 
 const transformArray = (data, profit, company, round) => {
   const newArray = [];
@@ -20,7 +21,8 @@ const transformArray = (data, profit, company, round) => {
         units: getUnits(item.units_counts, item.multiplicity),                                             //наименование минимальной единицы продажи
         counts: getCounts(item.units_counts, item.multiplicity),                                           //колличество в шт в минимальной партии
         price: formatPrice(item, profit, round),                                                           //цена за штуку
-        cost: formatСost(item, profit, round),                                                             //цена за минимальную партию продажи
+        cost: formatСost(item, profit, round),
+        barcode: getBarcode(item),                                                             //цена за минимальную партию продажи
       };
       newArray.push(newObj);
     } else {

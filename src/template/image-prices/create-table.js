@@ -10,7 +10,7 @@ const createTable = (data) => {
     childrens.push(
       new Table({
         width: {
-          size: 15838,
+          size: 11336,
           type: WidthType.DXA,
         },
         rows: createTableRow(pageData)

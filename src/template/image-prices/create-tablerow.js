@@ -1,7 +1,7 @@
-import { TableRow } from "docx";
+import { HeightRule, TableRow } from "docx";
 
 import createTableCell from "./create-tablecell";
-//import createEmptyCell from "./create-emptycell";
+import createEmptyCell from "./create-emptycell";
 
 const createTableRow = (data) => {
   const rows = [];
@@ -14,12 +14,12 @@ const createTableRow = (data) => {
         );
       } else {
         row.push(
-          " "
-          //createEmptyCell()
+          createEmptyCell()
         );
       }
     }
     rows.push(new TableRow({ 
+      height: { value: 2300, rule: HeightRule.EXACT },
       children: row 
     }));
   }

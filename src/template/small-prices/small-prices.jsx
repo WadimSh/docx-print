@@ -32,17 +32,14 @@ const SmallPrices = ({ data }) => {
 
     Packer.toBlob(doc).then(blob => {
       saveAs(blob, "small-prices.docx");
-      console.log("Document created successfully");
+      setDisabled(false);
     });
   };
 
   const handleDoc = () => {
     setDisabled(true);
     generateWordDocument(data);
-    setTimeout(() =>{
-      setDisabled(false);
-    }, 1000)
-  }
+  };
 
   return (
     <CreateButton 

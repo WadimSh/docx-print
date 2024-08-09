@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Document, Packer, PageOrientation } from "docx";
 import { saveAs } from 'file-saver';
 
@@ -7,6 +7,7 @@ import CreateButton from '../../ui/create-button/create-button';
 import { LABEL_CREATE_BUTTON } from '../../contexts/constant';
 
 const ImagePrices = ({ data }) => {
+  const [disabled, setDisabled] = useState(false);
   const generateWordDocument = (dataContent) => {
     const doc = new Document({
       sections: [{
@@ -14,14 +15,14 @@ const ImagePrices = ({ data }) => {
           page: {
             size: {
               width: 11906,
-              height: 16838,
-              orientation: PageOrientation.LANDSCAPE,
+              //height: 16838,
+              orientation: PageOrientation.PORTRAIT,
             },
             margin: {
               top: 300,
-              left: 500,
-              bottom: 300,
-              right: 500,
+              left: 250,
+              bottom: 100,
+              right: 250,
             },
           }
         },
@@ -31,16 +32,18 @@ const ImagePrices = ({ data }) => {
 
     Packer.toBlob(doc).then(blob => {
       saveAs(blob, "image-prices.docx");
-      console.log("Document created successfully");
+      setDisabled(false);
     });
   };
 
   const handleDoc = () => {
+    setDisabled(true);
     generateWordDocument(data);
-  }
+  };
 
   return (
     <CreateButton 
+      disabled={disabled}
       handleDoc={handleDoc} 
       label={LABEL_CREATE_BUTTON}
     />

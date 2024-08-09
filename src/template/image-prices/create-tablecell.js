@@ -1,34 +1,32 @@
-import { WidthType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
-
+import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
+import createBlockPrice from "./create-blockprice";
+import img from '../../assets/images/61b47bf7-5ec3-4e37-841b-54422aebfece.jpg' 
+import toEAN13 from "../../utils/create-encode/ean-13";
 
 const createTableCell = (data) => {
-  const blob = fetch(
-    data === '' ? 'https://new.sharik.ru/assets/images/no-image.svg' :
-    `https://new.sharik.ru${data.image}`
+  const size = data.name.length > 32 ? 22 : 24;
+  const blob = fetch(img
+  //  data && data.image ? `https://new.sharik.ru${data.image}` : 
+  //  'https://new.sharik.ru/assets/images/no-image.svg'
   ).then(r => r.blob());
-
-  //const QRCode = fetch(
-  //  `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${data.name}`
-  //).then(r => r.blob());
   
-
   return new TableCell({
     borders: {
       left: {
         size: 1,
-        color: "000000",
+        color: "FFFFFF",
       },
       right: {
         size: 1,
-        color: "000000",
+        color: "FFFFFF",
       },
       top: {
         size: 1,
-        color: "000000",
+        color: "FFFFFF",
       },
       bottom: {
         size: 1,
-        color: "000000",
+        color: "FFFFFF",
       },
     },
     children: [
@@ -41,37 +39,156 @@ const createTableCell = (data) => {
           new TableRow({
             children: [
               new TableCell({
+                width: {
+                  size: 150 * 15, // Ширина изображения в пикселях * 15 (конвертация в twips)
+                  type: WidthType.DXA,
+                },
+                borders: {
+                  right: { size: 0, color: "FFFFFF" }, 
+                },
                 children: [
                   new Paragraph({
                     children: [
-                    //  new ImageRun({
-                    //    data: QRCode,
-                    //    transformation: {
-                    //      width: 100,
-                    //      height: 100,
-                    //    },
-                    //  }),
-                    new ImageRun({
-                      data: blob,
-                      transformation: {
-                        width: 100,
-                        height: 100,
-                      },
-                    }),
-                    //  new TextRun({
-                    //    text: data.price2,
-                    //    size: 26,
-                    //    bold: true,
-                    //  }),
+                      new ImageRun({
+                        data: blob,
+                        transformation: {
+                          width: 150,
+                          height: 150,
+                        },
+                      }),
                     ],
                   }),
                 ],
               }),
-            ],
-          }),
-        ],
-      })
-    ],
+              new TableCell({
+                width: {
+                  size: 5668 - 150 * 15,
+                  type: WidthType.DXA,
+                },
+                borders: {
+                  left: { size: 0, color: "FFFFFF" }, 
+                },
+                children: [
+                  new Table({
+                    width: {
+                      size: 5668 - 150 * 15,
+                      type: WidthType.DXA,
+                    },
+                    rows: [
+                    new TableRow({
+                      height: { value: 250, rule: HeightRule.EXACT },
+                      children: [
+                        new TableCell({
+                          borders: {
+                            left: { size: 0, color: "FFFFFF" }, 
+                            right: { size: 0, color: "FFFFFF" }, 
+                            top: { size: 0, color: "FFFFFF" }, 
+                            bottom: { size: 0, color: "FFFFFF" }, 
+                          },
+                          children: [
+                            new Paragraph({
+                              alignment: AlignmentType.END,
+                              indent: { right: 100 },
+                              children: [
+                                new TextRun({
+                                  text: data.code,
+                                  size: 24,
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    new TableRow({
+                      height: { value: 500, rule: HeightRule.EXACT },
+                      children: [
+                        new TableCell({
+                          children: [
+                            new Paragraph({
+                              children: [
+                                new TextRun({
+                                  text: data.name,
+                                  size: size,
+                                  bold: true,
+                                }),
+                                new TextRun({
+                                  text: `, ${data.origin}`,
+                                  size: 20,
+                                }),
+                              ],
+                            }),
+                          ],
+                          borders: {
+                            left: { size: 0, color: "FFFFFF" }, 
+                            right: { size: 0, color: "FFFFFF" }, 
+                            top: { size: 0, color: "FFFFFF" }, 
+                            bottom: { size: 0, color: "FFFFFF" }, 
+                          },
+                        }),
+                      ],
+                    }),
+                    createBlockPrice(data),  
+                    new TableRow({
+                      height: { value: 280 * 2, rule: HeightRule.EXACT },
+                      children: [
+                        new TableCell({
+                          borders: {
+                            left: { size: 0, color: "FFFFFF" }, 
+                            right: { size: 0, color: "FFFFFF" }, 
+                            top: { size: 0, color: "FFFFFF" }, 
+                            bottom: { size: 0, color: "FFFFFF" }, 
+                          },
+                          children: [
+                            new Paragraph({
+                              indent: { right: 100 },
+                              alignment: AlignmentType.RIGHT,
+                              children: [
+                                new TextRun({
+                                  text: toEAN13(data.barcode),
+                                  size: 144,
+                                  font: "Libre Barcode EAN13 Text",
+                                }) 
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    new TableRow({
+                      height: { value: 200, rule: HeightRule.EXACT },
+                      children: [
+                        new TableCell({
+                          borders: {
+                            left: { size: 0, color: "FFFFFF" }, 
+                            right: { size: 0, color: "FFFFFF" }, 
+                            top: { size: 0, color: "FFFFFF" }, 
+                            bottom: { size: 0, color: "FFFFFF" }, 
+                          },
+                          children: [
+                            new Paragraph({
+                              indent: { right: 250 },
+                              alignment: AlignmentType.RIGHT,
+                              children: [
+                                new TextRun({
+                                  text: data.barcode,
+                                  size: 20,
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          ],
+        }),
+      ],
+    })
+  ],
   });
 };
 

@@ -46,9 +46,9 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
+            height: { value: 226, rule: HeightRule.EXACT },
             children: [
               new TableCell({
-                height: { value: 226, rule: HeightRule.EXACT },
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.END,
@@ -103,9 +103,9 @@ const createTableCell = (data) => {
           }),
           createBlockPrice(data),  
           new TableRow({
+            height: { value: 284, rule: HeightRule.EXACT },
             children: [
               new TableCell({
-                height: { value: 284, rule: HeightRule.EXACT },
                 children: [
                   new Paragraph({
                     indent: { left: 20 },
