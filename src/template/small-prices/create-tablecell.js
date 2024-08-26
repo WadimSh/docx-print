@@ -3,8 +3,7 @@ import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRo
 import createBlockPrice from "./create-blockprice";
 
 const createTableCell = (data) => {
-  const size = data.name.length > 32 ? 22 : 24;
-  
+    
   return new TableCell({
     borders: {
       left: {
@@ -19,16 +18,20 @@ const createTableCell = (data) => {
         size: 1,
         color: "FFFFFF",
       },
+      bottom: {
+        size: 1,
+        color: "FFFFFF",
+      },
     },
     children: [
       new Table({
         width: {
-          size: 2834,
+          size: 2830,
           type: WidthType.DXA,
         },
         rows: [
           new TableRow({
-            height: { value: 284, rule: HeightRule.EXACT },
+            height: { value: 280, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 children: [
@@ -81,7 +84,7 @@ const createTableCell = (data) => {
                     children: [
                       new TextRun({
                         text: data.name,
-                        size: size,
+                        size: 20,
                         bold: true,
                       }),
                     ],
@@ -103,7 +106,7 @@ const createTableCell = (data) => {
           }),
           createBlockPrice(data),  
           new TableRow({
-            height: { value: 284, rule: HeightRule.EXACT },
+            height: { value: 280, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 children: [

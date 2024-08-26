@@ -67,7 +67,7 @@ section {
   margin-top: auto;
   margin-bottom: 16px;
   width: 100%;
-  min-height: 30vh;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   gap: 8px;

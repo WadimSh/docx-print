@@ -3,11 +3,10 @@ import { AlignmentType, Paragraph, TextRun, TableCell, TableRow, HeightRule } fr
 const createBlockPrice = (data) => {
   if (data.multiplicity === 1) {
     return new TableRow({
-      height: { value: 780, rule: HeightRule.EXACT },
+      height: { value: 580, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
-            new Paragraph(''),
             new Paragraph({
               alignment: AlignmentType.LEFT,
               children: [
@@ -34,11 +33,10 @@ const createBlockPrice = (data) => {
     })
   } else {
     return new TableRow({
-      height: { value: 780, rule: HeightRule.EXACT },
+      height: { value: 580, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
-            new Paragraph(''),
             new Paragraph({
               alignment: AlignmentType.LEFT,
               children: [

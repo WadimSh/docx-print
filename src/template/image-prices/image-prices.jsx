@@ -19,7 +19,7 @@ const ImagePrices = ({ data }) => {
               orientation: PageOrientation.PORTRAIT,
             },
             margin: {
-              top: 300,
+              top: 200,
               left: 250,
               bottom: 100,
               right: 250,

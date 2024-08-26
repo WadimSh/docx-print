@@ -1,13 +1,13 @@
-import { TableRow, HeightRule } from "docx";
+import { HeightRule, TableRow } from "docx";
 
 import createTableCell from "./create-tablecell";
 import createEmptyCell from "./create-emptycell";
 
 const createTableRow = (data) => {
   const rows = [];
-  for (let i = 0; i < data.length; i += 4) {
+  for (let i = 0; i < data.length; i += 2) {
     const row = [];
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < 2; j++) {
       if (data[i + j]) {
         row.push(
           createTableCell(data[i + j])

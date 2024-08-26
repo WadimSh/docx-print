@@ -34,6 +34,18 @@ export const config = [
           round_price: true,
         }
       },
+      {
+        name: 'Ценники со штрих-кодом и картинкой',
+        value: 'barcode-prices',
+        description: '',
+        imege_preview: encode_prices_img,
+        properties: {
+          fair_rounding: true,
+          company_name: false,
+          extra_charge: true,
+          round_price: true,
+        }
+      },
     ]
   },
   {

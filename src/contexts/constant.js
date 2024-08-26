@@ -8,3 +8,4 @@ export const LABEL_TEXT_INPUT = 'Введите наименование юри�
 
 export const TYPE_SMALL_PRICES = 'small-prices';
 export const TYPE_IMAGE_PRICES = 'image-prices';
+export const TYPE_BARCODE_PRICES = 'barcode-prices';
