@@ -8,7 +8,7 @@
   user-select: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .wrapper {
     flex-direction: column;
     justify-content: flex-start;
