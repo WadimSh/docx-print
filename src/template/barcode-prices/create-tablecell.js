@@ -1,12 +1,11 @@
 import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
 import createBlockPrice from "./create-blockprice";
-import img from '../../assets/images/61b47bf7-5ec3-4e37-841b-54422aebfece.jpg' 
+import img from '../../assets/images/default-image.png'; 
 import toEAN13 from "../../utils/create-encode/ean-13";
 
 const createTableCell = (data) => {
   const blob = fetch(
-  //data && data.image ? `https://new.sharik.ru${data.image}` : 
-  img
+    data && data.image ? `https://new.sharik.ru${data.image}` : img
   ).then(r => r.blob());
   
   return new TableCell({
