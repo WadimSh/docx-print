@@ -1,6 +1,8 @@
 import React from "react";
 
+import CreateButton from "../../ui/create-button/create-button";
 import image from "../../assets/images/no-found.png";
+
 
 const NoFound = () => {
 
@@ -12,7 +14,7 @@ const NoFound = () => {
       </div>
       <button 
         type="button" 
-        onClick={() => window.history.back()}
+        onClick={() => window.open('https://new.sharik.ru', '_self')}
       >Вернуться на сайт</button>
     </div>
   );
