@@ -21,15 +21,15 @@ const transformArray = (data, profit, company, round) => {
         units: getUnits(item.units_counts, item.multiplicity),                                             //наименование минимальной единицы продажи
         counts: getCounts(item.units_counts, item.multiplicity),                                           //колличество в шт в минимальной партии
         price: formatPrice(item, profit, round),                                                           //цена за штуку
-        cost: formatСost(item, profit, round),
-        barcode: getBarcode(item),                                                             //цена за минимальную партию продажи
+        cost: formatСost(item, profit, round),                                                             //цена за минимальную партию продажи
+        barcode: getBarcode(item),                                                                         //штрих-код минимальной единицы продажи
       };
       newArray.push(newObj);
     } else {
       console.error(`Отсутствует информация о цене для элемента с кодом ${item.code}`);
     }
   });
-
+  
   return newArray;
 };
 
