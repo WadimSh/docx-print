@@ -4,13 +4,13 @@ import createTableRow from "./create-tablerow";
 
 const createTable = (data) => {
   const childrens = [];
-  const pages = Math.ceil(data.length / 21);
+  const pages = Math.ceil(data.length / 14);
   for (let pageIndex = 0; pageIndex < pages; pageIndex++) {
-    const pageData = data.slice(pageIndex * 21, (pageIndex + 1) * 21);
+    const pageData = data.slice(pageIndex * 14, (pageIndex + 1) * 14);
     childrens.push(
       new Table({
         width: {
-          size: 10550,
+          size: 11336,
           type: WidthType.DXA,
         },
         rows: createTableRow(pageData)

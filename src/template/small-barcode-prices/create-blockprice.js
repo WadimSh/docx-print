@@ -3,7 +3,7 @@ import { AlignmentType, Paragraph, TextRun, TableCell, TableRow, HeightRule } fr
 const createBlockPrice = (data) => {
   if (data.multiplicity === 1) {
     return new TableRow({
-      height: { value: 500, rule: HeightRule.EXACT },
+      height: { value: 480, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
@@ -12,12 +12,12 @@ const createBlockPrice = (data) => {
               children: [
                 new TextRun({
                   text: data.price,
-                  size: 48,
+                  size: 40,
                   bold: true,
                 }),
                 new TextRun({
                   text: " ₽",
-                  size: 32,
+                  size: 28,
                 }),
               ],
             }),
@@ -31,7 +31,7 @@ const createBlockPrice = (data) => {
     })
   } else {
     return new TableRow({
-      height: { value: 500, rule: HeightRule.EXACT },
+      height: { value: 480, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [

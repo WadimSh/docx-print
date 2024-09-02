@@ -5,9 +5,9 @@ import createEmptyCell from "./create-emptycell";
 
 const createTableRow = (data) => {
   const rows = [];
-  for (let i = 0; i < data.length; i += 3) {
+  for (let i = 0; i < data.length; i += 2) {
     const row = [];
-    for (let j = 0; j < 3; j++) {
+    for (let j = 0; j < 2; j++) {
       if (data[i + j]) {
         row.push(
           createTableCell(data[i + j])

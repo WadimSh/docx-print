@@ -10,7 +10,9 @@ import NotifyMessage from "../../ui/notify-message/notify-message";
 
 import SmallPrices from "../../template/small-prices/small-prices";
 import ImagePrices from "../../template/image-prices/image-prices";
+import BarcodeImgPrices from "../../template/barcode-img-prices/barcode-img-prices";
 import BarcodePrices from "../../template/barcode-prices/barcode-prices";
+import SmallBarcodePrices from "../../template/small-barcode-prices/small-barcode-prices";
 
 import transformArray from "../../utils/transform-array/transform-array";
 import { 
@@ -21,7 +23,9 @@ import {
   PLACEHOLDER_SELECT_OPTIONS,
   TYPE_SMALL_PRICES,
   TYPE_IMAGE_PRICES,
-  TYPE_BARCODE_PRICES
+  TYPE_BARCODE_IMG_PRICES,
+  TYPE_BARCODE_PRICES,
+  TYPE_SMALL_BARCODE_PRICES
 } from "../../contexts/constant";
 
 const SideBar = () => {
@@ -96,7 +100,9 @@ const SideBar = () => {
       {sharedValue["logic"] && <>
         {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
         {check.value === TYPE_IMAGE_PRICES && <ImagePrices data={newData} />}
+        {check.value === TYPE_BARCODE_IMG_PRICES && <BarcodeImgPrices data={newData} />}
         {check.value === TYPE_BARCODE_PRICES && <BarcodePrices data={newData} />}
+        {check.value === TYPE_SMALL_BARCODE_PRICES && <SmallBarcodePrices data={newData} />}
       </>}
     </aside>
   )

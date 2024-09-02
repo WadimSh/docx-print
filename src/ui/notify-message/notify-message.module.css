@@ -3,7 +3,7 @@
   border-left: 4px solid var(--color-warning);
   border-radius: 0 4px 4px 0;
   box-sizing: border-box;
-  padding: 16px;
+  padding: 8px 14px;
   background-color: rgba(255, 160, 0, .1);
 }
 

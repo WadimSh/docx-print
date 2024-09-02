@@ -1,5 +1,6 @@
-import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow, HeightRule } from "docx";
+import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
 import createBlockPrice from "./create-blockprice";
+import toEAN13 from "../../utils/create-encode/ean-13";
 
 const createTableCell = (data) => {
     
@@ -33,94 +34,96 @@ const createTableCell = (data) => {
             height: { value: 280, rule: HeightRule.EXACT },
             children: [
               new TableCell({
+                borders: {
+                  bottom: { size: 0, color: "FFFFFF" }, 
+                },
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
                         text: data.company,
-                        bold: true,
-                      }),
-                    ],
-                  }),
-                ],
-              }),
-            ],
-          }),
-          new TableRow({
-            height: { value: 226, rule: HeightRule.EXACT },
-            children: [
-              new TableCell({
-                children: [
-                  new Paragraph({
-                    alignment: AlignmentType.END,
-                    indent: { right: 50 },
-                    children: [
-                      new TextRun({
-                        text: data.code,
                         size: 20,
                       }),
                     ],
                   }),
                 ],
-                borders: {
-                  bottom: {
-                    size: 1,
-                    color: "FFFFFF",
-                  },
-                },
               }),
             ],
           }),
           new TableRow({
-            height: { value: 1010, rule: HeightRule.EXACT },
+            height: { value: 900, rule: HeightRule.EXACT },
             children: [
               new TableCell({
+                borders: {
+                  top: { size: 0, color: "FFFFFF" }, 
+                  bottom: { size: 0, color: "FFFFFF" }, 
+                },
                 children: [
-                  new Paragraph(''),
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
                     children: [
+                      new TextRun({
+                        text: `${data.code} `,
+                        size: 20,
+                      }),
                       new TextRun({
                         text: data.name,
                         size: 20,
                         bold: true,
                       }),
+                      new TextRun({
+                        break: 1,
+                      }),
+                      new TextRun({
+                        text: `Произв.:  ${data.origin}`,
+                        size: 18,
+                      }),
                     ],
                   }),
                 ],
-                borders: {
-                  top: {
-                    size: 1,
-                    color: "FFFFFF",
-                  },
-                  bottom: {
-                    size: 1,
-                    color: "FFFFFF",
-                  },
-                },
               }),
             ],
-            
           }),
           createBlockPrice(data),  
           new TableRow({
-            height: { value: 280, rule: HeightRule.EXACT },
+            height: { value: 200 * 2, rule: HeightRule.EXACT },
             children: [
               new TableCell({
+                borders: {
+                  top: { size: 0, color: "FFFFFF" }, 
+                  bottom: { size: 0, color: "FFFFFF" },
+                },
                 children: [
                   new Paragraph({
-                    indent: { left: 20 },
+                    alignment: AlignmentType.LEFT,
+                    indent: { left: 400 },
                     children: [
                       new TextRun({
-                        text: data.origin.length > 10 ? 'Произв.:' : 'Производитель:',
-                      }),
+                        text: toEAN13(data.barcode),
+                        size: 144,
+                        font: "Libre Barcode EAN13 Text",
+                      }) 
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+          new TableRow({
+            height: { value: 180, rule: HeightRule.EXACT },
+            children: [
+              new TableCell({
+                borders: {
+                  top: { size: 0, color: "FFFFFF" }, 
+                },
+                children: [
+                  new Paragraph({
+                    alignment: AlignmentType.CENTER,
+                    children: [
                       new TextRun({
-                        text: " ",
-                      }),
-                      new TextRun({
-                        text: data.origin,
-                        bold: true,
+                        text: data.barcode,
+                        size: 18,
                       }),
                     ],
                   }),
@@ -128,8 +131,8 @@ const createTableCell = (data) => {
               }),
             ],
           }),
-        ]
-      })
+        ],
+      }),
     ],
   })
 };

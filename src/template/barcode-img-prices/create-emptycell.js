@@ -24,7 +24,7 @@ const createEmptyCell = () => {
     children: [
       new Table({
         width: {
-          size: 3750,
+          size: 5668,
           type: WidthType.DXA,
         },
         rows: [

@@ -3,12 +3,13 @@ import { AlignmentType, Paragraph, TextRun, TableCell, TableRow, HeightRule } fr
 const createBlockPrice = (data) => {
   if (data.multiplicity === 1) {
     return new TableRow({
-      height: { value: 500, rule: HeightRule.EXACT },
+      height: { value: 550, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
             new Paragraph({
-              alignment: AlignmentType.CENTER,
+              alignment: AlignmentType.LEFT,
+              indent: { left: 350 },
               children: [
                 new TextRun({
                   text: data.price,
@@ -23,6 +24,8 @@ const createBlockPrice = (data) => {
             }),
           ],
           borders: {
+            left: { size: 0, color: "FFFFFF" }, 
+            right: { size: 0, color: "FFFFFF" }, 
             top: { size: 0, color: "FFFFFF" }, 
             bottom: { size: 0, color: "FFFFFF" }, 
           },
@@ -31,12 +34,13 @@ const createBlockPrice = (data) => {
     })
   } else {
     return new TableRow({
-      height: { value: 500, rule: HeightRule.EXACT },
+      height: { value: 550, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
             new Paragraph({
-              alignment: AlignmentType.CENTER,
+              alignment: AlignmentType.LEFT,
+              indent: { left: 350 },
               children: [
                 new TextRun({
                   text: "1шт - ",
@@ -53,7 +57,8 @@ const createBlockPrice = (data) => {
               ],
             }),
             new Paragraph({
-              alignment: AlignmentType.CENTER,
+              alignment: AlignmentType.LEFT,
+              indent: { left: 350 },
               children: [
                 new TextRun({
                   text: data.units,
@@ -84,6 +89,8 @@ const createBlockPrice = (data) => {
             }),
           ],
           borders: {
+            left: { size: 0, color: "FFFFFF" }, 
+            right: { size: 0, color: "FFFFFF" }, 
             top: { size: 0, color: "FFFFFF" }, 
             bottom: { size: 0, color: "FFFFFF" }, 
           },

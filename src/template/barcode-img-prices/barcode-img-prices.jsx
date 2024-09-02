@@ -6,7 +6,7 @@ import createTable from './create-table';
 import CreateButton from '../../ui/create-button/create-button';
 import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
 
-const BarcodePrices = ({ data }) => {
+const BarcodeImgPrices = ({ data }) => {
   const [disabled, setDisabled] = useState(false);
   const generateWordDocument = (dataContent) => {
     const doc = new Document({
@@ -31,7 +31,7 @@ const BarcodePrices = ({ data }) => {
     });
 
     Packer.toBlob(doc).then(blob => {
-      saveAs(blob, "barcode-prices.docx");
+      saveAs(blob, "barcode-img-prices.docx");
       setDisabled(false);
     });
   };
@@ -51,4 +51,4 @@ const BarcodePrices = ({ data }) => {
   );
 };
 
-export default BarcodePrices;
+export default BarcodeImgPrices;
