@@ -1,4 +1,4 @@
-import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
+import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun } from "docx";
 import createBlockPrice from "./create-blockprice";
 import toEAN13 from "../../utils/create-encode/ean-13";
 
