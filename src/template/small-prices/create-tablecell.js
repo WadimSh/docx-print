@@ -65,7 +65,7 @@ const createTableCell = (data) => {
                 ],
                 borders: {
                   bottom: {
-                    size: 1,
+                    size: 0,
                     color: "FFFFFF",
                   },
                 },
@@ -73,7 +73,7 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
-            height: { value: 1010, rule: HeightRule.EXACT },
+            height: { value: 1000, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 children: [
@@ -91,11 +91,11 @@ const createTableCell = (data) => {
                 ],
                 borders: {
                   top: {
-                    size: 1,
+                    size: 0,
                     color: "FFFFFF",
                   },
                   bottom: {
-                    size: 1,
+                    size: 0,
                     color: "FFFFFF",
                   },
                 },

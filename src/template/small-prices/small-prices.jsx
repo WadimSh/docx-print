@@ -19,7 +19,7 @@ const SmallPrices = ({ data }) => {
               orientation: PageOrientation.PORTRAIT,
             },
             margin: {
-              top: 200,
+              top: 250,
               left: 250,
               bottom: 100,
               right: 250,
