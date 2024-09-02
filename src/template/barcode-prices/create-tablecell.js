@@ -65,7 +65,7 @@ const createTableCell = (data) => {
                     indent: { right: 250, left: 100 },
                     children: [
                       new TextRun({
-                        text: data.code,
+                        text: `${data.code} `,
                         size: 20,
                       }),
                       new TextRun({
