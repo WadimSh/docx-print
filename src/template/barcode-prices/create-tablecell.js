@@ -45,6 +45,7 @@ const createTableCell = (data) => {
                       new TextRun({
                         text: data.company,
                         size: 20,
+                        font: "Roboto",
                       }),
                     ],
                   }),
@@ -67,10 +68,12 @@ const createTableCell = (data) => {
                       new TextRun({
                         text: `${data.code} `,
                         size: 20,
+                        font: "Roboto",
                       }),
                       new TextRun({
                         text: data.name,
                         size: 20,
+                        font: "Roboto",
                         bold: true,
                       }),
                       new TextRun({
@@ -79,6 +82,7 @@ const createTableCell = (data) => {
                       new TextRun({
                         text: `Произв.:  ${data.origin}`,
                         size: 18,
+                        font: "Roboto",
                       }),
                     ],
                   }),
@@ -97,8 +101,7 @@ const createTableCell = (data) => {
                 },
                 children: [
                   new Paragraph({
-                    indent: { right: 100 },
-                    alignment: AlignmentType.RIGHT,
+                    alignment: AlignmentType.LEFT,
                     children: [
                       new TextRun({
                         text: toEAN13(data.barcode),
@@ -120,12 +123,13 @@ const createTableCell = (data) => {
                 },
                 children: [
                   new Paragraph({
-                    indent: { right: 250 },
-                    alignment: AlignmentType.RIGHT,
+                    indent: { left: 350 },
+                    alignment: AlignmentType.LEFT,
                     children: [
                       new TextRun({
                         text: data.barcode,
-                        size: 20,
+                        size: 18,
+                        font: "Roboto",
                       }),
                     ],
                   }),

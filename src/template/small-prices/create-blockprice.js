@@ -12,12 +12,14 @@ const createBlockPrice = (data) => {
               children: [
                 new TextRun({
                   text: data.price,
+                  font: "Roboto",
                   size: 32,
                   bold: true,
                 }),
                 new TextRun({
                   text: " ₽",
-                  size: 32,
+                  font: "Roboto",
+                  size: 28,
                   bold: true,
                 }),
               ],
@@ -43,14 +45,18 @@ const createBlockPrice = (data) => {
               children: [
                 new TextRun({
                   text: "1шт - ",
+                  font: "Roboto",
                   size: 18,
                 }),
                 new TextRun({
                   text: data.price,
+                  font: "Roboto",
                   size: 18,
+                  bold: true,
                 }),
                 new TextRun({
                   text: " ₽",
+                  font: "Roboto",
                   size: 18,
                 }),
                 new TextRun({
@@ -58,8 +64,8 @@ const createBlockPrice = (data) => {
                 }),
                 new TextRun({
                   text: data.units,
+                  font: "Roboto",
                   size: 26,
-                  bold: true,
                 }),
                 new TextRun({
                   text: " ",
@@ -67,20 +73,23 @@ const createBlockPrice = (data) => {
                 }),
                 new TextRun({
                   text: data.counts,
+                  font: "Roboto",
                   size: 26,
-                  bold: true,
                 }),
                 new TextRun({
                   text: " - ",
+                  font: "Roboto",
                   size: 26,
                 }),
                 new TextRun({
                   text: data.cost,
+                  font: "Roboto",
                   size: 26,
                   bold: true,
                 }),
                 new TextRun({
                   text: " ₽",
+                  font: "Roboto",
                   size: 26,
                 }),
               ],

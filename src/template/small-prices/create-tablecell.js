@@ -39,7 +39,8 @@ const createTableCell = (data) => {
                     children: [
                       new TextRun({
                         text: data.company,
-                        bold: true,
+                        size: 20,
+                        font: "Roboto",
                       }),
                     ],
                   }),
@@ -59,6 +60,7 @@ const createTableCell = (data) => {
                       new TextRun({
                         text: data.code,
                         size: 20,
+                        font: "Roboto",
                       }),
                     ],
                   }),
@@ -84,6 +86,7 @@ const createTableCell = (data) => {
                       new TextRun({
                         text: data.name,
                         size: 20,
+                        font: "Roboto",
                         bold: true,
                       }),
                     ],
@@ -105,7 +108,7 @@ const createTableCell = (data) => {
           }),
           createBlockPrice(data),  
           new TableRow({
-            height: { value: 280, rule: HeightRule.EXACT },
+            height: { value: 260, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 children: [
@@ -114,12 +117,16 @@ const createTableCell = (data) => {
                     children: [
                       new TextRun({
                         text: data.origin.length > 10 ? 'Произв.:' : 'Производитель:',
+                        font: "Roboto",
+                        size: 18,
                       }),
                       new TextRun({
                         text: " ",
                       }),
                       new TextRun({
                         text: data.origin,
+                        font: "Roboto",
+                        size: 18,
                         bold: true,
                       }),
                     ],

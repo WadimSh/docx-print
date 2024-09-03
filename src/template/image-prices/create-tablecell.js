@@ -87,8 +87,8 @@ const createTableCell = (data) => {
                               children: [
                                 new TextRun({
                                   text: data.company,
-                                  bold: true,
                                   size: 20,
+                                  font: "Roboto",
                                 }),
                               ],
                             }),
@@ -99,6 +99,7 @@ const createTableCell = (data) => {
                                 new TextRun({
                                   text: data.code,
                                   size: 20,
+                                  font: "Roboto",
                                 }),
                               ],
                             }),
@@ -118,6 +119,7 @@ const createTableCell = (data) => {
                                 new TextRun({
                                   text: data.name,
                                   size: 24,
+                                  font: "Roboto",
                                   bold: true,
                                 }),
                                 new TextRun({
@@ -126,6 +128,7 @@ const createTableCell = (data) => {
                                 new TextRun({
                                   text: `Произв.:  ${data.origin}`,
                                   size: 18,
+                                  font: "Roboto",
                                 }),
                               ],
                             }),
