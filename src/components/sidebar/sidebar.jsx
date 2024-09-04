@@ -14,6 +14,8 @@ import BarcodeImgPrices from "../../template/barcode-img-prices/barcode-img-pric
 import BarcodePrices from "../../template/barcode-prices/barcode-prices";
 import SmallBarcodePrices from "../../template/small-barcode-prices/small-barcode-prices";
 
+import RegularFlyers from "../../template/regular-flyers/regular-flyers";
+
 import transformArray from "../../utils/transform-array/transform-array";
 import { 
   DEFAULT_NAME_COMPANY, 
@@ -25,7 +27,8 @@ import {
   TYPE_IMAGE_PRICES,
   TYPE_BARCODE_IMG_PRICES,
   TYPE_BARCODE_PRICES,
-  TYPE_SMALL_BARCODE_PRICES
+  TYPE_SMALL_BARCODE_PRICES,
+  TYPE_REGULAR_FLYERS
 } from "../../contexts/constant";
 
 const SideBar = () => {
@@ -103,6 +106,7 @@ const SideBar = () => {
         {check.value === TYPE_BARCODE_IMG_PRICES && <BarcodeImgPrices data={newData} />}
         {check.value === TYPE_BARCODE_PRICES && <BarcodePrices data={newData} />}
         {check.value === TYPE_SMALL_BARCODE_PRICES && <SmallBarcodePrices data={newData} />}
+        {check.value === TYPE_REGULAR_FLYERS && <RegularFlyers data={newData} />}
       </>}
     </aside>
   )

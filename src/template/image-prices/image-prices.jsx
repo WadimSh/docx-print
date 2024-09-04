@@ -15,7 +15,7 @@ const ImagePrices = ({ data }) => {
           page: {
             size: {
               width: 11906,
-              //height: 16838,
+              height: 16838,
               orientation: PageOrientation.PORTRAIT,
             },
             margin: {

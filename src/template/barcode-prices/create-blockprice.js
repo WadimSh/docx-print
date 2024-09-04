@@ -14,7 +14,7 @@ const createBlockPrice = (data) => {
                 new TextRun({
                   text: data.price,
                   size: 48,
-                  font: "Roboto",
+                  font: "Roboto Black",
                   bold: true,
                 }),
                 new TextRun({

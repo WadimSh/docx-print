@@ -34,9 +34,6 @@ const createTableCell = (data) => {
             height: { value: 280, rule: HeightRule.EXACT },
             children: [
               new TableCell({
-                borders: {
-                  bottom: { size: 0, color: "FFFFFF" }, 
-                },
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
@@ -53,7 +50,7 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
-            height: { value: 900, rule: HeightRule.EXACT },
+            height: { value: 950, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -91,7 +88,7 @@ const createTableCell = (data) => {
           }),
           createBlockPrice(data),  
           new TableRow({
-            height: { value: 200 * 2, rule: HeightRule.EXACT },
+            height: { value: 180 * 2, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -127,7 +124,7 @@ const createTableCell = (data) => {
                     children: [
                       new TextRun({
                         text: data.barcode,
-                        size: 18,
+                        size: 16,
                         font: "Roboto",
                       }),
                     ],

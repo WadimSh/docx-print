@@ -42,8 +42,7 @@ const App = () => {
       })
     }
   }, [type, ids]);
-
- return (
+return (
     <StateProvider>
       <MainContext.Provider value={data}>
         <Header 
