@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Document, Packer, PageOrientation } from "docx";
 import { saveAs } from 'file-saver';
 
-import CreateButton from '../../ui/create-button/create-button';
-import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
 import createTable from './create-table';
+import CreateButton from '../../../ui/create-button/create-button';
+import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../../contexts/constant';
 
-const SmallPrices = ({ data }) => {
+const BarcodeImgPrices = ({ data }) => {
   const [disabled, setDisabled] = useState(false);
-  const generateWordDocument = (dataObject) => {
+  const generateWordDocument = (dataContent) => {
     const doc = new Document({
       sections: [{
         properties: {
@@ -24,14 +24,14 @@ const SmallPrices = ({ data }) => {
               bottom: 100,
               right: 250,
             },
-          },
+          }
         },
-        children: createTable(dataObject)
+        children: createTable(dataContent),
       }]
     });
 
     Packer.toBlob(doc).then(blob => {
-      saveAs(blob, "small-prices.docx");
+      saveAs(blob, "barcode-img-prices.docx");
       setDisabled(false);
     });
   };
@@ -51,4 +51,4 @@ const SmallPrices = ({ data }) => {
   );
 };
 
-export default SmallPrices;
+export default BarcodeImgPrices;

@@ -77,18 +77,18 @@ export const config = [
     name: 'Рекламная листовка',
     value: 'promo-flyers',
     options: [
-      //{
-      //  name: 'Обычная рекламная листовка',
-      //  value: 'regular-flyers',
-      //  description: 'Это простая рекламная листовка.',
-      //  imege_preview: image_prices_img,
-      //  properties: {
-      //    fair_rounding: false,
-      //    company_name: false,
-      //    extra_charge: false,
-      //    round_price: false,
-      //  }
-      //},
+      {
+        name: 'Обычная рекламная листовка',
+        value: 'regular-flyers',
+        description: 'Это простая рекламная листовка.',
+        imege_preview: image_prices_img,
+        properties: {
+          fair_rounding: false,
+          company_name: false,
+          extra_charge: false,
+          round_price: false,
+        }
+      },
     ]
   },
   {

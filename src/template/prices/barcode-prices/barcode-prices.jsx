@@ -3,10 +3,10 @@ import { Document, Packer, PageOrientation } from "docx";
 import { saveAs } from 'file-saver';
 
 import createTable from './create-table';
-import CreateButton from '../../ui/create-button/create-button';
-import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
+import CreateButton from '../../../ui/create-button/create-button';
+import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../../contexts/constant';
 
-const SmallBarcodePrices = ({ data }) => {
+const BarcodePrices = ({ data }) => {
   const [disabled, setDisabled] = useState(false);
   const generateWordDocument = (dataContent) => {
     const doc = new Document({
@@ -31,7 +31,7 @@ const SmallBarcodePrices = ({ data }) => {
     });
 
     Packer.toBlob(doc).then(blob => {
-      saveAs(blob, "small-barcode-prices.docx");
+      saveAs(blob, "barcode-prices.docx");
       setDisabled(false);
     });
   };
@@ -51,4 +51,4 @@ const SmallBarcodePrices = ({ data }) => {
   );
 };
 
-export default SmallBarcodePrices;
+export default BarcodePrices;

@@ -1,5 +1,5 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow, HeightRule, ImageRun } from "docx";
-import img from '../../assets/images/default-image.png';
+import img from '../../assets/images/ac2837b44312a868d182302ecfd517bc.jpg';
 
 const createTableCell = (data) => {
   const blob = fetch(

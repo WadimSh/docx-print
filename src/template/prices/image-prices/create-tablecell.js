@@ -1,6 +1,6 @@
 import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
 import createBlockPrice from "./create-blockprice";
-import img from '../../assets/images/default-image.png';
+import img from '../../../assets/images/default-image.png';
 
 const createTableCell = (data) => {
   const blob = fetch(

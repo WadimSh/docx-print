@@ -8,11 +8,11 @@ import TextInput from "../../ui/text-input/text-input";
 import CheckBox from "../../ui/check-box/check-box";
 import NotifyMessage from "../../ui/notify-message/notify-message";
 
-import SmallPrices from "../../template/small-prices/small-prices";
-import ImagePrices from "../../template/image-prices/image-prices";
-import BarcodeImgPrices from "../../template/barcode-img-prices/barcode-img-prices";
-import BarcodePrices from "../../template/barcode-prices/barcode-prices";
-import SmallBarcodePrices from "../../template/small-barcode-prices/small-barcode-prices";
+import SmallPrices from "../../template/prices/small-prices/small-prices";
+import ImagePrices from "../../template/prices/image-prices/image-prices";
+import BarcodeImgPrices from "../../template/prices/barcode-img-prices/barcode-img-prices";
+import BarcodePrices from "../../template/prices/barcode-prices/barcode-prices";
+import SmallBarcodePrices from "../../template/prices/small-barcode-prices/small-barcode-prices";
 
 import RegularFlyers from "../../template/regular-flyers/regular-flyers";
 

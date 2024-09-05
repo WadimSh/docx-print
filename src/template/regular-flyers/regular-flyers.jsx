@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
-import { Document, Packer, Header, Footer, PageOrientation, HeadingLevel, AlignmentType, Paragraph, TextRun } from "docx";
+import { Document, Packer, Header, Footer, PageOrientation, BorderStyle, ImageRun, AlignmentType, Paragraph, TextRun, Table, TableRow, TableCell, WidthType } from "docx";
 import { saveAs } from 'file-saver';
 
 import CreateButton from '../../ui/create-button/create-button';
 import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
 import createTable from './create-table';
 
+import logo from '../../assets/images/logo.png';
+
 const RegularFlyers = ({ data }) => {
+
+  const blob = fetch(logo).then(r => r.blob());
+    
   const [disabled, setDisabled] = useState(false);
   const generateWordDocument = (dataObject) => {
     const doc = new Document({
@@ -30,11 +35,71 @@ const RegularFlyers = ({ data }) => {
         headers: {
           default: new Header({
             children: [
-              new Paragraph({
-                text: "",
-                spacing: { before: 600, after: 500 }, // Устанавливает отступ перед абзацем
-                alignment: AlignmentType.CENTER,
-                heading: HeadingLevel.HEADING_1,
+              new Table({
+                width: {
+                  size: 11336,
+                  type: WidthType.DXA,
+                },
+                rows: [
+                  new TableRow({
+                    children: [
+                      new TableCell({
+                        width: {
+                          size: 8490,
+                          type: WidthType.DXA,
+                        },
+                        children: [
+                          new Paragraph({
+                            spacing: { before: 400, after: 400 },
+                            indent: { left: 300 },
+                            alignment: AlignmentType.LEFT,
+                            children: [
+                              new TextRun({
+                                text: 'CАМЫЕ КРУТЫЕ ШАРЫ В РОССИИ',
+                                size: 32,
+                                font: "Roboto",
+                                color: "FFA000",
+                              }),
+                            ],
+                          }),
+                        ],
+                        borders: {
+                          left: { size: 0, color: "FFFFFF" },
+                          right: { size: 0, color: "FFFFFF" },
+                          top: { size: 0, color: "FFFFFF" },
+                          bottom: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+                        },
+                      }),
+                      new TableCell({
+                        width: {
+                          size: 2830,
+                          type: WidthType.DXA,
+                        },
+                        children: [
+                          new Paragraph({
+                            spacing: { before: 300, after: 400 },
+                            alignment: AlignmentType.CENTER,
+                            children: [
+                              new ImageRun({
+                                data: blob,
+                                transformation: {
+                                  width: 100,
+                                  height: 25,
+                                },
+                              }),
+                            ],
+                          }),
+                        ],
+                        borders: {
+                          left: { size: 0, color: "FFFFFF" },
+                          right: { size: 0, color: "FFFFFF" },
+                          top: { size: 0, color: "FFFFFF" },
+                          bottom: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+                        },
+                      }),
+                    ],
+                  }),
+                ],
               }),
             ],
           }),
@@ -45,10 +110,11 @@ const RegularFlyers = ({ data }) => {
                 spacing: { before: 400, after: 500 },
                 children: [
                   new TextRun({
-                    text: 'Текст для первой страницы',
+                    text: 'Рекламная листовка',
                     size: 48,
                     font: "Roboto Black",
                     bold: true,
+                    color: '#035bcb',
                   }),
                 ],
               }),
@@ -57,10 +123,128 @@ const RegularFlyers = ({ data }) => {
         },
         footers: {
             default: new Footer({
-                children: [new Paragraph("Footer text")],
+                children: [
+                  new Table({
+                    width: {
+                      size: 11336,
+                      type: WidthType.DXA,
+                    },
+                    rows: [
+                      new TableRow({
+                        children: [
+                          new TableCell({
+                            width: {
+                              size: 3630,
+                              type: WidthType.DXA,
+                            },
+                            borders: {
+                              left: { size: 0, color: "FFFFFF" },
+                              right: { size: 0, color: "FFFFFF" },
+                              top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+                              bottom: { size: 0, color: "FFFFFF" },
+                            },
+                            children: [
+                              new Paragraph({
+                                indent: { left: 300 },
+                                alignment: AlignmentType.LEFT,
+                                children: [
+                                  new TextRun({
+                                    text: "2024г. АО 'Европа уно трейд'",
+                                    size: 24,
+                                    font: "Roboto",
+                                    bold: true,
+                                  }),
+                                ],
+                              })
+                            ],
+                          }),
+                          new TableCell({
+                            width: {
+                              size: 7690,
+                              type: WidthType.DXA,
+                            },
+                            borders: {
+                              left: { size: 0, color: "FFFFFF" },
+                              right: { size: 0, color: "FFFFFF" },
+                              top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+                              bottom: { size: 0, color: "FFFFFF" },
+                            },
+                            children: [
+                              new Paragraph({
+                                alignment: AlignmentType.LEFT,
+                                indent: { left: 2500 },
+                                children: [
+                                  new TextRun({
+                                    text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9",
+                                    size: 20,
+                                  }),
+                                  new TextRun({
+                                    text: "тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14",
+                                    size: 20,
+                                    break: 1,
+                                  }),
+                                  new TextRun({
+                                    text: "факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
+                                    size: 20,
+                                    break: 1,
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
             }),
             first: new Footer({
-              children: [new Paragraph("Footer text")],
+              children: [
+                new Table({
+                  width: {
+                    size: 11336,
+                    type: WidthType.DXA,
+                  },
+                  borders: {
+                    left: { size: 0, color: "FFFFFF" },
+                    right: { size: 0, color: "FFFFFF" },
+                    top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+                    bottom: { size: 0, color: "FFFFFF" },
+                  },
+                  rows: [
+                    new TableRow({
+                      children: [
+                        new TableCell({
+                          width: {
+                            size: 11336,
+                            type: WidthType.DXA,
+                          },
+                          borders: {
+                            left: { size: 0, color: "FFFFFF" },
+                            right: { size: 0, color: "FFFFFF" },
+                            top: { style: BorderStyle.SINGLE, size: 12, color: "396EC5" },
+                            bottom: { size: 0, color: "FFFFFF" },
+                          },
+                          children: [
+                            new Paragraph({
+                              indent: { left: 300 },
+                              alignment: AlignmentType.LEFT,
+                              children: [
+                                new TextRun({
+                                  text: "АО 'Европа уно трейд'",
+                                  size: 24,
+                                  font: "Roboto",
+                                  bold: true,
+                                }),
+                              ],
+                            })
+                          ],
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              ],
             }),
         },
         children: createTable(dataObject)
