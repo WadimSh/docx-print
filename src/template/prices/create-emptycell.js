@@ -1,6 +1,26 @@
 import { WidthType, Paragraph, Table, TableCell, TableRow } from "docx";
 
-const createEmptyCell = () => {
+import { 
+  TYPE_SMALL_PRICES,
+  TYPE_SMALL_BARCODE_PRICES,
+  TYPE_BARCODE_PRICES,
+  TYPE_IMAGE_PRICES,
+  TYPE_IMAGE_BARCODE_PRICES 
+} from "../../contexts/constant";
+
+const values = {
+  [TYPE_SMALL_PRICES]: 2830,
+  [TYPE_SMALL_BARCODE_PRICES]: 2830,
+  [TYPE_BARCODE_PRICES]: 3500,
+  [TYPE_IMAGE_PRICES]: 5668,
+  [TYPE_IMAGE_BARCODE_PRICES]: 5668,
+};
+
+const getValue = (key) => {
+  return values[key];
+}
+
+const createEmptyCell = (type) => {
     
   return new TableCell({
     borders: {
@@ -24,7 +44,7 @@ const createEmptyCell = () => {
     children: [
       new Table({
         width: {
-          size: 3500,
+          size: getValue(type),
           type: WidthType.DXA,
         },
         rows: [

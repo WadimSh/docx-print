@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Document, Packer, PageOrientation } from "docx";
 import { saveAs } from 'file-saver';
 
-import CreateButton from '../../../ui/create-button/create-button';
-import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../../contexts/constant';
+import CreateButton from '../../ui/create-button/create-button';
+import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
 import createTable from './create-table';
 
-const SmallPrices = ({ data }) => {
+const Prices = ({ data, value }) => {
   const [disabled, setDisabled] = useState(false);
-  const generateWordDocument = (dataObject) => {
+  const generateWordDocument = (dataObject, valueObject) => {
     const doc = new Document({
       sections: [{
         properties: {
@@ -26,19 +26,19 @@ const SmallPrices = ({ data }) => {
             },
           },
         },
-        children: createTable(dataObject)
+        children: createTable(dataObject, valueObject)
       }]
     });
 
     Packer.toBlob(doc).then(blob => {
-      saveAs(blob, "small-prices.docx");
+      saveAs(blob, `${value.value}.docx`);
       setDisabled(false);
     });
   };
 
   const handleDoc = () => {
     setDisabled(true);
-    generateWordDocument(data);
+    generateWordDocument(data, value);
   };
 
   return (
@@ -51,4 +51,4 @@ const SmallPrices = ({ data }) => {
   );
 };
 
-export default SmallPrices;
+export default Prices;

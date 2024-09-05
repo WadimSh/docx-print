@@ -1,9 +1,8 @@
 import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun, ImageRun } from "docx";
 import createBlockPrice from "./create-blockprice";
-import img from '../../../assets/images/default-image.png'; 
-import toEAN13 from "../../../utils/create-encode/ean-13";
+import img from '../../../assets/images/default-image.png';
 
-const createTableCell = (data) => {
+const createImagePrices = (data) => {
   const blob = fetch(
     data && data.image ? `https://new.sharik.ru${data.image}` : img
   ).then(r => r.blob());
@@ -74,7 +73,7 @@ const createTableCell = (data) => {
                     },
                     rows: [
                     new TableRow({
-                      height: { value: 250, rule: HeightRule.EXACT },
+                      height: { value: 450, rule: HeightRule.EXACT },
                       children: [
                         new TableCell({
                           borders: {
@@ -85,11 +84,20 @@ const createTableCell = (data) => {
                           },
                           children: [
                             new Paragraph({
-                              alignment: AlignmentType.RIGHT,
-                              indent: { right: 100 },
                               children: [
                                 new TextRun({
                                   text: data.company,
+                                  size: 20,
+                                  font: "Roboto",
+                                }),
+                              ],
+                            }),
+                            new Paragraph({
+                              alignment: AlignmentType.END,
+                              indent: { right: 100 },
+                              children: [
+                                new TextRun({
+                                  text: data.code,
                                   size: 20,
                                   font: "Roboto",
                                 }),
@@ -100,21 +108,17 @@ const createTableCell = (data) => {
                       ],
                     }),
                     new TableRow({
-                      height: { value: 800, rule: HeightRule.EXACT },
+                      height: { value: 1000, rule: HeightRule.EXACT },
                       children: [
                         new TableCell({
                           children: [
+                            new Paragraph(''),
                             new Paragraph({
                               indent: { right: 250 },
                               children: [
                                 new TextRun({
-                                  text: `${data.code} `,
-                                  size: 20,
-                                  font: "Roboto",
-                                }),
-                                new TextRun({
                                   text: data.name,
-                                  size: 20,
+                                  size: 24,
                                   font: "Roboto",
                                   bold: true,
                                 }),
@@ -139,57 +143,6 @@ const createTableCell = (data) => {
                       ],
                     }),
                     createBlockPrice(data),  
-                    new TableRow({
-                      height: { value: 220 * 2, rule: HeightRule.EXACT },
-                      children: [
-                        new TableCell({
-                          borders: {
-                            left: { size: 0, color: "FFFFFF" }, 
-                            right: { size: 0, color: "FFFFFF" }, 
-                            top: { size: 0, color: "FFFFFF" }, 
-                            bottom: { size: 0, color: "FFFFFF" }, 
-                          },
-                          children: [
-                            new Paragraph({
-                              alignment: AlignmentType.LEFT,
-                              children: [
-                                new TextRun({
-                                  text: toEAN13(data.barcode),
-                                  size: 144,
-                                  font: "Libre Barcode EAN13 Text",
-                                }) 
-                              ],
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
-                    new TableRow({
-                      height: { value: 200, rule: HeightRule.EXACT },
-                      children: [
-                        new TableCell({
-                          borders: {
-                            left: { size: 0, color: "FFFFFF" }, 
-                            right: { size: 0, color: "FFFFFF" }, 
-                            top: { size: 0, color: "FFFFFF" }, 
-                            bottom: { size: 0, color: "FFFFFF" }, 
-                          },
-                          children: [
-                            new Paragraph({
-                              indent: { left: 350 },
-                              alignment: AlignmentType.LEFT,
-                              children: [
-                                new TextRun({
-                                  text: data.barcode,
-                                  size: 18,
-                                  font: "Roboto",
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
                   ],
                 }),
               ],
@@ -202,4 +155,4 @@ const createTableCell = (data) => {
   });
 };
 
-export default createTableCell;
+export default createImagePrices;

@@ -2,7 +2,7 @@ import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, Tabl
 import createBlockPrice from "./create-blockprice";
 import toEAN13 from "../../../utils/create-encode/ean-13";
 
-const createTableCell = (data) => {
+const createBarcodePrices = (data) => {
     
   return new TableCell({
     borders: {
@@ -26,17 +26,21 @@ const createTableCell = (data) => {
     children: [
       new Table({
         width: {
-          size: 2830,
+          size: 3500,
           type: WidthType.DXA,
         },
         rows: [
           new TableRow({
-            height: { value: 280, rule: HeightRule.EXACT },
+            height: { value: 300, rule: HeightRule.EXACT },
             children: [
               new TableCell({
+                borders: {
+                  bottom: { size: 0, color: "FFFFFF" }, 
+                },
                 children: [
                   new Paragraph({
-                    alignment: AlignmentType.CENTER,
+                    alignment: AlignmentType.RIGHT,
+                    indent: { right: 100 },
                     children: [
                       new TextRun({
                         text: data.company,
@@ -50,7 +54,7 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
-            height: { value: 950, rule: HeightRule.EXACT },
+            height: { value: 800, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -59,7 +63,7 @@ const createTableCell = (data) => {
                 },
                 children: [
                   new Paragraph({
-                    alignment: AlignmentType.CENTER,
+                    indent: { right: 250, left: 100 },
                     children: [
                       new TextRun({
                         text: `${data.code} `,
@@ -88,7 +92,7 @@ const createTableCell = (data) => {
           }),
           createBlockPrice(data),  
           new TableRow({
-            height: { value: 180 * 2, rule: HeightRule.EXACT },
+            height: { value: 220 * 2, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -98,7 +102,6 @@ const createTableCell = (data) => {
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.LEFT,
-                    indent: { left: 400 },
                     children: [
                       new TextRun({
                         text: toEAN13(data.barcode),
@@ -112,7 +115,7 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
-            height: { value: 180, rule: HeightRule.EXACT },
+            height: { value: 200, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -120,11 +123,12 @@ const createTableCell = (data) => {
                 },
                 children: [
                   new Paragraph({
-                    alignment: AlignmentType.CENTER,
+                    indent: { left: 350 },
+                    alignment: AlignmentType.LEFT,
                     children: [
                       new TextRun({
                         text: data.barcode,
-                        size: 16,
+                        size: 18,
                         font: "Roboto",
                       }),
                     ],
@@ -139,4 +143,4 @@ const createTableCell = (data) => {
   })
 };
 
-export default createTableCell;
+export default createBarcodePrices;

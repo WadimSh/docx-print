@@ -8,11 +8,7 @@ import TextInput from "../../ui/text-input/text-input";
 import CheckBox from "../../ui/check-box/check-box";
 import NotifyMessage from "../../ui/notify-message/notify-message";
 
-import SmallPrices from "../../template/prices/small-prices/small-prices";
-import ImagePrices from "../../template/prices/image-prices/image-prices";
-import BarcodeImgPrices from "../../template/prices/barcode-img-prices/barcode-img-prices";
-import BarcodePrices from "../../template/prices/barcode-prices/barcode-prices";
-import SmallBarcodePrices from "../../template/prices/small-barcode-prices/small-barcode-prices";
+import Prices from "../../template/prices/prices";
 
 import RegularFlyers from "../../template/regular-flyers/regular-flyers";
 
@@ -23,11 +19,6 @@ import {
   LABEL_BUTTONS_COUNTER,
   LABEL_TEXT_INPUT,
   PLACEHOLDER_SELECT_OPTIONS,
-  TYPE_SMALL_PRICES,
-  TYPE_IMAGE_PRICES,
-  TYPE_BARCODE_IMG_PRICES,
-  TYPE_BARCODE_PRICES,
-  TYPE_SMALL_BARCODE_PRICES,
   TYPE_REGULAR_FLYERS
 } from "../../contexts/constant";
 
@@ -101,11 +92,7 @@ const SideBar = () => {
         }
       </section>}
       {sharedValue["logic"] && <>
-        {check.value === TYPE_SMALL_PRICES && <SmallPrices data={newData} />}
-        {check.value === TYPE_IMAGE_PRICES && <ImagePrices data={newData} />}
-        {check.value === TYPE_BARCODE_IMG_PRICES && <BarcodeImgPrices data={newData} />}
-        {check.value === TYPE_BARCODE_PRICES && <BarcodePrices data={newData} />}
-        {check.value === TYPE_SMALL_BARCODE_PRICES && <SmallBarcodePrices data={newData} />}
+        <Prices data={newData} value={check} />
         {check.value === TYPE_REGULAR_FLYERS && <RegularFlyers data={newData} />}
       </>}
     </aside>

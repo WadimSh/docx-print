@@ -1,8 +1,8 @@
-import { WidthType, HeightRule, AlignmentType, Paragraph, Table, TableCell, TableRow, TextRun } from "docx";
-import createBlockPrice from "./create-blockprice";
+import { WidthType, HeightRule, AlignmentType, VerticalAlign, Paragraph, Table, TableCell, TableRow, TextRun } from "docx";
+import createBlockPrice from "../create-blockprice";
 import toEAN13 from "../../../utils/create-encode/ean-13";
 
-const createTableCell = (data) => {
+const createSmallBarcodePrices = (data) => {
     
   return new TableCell({
     borders: {
@@ -26,21 +26,17 @@ const createTableCell = (data) => {
     children: [
       new Table({
         width: {
-          size: 3500,
+          size: 2830,
           type: WidthType.DXA,
         },
         rows: [
           new TableRow({
-            height: { value: 300, rule: HeightRule.EXACT },
+            height: { value: 280, rule: HeightRule.EXACT },
             children: [
               new TableCell({
-                borders: {
-                  bottom: { size: 0, color: "FFFFFF" }, 
-                },
                 children: [
                   new Paragraph({
-                    alignment: AlignmentType.RIGHT,
-                    indent: { right: 100 },
+                    alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
                         text: data.company,
@@ -54,16 +50,17 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
-            height: { value: 800, rule: HeightRule.EXACT },
+            height: { value: 950, rule: HeightRule.EXACT },
             children: [
               new TableCell({
+                verticalAlign: VerticalAlign.CENTER,
                 borders: {
                   top: { size: 0, color: "FFFFFF" }, 
                   bottom: { size: 0, color: "FFFFFF" }, 
                 },
                 children: [
                   new Paragraph({
-                    indent: { right: 250, left: 100 },
+                    alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
                         text: `${data.code} `,
@@ -92,16 +89,13 @@ const createTableCell = (data) => {
           }),
           createBlockPrice(data),  
           new TableRow({
-            height: { value: 220 * 2, rule: HeightRule.EXACT },
+            height: { value: 180 * 2, rule: HeightRule.EXACT },
             children: [
               new TableCell({
-                borders: {
-                  top: { size: 0, color: "FFFFFF" }, 
-                  bottom: { size: 0, color: "FFFFFF" },
-                },
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.LEFT,
+                    indent: { left: 400 },
                     children: [
                       new TextRun({
                         text: toEAN13(data.barcode),
@@ -111,11 +105,15 @@ const createTableCell = (data) => {
                     ],
                   }),
                 ],
+                borders: {
+                  //top: { size: 0, color: "FFFFFF" }, 
+                  bottom: { size: 0, color: "FFFFFF" },
+                },
               }),
             ],
           }),
           new TableRow({
-            height: { value: 200, rule: HeightRule.EXACT },
+            height: { value: 180, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -123,12 +121,11 @@ const createTableCell = (data) => {
                 },
                 children: [
                   new Paragraph({
-                    indent: { left: 350 },
-                    alignment: AlignmentType.LEFT,
+                    alignment: AlignmentType.CENTER,
                     children: [
                       new TextRun({
                         text: data.barcode,
-                        size: 18,
+                        size: 16,
                         font: "Roboto",
                       }),
                     ],
@@ -143,4 +140,4 @@ const createTableCell = (data) => {
   })
 };
 
-export default createTableCell;
+export default createSmallBarcodePrices;

@@ -7,7 +7,8 @@ const RadioGroup = ({ optionsArray, group, handleChange, logic }) => {
   const handleRadioChange = (e) => {
     const val = e.target.value;
     const obj = optionsArray.find(item => item.value === val)?.properties;
-    handleChange && handleChange({...obj, value: val});
+    const grid = optionsArray.find(item => item.value === val)?.grid;
+    handleChange && handleChange({...obj, grid, value: val});
     logic(true);
   };
   

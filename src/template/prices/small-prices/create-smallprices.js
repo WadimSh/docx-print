@@ -1,7 +1,7 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow, HeightRule } from "docx";
-import createBlockPrice from "./create-blockprice";
+import createBlockPrice from "../create-blockprice";
 
-const createTableCell = (data) => {
+const createSmallPrices = (data) => {
     
   return new TableCell({
     borders: {
@@ -141,4 +141,4 @@ const createTableCell = (data) => {
   })
 };
 
-export default createTableCell;
+export default createSmallPrices;
