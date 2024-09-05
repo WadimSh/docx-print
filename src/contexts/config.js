@@ -95,7 +95,7 @@ export const config = [
   {
     id: 2,
     name: 'Рекламная листовка',
-    value: 'promo-flyers',
+    value: 'flyers',
     options: [
       {
         name: 'Обычная рекламная листовка',

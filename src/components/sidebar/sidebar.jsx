@@ -19,7 +19,8 @@ import {
   LABEL_BUTTONS_COUNTER,
   LABEL_TEXT_INPUT,
   PLACEHOLDER_SELECT_OPTIONS,
-  TYPE_REGULAR_FLYERS
+  TYPE_PRICES,
+  TYPE_FLYERS
 } from "../../contexts/constant";
 
 const SideBar = () => {
@@ -52,7 +53,7 @@ const SideBar = () => {
       logic: logic,
     }));
   }, [logic, check, companyName, profit, round, select, setSharedValue]);
- 
+ console.log(select.value)
   return (
     <aside>
       <SelectOptions 
@@ -92,8 +93,8 @@ const SideBar = () => {
         }
       </section>}
       {sharedValue["logic"] && <>
-        <Prices data={newData} value={check} />
-        {check.value === TYPE_REGULAR_FLYERS && <RegularFlyers data={newData} />}
+        {select.value === TYPE_PRICES && <Prices data={newData} value={check} />}
+        {select.value === TYPE_FLYERS && <RegularFlyers data={newData} />}
       </>}
     </aside>
   )
