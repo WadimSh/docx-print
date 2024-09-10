@@ -1,10 +1,10 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow, HeightRule, ImageRun } from "docx";
-import img from '../../assets/images/ac2837b44312a868d182302ecfd517bc.jpg';
+//import img from '../../assets/images/ac2837b44312a868d182302ecfd517bc.jpg';
 
 const createTableCell = (data) => {
   const blob = fetch(
     //data && data.image ? `https://new.sharik.ru${data.image}` : 
-    img
+    //img
   ).then(r => r.blob());
     
   return new TableCell({
@@ -50,13 +50,13 @@ const createTableCell = (data) => {
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
                     children: [
-                      new ImageRun({
-                        data: blob,
-                        transformation: {
-                          width: 150,
-                          height: 150,
-                        },
-                      }),
+                      //new ImageRun({
+                      //  data: blob,
+                      //  transformation: {
+                      //    width: 150,
+                      //    height: 150,
+                      //  },
+                      //}),
                     ],
                   }),
                 ],

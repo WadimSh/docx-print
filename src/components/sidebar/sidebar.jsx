@@ -53,7 +53,7 @@ const SideBar = () => {
       logic: logic,
     }));
   }, [logic, check, companyName, profit, round, select, setSharedValue]);
- console.log(select.value)
+ 
   return (
     <aside>
       <SelectOptions 
