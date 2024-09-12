@@ -56,12 +56,12 @@ const SideBar = () => {
  
   return (
     <aside>
-      <SelectOptions 
+      {<SelectOptions 
         placeholder={PLACEHOLDER_SELECT_OPTIONS}
         optionsArray={config}
         handleSelect={setSelect}
         logic={setLogic}
-      />
+      />}
       {config.map((item, index) => (
         (item.value && select.value === item.value) && <RadioGroup 
           key={index}

@@ -99,7 +99,11 @@ export const config = [
     options: [
       {
         name: 'Обычная рекламная листовка',
-        value: 'regular-flyers',
+        value: 'flyers1',
+        grid: {
+          table: 1,
+          columns: 1,
+        },
         description: 'Это простая рекламная листовка.',
         imege_preview: image_prices_img,
         properties: {
@@ -109,14 +113,62 @@ export const config = [
           round_price: false,
         }
       },
+      {
+        name: 'Обычная рекламная листовка',
+        value: 'flyers2',
+        grid: {
+          table: 4,
+          columns: 2,
+        },
+        description: 'Это простая рекламная листовка.',
+        imege_preview: image_prices_img,
+        properties: {
+          fair_rounding: false,
+          company_name: false,
+          extra_charge: false,
+          round_price: false,
+        }
+      }, 
+      {
+        name: 'Обычная рекламная листовка',
+        value: 'flyers3',
+        grid: {
+          table: 9,
+          columns: 3,
+        },
+        description: 'Это простая рекламная листовка.',
+        imege_preview: image_prices_img,
+        properties: {
+          fair_rounding: false,
+          company_name: false,
+          extra_charge: false,
+          round_price: false,
+        }
+      },
+      {
+        name: 'Обычная рекламная листовка',
+        value: 'flyers4',
+        grid: {
+          table: 16,
+          columns: 4,
+        },
+        description: 'Это простая рекламная листовка.',
+        imege_preview: image_prices_img,
+        properties: {
+          fair_rounding: false,
+          company_name: false,
+          extra_charge: false,
+          round_price: false,
+        }
+      },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
     ]
   },
-  {
-    id: 3,
-    name: 'Коммерческое предложение',
-    value: 'business-offer',
-    options: [
-      
-    ]
-  },
+  //{
+  //  id: 3,
+  //  name: 'Коммерческое предложение',
+  //  value: 'business-offer',
+  //  options: [
+  //    
+  //  ]
+  //},
 ];

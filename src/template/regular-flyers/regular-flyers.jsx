@@ -58,7 +58,6 @@ const RegularFlyers = ({ data }) => {
                                 text: 'CАМЫЕ КРУТЫЕ ШАРЫ В РОССИИ',
                                 size: 32,
                                 font: "Roboto",
-                                color: "FFA000",
                               }),
                             ],
                           }),
@@ -103,23 +102,23 @@ const RegularFlyers = ({ data }) => {
               }),
             ],
           }),
-          first: new Header({
-            children: [
-              new Paragraph({
-                alignment: AlignmentType.CENTER,
-                spacing: { before: 400, after: 500 },
-                children: [
-                  new TextRun({
-                    text: 'Рекламная листовка',
-                    size: 48,
-                    font: "Roboto Black",
-                    bold: true,
-                    color: '#035bcb',
-                  }),
-                ],
-              }),
-            ],
-          }),
+          //first: new Header({
+          //  children: [
+          //    new Paragraph({
+          //      alignment: AlignmentType.CENTER,
+          //      spacing: { before: 400, after: 500 },
+          //      children: [
+          //        new TextRun({
+          //          text: 'Рекламная листовка',
+          //          size: 48,
+          //          font: "Roboto Black",
+          //          bold: true,
+          //          color: '#035bcb',
+          //        }),
+          //      ],
+          //    }),
+          //  ],
+          //}),
         },
         footers: {
             default: new Footer({
@@ -198,54 +197,54 @@ const RegularFlyers = ({ data }) => {
                   }),
                 ],
             }),
-            first: new Footer({
-              children: [
-                new Table({
-                  width: {
-                    size: 11336,
-                    type: WidthType.DXA,
-                  },
-                  borders: {
-                    left: { size: 0, color: "FFFFFF" },
-                    right: { size: 0, color: "FFFFFF" },
-                    top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
-                    bottom: { size: 0, color: "FFFFFF" },
-                  },
-                  rows: [
-                    new TableRow({
-                      children: [
-                        new TableCell({
-                          width: {
-                            size: 11336,
-                            type: WidthType.DXA,
-                          },
-                          borders: {
-                            left: { size: 0, color: "FFFFFF" },
-                            right: { size: 0, color: "FFFFFF" },
-                            top: { style: BorderStyle.SINGLE, size: 12, color: "396EC5" },
-                            bottom: { size: 0, color: "FFFFFF" },
-                          },
-                          children: [
-                            new Paragraph({
-                              indent: { left: 300 },
-                              alignment: AlignmentType.LEFT,
-                              children: [
-                                new TextRun({
-                                  text: "АО 'Европа уно трейд'",
-                                  size: 24,
-                                  font: "Roboto",
-                                  bold: true,
-                                }),
-                              ],
-                            })
-                          ],
-                        }),
-                      ],
-                    }),
-                  ],
-                }),
-              ],
-            }),
+            //first: new Footer({
+            //  children: [
+            //    new Table({
+            //      width: {
+            //        size: 11336,
+            //        type: WidthType.DXA,
+            //      },
+            //      borders: {
+            //        left: { size: 0, color: "FFFFFF" },
+            //        right: { size: 0, color: "FFFFFF" },
+            //        top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+            //        bottom: { size: 0, color: "FFFFFF" },
+            //      },
+            //      rows: [
+            //        new TableRow({
+            //          children: [
+            //            new TableCell({
+            //              width: {
+            //                size: 11336,
+            //                type: WidthType.DXA,
+            //              },
+            //              borders: {
+            //                left: { size: 0, color: "FFFFFF" },
+            //                right: { size: 0, color: "FFFFFF" },
+            //                top: { style: BorderStyle.SINGLE, size: 12, color: "396EC5" },
+            //                bottom: { size: 0, color: "FFFFFF" },
+            //              },
+            //              children: [
+            //                new Paragraph({
+            //                  indent: { left: 300 },
+            //                  alignment: AlignmentType.LEFT,
+            //                  children: [
+            //                    new TextRun({
+            //                      text: "АО 'Европа уно трейд'",
+            //                      size: 24,
+            //                      font: "Roboto",
+            //                      bold: true,
+            //                    }),
+            //                  ],
+            //                })
+            //              ],
+            //            }),
+            //          ],
+            //        }),
+            //      ],
+            //    }),
+            //  ],
+            //}),
         },
         children: createTable(dataObject)
       }]
