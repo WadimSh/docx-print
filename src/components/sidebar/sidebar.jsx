@@ -9,8 +9,7 @@ import CheckBox from "../../ui/check-box/check-box";
 import NotifyMessage from "../../ui/notify-message/notify-message";
 
 import Prices from "../../template/prices/prices";
-
-import RegularFlyers from "../../template/regular-flyers/regular-flyers";
+import Flyers from "../../template/flyers/flyers";
 
 import transformArray from "../../utils/transform-array/transform-array";
 import { 
@@ -94,7 +93,7 @@ const SideBar = () => {
       </section>}
       {sharedValue["logic"] && <>
         {select.value === TYPE_PRICES && <Prices data={newData} value={check} />}
-        {select.value === TYPE_FLYERS && <RegularFlyers data={newData} />}
+        {select.value === TYPE_FLYERS && <Flyers data={newData} value={check}/>}
       </>}
     </aside>
   )

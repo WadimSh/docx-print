@@ -8,16 +8,14 @@ import createTable from './create-table';
 
 import logo from '../../assets/images/logo.png';
 
-const RegularFlyers = ({ data }) => {
-
+const Flyers = ({ data, value }) => {
   const blob = fetch(logo).then(r => r.blob());
-    
   const [disabled, setDisabled] = useState(false);
-  const generateWordDocument = (dataObject) => {
+  const generateWordDocument = (dataObject, valueObject) => {
     const doc = new Document({
       sections: [{
         properties: {
-          titlePage: true,
+          //titlePage: true,
           page: {
             size: {
               width: 11906,
@@ -246,19 +244,19 @@ const RegularFlyers = ({ data }) => {
             //  ],
             //}),
         },
-        children: createTable(dataObject)
+        children: createTable(dataObject, valueObject)
       }]
     });
 
     Packer.toBlob(doc).then(blob => {
-      saveAs(blob, "regular-flyers.docx");
+      saveAs(blob, `${value.value}.docx`);
       setDisabled(false);
     });
   };
 
   const handleDoc = () => {
     setDisabled(true);
-    generateWordDocument(data);
+    generateWordDocument(data, value);
   };
 
   return (
@@ -271,4 +269,4 @@ const RegularFlyers = ({ data }) => {
   );
 };
 
-export default RegularFlyers;
+export default Flyers;

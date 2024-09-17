@@ -19,7 +19,6 @@ import {
 const createTableRow = (data, inf) => {
   const { grid, value } = inf;
   const { columns } = grid;
-  console.log(grid)
   const rows = [];
   for (let i = 0; i < data.length; i += columns) {
     const row = [];

@@ -11,7 +11,7 @@ export const config = [
     value: 'prices',
     options: [
       {
-        name: 'Ценники для крючка 40х50 мм',
+        name: 'на крючок, размером 40х50 мм',
         value: 'small-prices',
         grid: {
           table: 28,
@@ -27,7 +27,7 @@ export const config = [
         }
       },
       {
-        name: 'Ценники для крючка 40х50 мм со штрих-кодом',
+        name: 'на крючок, размером 40х50 мм со штрих-кодом',
         value: 'small-barcode-prices',
         grid: {
           table: 28,
@@ -43,7 +43,7 @@ export const config = [
         }
       },
       {
-        name: 'Ценники для полки 40x60 мм со штрих-кодом',
+        name: 'на крючок, размером 40х60 мм со штрих-кодом',
         value: 'barcode-prices',
         grid: {
           table: 21,
@@ -59,7 +59,7 @@ export const config = [
         }
       },
       {
-        name: 'Ценники для полки 40x100 мм с картинкой',
+        name: 'на крючок, размером 40х100 мм с картинкой',
         value: 'image-prices',
         grid: {
           table: 14,
@@ -75,7 +75,7 @@ export const config = [
         }
       },
       {
-        name: 'Ценники для полки 40x100 мм со штрих-кодом и картинкой',
+        name: 'на крючок, размером 40х100 мм с картинкой и штрих-кодом',
         value: 'image-barcode-prices',
         grid: {
           table: 14,
@@ -98,8 +98,8 @@ export const config = [
     value: 'flyers',
     options: [
       {
-        name: 'Обычная рекламная листовка',
-        value: 'flyers1',
+        name: 'по одному товару на странице',
+        value: 'one-product-flyers',
         grid: {
           table: 1,
           columns: 1,
@@ -114,8 +114,8 @@ export const config = [
         }
       },
       {
-        name: 'Обычная рекламная листовка',
-        value: 'flyers2',
+        name: 'с сеткой два на два на странице, содержащая информацию о четырёх товарах',
+        value: 'four-products-flyers',
         grid: {
           table: 4,
           columns: 2,
@@ -130,8 +130,8 @@ export const config = [
         }
       }, 
       {
-        name: 'Обычная рекламная листовка',
-        value: 'flyers3',
+        name: 'с сеткой три на три на странице, содержащая информацию о девяти товарах',
+        value: 'nine-products-flyers',
         grid: {
           table: 9,
           columns: 3,
@@ -146,8 +146,8 @@ export const config = [
         }
       },
       {
-        name: 'Обычная рекламная листовка',
-        value: 'flyers4',
+        name: 'с сеткой четыре на четыре на странице, содержащая информацию о 16 товарах',
+        value: 'sixteen-products-flyers',
         grid: {
           table: 16,
           columns: 4,
