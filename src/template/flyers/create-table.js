@@ -10,6 +10,7 @@ const createTable = (data, value) => {
   for (let pageIndex = 0; pageIndex < pages; pageIndex++) {
     const pageData = data.slice(pageIndex * table, (pageIndex + 1) * table);
     childrens.push(
+      new Paragraph(" "),
       new Table({
         width: {
           size: 11336,

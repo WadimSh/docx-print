@@ -53,8 +53,8 @@ const createTableCell = (data) => {
                       new ImageRun({
                         data: blob,
                         transformation: {
-                          width: 150,
-                          height: 150,
+                          width: 155,
+                          height: 155,
                         },
                       }),
                     ],
@@ -64,7 +64,7 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
-            height: { value: 300, rule: HeightRule.EXACT },
+            height: { value: 250, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -76,12 +76,12 @@ const createTableCell = (data) => {
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
+                    spacing: { before: 40 },
                     children: [
                       new TextRun({
                         text: data.code,
-                        size: 24,
+                        size: 20,
                         font: "Roboto Black",
-                        bold: true,
                       }),
                     ],
                   }),
@@ -90,7 +90,7 @@ const createTableCell = (data) => {
             ],
           }),
           new TableRow({
-            //height: { value: 1000, rule: HeightRule.EXACT },
+            height: { value: 650, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -102,6 +102,7 @@ const createTableCell = (data) => {
                 children: [
                   new Paragraph({
                     alignment: AlignmentType.CENTER,
+                    indent: { right: 100, left: 100 },
                     children: [
                       new TextRun({
                         text: data.name,

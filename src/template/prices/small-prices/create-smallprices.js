@@ -1,5 +1,5 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow, HeightRule } from "docx";
-import createBlockPrice from "../create-blockprice";
+import createBlockPrice from "./create-blockprice";
 
 const createSmallPrices = (data) => {
     

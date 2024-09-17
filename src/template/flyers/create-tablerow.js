@@ -21,7 +21,7 @@ const createTableRow = (data, obj) => {
       }
     }
     rows.push(new TableRow({ 
-      height: { value: 3300, rule: HeightRule.EXACT },
+      //height: { value: 3200, rule: HeightRule.EXACT },
       children: row 
     }));
   }

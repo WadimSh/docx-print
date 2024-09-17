@@ -1,5 +1,5 @@
 import { WidthType, HeightRule, AlignmentType, VerticalAlign, Paragraph, Table, TableCell, TableRow, TextRun } from "docx";
-import createBlockPrice from "../create-blockprice";
+import createBlockPrice from "./create-blockprice";
 import toEAN13 from "../../../utils/create-encode/ean-13";
 
 const createSmallBarcodePrices = (data) => {
