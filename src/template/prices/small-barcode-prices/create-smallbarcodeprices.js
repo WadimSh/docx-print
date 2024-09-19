@@ -89,7 +89,7 @@ const createSmallBarcodePrices = (data) => {
           }),
           createBlockPrice(data),  
           new TableRow({
-            height: { value: 180 * 2, rule: HeightRule.EXACT },
+            height: { value: 160 * 2, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 children: [
@@ -106,7 +106,7 @@ const createSmallBarcodePrices = (data) => {
                   }),
                 ],
                 borders: {
-                  //top: { size: 0, color: "FFFFFF" }, 
+                  top: { size: 0, color: "FFFFFF" }, 
                   bottom: { size: 0, color: "FFFFFF" },
                 },
               }),
