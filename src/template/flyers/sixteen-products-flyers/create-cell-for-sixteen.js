@@ -1,7 +1,7 @@
 import { WidthType, AlignmentType, Paragraph, TextRun, Table, TableCell, TableRow, HeightRule, ImageRun } from "docx";
-import img from '../../assets/images/default-image.png';
+import img from '../../../assets/images/default-image.png';
 
-const createTableCell = (data) => {
+const createCellForSixteen = (data) => {
   const blob = fetch(
     //data && data.image ? `https://new.sharik.ru${data.image}` : 
     img
@@ -116,38 +116,10 @@ const createTableCell = (data) => {
               }),
             ],
           }),
-          //new TableRow({
-          //  height: { value: 260, rule: HeightRule.EXACT },
-          //  children: [
-          //    new TableCell({
-          //      children: [
-          //        new Paragraph({
-          //          indent: { left: 20 },
-          //          children: [
-          //            new TextRun({
-          //              text: data.origin.length > 10 ? 'Произв.:' : 'Производитель:',
-          //              font: "Roboto",
-          //              size: 18,
-          //            }),
-          //            new TextRun({
-          //              text: " ",
-          //            }),
-          //            new TextRun({
-          //              text: data.origin,
-          //              font: "Roboto",
-          //              size: 18,
-          //              bold: true,
-          //            }),
-          //          ],
-          //        }),
-          //      ],
-          //    }),
-          //  ],
-          //}),
         ]
       })
     ],
   })
 };
 
-export default createTableCell;
+export default createCellForSixteen;

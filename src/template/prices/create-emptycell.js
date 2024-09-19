@@ -18,7 +18,7 @@ const values = {
 
 const getValue = (key) => {
   return values[key];
-}
+};
 
 const createEmptyCell = (type) => {
     

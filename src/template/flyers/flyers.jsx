@@ -48,7 +48,7 @@ const Flyers = ({ data, value }) => {
                         },
                         children: [
                           new Paragraph({
-                            spacing: { before: 400, after: 400 },
+                            spacing: { after: 300 },
                             indent: { left: 300 },
                             alignment: AlignmentType.LEFT,
                             children: [
@@ -74,7 +74,7 @@ const Flyers = ({ data, value }) => {
                         },
                         children: [
                           new Paragraph({
-                            spacing: { before: 300, after: 400 },
+                            spacing: { after: 350 },
                             alignment: AlignmentType.CENTER,
                             children: [
                               new ImageRun({

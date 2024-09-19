@@ -1,7 +1,26 @@
 import { TableRow, HeightRule } from "docx";
 
-import createTableCell from "./create-tablecell";
+import createCellForNine from "./nine-products-flyers/create-cell-for-nine";
+import createCellForSixteen from "./sixteen-products-flyers/create-cell-for-sixteen";
 import createEmptyCell from "./create-emptycell";
+
+import { 
+  TYPE_ONE_PRODUCTS_FLYERS,
+  TYPE_FOUR_PRODUCTS_FLYERS,
+  TYPE_NINE_PRODUCTS_FLYERS,
+  TYPE_SIXTEEN_PRODUCTS_FLYERS
+} from "../../contexts/constant";
+
+const value = {
+  [TYPE_ONE_PRODUCTS_FLYERS]: 3340,
+  [TYPE_FOUR_PRODUCTS_FLYERS]: 3340,
+  [TYPE_NINE_PRODUCTS_FLYERS]: 4450, 
+  [TYPE_SIXTEEN_PRODUCTS_FLYERS]: 3340,
+};
+
+const getValue = (key) => {
+  return value[key];
+};
 
 const createTableRow = (data, obj) => {
   const { grid, value } = obj;
@@ -11,17 +30,30 @@ const createTableRow = (data, obj) => {
     const row = [];
     for (let j = 0; j < columns; j++) {
       if (data[i + j]) {
-        row.push(
-          createTableCell(data[i + j])
-        );
+        switch (value) {
+          case TYPE_ONE_PRODUCTS_FLYERS:
+            row.push(createCellForSixteen(data[i + j]));
+            break;
+          case TYPE_FOUR_PRODUCTS_FLYERS:
+            row.push(createCellForSixteen(data[i + j]));
+            break;
+          case TYPE_NINE_PRODUCTS_FLYERS:
+            row.push(createCellForNine(data[i + j]));
+            break;
+          case TYPE_SIXTEEN_PRODUCTS_FLYERS:
+            row.push(createCellForSixteen(data[i + j]));
+            break;
+          default:
+            console.error(`Unknown name: ${value}`);
+        }
       } else {
         row.push(
-          createEmptyCell()
+          createEmptyCell(value)
         );
       }
     }
     rows.push(new TableRow({ 
-      //height: { value: 3200, rule: HeightRule.EXACT },
+      height: { value: getValue(value), rule: HeightRule.EXACT },
       children: row 
     }));
   }

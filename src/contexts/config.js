@@ -99,7 +99,7 @@ export const config = [
     options: [
       {
         name: 'по одному товару на странице',
-        value: 'one-product-flyers',
+        value: 'one-products-flyers',
         grid: {
           table: 1,
           columns: 1,

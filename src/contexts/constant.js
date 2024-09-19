@@ -15,4 +15,7 @@ export const TYPE_IMAGE_BARCODE_PRICES = 'image-barcode-prices';
 export const TYPE_BARCODE_PRICES = 'barcode-prices';
 export const TYPE_SMALL_BARCODE_PRICES = 'small-barcode-prices';
 
-export const TYPE_REGULAR_FLYERS = 'regular-flyers';
+export const TYPE_ONE_PRODUCTS_FLYERS = 'one-products-flyers';
+export const TYPE_FOUR_PRODUCTS_FLYERS = 'four-products-flyers';
+export const TYPE_NINE_PRODUCTS_FLYERS = 'nine-products-flyers';
+export const TYPE_SIXTEEN_PRODUCTS_FLYERS = 'sixteen-products-flyers';
