@@ -1,5 +1,6 @@
 import { TableRow, HeightRule } from "docx";
 
+import createCellForOne from "./one-products-flyers/create-cell-for-one";
 import createCellForFour from "./four-products-flyers/create-cell-for-four";
 import createCellForNine from "./nine-products-flyers/create-cell-for-nine";
 import createCellForSixteen from "./sixteen-products-flyers/create-cell-for-sixteen";
@@ -13,7 +14,7 @@ import {
 } from "../../contexts/constant";
 
 const value = {
-  [TYPE_ONE_PRODUCTS_FLYERS]: 3340,
+  [TYPE_ONE_PRODUCTS_FLYERS]: 13360,
   [TYPE_FOUR_PRODUCTS_FLYERS]: 6680,
   [TYPE_NINE_PRODUCTS_FLYERS]: 4450, 
   [TYPE_SIXTEEN_PRODUCTS_FLYERS]: 3340,
@@ -33,7 +34,7 @@ const createTableRow = (data, obj) => {
       if (data[i + j]) {
         switch (value) {
           case TYPE_ONE_PRODUCTS_FLYERS:
-            row.push(createCellForSixteen(data[i + j]));
+            row.push(createCellForOne(data[i + j]));
             break;
           case TYPE_FOUR_PRODUCTS_FLYERS:
             row.push(createCellForFour(data[i + j]));

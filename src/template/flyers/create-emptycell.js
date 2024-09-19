@@ -8,7 +8,7 @@ import {
 } from "../../contexts/constant";
 
 const value = {
-  [TYPE_ONE_PRODUCTS_FLYERS]: 2830,
+  [TYPE_ONE_PRODUCTS_FLYERS]: 11320,
   [TYPE_FOUR_PRODUCTS_FLYERS]: 5660,
   [TYPE_NINE_PRODUCTS_FLYERS]: 3770, 
   [TYPE_SIXTEEN_PRODUCTS_FLYERS]: 2830,
