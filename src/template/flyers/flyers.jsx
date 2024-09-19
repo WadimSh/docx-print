@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Document, Packer, Header, Footer, PageOrientation, BorderStyle, ImageRun, AlignmentType, Paragraph, TextRun, Table, TableRow, TableCell, WidthType } from "docx";
+import { Document, Packer, Header, Footer, PageOrientation, HeightRule, BorderStyle, ImageRun, AlignmentType, Paragraph, TextRun, Table, TableRow, TableCell, WidthType } from "docx";
 import { saveAs } from 'file-saver';
 
 import CreateButton from '../../ui/create-button/create-button';
@@ -32,6 +32,7 @@ const Flyers = ({ data, value }) => {
         },
         headers: {
           default: new Header({
+            height: { value: 1000, rule: HeightRule.ATLEAST },
             children: [
               new Table({
                 width: {
@@ -120,7 +121,7 @@ const Flyers = ({ data, value }) => {
         },
         footers: {
             default: new Footer({
-                children: [
+              children: [
                   new Table({
                     width: {
                       size: 11336,
@@ -128,6 +129,7 @@ const Flyers = ({ data, value }) => {
                     },
                     rows: [
                       new TableRow({
+                        height: { value: 1000, rule: HeightRule.EXACT },
                         children: [
                           new TableCell({
                             width: {
@@ -142,6 +144,7 @@ const Flyers = ({ data, value }) => {
                             },
                             children: [
                               new Paragraph({
+                                spacing: { before: 100 },
                                 indent: { left: 300 },
                                 alignment: AlignmentType.LEFT,
                                 children: [
@@ -169,21 +172,13 @@ const Flyers = ({ data, value }) => {
                             children: [
                               new Paragraph({
                                 alignment: AlignmentType.LEFT,
-                                indent: { left: 2500 },
+                                spacing: { before: 100 },
+                                indent: { left: 1500 },
                                 children: [
                                   new TextRun({
-                                    text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9",
+                                    text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9 тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14 факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
+                                    font: "Roboto",
                                     size: 20,
-                                  }),
-                                  new TextRun({
-                                    text: "тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14",
-                                    size: 20,
-                                    break: 1,
-                                  }),
-                                  new TextRun({
-                                    text: "факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
-                                    size: 20,
-                                    break: 1,
                                   }),
                                 ],
                               }),
