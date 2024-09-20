@@ -144,7 +144,7 @@ const Flyers = ({ data, value }) => {
                             },
                             children: [
                               new Paragraph({
-                                spacing: { before: 100 },
+                                spacing: { before: 50 },
                                 indent: { left: 300 },
                                 alignment: AlignmentType.LEFT,
                                 children: [
@@ -172,11 +172,11 @@ const Flyers = ({ data, value }) => {
                             children: [
                               new Paragraph({
                                 alignment: AlignmentType.LEFT,
-                                spacing: { before: 100 },
+                                spacing: { before: 50 },
                                 indent: { left: 1500 },
                                 children: [
                                   new TextRun({
-                                    text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9 тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14 факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
+                                    text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9        тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14 факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
                                     font: "Roboto",
                                     size: 20,
                                   }),

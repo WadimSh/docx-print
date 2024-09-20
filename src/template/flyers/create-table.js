@@ -18,7 +18,6 @@ const createTable = (data, value) => {
         },
         rows: createTableRow(pageData, value)
       }), 
-      new Paragraph(" "),
     );
   }
   return childrens;
