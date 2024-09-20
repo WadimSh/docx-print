@@ -15,7 +15,6 @@ const Flyers = ({ data, value }) => {
     const doc = new Document({
       sections: [{
         properties: {
-          //titlePage: true,
           page: {
             size: {
               width: 11906,
@@ -101,86 +100,67 @@ const Flyers = ({ data, value }) => {
               }),
             ],
           }),
-          //first: new Header({
-          //  children: [
-          //    new Paragraph({
-          //      alignment: AlignmentType.CENTER,
-          //      spacing: { before: 400, after: 500 },
-          //      children: [
-          //        new TextRun({
-          //          text: 'Рекламная листовка',
-          //          size: 48,
-          //          font: "Roboto Black",
-          //          bold: true,
-          //          color: '#035bcb',
-          //        }),
-          //      ],
-          //    }),
-          //  ],
-          //}),
         },
         footers: {
-            default: new Footer({
-              children: [
-                  new Table({
-                    width: {
-                      size: 11336,
-                      type: WidthType.DXA,
-                    },
-                    rows: [
-                      new TableRow({
-                        height: { value: 1000, rule: HeightRule.EXACT },
+          default: new Footer({
+            children: [
+              new Table({
+                width: {
+                  size: 11336,
+                  type: WidthType.DXA,
+                },
+                rows: [
+                  new TableRow({
+                    height: { value: 1000, rule: HeightRule.EXACT },
+                    children: [
+                      new TableCell({
+                        width: {
+                          size: 3630,
+                          type: WidthType.DXA,
+                        },
+                        borders: {
+                          left: { size: 0, color: "FFFFFF" },
+                          right: { size: 0, color: "FFFFFF" },
+                          top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+                          bottom: { size: 0, color: "FFFFFF" },
+                        },
                         children: [
-                          new TableCell({
-                            width: {
-                              size: 3630,
-                              type: WidthType.DXA,
-                            },
-                            borders: {
-                              left: { size: 0, color: "FFFFFF" },
-                              right: { size: 0, color: "FFFFFF" },
-                              top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
-                              bottom: { size: 0, color: "FFFFFF" },
-                            },
+                          new Paragraph({
+                            spacing: { before: 50 },
+                            indent: { left: 300 },
+                            alignment: AlignmentType.LEFT,
                             children: [
-                              new Paragraph({
-                                spacing: { before: 50 },
-                                indent: { left: 300 },
-                                alignment: AlignmentType.LEFT,
-                                children: [
-                                  new TextRun({
-                                    text: "2024г. АО 'Европа уно трейд'",
-                                    size: 24,
-                                    font: "Roboto",
-                                    bold: true,
-                                  }),
-                                ],
-                              })
+                              new TextRun({
+                                text: "2024г. АО 'Европа уно трейд'",
+                                size: 24,
+                                font: "Roboto",
+                                bold: true,
+                              }),
                             ],
-                          }),
-                          new TableCell({
-                            width: {
-                              size: 7690,
-                              type: WidthType.DXA,
-                            },
-                            borders: {
-                              left: { size: 0, color: "FFFFFF" },
-                              right: { size: 0, color: "FFFFFF" },
-                              top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
-                              bottom: { size: 0, color: "FFFFFF" },
-                            },
+                          })
+                        ],
+                      }),
+                      new TableCell({
+                        width: {
+                          size: 7690,
+                          type: WidthType.DXA,
+                        },
+                        borders: {
+                          left: { size: 0, color: "FFFFFF" },
+                          right: { size: 0, color: "FFFFFF" },
+                          top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
+                          bottom: { size: 0, color: "FFFFFF" },
+                        },
+                        children: [
+                          new Paragraph({
+                            alignment: AlignmentType.LEFT,
+                            spacing: { before: 50 },
+                            indent: { left: 1500 },
                             children: [
-                              new Paragraph({
-                                alignment: AlignmentType.LEFT,
-                                spacing: { before: 50 },
-                                indent: { left: 1500 },
-                                children: [
-                                  new TextRun({
-                                    text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9        тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14 факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
-                                    font: "Roboto",
-                                    size: 20,
-                                  }),
-                                ],
+                              new TextRun({
+                                text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9        тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14 факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
+                                font: "Roboto",
+                                size: 20,
                               }),
                             ],
                           }),
@@ -189,55 +169,9 @@ const Flyers = ({ data, value }) => {
                     ],
                   }),
                 ],
-            }),
-            //first: new Footer({
-            //  children: [
-            //    new Table({
-            //      width: {
-            //        size: 11336,
-            //        type: WidthType.DXA,
-            //      },
-            //      borders: {
-            //        left: { size: 0, color: "FFFFFF" },
-            //        right: { size: 0, color: "FFFFFF" },
-            //        top: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
-            //        bottom: { size: 0, color: "FFFFFF" },
-            //      },
-            //      rows: [
-            //        new TableRow({
-            //          children: [
-            //            new TableCell({
-            //              width: {
-            //                size: 11336,
-            //                type: WidthType.DXA,
-            //              },
-            //              borders: {
-            //                left: { size: 0, color: "FFFFFF" },
-            //                right: { size: 0, color: "FFFFFF" },
-            //                top: { style: BorderStyle.SINGLE, size: 12, color: "396EC5" },
-            //                bottom: { size: 0, color: "FFFFFF" },
-            //              },
-            //              children: [
-            //                new Paragraph({
-            //                  indent: { left: 300 },
-            //                  alignment: AlignmentType.LEFT,
-            //                  children: [
-            //                    new TextRun({
-            //                      text: "АО 'Европа уно трейд'",
-            //                      size: 24,
-            //                      font: "Roboto",
-            //                      bold: true,
-            //                    }),
-            //                  ],
-            //                })
-            //              ],
-            //            }),
-            //          ],
-            //        }),
-            //      ],
-            //    }),
-            //  ],
-            //}),
+              }),
+            ],
+          }),
         },
         children: createTable(dataObject, valueObject)
       }]
