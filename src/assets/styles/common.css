@@ -38,6 +38,12 @@ header {
   padding: 16px;
 }
 
+@media screen and (max-width: 430px) {
+ .header-icon {
+  display: none;
+ }
+}
+
 aside {
   width: 38%;
   height: 78%;
