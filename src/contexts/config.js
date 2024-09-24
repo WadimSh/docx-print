@@ -107,6 +107,9 @@ export const config = [
         description: 'Это простая рекламная листовка.',
         imege_preview: image_prices_img,
         properties: {
+          title_flyers: true,
+          label_company: true,
+          label_requisites: true,
           fair_rounding: false,
           company_name: false,
           extra_charge: false,
@@ -123,6 +126,9 @@ export const config = [
         description: 'Это простая рекламная листовка.',
         imege_preview: image_prices_img,
         properties: {
+          title_flyers: true,
+          label_company: true,
+          label_requisites: true,
           fair_rounding: false,
           company_name: false,
           extra_charge: false,
@@ -139,6 +145,9 @@ export const config = [
         description: 'Это простая рекламная листовка.',
         imege_preview: image_prices_img,
         properties: {
+          title_flyers: true,
+          label_company: true,
+          label_requisites: true,
           fair_rounding: false,
           company_name: false,
           extra_charge: false,
@@ -155,6 +164,9 @@ export const config = [
         description: 'Это простая рекламная листовка.',
         imege_preview: image_prices_img,
         properties: {
+          title_flyers: true,
+          label_company: true,
+          label_requisites: true,
           fair_rounding: false,
           company_name: false,
           extra_charge: false,

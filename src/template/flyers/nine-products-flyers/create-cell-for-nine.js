@@ -3,8 +3,7 @@ import img from '../../../assets/images/default-image.png';
 
 const createCellForNine = (data) => {
   const blob = fetch(
-    //data && data.image ? `https://new.sharik.ru${data.image}` : 
-    img
+    data && data.image ? `https://new.sharik.ru${data.image}` : img
   ).then(r => r.blob());
     
   return new TableCell({

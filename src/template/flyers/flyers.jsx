@@ -3,13 +3,17 @@ import { Document, Packer, Header, Footer, PageOrientation, HeightRule, BorderSt
 import { saveAs } from 'file-saver';
 
 import CreateButton from '../../ui/create-button/create-button';
-import { LABEL_CREATE_BUTTON, LABEL_DISABLED_BUTTON } from '../../contexts/constant';
+import { 
+  LABEL_CREATE_BUTTON, 
+  LABEL_DISABLED_BUTTON,
+  DEFAULT_RUNNING_TITLE,
+  DEFAULT_INPUT_COMPANY,
+  DEFAULT_INPUT_REQUISITES 
+} from '../../contexts/constant';
 import createTable from './create-table';
 
-import logo from '../../assets/images/logo.png';
-
-const Flyers = ({ data, value }) => {
-  const blob = fetch(logo).then(r => r.blob());
+const Flyers = ({ data, meta, value }) => {
+  const { title, company, requisites } = meta;
   const [disabled, setDisabled] = useState(false);
   const generateWordDocument = (dataObject, valueObject) => {
     const doc = new Document({
@@ -43,46 +47,19 @@ const Flyers = ({ data, value }) => {
                     children: [
                       new TableCell({
                         width: {
-                          size: 8490,
+                          size: 11336,
                           type: WidthType.DXA,
                         },
                         children: [
                           new Paragraph({
                             spacing: { after: 300 },
-                            indent: { left: 300 },
-                            alignment: AlignmentType.LEFT,
-                            children: [
-                              new TextRun({
-                                text: 'CАМЫЕ КРУТЫЕ ШАРЫ В РОССИИ',
-                                size: 32,
-                                font: "Roboto",
-                              }),
-                            ],
-                          }),
-                        ],
-                        borders: {
-                          left: { size: 0, color: "FFFFFF" },
-                          right: { size: 0, color: "FFFFFF" },
-                          top: { size: 0, color: "FFFFFF" },
-                          bottom: { style: BorderStyle.DOUBLE, size: 12, color: "396EC5" },
-                        },
-                      }),
-                      new TableCell({
-                        width: {
-                          size: 2830,
-                          type: WidthType.DXA,
-                        },
-                        children: [
-                          new Paragraph({
-                            spacing: { after: 350 },
+                            indent: { left: 300, right: 300 },
                             alignment: AlignmentType.CENTER,
                             children: [
-                              new ImageRun({
-                                data: blob,
-                                transformation: {
-                                  width: 100,
-                                  height: 25,
-                                },
+                              new TextRun({
+                                text: title || DEFAULT_RUNNING_TITLE,
+                                size: 32,
+                                font: "Roboto",
                               }),
                             ],
                           }),
@@ -131,7 +108,7 @@ const Flyers = ({ data, value }) => {
                             alignment: AlignmentType.LEFT,
                             children: [
                               new TextRun({
-                                text: "2024г. АО 'Европа уно трейд'",
+                                text: company || DEFAULT_INPUT_COMPANY,
                                 size: 24,
                                 font: "Roboto",
                                 bold: true,
@@ -155,10 +132,10 @@ const Flyers = ({ data, value }) => {
                           new Paragraph({
                             alignment: AlignmentType.LEFT,
                             spacing: { before: 50 },
-                            indent: { left: 1500 },
+                            //indent: { left: 1500 },
                             children: [
                               new TextRun({
-                                text: "124365, г.Москва, Зеленоград, ул.Заводская, 18, стр.9        тел.:(495) 748-0176, 748-0177, 530-8460, 8-800-200-00-14 факс:(495) 748-0178, 742-9525, e-mail: order@balloons.ru",
+                                text: requisites || DEFAULT_INPUT_REQUISITES,
                                 font: "Roboto",
                                 size: 20,
                               }),

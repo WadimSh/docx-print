@@ -1,8 +1,9 @@
+
 import { useEffect, useState } from 'react';
 
-import style from './text-input.module.css';
+import style from './textarea.module.css';
 
-const TextInput = ({ defaultValue, handleCompanyName, label, maxLength = 50, placeholder }) => {
+const Textarea = ({ defaultValue, handleCompanyName, label, maxLength = 300, placeholder }) => {
   const [inputText, setInputText] = useState(defaultValue);
 
   const handleChange = (e) => {
@@ -21,9 +22,8 @@ const TextInput = ({ defaultValue, handleCompanyName, label, maxLength = 50, pla
       >
         {label ? label : ''}
       </label>
-      <input
-        className={style.input}
-        type="text"
+      <textarea
+        className={style.textarea}
         id="textInput"
         value={inputText}
         onChange={handleChange}
@@ -34,4 +34,4 @@ const TextInput = ({ defaultValue, handleCompanyName, label, maxLength = 50, pla
   );
 };
 
-export default TextInput;
+export default Textarea;

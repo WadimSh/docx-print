@@ -6,6 +6,13 @@ export const LABEL_DISABLED_BUTTON = 'Документ создается ...'
 export const PLACEHOLDER_SELECT_OPTIONS = 'Выберите вид документа';
 export const LABEL_TEXT_INPUT = 'Введите наименование юридического лица';
 
+export const LABEL_INPUT_COMPANY = 'Введите название компании';
+export const LABEL_INPUT_REQUISITES = 'Добавте реквизиты компании';
+export const LABEL_RUNNING_TITLE = 'Укажите заголовок листовки';
+export const DEFAULT_INPUT_COMPANY = 'Название компании';
+export const DEFAULT_INPUT_REQUISITES = 'Реквизиты компании';
+export const DEFAULT_RUNNING_TITLE = 'Заголовок рекламной листовки';
+
 export const TYPE_PRICES = 'prices';
 export const TYPE_FLYERS = 'flyers';
 
