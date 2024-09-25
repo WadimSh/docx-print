@@ -1,0 +1,10 @@
+.preview_desription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 30px 20px 0;
+}
+
+.preview_image {
+  width: 300px;
+}

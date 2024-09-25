@@ -1,8 +1,6 @@
 import React from "react";
 
-import CreateButton from "../../ui/create-button/create-button";
 import image from "../../assets/images/no-found.png";
-
 
 const NoFound = () => {
 

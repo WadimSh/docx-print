@@ -1,18 +1,17 @@
-class Api {
-
-  _checkResponse = (res) => {
-    if(res.ok) {
+const api = (() => {
+  const _checkResponse = (res) => {
+    if (res.ok) {
       return res.json();
     }
     return Promise.reject(`Ошибка ${res.status}`);
-  }
+  };
 
-  get(type, ids) {
+  const get = (type, ids) => {
     return fetch(`https://${type}.sharik.ru/api/rest/v1/products_detailed/get_many/?ids=${ids}`)
-    .then(res => this._checkResponse(res));
-  }
-};
+      .then(_checkResponse);
+  };
 
-const api = new Api();
+  return { get };
+})();
 
 export default api;

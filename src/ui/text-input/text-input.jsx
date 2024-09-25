@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import style from './text-input.module.css';
 
-const TextInput = ({ defaultValue, handleCompanyName, label, maxLength = 50, placeholder }) => {
+const TextInput = ({ defaultValue, handleName, label, maxLength = 50, placeholder }) => {
   const [inputText, setInputText] = useState(defaultValue);
 
   const handleChange = (e) => {
@@ -10,8 +10,8 @@ const TextInput = ({ defaultValue, handleCompanyName, label, maxLength = 50, pla
   };
 
   useEffect(() => {
-    handleCompanyName && handleCompanyName(inputText);
-  }, [inputText, handleChange])
+    handleName && handleName(inputText);
+  }, [inputText, handleName])
 
   return (
     <div className={style.wrapper}>

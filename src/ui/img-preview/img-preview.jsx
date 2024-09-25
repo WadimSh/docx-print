@@ -1,4 +1,5 @@
 import React from "react";
+import style from "./img-preview.module.css";
 
 const ImgPreview = ({ optionsArray, value }) => {
   
@@ -6,8 +7,8 @@ const ImgPreview = ({ optionsArray, value }) => {
     <>
       {optionsArray.map((item) => (
         value === item.value && <>
-          <p style={{fontFamily: 'var(--font-family)', fontWeight: '400', fontSize: '14px', margin: '0 30px 20px 0'}}>{item.description}</p>
-          <img src={item.imege_preview} alt={item.value} width='300px' />
+          <p className={style.preview_desription}>{item.description}</p>
+          <img className={style.preview_image} src={item.imege_preview} alt={item.value} />
         </>        
       ))}
     </>

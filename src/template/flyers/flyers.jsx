@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Document, Packer, Header, Footer, PageOrientation, HeightRule, BorderStyle, AlignmentType, Paragraph, TextRun, Table, TableRow, TableCell, WidthType } from "docx";
 import { saveAs } from 'file-saver';
 

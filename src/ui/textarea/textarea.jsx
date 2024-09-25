@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 import style from './textarea.module.css';
 
-const Textarea = ({ defaultValue, handleCompanyName, label, maxLength = 300, placeholder }) => {
+const Textarea = ({ defaultValue, handleName, label, maxLength = 300, placeholder }) => {
   const [inputText, setInputText] = useState(defaultValue);
 
   const handleChange = (e) => {
@@ -11,8 +11,8 @@ const Textarea = ({ defaultValue, handleCompanyName, label, maxLength = 300, pla
   };
 
   useEffect(() => {
-    handleCompanyName && handleCompanyName(inputText);
-  }, [inputText, handleChange])
+    handleName && handleName(inputText);
+  }, [inputText, handleName])
 
   return (
     <div className={style.wrapper}>
