@@ -4,10 +4,10 @@ import style from "./check-box.module.css";
 
 const CheckBox = ({ 
   label,       
-  checked,     
+  checked = false,     
   onChange,    
 }) => {
-  const [isChecked, setIsChecked] = useState(checked || false);
+  const [isChecked, setIsChecked] = useState(checked);
 
   const handleCheckboxChange = () => {
     const newCheckedValue = !isChecked;
@@ -34,7 +34,7 @@ const CheckBox = ({
         </div>
       </span>
       <span className={style.label} onClick={handleCheckboxChange}>
-        {label ? label : ''}
+        {label || ''}
       </span>
     </div>
   );

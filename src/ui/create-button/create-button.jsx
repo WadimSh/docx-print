@@ -1,5 +1,4 @@
 import React from "react";
-
 import style from "./create-button.module.css"
 
 const CreateButton = ({ handleDoc, labelCreate, labelDisabled, disabled = false }) => {

@@ -34,7 +34,7 @@ const SelectOptions = ({ optionsArray, handleSelect, optionSelected, placeholder
         onBlur={() => setOpenSelect(false)}
         ref={leagueInput}
         type='text'
-        placeholder={placeholder ? placeholder : ''}
+        placeholder={placeholder || ''}
         readOnly
       />
       <span className={iconClass}>

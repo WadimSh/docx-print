@@ -11,9 +11,18 @@ const RadioGroup = ({ optionsArray, group, handleChange, logic }) => {
     handleChange && handleChange({...obj, grid, value: val});
     logic(true);
   };
+
+  const styles = `${style.description} subtitle`
+
+  if (optionsArray.length === 0) {
+    return (
+      <p className={styles}>
+        В настоящее время в этом разделе нет готовых шаблонов документов. Но мы работаем над тем чтоб они появились.
+      </p>
+    );
+  }
   
   return (
-    (optionsArray.length !== 0) ? 
     <ul className={style.wrapper}>
       {optionsArray.map((item, index) => (
         <li key={index} className={style.point}>
@@ -25,9 +34,6 @@ const RadioGroup = ({ optionsArray, group, handleChange, logic }) => {
         </li>
       ))}
     </ul>
-    : <p className="subtitle" style={{marginTop: '40px', padding: '0 8px 0 8px', textAlign: 'center'}}>
-        В настоящее время в этом разделе нет готовых шаблонов документов. Но мы работаем над тем чтоб они появились.
-      </p>
   );
 };
 

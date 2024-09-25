@@ -14,13 +14,13 @@ const ButtonsCounter = ({ handleProfit, defaultValue, label }) => {
   };
 
   const handleChange = (e) => {
-    const value = e.target.value;
+    const value = e.target.value.trim();
     if (value === "-") {
       setCount(-1);
     } else if (value === "" || value === " " || isNaN(value)) {
       setCount(0);
     } else {
-      setCount(parseInt(value));
+      setCount(Number(value));
     }
   };
 
