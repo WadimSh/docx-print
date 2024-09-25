@@ -12,7 +12,7 @@ const Textarea = ({ defaultValue, handleName, label, maxLength = 300, placeholde
 
   useEffect(() => {
     handleName && handleName(inputText);
-  }, [inputText, handleName])
+  }, [inputText])
 
   return (
     <div className={style.wrapper}>
