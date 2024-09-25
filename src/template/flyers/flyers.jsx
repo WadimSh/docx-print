@@ -130,7 +130,7 @@ const Flyers = ({ data, meta, value }) => {
                         },
                         children: [
                           new Paragraph({
-                            alignment: AlignmentType.LEFT,
+                            alignment: AlignmentType.RIGHT,
                             spacing: { before: 50 },
                             //indent: { left: 1500 },
                             children: [

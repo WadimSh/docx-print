@@ -3,6 +3,10 @@ import barcode_img_prices_img from '../assets/images/barcode-img-prices.png';
 import image_prices_img from '../assets/images/image-prices.png';
 import barcode_prices_img from '../assets/images/barcode-prices.png';
 import small_barcode_prices_img from '../assets/images/small-barcode-prices.png';
+import one_products_flyers_img from '../assets/images/one-products-flyers.png';
+import four_products_flyers_img from '../assets/images/four-products-flyers.png';
+import nine_products_flyers_img from '../assets/images/nine-products-flyers.png';
+import sixteen_products_flyers_img from '../assets/images/sixteen-products-flyers.png';
 
 export const config = [
   {
@@ -104,8 +108,8 @@ export const config = [
           table: 1,
           columns: 1,
         },
-        description: 'Это простая рекламная листовка.',
-        imege_preview: image_prices_img,
+        description: 'Создаваемый файл представляет собой рекламную листовку, которая может стать эффективным инструментом для привлечения новых клиентов или для украшения вашего магазина. На каждой странице листовки представлен один товар, включая его изображение, артикул и название. Ниже представлен пример документа, содержащего такую листовку.',
+        imege_preview: one_products_flyers_img,
         properties: {
           title_flyers: true,
           label_company: true,
@@ -123,8 +127,8 @@ export const config = [
           table: 4,
           columns: 2,
         },
-        description: 'Это простая рекламная листовка.',
-        imege_preview: image_prices_img,
+        description: 'Этот файл представляет собой рекламную листовку, которая может быть полезна для привлечения новых клиентов или для украшения вашего магазина. В листовке представлены по четыре товара на одной странице, включая их изображения, артикулы и названия. Ниже показан пример документа, содержащего эту листовку.',
+        imege_preview: four_products_flyers_img,
         properties: {
           title_flyers: true,
           label_company: true,
@@ -142,8 +146,8 @@ export const config = [
           table: 9,
           columns: 3,
         },
-        description: 'Это простая рекламная листовка.',
-        imege_preview: image_prices_img,
+        description: 'Этот файл представляет собой рекламную листовку, которая может быть полезна для привлечения новых клиентов или для украшения вашего магазина. В листовке представлены по девять товаров на одной странице, включая их изображения, артикулы и названия. Ниже показан пример документа, содержащего эту листовку.',
+        imege_preview: nine_products_flyers_img,
         properties: {
           title_flyers: true,
           label_company: true,
@@ -161,8 +165,8 @@ export const config = [
           table: 16,
           columns: 4,
         },
-        description: 'Это простая рекламная листовка.',
-        imege_preview: image_prices_img,
+        description: 'Этот файл представляет собой рекламную листовку, которая может быть полезна для привлечения новых клиентов или для украшения вашего магазина. В листовке содержится информация по шестнадцать товаров на странице, включая их изображения, артикулы и названия. Ниже представлен пример документа с указанной листовкой.',
+        imege_preview: sixteen_products_flyers_img,
         properties: {
           title_flyers: true,
           label_company: true,
