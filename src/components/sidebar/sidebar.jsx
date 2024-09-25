@@ -71,7 +71,7 @@ const SideBar = () => {
       company: state.companyLabel,
       requisites: state.requisitesLabel,
     }));
-  }, [state]);
+  }, [state, setSharedValue]);
 
   const handleSelect = (select) => {
     setState((prevState) => ({ ...prevState, select }));
