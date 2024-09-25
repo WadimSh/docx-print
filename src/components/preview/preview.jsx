@@ -9,8 +9,8 @@ const Preview = () => {
   
   return (
     <main>
-      {sharedValue["logic"] && config.map((item, index) => (
-        <ImgPreview key={index} optionsArray={item.options} value={sharedValue["check"]} />
+      {sharedValue.logic && config.map((item, index) => (
+        <ImgPreview key={index} optionsArray={item.options} value={sharedValue.check} />
       ))}
     </main>
   )

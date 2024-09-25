@@ -37,7 +37,7 @@ const Header = ({ type, log }) => {
           </p>}
         </div>
       </div>
-      <div className="header-icon" style={{ height: '100%', paddingTop: '36px' }}>
+      <div className="header-icon">
         <a href="https://pxl.ru.altkraft.com/form?form=7sGW2395fA7V29r1WBjWb6DgJTJeDtpk67GN1m3geRRaEnYHfdANrimG8i7Vei7vnrgdeeifLD4EqpTJPNu3PxQc">
           <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fillRule="evenodd" clipRule="evenodd" d="M4.125 5.25C3.50368 5.25 3 5.75368 3 6.375V17.625C3 18.2463 3.50368 18.75 4.125 18.75H19.875C20.4963 18.75 21 18.2463 21 17.625V6.375C21 5.75368 20.4963 5.25 19.875 5.25H4.125ZM1.5 6.375C1.5 4.92525 2.67525 3.75 4.125 3.75H19.875C21.3247 3.75 22.5 4.92525 22.5 6.375V17.625C22.5 19.0747 21.3247 20.25 19.875 20.25H4.125C2.67525 20.25 1.5 19.0747 1.5 17.625V6.375Z" fill="#1a2629"/>

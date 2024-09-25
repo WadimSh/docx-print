@@ -29,6 +29,15 @@ import {
   DEFAULT_INPUT_REQUISITES
 } from "../../contexts/constant";
 
+const defaultValues = {
+  companyName: DEFAULT_NAME_COMPANY,
+  profit: 0,
+  round: false,
+  titleLabel: "",
+  companyLabel: "",
+  requisitesLabel: "",
+};
+
 const SideBar = () => {
   const config = useContext(ConfigContext);
   const data = useContext(MainContext);
@@ -38,12 +47,12 @@ const SideBar = () => {
   const [select, setSelect] = useState({});
   const [check, setCheck] = useState({});
 
-  const [companyName, setCompanyName] = useState(sharedValue.companyName || DEFAULT_NAME_COMPANY);
-  const [profit, setProfit] = useState(sharedValue.profit || 0);
-  const [round, setRound] = useState(sharedValue.round || false);
-  const [titleLabel, setTitleLabel] = useState(sharedValue.title || "");
-  const [companyLabel, setCompanyLabel] = useState(sharedValue.company || "");
-  const [requisitesLabel, setRequisitesLabel] = useState(sharedValue.requisites || "");
+  const [companyName, setCompanyName] = useState(sharedValue.companyName || defaultValues.companyName);
+  const [profit, setProfit] = useState(sharedValue.profit || defaultValues.profit);
+  const [round, setRound] = useState(sharedValue.round || defaultValues.round);
+  const [titleLabel, setTitleLabel] = useState(sharedValue.title || defaultValues.title);
+  const [companyLabel, setCompanyLabel] = useState(sharedValue.company || defaultValues.company);
+  const [requisitesLabel, setRequisitesLabel] = useState(sharedValue.requisites || defaultValues.requisites);
   
   const [newData, setNewData] = useState([]);
   const [metaData, setMetaData] = useState({});
@@ -77,12 +86,12 @@ const SideBar = () => {
  
   return (
     <aside>
-      {<SelectOptions 
+      <SelectOptions 
         placeholder={PLACEHOLDER_SELECT_OPTIONS}
         optionsArray={config}
         handleSelect={setSelect}
         logic={setLogic}
-      />}
+      />
       {config.map((item, index) => (
         (item.value && select.value === item.value) && <RadioGroup 
           key={index}
@@ -118,20 +127,17 @@ const SideBar = () => {
                                   defaultValue={companyName} 
                                   handleCompanyName={setCompanyName} 
                                   maxLength={25}
-                                />
-        }
+                                />}
         {check.extra_charge && <ButtonsCounter 
                                   label={LABEL_BUTTONS_COUNTER}
                                   defaultValue={profit} 
                                   handleProfit={setProfit} 
-                                />
-        }
+                                />}
         {check.round_price && <CheckBox 
                                 label={LABEL_CHECKBOX_ROUND}
                                 checked={round}
                                 onChange={setRound}
-                              />
-        }
+                              />}
       </section>}
       {sharedValue.logic && <>
         {select.value === TYPE_PRICES && <Prices data={newData} value={check} />}
