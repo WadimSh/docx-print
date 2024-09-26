@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.225d4cc2.css",
-    "main.js": "./static/js/main.e76eb133.js",
+    "main.css": "./static/css/main.cde64e5f.css",
+    "main.js": "./static/js/main.21edcb58.js",
     "static/js/453.a1904121.chunk.js": "./static/js/453.a1904121.chunk.js",
     "static/media/image-prices.png": "./static/media/image-prices.71318586958df75eb14b.png",
     "static/media/barcode-img-prices.png": "./static/media/barcode-img-prices.7c2618be360d780ac881.png",
@@ -10,16 +10,20 @@
     "static/media/Inter-Regular.woff": "./static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
     "static/media/Inter-Bold.woff2": "./static/media/Inter-Bold.c08e610806161507e8e3.woff2",
     "static/media/Inter-Regular.woff2": "./static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/one-products-flyers.png": "./static/media/one-products-flyers.98321c37788ba2c5002e.png",
+    "static/media/sixteen-products-flyers.png": "./static/media/sixteen-products-flyers.73e706480aef2a66f0d3.png",
     "static/media/small-barcode-prices.png": "./static/media/small-barcode-prices.0ecde23b229ca5a75360.png",
     "static/media/small-prices.png": "./static/media/small-prices.d946dbefb36d513a1b22.png",
+    "static/media/nine-products-flyers.png": "./static/media/nine-products-flyers.33aa282f60903b5af4a8.png",
+    "static/media/four-products-flyers.png": "./static/media/four-products-flyers.c7f64ed09b72b410a05f.png",
     "static/media/barcode-prices.png": "./static/media/barcode-prices.c70da02b119ad8b5decf.png",
     "index.html": "./index.html",
-    "main.225d4cc2.css.map": "./static/css/main.225d4cc2.css.map",
-    "main.e76eb133.js.map": "./static/js/main.e76eb133.js.map",
+    "main.cde64e5f.css.map": "./static/css/main.cde64e5f.css.map",
+    "main.21edcb58.js.map": "./static/js/main.21edcb58.js.map",
     "453.a1904121.chunk.js.map": "./static/js/453.a1904121.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.225d4cc2.css",
-    "static/js/main.e76eb133.js"
+    "static/css/main.cde64e5f.css",
+    "static/js/main.21edcb58.js"
   ]
 }
