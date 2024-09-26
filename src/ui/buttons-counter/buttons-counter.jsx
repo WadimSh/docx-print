@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 import style from './buttons-counter.module.css';
 
 const ButtonsCounter = ({ handleProfit, defaultValue, label }) => {

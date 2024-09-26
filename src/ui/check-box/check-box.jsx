@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import style from "./check-box.module.css";
 
 const CheckBox = ({ 

@@ -1,6 +1,4 @@
-
 import { useEffect, useState } from 'react';
-
 import style from './textarea.module.css';
 
 const Textarea = ({ defaultValue, handleName, label, maxLength = 300, placeholder }) => {

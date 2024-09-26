@@ -1,5 +1,4 @@
 import React from "react";
-
 import style from "./notify-message.module.css";
 
 const NotifyMessage = () => {

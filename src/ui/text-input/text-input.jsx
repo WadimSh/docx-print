@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 import style from './text-input.module.css';
 
 const TextInput = ({ defaultValue = '', handleName, label, maxLength = 50, placeholder }) => {
