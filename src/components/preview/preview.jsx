@@ -7,13 +7,15 @@ const Preview = () => {
   const config = useContext(ConfigContext);
   const { sharedValue } = useContext(StateContext);
   
+  if (!sharedValue.logic) return <main />;
+
   return (
     <main>
-      {sharedValue.logic && config.map((item, index) => (
+      {config.map((item, index) => (
         <ImgPreview key={index} optionsArray={item.options} value={sharedValue.check} />
       ))}
     </main>
-  )
+  );
 };
 
 export default Preview;

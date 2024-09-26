@@ -4,22 +4,27 @@ import { MainContext } from "../../contexts/contexts";
 const Header = ({ type, log }) => {
   const data = useContext(MainContext);
 
-  const text = () => {
+  const getText = () => {
     const remainder = data.length % 10;
     const isExclusion = data.length % 100 === 11;
-    return remainder === 1 && !isExclusion ? 'товар' :
-           remainder >= 2 && remainder <= 4 && !isExclusion ? 'товара' :
-           'товаров';
+    switch (true) {
+      case remainder === 1 && !isExclusion:
+        return 'товар';
+      case remainder >= 2 && remainder <= 4 && !isExclusion:
+        return 'товара';
+      default:
+        return 'товаров';
+    }
   };
 
-  const subtext = () => {
+  const getSubtext = () => {
     const types = {
       'new': 'из оптового каталога',
       'cash': 'из мелкооптового каталога',
       'fr': 'из каталога франшизы'
     };
     return types[type] || 'неизвестного типа';
-  }
+  };
     
   return (
     <header>
@@ -29,12 +34,18 @@ const Header = ({ type, log }) => {
           <span style={{fontSize: '12px', verticalAlign: 'top', color: 'var(--color-accent)'}}> Beta</span>
         </h1>
         <div>
-          {!log.event ? log.error !== '' ? <p className="subtitle error">{log.error}</p> : 
-          <p className="subtitle">Пожалуйста, подождите, идёт загрузка данных…</p> :
-          <p className="subtitle">
-            выбрано&nbsp;<span>{data.length}</span>&nbsp;{text()}&nbsp;
-            {data.length !== 0 && <span>{subtext()}</span>}
-          </p>}
+          {!log.event ? (
+            log.error !== '' ? (
+              <p className="subtitle error">{log.error}</p>
+            ) : (
+              <p className="subtitle">Пожалуйста, подождите, идёт загрузка данных…</p>
+            )
+          ) : (
+            <p className="subtitle">
+              выбрано&nbsp;<span>{data.length}</span>&nbsp;{getText()}&nbsp;
+              {data.length !== 0 && <span>{getSubtext()}</span>}
+            </p>
+          )}
         </div>
       </div>
       <div className="header-icon">
