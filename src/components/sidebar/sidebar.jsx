@@ -73,40 +73,8 @@ const SideBar = () => {
     }));
   }, [state, setSharedValue]);
 
-  const handleSelect = (select) => {
-    setState((prevState) => ({ ...prevState, select }));
-  };
-
-  const handleCheck = (check) => {
-    setState((prevState) => ({ ...prevState, check }));
-  };
-
-  const handleLogic = (logic) => {
-    setState((prevState) => ({ ...prevState, logic }));
-  };
-
-  const handleCompanyName = (companyName) => {
-    setState((prevState) => ({ ...prevState, companyName }));
-  };
-
-  const handleProfit = (profit) => {
-    setState((prevState) => ({ ...prevState, profit }));
-  };
-
-  const handleRound = (round) => {
-    setState((prevState) => ({ ...prevState, round }));
-  };
-
-  const handleTitleLabel = (titleLabel) => {
-    setState((prevState) => ({ ...prevState, titleLabel }));
-  };
-
-  const handleCompanyLabel = (companyLabel) => {
-    setState((prevState) => ({ ...prevState, companyLabel }));
-  };
-
-  const handleRequisitesLabel = (requisitesLabel) => {
-    setState((prevState) => ({ ...prevState, requisitesLabel }));
+  const handleInputChange = (key) => (value) => {
+    setState((prevState) => ({ ...prevState, [key]: value }));
   };
 
   return (
@@ -114,8 +82,8 @@ const SideBar = () => {
       <SelectOptions
         placeholder={PLACEHOLDER_SELECT_OPTIONS}
         optionsArray={config}
-        handleSelect={handleSelect}
-        logic={handleLogic}
+        handleSelect={handleInputChange("select")}
+        logic={handleInputChange("logic")}
       />
       {config.map((item, index) => (
         (item.value && state.select.value === item.value) && (
@@ -123,8 +91,8 @@ const SideBar = () => {
             key={index}
             optionsArray={item.options}
             group={item.value}
-            handleChange={handleCheck}
-            logic={handleLogic}
+            handleChange={handleInputChange("check")}
+            logic={handleInputChange("logic")}
           />
         )
       ))}
@@ -132,17 +100,17 @@ const SideBar = () => {
         <ConfigSection
           check={state.check}
           titleLabel={state.titleLabel}
-          setTitleLabel={handleTitleLabel}
+          setTitleLabel={handleInputChange("titleLabel")}
           companyLabel={state.companyLabel}
-          setCompanyLabel={handleCompanyLabel}
+          setCompanyLabel={handleInputChange("companyLabel")}
           requisitesLabel={state.requisitesLabel}
-          setRequisitesLabel={handleRequisitesLabel}
+          setRequisitesLabel={handleInputChange("requisitesLabel")}
           companyName={state.companyName}
-          setCompanyName={handleCompanyName}
+          setCompanyName={handleInputChange("companyName")}
           profit={state.profit}
-          setProfit={handleProfit}
+          setProfit={handleInputChange("profit")}
           round={state.round}
-          setRound={handleRound}
+          setRound={handleInputChange("round")}
         />
       )}
       {sharedValue.logic && (
