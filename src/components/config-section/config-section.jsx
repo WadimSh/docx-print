@@ -34,6 +34,16 @@ const ConfigSection = ({
   setRound,
 }) => {
 
+  const {
+    title_flyers = false,
+    label_company = false,
+    label_requisites = false,
+    fair_rounding = false,
+    company_name = false,
+    extra_charge = false,
+    round_price = false,
+  } = check;
+
   const inputs = [
     {
       label: LABEL_RUNNING_TITLE,
@@ -80,13 +90,13 @@ const ConfigSection = ({
   
   return (
     <section>
-      {check.title_flyers && <TextInput {...inputs[0]} />}
-      {check.label_company && <TextInput {...inputs[1]} />}
-      {check.label_requisites && <Textarea {...inputs[2]} />}
-      {check.fair_rounding && <NotifyMessage />}
-      {check.company_name && <TextInput {...inputs[3]} />}
-      {check.extra_charge && <ButtonsCounter {...buttons[0]} />}
-      {check.round_price && <CheckBox {...checkboxes[0]} />}
+      {title_flyers && <TextInput {...inputs[0]} />}
+      {label_company && <TextInput {...inputs[1]} />}
+      {label_requisites && <Textarea {...inputs[2]} />}
+      {fair_rounding && <NotifyMessage />}
+      {company_name && <TextInput {...inputs[3]} />}
+      {extra_charge && <ButtonsCounter {...buttons[0]} />}
+      {round_price && <CheckBox {...checkboxes[0]} />}
     </section>
   );
 };
