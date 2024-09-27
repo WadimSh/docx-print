@@ -117,7 +117,7 @@ export const config = [
     value: 'flyers',
     options: [
       {
-        name: 'по одному товару на странице',
+        name: 'формата А4, по одному товару на странице',
         value: 'one-products-flyers',
         grid: {
           table: 1,
@@ -136,7 +136,7 @@ export const config = [
         }
       },
       {
-        name: 'с сеткой два на два на странице, содержащая информацию о 4-х товарах',
+        name: 'формата А4, по 4 товара на странице, расположенные в сетке 2х2',
         value: 'four-products-flyers',
         grid: {
           table: 4,
@@ -155,7 +155,7 @@ export const config = [
         }
       }, 
       {
-        name: 'с сеткой три на три на странице, содержащая информацию о 9-и товарах',
+        name: 'формата А4, по 9 товаров на странице, расположенные в сетке 3х3',
         value: 'nine-products-flyers',
         grid: {
           table: 9,
@@ -174,7 +174,7 @@ export const config = [
         }
       },
       {
-        name: 'с сеткой четыре на четыре на странице, содержащая информацию о 16-и товарах',
+        name: 'формата А4, по 16 товаров на странице, в сетке 4х4',
         value: 'sixteen-products-flyers',
         grid: {
           table: 16,

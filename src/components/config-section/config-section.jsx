@@ -19,19 +19,8 @@ import {
 } from "../../contexts/constant";
 
 const ConfigSection = ({
-  check,
-  titleLabel,
-  setTitleLabel,
-  companyLabel,
-  setCompanyLabel,
-  requisitesLabel,
-  setRequisitesLabel,
-  companyName,
-  setCompanyName,
-  profit,
-  setProfit,
-  round,
-  setRound,
+  state,
+  handleChange,
 }) => {
 
   const {
@@ -42,32 +31,32 @@ const ConfigSection = ({
     company_name = false,
     extra_charge = false,
     round_price = false,
-  } = check;
+  } = state.check;
 
   const inputs = [
     {
       label: LABEL_RUNNING_TITLE,
-      defaultValue: titleLabel,
-      handleName: setTitleLabel,
+      defaultValue: state.titleLabel,
+      handleName: handleChange("titleLabel"),
       placeholder: DEFAULT_RUNNING_TITLE,
     },
     {
       label: LABEL_INPUT_COMPANY,
-      defaultValue: companyLabel,
-      handleName: setCompanyLabel,
+      defaultValue: state.companyLabel,
+      handleName: handleChange("companyLabel"),
       maxLength: 25,
       placeholder: DEFAULT_INPUT_COMPANY,
     },
     {
       label: LABEL_INPUT_REQUISITES,
-      defaultValue: requisitesLabel,
-      handleName: setRequisitesLabel,
+      defaultValue: state.requisitesLabel,
+      handleName: handleChange("requisitesLabel"),
       placeholder: DEFAULT_INPUT_REQUISITES,
     },
     {
       label: LABEL_TEXT_INPUT,
-      defaultValue: companyName,
-      handleName: setCompanyName,
+      defaultValue: state.companyName,
+      handleName: handleChange("companyName"),
       maxLength: 25,
     },
   ];
@@ -75,16 +64,16 @@ const ConfigSection = ({
   const checkboxes = [
     {
       label: LABEL_CHECKBOX_ROUND,
-      checked: round,
-      onChange: setRound,
+      checked: state.round,
+      onChange: handleChange("round"),
     },
   ];
 
   const buttons = [
     {
       label: LABEL_BUTTONS_COUNTER,
-      defaultValue: profit,
-      handleProfit: setProfit,
+      defaultValue: state.profit,
+      handleProfit: handleChange("profit"),
     },
   ];
   

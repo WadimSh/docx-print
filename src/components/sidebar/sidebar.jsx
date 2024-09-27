@@ -1,19 +1,15 @@
-import { useState, useContext, useEffect, useMemo } from "react";
+import React, { useState, useContext, useEffect, useMemo } from "react";
 import { StateContext, ConfigContext, MainContext } from "../../contexts/contexts";
 
 import SelectOptions from "../../ui/select-options/select-options";
 import RadioGroup from "../../ui/radio-group/radio-group";
 import ConfigSection from "../config-section/config-section";
-
-import Prices from "../../template/prices/prices";
-import Flyers from "../../template/flyers/flyers";
+import CreateDocument from "../create-document/create-document";
 
 import transformArray from "../../utils/transform-array/transform-array";
 import { 
   DEFAULT_NAME_COMPANY, 
   PLACEHOLDER_SELECT_OPTIONS,
-  TYPE_PRICES,
-  TYPE_FLYERS,
 } from "../../contexts/constant";
 
 const defaultValues = {
@@ -73,7 +69,7 @@ const SideBar = () => {
     }));
   }, [state, setSharedValue]);
 
-  const handleInputChange = (key) => (value) => {
+  const handleChange = (key) => (value) => {
     setState((prevState) => ({ ...prevState, [key]: value }));
   };
 
@@ -82,8 +78,8 @@ const SideBar = () => {
       <SelectOptions
         placeholder={PLACEHOLDER_SELECT_OPTIONS}
         optionsArray={config}
-        handleSelect={handleInputChange("select")}
-        logic={handleInputChange("logic")}
+        handleSelect={handleChange("select")}
+        logic={handleChange("logic")}
       />
       {config.map((item, index) => (
         (item.value && state.select.value === item.value) && (
@@ -91,34 +87,13 @@ const SideBar = () => {
             key={index}
             optionsArray={item.options}
             group={item.value}
-            handleChange={handleInputChange("check")}
-            logic={handleInputChange("logic")}
+            handleChange={handleChange("check")}
+            logic={handleChange("logic")}
           />
         )
       ))}
-      {sharedValue.logic && (
-        <ConfigSection
-          check={state.check}
-          titleLabel={state.titleLabel}
-          setTitleLabel={handleInputChange("titleLabel")}
-          companyLabel={state.companyLabel}
-          setCompanyLabel={handleInputChange("companyLabel")}
-          requisitesLabel={state.requisitesLabel}
-          setRequisitesLabel={handleInputChange("requisitesLabel")}
-          companyName={state.companyName}
-          setCompanyName={handleInputChange("companyName")}
-          profit={state.profit}
-          setProfit={handleInputChange("profit")}
-          round={state.round}
-          setRound={handleInputChange("round")}
-        />
-      )}
-      {sharedValue.logic && (
-        <>
-          {state.select.value === TYPE_PRICES && <Prices data={newData} value={state.check} />}
-          {state.select.value === TYPE_FLYERS && <Flyers data={newData} meta={metaData} value={state.check} />}
-        </>
-      )}
+      {sharedValue.logic && <ConfigSection state={state} handleChange={handleChange} />}
+      {sharedValue.logic && <CreateDocument state={state} newData={newData} metaData={metaData} />}
     </aside>
   );
 };
