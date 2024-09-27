@@ -7,7 +7,7 @@ export const PLACEHOLDER_SELECT_OPTIONS = 'Выберите вид докуме�
 export const LABEL_TEXT_INPUT = 'Введите наименование юридического лица';
 
 export const LABEL_INPUT_COMPANY = 'Введите название компании';
-export const LABEL_INPUT_REQUISITES = 'Добавте реквизиты компании';
+export const LABEL_INPUT_REQUISITES = 'Добавьте реквизиты компании';
 export const LABEL_RUNNING_TITLE = 'Укажите заголовок листовки';
 export const DEFAULT_INPUT_COMPANY = 'Название компании';
 export const DEFAULT_INPUT_REQUISITES = 'Реквизиты компании';
