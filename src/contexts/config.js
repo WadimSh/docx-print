@@ -109,6 +109,25 @@ export const config = [
           round_price: true,
         }
       },
+      {
+        name: 'на крючок, размером 40х200 мм с картинкой',
+        value: 'image-prices',
+        grid: {
+          table: 14,
+          columns: 2,
+        },
+        description: 'Эти ценники имеют размер 4x20 см с информацией о товаре. На них есть название компании (до 25 символов), изображение товара, а также артикул, название и бренд/страна изготовителя. Если товар продаётся поштучно, указана цена за одну штуку. Если продаётся в большом количестве, указана цена за единицу и за минимальную партию поставки. Ниже приведен пример создаваемого документа с указанными ценниками.',
+        image_preview: image_prices_img,
+        properties: {
+          title_flyers: false,
+          label_company: false,
+          label_requisites: false,
+          fair_rounding: false,
+          company_name: true,
+          extra_charge: true,
+          round_price: true,
+        }
+      },
     ]
   },
   {
