@@ -110,7 +110,7 @@ export const config = [
         }
       },
       {
-        name: 'на крючок, размером 60х200 мм с картинкой',
+        name: 'на коробку, размером 60х200 мм с картинкой',
         value: 'image-prices-box',
         grid: {
           table: 4,

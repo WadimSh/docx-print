@@ -74,7 +74,7 @@ const createImagePricesBox = (data) => {
                     },
                     rows: [
                     new TableRow({
-                      height: { value: 450, rule: HeightRule.EXACT },
+                      height: { value: 800, rule: HeightRule.EXACT },
                       children: [
                         new TableCell({
                           borders: {
@@ -85,10 +85,11 @@ const createImagePricesBox = (data) => {
                           },
                           children: [
                             new Paragraph({
+                              indent: { left: 100 },
                               children: [
                                 new TextRun({
                                   text: data.company,
-                                  size: 20,
+                                  size: 34,
                                   font: "Roboto",
                                 }),
                               ],
@@ -99,8 +100,9 @@ const createImagePricesBox = (data) => {
                               children: [
                                 new TextRun({
                                   text: data.code,
-                                  size: 20,
+                                  size: 40,
                                   font: "Roboto",
+                                  bold: true,
                                 }),
                               ],
                             }),
@@ -109,17 +111,16 @@ const createImagePricesBox = (data) => {
                       ],
                     }),
                     new TableRow({
-                      height: { value: 1000, rule: HeightRule.EXACT },
+                      height: { value: 1350, rule: HeightRule.EXACT },
                       children: [
                         new TableCell({
                           children: [
-                            new Paragraph(''),
                             new Paragraph({
-                              indent: { right: 250 },
+                              indent: { right: 250, left: 100 },
                               children: [
                                 new TextRun({
                                   text: data.name,
-                                  size: 24,
+                                  size: 40,
                                   font: "Roboto",
                                   bold: true,
                                 }),
@@ -128,7 +129,7 @@ const createImagePricesBox = (data) => {
                                 }),
                                 new TextRun({
                                   text: `Произв.:  ${data.origin}`,
-                                  size: 18,
+                                  size: 34,
                                   font: "Roboto",
                                 }),
                               ],
