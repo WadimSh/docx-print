@@ -5,6 +5,7 @@ import createSmallBarcodePrices from "./small-barcode-prices/create-smallbarcode
 import createBarcodePrices from "./barcode-prices/create-barcodeprices";
 import createImagePrices from "./image-prices/create-imageprices";
 import createImageBarcodePrices from "./image-barcode-prices/create-imagebarcodeprices";
+import createImagePricesBox from "./image-prices-box/create-imagepricesbox";
 
 import createEmptyCell from "./create-emptycell";
 
@@ -13,7 +14,8 @@ import {
   TYPE_SMALL_BARCODE_PRICES,
   TYPE_BARCODE_PRICES,
   TYPE_IMAGE_PRICES,
-  TYPE_IMAGE_BARCODE_PRICES
+  TYPE_IMAGE_BARCODE_PRICES,
+  TYPE_PRICES_BOX
 } from "../../contexts/constant";
 
 const createTableRow = (data, inf) => {
@@ -39,7 +41,10 @@ const createTableRow = (data, inf) => {
             break;
           case TYPE_IMAGE_BARCODE_PRICES:
             row.push(createImageBarcodePrices(data[i + j]));
-            break;      
+            break;
+          case TYPE_PRICES_BOX:
+            row.push(createImagePricesBox(data[i + j]));
+            break;    
           default:
             console.error(`Unknown name: ${value}`);
         }
@@ -50,7 +55,7 @@ const createTableRow = (data, inf) => {
       }
     }
     rows.push(new TableRow({ 
-      height: { value: 2300, rule: HeightRule.EXACT },
+      height: { value: value === TYPE_PRICES_BOX ? 3445 : 2300, rule: HeightRule.EXACT },
       children: row 
     }));
   }

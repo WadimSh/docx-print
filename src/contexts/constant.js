@@ -21,6 +21,7 @@ export const TYPE_IMAGE_PRICES = 'image-prices';
 export const TYPE_IMAGE_BARCODE_PRICES = 'image-barcode-prices';
 export const TYPE_BARCODE_PRICES = 'barcode-prices';
 export const TYPE_SMALL_BARCODE_PRICES = 'small-barcode-prices';
+export const TYPE_PRICES_BOX = 'image-prices-box';
 
 export const TYPE_ONE_PRODUCTS_FLYERS = 'one-products-flyers';
 export const TYPE_FOUR_PRODUCTS_FLYERS = 'four-products-flyers';
