@@ -73,87 +73,87 @@ const createImagePricesBox = (data) => {
                       type: WidthType.DXA,
                     },
                     rows: [
-                    new TableRow({
-                      height: { value: 800, rule: HeightRule.EXACT },
-                      children: [
-                        new TableCell({
-                          borders: {
-                            left: { size: 0, color: "FFFFFF" }, 
-                            right: { size: 0, color: "FFFFFF" }, 
-                            top: { size: 0, color: "FFFFFF" }, 
-                            bottom: { size: 0, color: "FFFFFF" }, 
-                          },
-                          children: [
-                            new Paragraph({
-                              indent: { left: 100 },
-                              children: [
-                                new TextRun({
-                                  text: data.company,
-                                  size: 34,
-                                  font: "Roboto",
-                                }),
-                              ],
-                            }),
-                            new Paragraph({
-                              alignment: AlignmentType.END,
-                              indent: { right: 100 },
-                              children: [
-                                new TextRun({
-                                  text: data.code,
-                                  size: 40,
-                                  font: "Roboto",
-                                  bold: true,
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
-                    new TableRow({
-                      height: { value: 1350, rule: HeightRule.EXACT },
-                      children: [
-                        new TableCell({
-                          children: [
-                            new Paragraph({
-                              indent: { right: 250, left: 100 },
-                              children: [
-                                new TextRun({
-                                  text: data.name,
-                                  size: 40,
-                                  font: "Roboto",
-                                  bold: true,
-                                }),
-                                new TextRun({
-                                  break: 1,
-                                }),
-                                new TextRun({
-                                  text: `Произв.:  ${data.origin}`,
-                                  size: 34,
-                                  font: "Roboto",
-                                }),
-                              ],
-                            }),
-                          ],
-                          borders: {
-                            left: { size: 0, color: "FFFFFF" }, 
-                            right: { size: 0, color: "FFFFFF" }, 
-                            top: { size: 0, color: "FFFFFF" }, 
-                            bottom: { size: 0, color: "FFFFFF" }, 
-                          },
-                        }),
-                      ],
-                    }),
-                    createBlockPrice(data),  
-                  ],
-                }),
-              ],
-            }),
-          ],
-        }),
-      ],
-    })
-  ],
+                      new TableRow({
+                        height: { value: 800, rule: HeightRule.EXACT },
+                        children: [
+                          new TableCell({
+                            borders: {
+                              left: { size: 0, color: "FFFFFF" }, 
+                              right: { size: 0, color: "FFFFFF" }, 
+                              top: { size: 0, color: "FFFFFF" }, 
+                              bottom: { size: 0, color: "FFFFFF" }, 
+                            },
+                            children: [
+                              new Paragraph({
+                                indent: { left: 100 },
+                                children: [
+                                  new TextRun({
+                                    text: data.company,
+                                    size: 34,
+                                    font: "Roboto",
+                                  }),
+                                ],
+                              }),
+                              new Paragraph({
+                                alignment: AlignmentType.END,
+                                indent: { right: 100 },
+                                children: [
+                                  new TextRun({
+                                    text: data.code,
+                                    size: 40,
+                                    font: "Roboto",
+                                    bold: true,
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      new TableRow({
+                        height: { value: 1350, rule: HeightRule.EXACT },
+                        children: [
+                          new TableCell({
+                            children: [
+                              new Paragraph({
+                                indent: { right: 250, left: 100 },
+                                children: [
+                                  new TextRun({
+                                    text: data.name,
+                                    size: 40,
+                                    font: "Roboto",
+                                    bold: true,
+                                  }),
+                                  new TextRun({
+                                    break: 1,
+                                  }),
+                                  new TextRun({
+                                    text: `Произв.:  ${data.origin}`,
+                                    size: 34,
+                                    font: "Roboto",
+                                  }),
+                                ],
+                              }),
+                            ],
+                            borders: {
+                              left: { size: 0, color: "FFFFFF" }, 
+                              right: { size: 0, color: "FFFFFF" }, 
+                              top: { size: 0, color: "FFFFFF" }, 
+                              bottom: { size: 0, color: "FFFFFF" }, 
+                            },
+                          }),
+                        ],
+                      }),
+                      createBlockPrice(data),  
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      })
+    ],
   });
 };
 

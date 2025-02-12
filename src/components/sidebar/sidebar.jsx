@@ -72,7 +72,7 @@ const SideBar = () => {
   const handleChange = (key) => (value) => {
     setState((prevState) => ({ ...prevState, [key]: value }));
   };
-
+  
   return (
     <aside>
       <SelectOptions
