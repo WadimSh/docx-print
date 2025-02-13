@@ -7,6 +7,7 @@ import one_products_flyers_img from '../assets/images/one-products-flyers.png';
 import four_products_flyers_img from '../assets/images/four-products-flyers.png';
 import nine_products_flyers_img from '../assets/images/nine-products-flyers.png';
 import sixteen_products_flyers_img from '../assets/images/sixteen-products-flyers.png';
+import image_prices_box_img from '../assets/images/image-prices-box.png';
 
 export const config = [
   {
@@ -117,7 +118,7 @@ export const config = [
           columns: 1,
         },
         description: 'Эти ценники имеют размер 6x20 см с информацией о товаре. На них есть название компании (до 25 символов), изображение товара, а также артикул, название и бренд/страна изготовителя. Если товар продаётся поштучно, указана цена за одну штуку. Если продаётся в большом количестве, указана цена за единицу и за минимальную партию поставки. Ниже приведен пример создаваемого документа с указанными ценниками.',
-        image_preview: image_prices_img,
+        image_preview: image_prices_box_img,
         properties: {
           title_flyers: false,
           label_company: false,
