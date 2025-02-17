@@ -31,7 +31,7 @@ const createBarcodePrices = (data) => {
         },
         rows: [
           new TableRow({
-            height: { value: 300, rule: HeightRule.EXACT },
+            height: { value: 250, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
@@ -44,7 +44,7 @@ const createBarcodePrices = (data) => {
                     children: [
                       new TextRun({
                         text: data.company,
-                        size: 20,
+                        size: 18,
                         font: "Roboto",
                       }),
                     ],
@@ -54,7 +54,7 @@ const createBarcodePrices = (data) => {
             ],
           }),
           new TableRow({
-            height: { value: 800, rule: HeightRule.EXACT },
+            height: { value: 750, rule: HeightRule.EXACT },
             children: [
               new TableCell({
                 borders: {
