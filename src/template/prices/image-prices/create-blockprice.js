@@ -1,27 +1,26 @@
 import { AlignmentType, Paragraph, TextRun, TableCell, TableRow, HeightRule } from "docx";
 
 const createBlockPrice = (data) => {
+  const parts = data.cost.split(".");
+  const whole = parts[0];
+  const fraction = parts[1];
   if (data.multiplicity === 1) {
     return new TableRow({
-      height: { value: 780, rule: HeightRule.EXACT },
+      height: { value: 950, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
-            new Paragraph(''),
             new Paragraph({
               alignment: AlignmentType.RIGHT,
               indent: { right: 100 },
+              spacing: { line: 230 },
               children: [
                 new TextRun({
-                  text: data.price,
-                  size: 48,
+                  text: whole,
+                  size: 100,
                   font: "Roboto Black",
                   bold: true,
-                }),
-                new TextRun({
-                  text: " ₽",
-                  size: 32,
-                  font: "Roboto",
+                  characterSpacing: -70,
                 }),
               ],
             }),
@@ -37,11 +36,10 @@ const createBlockPrice = (data) => {
     })
   } else {
     return new TableRow({
-      height: { value: 780, rule: HeightRule.EXACT },
+      height: { value: 950, rule: HeightRule.EXACT },
       children: [
         new TableCell({
           children: [
-            new Paragraph(''),
             new Paragraph({
               alignment: AlignmentType.RIGHT,
               indent: { right: 100 },
@@ -67,36 +65,33 @@ const createBlockPrice = (data) => {
             new Paragraph({
               alignment: AlignmentType.RIGHT,
               indent: { right: 100 },
+              spacing: { line: 190 },
               children: [
                 new TextRun({
                   text: data.units,
-                  size: 22,
+                  size: 18,
                   font: "Roboto",
                 }),
                 new TextRun({
-                  text: " ",
-                  size: 22,
+                  text: ".",
+                  size: 18,
                 }),
                 new TextRun({
                   text: data.counts,
-                  size: 22,
+                  size: 18,
                   font: "Roboto",
                 }),
                 new TextRun({
-                  text: " - ",
-                  size: 22,
+                  text: "-",
+                  size: 18,
                   font: "Roboto",
                 }),
                 new TextRun({
-                  text: data.cost,
-                  size: 30,
-                  font: "Roboto",
+                  text: whole,
+                  size: 80,
+                  font: "Roboto Black",
                   bold: true,
-                }),
-                new TextRun({
-                  text: " ₽",
-                  size: 22,
-                  font: "Roboto",
+                  characterSpacing: -40,
                 }),
               ],
             }),
