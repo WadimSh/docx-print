@@ -250,22 +250,12 @@ const createBlockPrice = (data) => {
                             }),
                           ],
                         })
-
-                        
-
                       ]
                     }),
                   ],
                 }),
               ]
             }),
-
-
-            
-            
-
-
-
           ],
           borders: {
             top: { size: 0, color: "FFFFFF" }, 
