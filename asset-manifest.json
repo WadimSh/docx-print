@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "./static/css/main.cde64e5f.css",
-    "main.js": "./static/js/main.ba88ec7c.js",
+    "main.js": "./static/js/main.a2850249.js",
     "static/js/453.a1904121.chunk.js": "./static/js/453.a1904121.chunk.js",
-    "static/media/sixteen-products-flyers.png": "./static/media/sixteen-products-flyers.84e0ae38cfba0539b691.png",
-    "static/media/barcode-img-prices.png": "./static/media/barcode-img-prices.6569a1b5f0ef6f85c3c6.png",
-    "static/media/one-products-flyers.png": "./static/media/one-products-flyers.b923aac970467cb52a7d.png",
-    "static/media/image-prices.png": "./static/media/image-prices.d60a8207160ae0833793.png",
-    "static/media/nine-products-flyers.png": "./static/media/nine-products-flyers.42e211ce18b01f4013ac.png",
-    "static/media/four-products-flyers.png": "./static/media/four-products-flyers.18a346688fce01e6fafc.png",
-    "static/media/small-barcode-prices.png": "./static/media/small-barcode-prices.8a9d2e1edf9cc1f59e66.png",
-    "static/media/small-prices.png": "./static/media/small-prices.e191e594469fa9f8f94f.png",
-    "static/media/barcode-prices.png": "./static/media/barcode-prices.7112069841bace5c3031.png",
-    "static/media/image-prices-box.png": "./static/media/image-prices-box.856a195fe8f76a9527d1.png",
+    "static/media/barcode-img-prices.png": "./static/media/barcode-img-prices.28dbe138519910ef449b.png",
+    "static/media/image-prices.png": "./static/media/image-prices.e7aa88c56532da9db866.png",
+    "static/media/one-products-flyers.png": "./static/media/one-products-flyers.bb9225d6d6db269ac783.png",
+    "static/media/sixteen-products-flyers.png": "./static/media/sixteen-products-flyers.5ec3c353b50d508c8def.png",
+    "static/media/small-barcode-prices.png": "./static/media/small-barcode-prices.c1180e06cee76633cccd.png",
+    "static/media/nine-products-flyers.png": "./static/media/nine-products-flyers.c476583e956ee1128e03.png",
+    "static/media/small-prices.png": "./static/media/small-prices.8fa359cc187d73d35c05.png",
+    "static/media/four-products-flyers.png": "./static/media/four-products-flyers.d415cc5aa8a5a9137558.png",
+    "static/media/barcode-prices.png": "./static/media/barcode-prices.34c35eedd77914dee07a.png",
+    "static/media/image-prices-box.png": "./static/media/image-prices-box.a21102ac3ed0722b5144.png",
     "static/media/MOWord.png": "./static/media/MOWord.35f0de9fcaa897de5b9a.png",
     "static/media/Inter-Bold.woff": "./static/media/Inter-Bold.1e547cd04bfe2dae1f98.woff",
     "static/media/Inter-Regular.woff": "./static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
@@ -20,11 +20,11 @@
     "static/media/Inter-Regular.woff2": "./static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
     "index.html": "./index.html",
     "main.cde64e5f.css.map": "./static/css/main.cde64e5f.css.map",
-    "main.ba88ec7c.js.map": "./static/js/main.ba88ec7c.js.map",
+    "main.a2850249.js.map": "./static/js/main.a2850249.js.map",
     "453.a1904121.chunk.js.map": "./static/js/453.a1904121.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cde64e5f.css",
-    "static/js/main.ba88ec7c.js"
+    "static/js/main.a2850249.js"
   ]
 }
