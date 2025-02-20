@@ -5,7 +5,8 @@ import toEAN13 from "../../../utils/create-encode/ean-13";
 
 const createImageBarcodePrices = (data) => {
   const blob = fetch(
-    data && data.image ? `https://new.sharik.ru${data.image}` : img
+    // data && data.image ? `https://new.sharik.ru${data.image}` : 
+    img
   ).then(r => r.blob());
   
   return new TableCell({
@@ -90,7 +91,7 @@ const createImageBarcodePrices = (data) => {
                               children: [
                                 new TextRun({
                                   text: data.company,
-                                  size: 20,
+                                  size: 18,
                                   font: "Roboto",
                                 }),
                               ],
